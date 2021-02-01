@@ -8,7 +8,7 @@ for k in range(200):
 
     questoes = open('questao{}-163.json'.format(k+1), 'w')
 
-    expoenteConcentracao = rnd.randint(1,70)
+    expoenteConcentracao = rnd.randint(1,1000)
     resposta = round((expoenteConcentracao ** 2)/3, 2)
 
     listLetra = ["A","B","C","D","E"]
