@@ -9,10 +9,10 @@ for k in range(200):
     numBase = rnd.randint(2,1000)
 
     qntHoraDada = rnd.randint(2,3)
-    qntHoraEsperada = rnd.randint(2,5)
+    qntHoraEsperada = rnd.randint(2,10)
 
     while(qntHoraDada == qntHoraEsperada):
-        qntHoraEsperada = rnd.randint(2,5)
+        qntHoraEsperada = rnd.randint(2,10)
 
     if(qntHoraDada == 2):
         resultado = sqrt(numBase ** qntHoraEsperada)
