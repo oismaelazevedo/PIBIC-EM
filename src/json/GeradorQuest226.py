@@ -2,7 +2,7 @@ import random as rnd
 from sympy import pretty, sqrt, cbrt
 import json
 
-numBase = rnd.randint(2,500)
+numBase = rnd.randint(2,1000)
 
 qntHoraDada = rnd.randint(2,3)
 qntHoraEsperada = rnd.randint(2,5)
