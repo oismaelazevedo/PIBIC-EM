@@ -18,6 +18,8 @@ if tipoDenominadorFracao == 2:
             qntMultiplos = 0
 
     resultado = sqrt(numBase)
+    resultado = pretty(resultado)
+    
 else:
     # Verifica se o número é primo e, se for, gera um novo.
     qntMultiplos = 0
@@ -31,6 +33,7 @@ else:
             qntMultiplos = 0
 
     resultado = cbrt(numBase)
+    resultado = pretty(resultado)
 
 listLetra = ["A","B","C","D","E"]
 questaoCerta = rnd.choice(listLetra)
@@ -58,6 +61,7 @@ for numLetra in range(0, 5):
                     qntMultiplos = 0
 
             listAlternativas[numLetra] = sqrt(numRandomTemporario)
+            listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
         else:
             numRandomTemporario = rnd.randint(2,numBase)
 
@@ -72,6 +76,7 @@ for numLetra in range(0, 5):
                     qntMultiplos = 0
 
             listAlternativas[numLetra] = cbrt(numRandomTemporario)
+            listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
 
 # Dá duas tentativas para o indivíduo acertar
 for numTentativa in range(2):

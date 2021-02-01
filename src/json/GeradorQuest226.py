@@ -2,18 +2,20 @@ import random as rnd
 from sympy import pretty, sqrt, cbrt
 import json
 
-numBase = rnd.randint(2,250)
+numBase = rnd.randint(2,500)
 
 qntHoraDada = rnd.randint(2,3)
-qntHoraEsperada = rnd.randint(2,10)
+qntHoraEsperada = rnd.randint(2,5)
 
 while(qntHoraDada == qntHoraEsperada):
-    qntHoraEsperada = rnd.randint(2,10)
+    qntHoraEsperada = rnd.randint(2,5)
 
 if(qntHoraDada == 2):
     resultado = sqrt(numBase ** qntHoraEsperada)
+    resultado = pretty(resultado)
 else:
     resultado = cbrt(numBase ** qntHoraEsperada)
+    resultado = pretty(resultado)
 
 listLetra = ["A","B","C","D","E"]
 questaoCerta = rnd.choice(listLetra)
@@ -31,8 +33,10 @@ for numLetra in range(0, 5):
     elif questaoInvertida == listLetra[numLetra]:
         if(qntHoraDada == 2):
             listAlternativas[numLetra] = cbrt(numBase ** qntHoraEsperada)
+            listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
         else:
-            listAlternativas[numLetra] = sqrt(numBase ** qntHoraEsperada)  
+            listAlternativas[numLetra] = sqrt(numBase ** qntHoraEsperada)
+            listAlternativas[numLetra] = pretty(listAlternativas[numLetra]) 
     else:
         numRandomTemporario = rnd.randint(2,3)
 
@@ -42,18 +46,22 @@ for numLetra in range(0, 5):
             if numRandomTemporario == 0:
                 numRandomTemporario = rnd.randint(2, numBase)
                 listAlternativas[numLetra] = sqrt(numRandomTemporario)
+                listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
             else:
                 numRandomTemporario = rnd.randint(2, numBase)
                 listAlternativas[numLetra] = -sqrt(numRandomTemporario)
+                listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
         else:
             numRandomTemporario = rnd.randint(0,1)
 
             if numRandomTemporario == 0:
                 numRandomTemporario = rnd.randint(2, numBase)
                 listAlternativas[numLetra] = cbrt(numRandomTemporario)
+                listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
             else:
                 numRandomTemporario = rnd.randint(2, numBase)
                 listAlternativas[numLetra] = -cbrt(numRandomTemporario)
+                listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
 
 # Dá duas tentativas para o indivíduo acertar
 for numTentativa in range(2):
