@@ -9,7 +9,7 @@
 * [Objetivos](#-objetivos)
     * [Objetivos principais](#objetivos-principais)
     * [Objetivos estimados](#objetivos-estimados)
-* [Pré-requisito](-pré-requisitos)
+* [Pré-requisito](#-pré-requisitos)
     * [Biblioteca necessária](#biblioteca-necessária)
     * [Servidor web](#servidor-web)
 ## 📋 Descrição
