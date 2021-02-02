@@ -13,16 +13,16 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 - Kawan Pereira de Santana, Colégio Pedro II
 
 ## Objetivos principais
-- [] Criar scripts em python para gerar as questões aleatoriamente e em uma grande quantidade
-- [] Formular métodos de erros e aplicá-los em respostas a fim de torná-las falsas.
-- [] Exportar as questões, as possíveis respostas e os atributos desta no formato de troca de dados JSON.
-- [] Desenvolver uma aplicação web capaz de permitir a resolução das questões, além de ser capaz de gerenciá-las.
-- [] Ter a capacidade de identificar as facilidades e dificuldades daqueles que usarão o sistema por meio do aprendizado de máquina ativo.
-- [] Aplicar este aprendizado de máquina em uma inteligência artificial que poderá recomendar questões mais fáceis ou difíceis dependendo do desempenho do usuário.
+- [ ] Criar scripts em python para gerar as questões aleatoriamente e em uma grande quantidade
+- [ ] Formular métodos de erros e aplicá-los em respostas a fim de torná-las falsas.
+- [ ] Exportar as questões, as possíveis respostas e os atributos desta no formato de troca de dados JSON.
+- [ ] Desenvolver uma aplicação web capaz de permitir a resolução das questões, além de ser capaz de gerenciá-las.
+- [ ] Ter a capacidade de identificar as facilidades e dificuldades daqueles que usarão o sistema por meio do aprendizado de máquina ativo.
+- [ ] Aplicar este aprendizado de máquina em uma inteligência artificial que poderá recomendar questões mais fáceis ou difíceis dependendo do desempenho do usuário.
 
 ## Objetivos estimados
-- [] Permitir que estudantes exercitem seu conhecimento na área de logaritmo, fora ajudar professores que possuem uma baixa gama de questões na matéria citada.
-- [] Servir de base para outros pesquisadores expandirem o projeto para outras áreas de estudo, tais como genética nas ciências biológicas, geometria analítica em exatas, dinâmica dos fluídos na física e assim por diante. 
+- [ ] Permitir que estudantes exercitem seu conhecimento na área de logaritmo, fora ajudar professores que possuem uma baixa gama de questões na matéria citada.
+- [ ] Servir de base para outros pesquisadores expandirem o projeto para outras áreas de estudo, tais como genética nas ciências biológicas, geometria analítica em exatas, dinâmica dos fluídos na física e assim por diante. 
 
 ## Pré-requisitos
 ### Biblioteca necessária
