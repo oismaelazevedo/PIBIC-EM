@@ -7,8 +7,8 @@ for k in range(200):
 
     questoes = open('questao{}-166.json'.format(k+1), 'w')
 
-    # insere um valor aleatório de 2 a 9 para ser a base.
-    numBase =  rnd.randint(2,9)
+    # insere um valor aleatório de 2 a 10 para ser a base.
+    numBase =  rnd.randint(2,10)
 
     # insere dois logaritmandos aleatórios em uma lista 
     listNumLogaritmando = [numBase ** rnd.randint(2,10), numBase ** rnd.randint(2,10)]
@@ -50,9 +50,16 @@ for k in range(200):
             isCorrect[numLetra] = "Nao"
             howGenerated[numLetra] = "invertida"
         else:
-            listAlternativas[numLetra] += round(math.log(rnd.randint(2,10), rnd.randint(2,9))/math.log(rnd.randint(2,10), rnd.randint(2,9)), 2)
-            isCorrect[numLetra] = "Nao"
-            howGenerated[numLetra] = "gerada aleatoriamente"
+            ehNegativoPositivo = rnd.randint(0,1)
+
+            if ehNegativoPositivo == 0:
+                listAlternativas[numLetra] += round(math.log(rnd.randint(2,10), rnd.randint(2,9))/math.log(rnd.randint(2,10), rnd.randint(2,9)), 2)
+                isCorrect[numLetra] = "Nao"
+                howGenerated[numLetra] = "gerada aleatoriamente e positiva"
+            else:
+                listAlternativas[numLetra] += round(-math.log(rnd.randint(2,10), rnd.randint(2,9))/math.log(rnd.randint(2,10), rnd.randint(2,9)), 2)
+                isCorrect[numLetra] = "Nao"
+                howGenerated[numLetra] = "gerada aleatoriamente e negativa"
 
     # Cria a variável que será convertida em um arquivo json
     dados = {
@@ -105,7 +112,8 @@ for k in range(200):
                 'enunciado': 'Determine o valor aproximado da razão entre os logaritmos de {} e {} numa base qualquer:'.format(listNumLogaritmando[0],listNumLogaritmando[1]),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
-                'aleatoria': howGenerated.count("gerada aleatoriamente"),
+                'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
+                'aleatorianegativa': howGenerated.count("gerada aleatoriamente e negativa"),
                 'invertida': howGenerated.count("invertida"),
                 'respostascorretas': listLetra[isCorrect.index("Sim")]
             }

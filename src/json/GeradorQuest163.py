@@ -2,8 +2,6 @@ import random as rnd
 import json
 import math
 
-
-
 for k in range(200):
 
     questoes = open('questao{}-163.json'.format(k+1), 'w')
@@ -55,7 +53,8 @@ for k in range(200):
             {
                 'base' : 10,
                 'logaritmando' : 1 / 10 ** expoenteConcentracao,
-                'resultado' : round(math.log(1 / 10 ** expoenteConcentracao, 10),2)    
+                'expoente' : expoenteConcentracao,
+                'resultado' : resposta 
             }
         ],
         'respostas' : [
