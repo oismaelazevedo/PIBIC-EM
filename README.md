@@ -6,12 +6,12 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 ## Integrantes
 ### Professores orientadores
 - Profa. Alayne Duarte Amorim, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/6728091845181284)
-- Prof. Daniel Sadoc Menasche, Universidade Federal do Rio de Janeiro [Lattes](http://lattes.cnpq.br/9931198850020140)
-- Prof. Marcus Paulo de Q. Amorim, Colégio Pedro II [Lattes](http://lattes.cnpq.br/5890334014963199)
+- Prof. Daniel Sadoc Menasche, Universidade Federal do Rio de Janeiro - [Lattes](http://lattes.cnpq.br/9931198850020140)
+- Prof. Marcus Paulo de Q. Amorim, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/5890334014963199)
 ### Orientandos
-- Estevão Vitor Gregorio Naval, Colégio Pedro II [Lattes](http://lattes.cnpq.br/3949652173819005)
-- Ismael C. S. da Costa de Azevedo, Colégio Pedro II [Lattes](http://lattes.cnpq.br/2052748666550756)
-- Kawan Pereira de Santana, Colégio Pedro II [Lattes](http://lattes.cnpq.br/8677764261803115)
+- Estevão Vitor Gregorio Naval, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/3949652173819005)
+- Ismael C. S. da Costa de Azevedo, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/2052748666550756)
+- Kawan Pereira de Santana, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/8677764261803115)
 
 ## Objetivos principais
 - [ ] Criar scripts em python para gerar as questões aleatoriamente e em uma grande quantidade
