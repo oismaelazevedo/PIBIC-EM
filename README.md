@@ -1,6 +1,6 @@
 # Aumentando a Interatividade no Ensino a Distância via Geração Automática de Questões
 
-## Índice
+## 🗂️ Índice
     * [Descrição](#-descrição)
     * [Estado do projeto](#%EF%B8%8F-estado-do-projeto)
     * [Integrantes](#-integrantes)
