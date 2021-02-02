@@ -1,16 +1,17 @@
 # Aumentando a Interatividade no Ensino a Distância via Geração Automática de Questões
+
+## Descrição
 Este projeto faz parte do programa de iniciação científica para o ensino médio (PIBIC-EM). Um convênio da Universidade Federal do Rio de Janeiro (UFRJ) com diversas escolas públicas visando fomentar a pesquisa e desenvolvimento tecnológico, bem como formar cidadãos conscientes e futuros profissionais nas diversas áreas que formam a ciência como a conhecemos hoje.
 
 ## Integrantes
 ### Professores orientadores
-- Profa. Alayne Duarte Amorim, Colégio Pedro II
-- Prof. Marcus Paulo de Q. Amorim, Colégio Pedro II
-- Prof. Daniel Sadoc Menasche, Universidade Federal do Rio de Janeiro
-
+- Profa. Alayne Duarte Amorim, Colégio Pedro II - [https://img.shields.io/static/v1?label=Lattes&message=Alayne%20Duarte&color=blue&style=flat]
+- Prof. Daniel Sadoc Menasche, Universidade Federal do Rio de Janeiro - [https://img.shields.io/static/v1?label=Lattes&message=Daniel%20Sadoc&color=blue&style=flat]
+- Prof. Marcus Paulo de Q. Amorim, Colégio Pedro II - Lattes: [https://img.shields.io/static/v1?label=Lattes&message=Marcus%20Amorim&color=blue&style=flat]
 ### Orientandos
-- Estevão Vitor Gregorio Naval, Colégio Pedro II
-- Ismael C. S. da Costa de Azevedo, Colégio Pedro II
-- Kawan Pereira de Santana, Colégio Pedro II
+- Estevão Vitor Gregorio Naval, Colégio Pedro II - [https://img.shields.io/static/v1?label=Lattes&message=Estev%C3%A3o%20Naval&color=blue&style=flat]
+- Ismael C. S. da Costa de Azevedo, Colégio Pedro II - [https://img.shields.io/static/v1?label=Lattes&message=Ismael%20Azevedo&color=blue&style=flat]
+- Kawan Pereira de Santana, Colégio Pedro II - Lattes: [https://img.shields.io/static/v1?label=Lattes&message=Kawan%20Santana&color=blue&style=flat]
 
 ## Objetivos principais
 - [ ] Criar scripts em python para gerar as questões aleatoriamente e em uma grande quantidade
