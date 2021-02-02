@@ -1,12 +1,12 @@
 # Aumentando a Interatividade no Ensino a Distância via Geração Automática de Questões
 
-## Descrição
+## 📋 Descrição
 Este projeto faz parte do programa de iniciação científica para o ensino médio (PIBIC-EM). Um convênio da Universidade Federal do Rio de Janeiro (UFRJ) com diversas escolas públicas visando fomentar a pesquisa e desenvolvimento tecnológico, bem como formar cidadãos conscientes e futuros profissionais nas diversas áreas que formam a ciência como a conhecemos hoje.
 
-## Estado do projeto
+## 🛠️ Estado do projeto
 #### 🚧  Em construção...  🚧
 
-## Integrantes
+## 🧑‍🤝‍🧑 Integrantes
 ### Professores orientadores
 - Profa. Alayne Duarte Amorim, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/6728091845181284)
 - Prof. Daniel Sadoc Menasche, Universidade Federal do Rio de Janeiro - [Lattes](http://lattes.cnpq.br/9931198850020140)
@@ -16,7 +16,7 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 - Ismael C. S. da Costa de Azevedo, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/2052748666550756)
 - Kawan Pereira de Santana, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/8677764261803115)
 
-## Objetivos
+## 🎯 Objetivos
 ### Objetivos principais
 - [ ] Criar scripts em python para gerar as questões aleatoriamente e em uma grande quantidade
 - [ ] Formular métodos de erros e aplicá-los em respostas a fim de torná-las falsas.
@@ -29,7 +29,7 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 - [ ] Permitir que estudantes exercitem seu conhecimento na área de logaritmo, fora ajudar professores que possuem uma baixa gama de questões na matéria citada.
 - [ ] Servir de base para outros pesquisadores expandirem o projeto para outras áreas de estudo, tais como genética nas ciências biológicas, geometria analítica em exatas, dinâmica dos fluídos na física e assim por diante. 
 
-## Pré-requisitos
+## 📑 Pré-requisitos
 ### Biblioteca necessária
 Primeiramente, para executar os scripts python, você deve instalar a biblioteca de código aberto [Sympy](https://www.sympy.org/pt/index.html). Você pode fazer isto via terminal com o seguinte comando:
 
