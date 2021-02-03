@@ -18,6 +18,12 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 ## 🛠️ Estado do projeto
 #### 🚧  Em construção...  🚧
 
+### Questões base utilizadas
+
+| Número da questão | Enunciado original | Fonte |
+| :----------: | :----------: | :----------: |
+| 163 | O pH de uma solução é definido por pH = log (1/H+), em que H+ é a concentração de hidrogênio em íons-grama por litro de solução. Determine o pH de uma solução tal que H+ = 1,0 x 10^-8. | Livro Fundamentos de Matemática Elementar - Vol. 02| 
+
 ## 🧑‍🤝‍🧑 Integrantes
 ### Professores orientadores
 - Profa. Alayne Duarte Amorim, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/6728091845181284)
