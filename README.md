@@ -5,12 +5,14 @@
 * [Integrantes](#-integrantes)
     * [Professores orientadores](#professores-orientadores)
     * [Orientandos](#orientandos)
-* [Estado do projeto](#%EF%B8%8F-estado-do-projeto)
+* [Atributos do projeto](#%EF%B8%8F-estado-do-projeto)
+    * [Tecnologias utilizadas]()
     * [Questões base utilizadas](#questões-base-utilizadas)
 * [Objetivos](#-objetivos)
     * [Objetivos principais](#objetivos-principais)
     * [Objetivos estimados](#objetivos-estimados)
 * [Pré-requisito](#-pré-requisitos)
+    * [Python e um editor de código]()
     * [Biblioteca necessária](#biblioteca-necessária)
     * [Servidor web](#servidor-web)
 ## 📋 Descrição
@@ -26,9 +28,19 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 - Ismael C. S. da Costa de Azevedo, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/2052748666550756)
 - Kawan Pereira de Santana, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/8677764261803115)
 
-## 🛠️ Estado do projeto
+## 🛠️ Atributos do projeto
 #### 🚧  Em construção...  🚧
 
+### Tecnologias utilizadas
+- [Python](https://www.python.org/)
+- [Sympy](https://www.sympy.org/pt/index.html)
+- [Json](https://json.org/json-pt.html)
+- [PHP](https://www.php.net/)
+- [HTML](https://developer.mozilla.org/pt-br/docs/Glossario/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Bootstrap](https://getbootstrap.com/)
+- [MySQL](https://www.mysql.com/)
 ### Questões base utilizadas
 
 | Número da questão | Enunciado original | Fonte |
@@ -52,8 +64,10 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 - [ ] Servir de base para outros pesquisadores expandirem o projeto para outras áreas de estudo, tais como genética nas ciências biológicas, geometria analítica em exatas, dinâmica dos fluídos na física e assim por diante. 
 
 ## 📑 Pré-requisitos
+### Python e um editor de código
+Antes de tudo, é importante se ter instalado o [interpretador python](https://www.python.org/downloads/), já que os geradores estão baseados na linguagem de programação [python](https://www.python.org/). Além disto, ter um editor de código, tais como o [Visual code](https://code.visualstudio.com/), [Atom](https://atom.io/), [Notepad++](https://notepad-plus-plus.org/), etc, na sua máquina também é importante para a execução dos scripts python.
 ### Biblioteca necessária
-Primeiramente, para executar os scripts python, você deve instalar a biblioteca de código aberto [Sympy](https://www.sympy.org/pt/index.html). Você pode fazer isto via terminal com o seguinte comando:
+Para executar os scripts python, você deve instalar a biblioteca de código aberto [Sympy](https://www.sympy.org/pt/index.html). Você pode fazer isto via terminal com o seguinte comando:
 
     pip install sympy
 
