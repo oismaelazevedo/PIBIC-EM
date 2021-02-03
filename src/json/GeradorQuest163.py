@@ -32,12 +32,22 @@ for k in range(200):
             isCorrect[numLetra] = "Sim"
             howGenerated[numLetra] = "nenhum"
         elif questaoInvertida == listLetra[numLetra]:
-            listAlternativas[numLetra] = round(-(expoenteConcentracao ** 3)/2, 2)
-            isCorrect[numLetra] = "Nao"
-            howGenerated[numLetra] = "invertida"
+            ehNegativoPositivo = rnd.randint(0,1)
+
+            if ehNegativoPositivo == 0:
+
+                listAlternativas[numLetra] = round((expoenteConcentracao ** 3)/2, 2)
+                isCorrect[numLetra] = "Nao"
+                howGenerated[numLetra] = "invertida e positiva"
+            else:
+                
+                listAlternativas[numLetra] = round(-(expoenteConcentracao ** 3)/2, 2)
+                isCorrect[numLetra] = "Nao"
+                howGenerated[numLetra] = "invertida e negativa"
         else:
-            EhNegativoPositivo = rnd.randint(0,1)
-            if (EhNegativoPositivo == 0): 
+            ehNegativoPositivo = rnd.randint(0,1)
+
+            if (ehNegativoPositivo == 0): 
                 listAlternativas[numLetra] = round((rnd.randint(1,expoenteConcentracao) ** 2)/3, 2) 
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "gerada aleatoriamente e positiva"
@@ -94,7 +104,8 @@ for k in range(200):
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
                 'aleatorianegativa': howGenerated.count("gerada aleatoriamente e negativa"),
-                'invertida': howGenerated.count("invertida"),
+                'invertidapositiva': howGenerated.count("invertida e positiva"),
+                'invertidanegativa': howGenerated.count("invertida e negativa"),
                 'respostascorretas': listLetra[isCorrect.index("Sim")]
             }
         ]

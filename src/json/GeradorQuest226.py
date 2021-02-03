@@ -40,15 +40,33 @@ for k in range(200):
             howGenerated[numLetra] = "nenhum"
         elif questaoInvertida == listLetra[numLetra]:
             if(qntHoraDada == 2):
-                listAlternativas[numLetra] = cbrt(numBase ** qntHoraEsperada)
-                listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "invertida"
+                numRandomTemporario = rnd.randint(0,1)
+
+                if numRandomTemporario == 0:
+
+                    listAlternativas[numLetra] = cbrt(numBase ** qntHoraEsperada)
+                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e positiva"
+                else:
+                    listAlternativas[numLetra] = -cbrt(numBase ** qntHoraEsperada)
+                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e negativa"
             else:
-                listAlternativas[numLetra] = sqrt(numBase ** qntHoraEsperada)
-                listAlternativas[numLetra] = pretty(listAlternativas[numLetra]) 
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "invertida"
+                numRandomTemporario = rnd.randint(0,1)
+
+                if numRandomTemporario == 0:
+
+                    listAlternativas[numLetra] = sqrt(numBase ** qntHoraEsperada)
+                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra]) 
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e positiva"
+                else:
+                    listAlternativas[numLetra] = -sqrt(numBase ** qntHoraEsperada)
+                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra]) 
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e negativa"
         else:
             numRandomTemporario = rnd.randint(2,3)
 
@@ -128,8 +146,10 @@ for k in range(200):
                 'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = C.{}^kt, em que X(t) é o número de bactérias no tempo t >= 0; C, k são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas se pode esperar no fim de {} horas?'.format(numBase,numBase,qntHoraDada,qntHoraEsperada),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
-                'aleatoria': howGenerated.count("gerada aleatoriamente"),
-                'invertida': howGenerated.count("invertida"),
+                'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
+                'aleatorianegativa': howGenerated.count("gerada aleatoriamente e negativa"),
+                'invertidapositiva': howGenerated.count("invertida e positiva"),
+                'invertidanegativa': howGenerated.count("invertida e negativa"),
                 'respostascorretas': listLetra[isCorrect.index("Sim")]
             }
         ]
