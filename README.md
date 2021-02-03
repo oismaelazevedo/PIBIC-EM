@@ -2,10 +2,11 @@
 
 ## 🗂️ Índice
 * [Descrição](#-descrição)
-* [Estado do projeto](#%EF%B8%8F-estado-do-projeto)
 * [Integrantes](#-integrantes)
     * [Professores orientadores](#professores-orientadores)
     * [Orientandos](#orientandos)
+* [Estado do projeto](#%EF%B8%8F-estado-do-projeto)
+    * [Questões base utilizadas](#questões-base-utilizadas)
 * [Objetivos](#-objetivos)
     * [Objetivos principais](#objetivos-principais)
     * [Objetivos estimados](#objetivos-estimados)
@@ -14,15 +15,6 @@
     * [Servidor web](#servidor-web)
 ## 📋 Descrição
 Este projeto faz parte do programa de iniciação científica para o ensino médio (PIBIC-EM). Um convênio da Universidade Federal do Rio de Janeiro (UFRJ) com diversas escolas públicas visando fomentar a pesquisa e desenvolvimento tecnológico, bem como formar cidadãos conscientes e futuros profissionais nas diversas áreas que formam a ciência como a conhecemos hoje.
-
-## 🛠️ Estado do projeto
-#### 🚧  Em construção...  🚧
-
-### Questões base utilizadas
-
-| Número da questão | Enunciado original | Fonte |
-| :----------: | :----------: | :----------: |
-| 163 | O pH de uma solução é definido por pH = log (1/H+), em que H+ é a concentração de hidrogênio em íons-grama por litro de solução. Determine o pH de uma solução tal que H+ = 1,0 x 10^-8. | Livro Fundamentos de Matemática Elementar - Vol. 02| 
 
 ## 🧑‍🤝‍🧑 Integrantes
 ### Professores orientadores
@@ -33,6 +25,18 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 - Estevão Vitor Gregorio Naval, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/3949652173819005)
 - Ismael C. S. da Costa de Azevedo, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/2052748666550756)
 - Kawan Pereira de Santana, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/8677764261803115)
+
+## 🛠️ Estado do projeto
+#### 🚧  Em construção...  🚧
+
+### Questões base utilizadas
+
+| Número da questão | Enunciado original | Fonte |
+| :----------: | :----------: | :----------: |
+| 163 | O pH de uma solução é definido por pH = log (1/H+), em que H+ é a concentração de hidrogênio em íons-grama por litro de solução. Determine o pH de uma solução tal que H+ = 1,0 x 10^-8. | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 166 | Determine a razão entre os logaritmos de 16 e 4 numa base qualquer. | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 169 | A soma dos logaritmos de dois números na base 9 é 1/2. Determine o produto desses números. | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 226 | O crescimento de uma certa cultura de bactérias obedece à função X(t) = C.e^kt, em que X(t) é o número de bactérias no tempo t >= 0; C, k são constantes positivas. Verificando que o número inicial de bactérias X(0) duplica em 4 horas, quantas se pode esperar no fim de 6 horas? | Livro Fundamentos de Matemática Elementar - Vol. 02 |  
 
 ## 🎯 Objetivos
 ### Objetivos principais
