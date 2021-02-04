@@ -56,9 +56,9 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 
 ## 🎯 Objetivos
 ### Objetivos principais
-- [ ] Criar scripts em python para gerar as questões aleatoriamente e em uma grande quantidade
-- [ ] Formular métodos de erros e aplicá-los em respostas a fim de torná-las falsas.
-- [ ] Exportar as questões, as possíveis respostas e os atributos desta no formato de troca de dados JSON.
+- [x] Criar scripts em python para gerar as questões aleatoriamente e em uma grande quantidade
+- [x] Formular métodos de erros e aplicá-los em respostas a fim de torná-las falsas.
+- [x] Exportar as questões, as possíveis respostas e os atributos desta no formato de troca de dados JSON.
 - [ ] Desenvolver uma aplicação web capaz de permitir a resolução das questões, além de ser capaz de gerenciá-las.
 - [ ] Ter a capacidade de identificar as facilidades e dificuldades daqueles que usarão o sistema por meio do aprendizado de máquina ativo.
 - [ ] Aplicar este aprendizado de máquina em uma inteligência artificial que poderá recomendar questões mais fáceis ou difíceis dependendo do desempenho do usuário.
