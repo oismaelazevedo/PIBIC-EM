@@ -6,8 +6,10 @@
     * [Professores orientadores](#professores-orientadores)
     * [Orientandos](#orientandos)
 * [Atributos do projeto](#%EF%B8%8F-atributos-do-projeto)
+    * [Status geral](#Status-geral)
     * [Tecnologias utilizadas](#tecnologias-utilizadas)
     * [Questões base utilizadas](#questões-base-utilizadas)
+    * [Tipos de erro utilizado](#Tipos-de-erro-utilizado)
 * [Objetivos](#-objetivos)
     * [Objetivos principais](#objetivos-principais)
     * [Objetivos estimados](#objetivos-estimados)
@@ -29,6 +31,8 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 - Kawan Pereira de Santana, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/8677764261803115)
 
 ## 🛠️ Atributos do projeto
+
+### Status geral
 #### 🚧  Em construção...  🚧
 
 ### Tecnologias utilizadas
