@@ -54,6 +54,14 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 | 227 | Uma substância radioativa está em processo de desintegração, de modo que no instante t a quantidade não desintegrada é A(t) = A(0) . e<sup>-3t</sup>, em que A(0) indica a quantidade da substância no instante t = 0. Calcule o tempo necessário para que a metade da quantidade inicial se desintegre. | Uma substância radioativa está em processo de desintegração, de modo que no instante t a quantidade não desintegrada é A(t) = A(0).<número_aleatório><sup>-<número_aleatório>t</sup>, em que A(0) indica a quantidade de substância no instante t = 0. Calcule o tempo necessário para que a quantidade inicial dividida por <número_aleatório> se desintegre. | Livro Fundamentos de Matemática Elementar - Vol. 02 |
 | 228 | A lei de decomposição do radium no tempo t >= 0 é dada por M(t) = Ce<sup>-kt</sup>, em que M(t) é quantidade de radium no tempo t; C, K são constantes positivas (e é a base do logaritmo neperiano). Se a metade da quantidade primitiva M(0) desaparece em 1600 anos, qual a quantidade perdida em 100 anos? | A lei de decomposição de um elemento X no tempo t >= 0 é dada por M(t) = C<número_aleatório><sup>-kt</sup>, em que M(t) é quantidade de X no tempo t; C, K são constantes positivas. Se a quantidade primitiva M (0), quando dividida por <número_aleatório>, desaparece em <número_aleatório> anos, qual a quantidade perdida em <número_aleatório> anos? | Livro Fundamentos de Matemática Elementar - Vol. 02 |
 
+### Tipos de erro utilizado
+
+| Tipo de erro | Descrição |
+| :----------: | :----------: |
+| Invertida | Erro em que a fórmula para se chegar ao resultado é trocada |
+| Aleatória | Um número é gerado por pseudoaleatoriedade, mas dentro dos moldes da fórmula do resultado |
+| Sinal trocado | O sinal do resultado final é trocado. Sempre vem acompanhado com os erros anteriores | 
+
 ## 🎯 Objetivos
 ### Objetivos principais
 - [x] Criar scripts em python para gerar as questões aleatoriamente e em uma grande quantidade
