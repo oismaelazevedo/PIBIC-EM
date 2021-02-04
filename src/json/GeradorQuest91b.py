@@ -3,7 +3,7 @@ import json
 
 for k in range(200):
 
-    questoes = open('questao{}-91a.json'.format(k+1), 'w')
+    questoes = open('questao{}-91b.json'.format(k+1), 'w')
 
     a = rnd.randint(-100,100)
     x1 = 7 - rnd.randint(-1000,1000)
@@ -13,7 +13,9 @@ for k in range(200):
         x2 = 7 - rnd.randint(-1000,1000)
 
     b = - a * (x1 + x2)
-    c = a * (x1 * x2)
+
+    # Este '+1' foi utilizado para compensar o '-1' que o usuário tera de fazer na constante C.
+    c = a * (x1 * x2) + 1
 
     listLetra = ["A","B","C","D","E"]
 
@@ -109,7 +111,7 @@ for k in range(200):
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Determine as raízes da equação em IR+: X^({}y² + [{}y] + {}) = 1'.format(a,b,c),
+                'enunciado': 'Determine as raízes da equação em IR+: X^({}y² + [{}y] + {}) = X'.format(a,b,c),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
