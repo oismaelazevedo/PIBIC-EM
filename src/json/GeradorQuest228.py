@@ -21,8 +21,6 @@ for k in range(200):
         resultado = 1 - cbrt(numBase ** qntHoraDecaimentoEsperado)
         resultado = pretty(resultado)
 
-    print(resultado)
-
     listLetra = ["A","B","C","D","E"]
 
     questaoCerta = rnd.choice(listLetra)
