@@ -1,5 +1,6 @@
 import random as rnd
 import json
+from sympy import pretty, symbols
 
 for k in range(200):
 
@@ -14,6 +15,8 @@ for k in range(200):
         numExpoente = rnd.randint(2,10000)
 
     resultado = round(numMultiplicadorNumBase/numExpoente, 6)
+
+    e,t = symbols("e t")
 
     listLetra = ["A","B","C","D","E"]
     questaoCerta = rnd.choice(listLetra)
@@ -102,7 +105,7 @@ for k in range(200):
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Uma substância radioativa está em processo de desintegração, de modo que no instante t a quantidade não desintegrada é A(t) = A(0).{}^-{}t, em que A(0) indica a quantidade de substância no instante t = 0. Calcule o tempo necessário para que a quantidade inicial dividida por {} se desintegre.'.format(numBase, numExpoente, numBase * numMultiplicadorNumBase),
+                'enunciado': 'Uma substância radioativa está em processo de desintegração, de modo que no instante t a quantidade não desintegrada é A(t) = A(0).{}, em que A(0) indica a quantidade de substância no instante t = 0. Calcule o tempo necessário para que a quantidade inicial dividida por {} se desintegre.'.format(pretty(e ** (-numExpoente * t)), numBase * numMultiplicadorNumBase),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
@@ -119,6 +122,3 @@ for k in range(200):
     json.dump(dados, questoes, indent=4)
     
 questoes.close()
-
-
-

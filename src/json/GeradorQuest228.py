@@ -1,5 +1,5 @@
 import random as rnd
-from sympy import pretty, sqrt, cbrt
+from sympy import pretty, sqrt, cbrt, symbols
 import json
 
 for k in range(200):
@@ -20,6 +20,8 @@ for k in range(200):
     else:
         resultado = 1 - cbrt(numBase ** qntHoraDecaimentoEsperado)
         resultado = pretty(resultado)
+
+    k, t = symbols("k t")
 
     listLetra = ["A","B","C","D","E"]
 
@@ -144,7 +146,7 @@ for k in range(200):
         ],
         'atributosquestao': [
             {
-                'enunciado': 'A lei de decomposição de um elemento X no tempo t >= 0 é dada por M(t) = C{}^-kt, em que M(t) é quantidade de X no tempo t; C, K são constantes positivas. Se a quantidade primitiva M (0), quando dividida por {}, desaparece em {} anos, qual a quantidade perdida em {} anos?'.format(numBase,numBase,qntHoraDecaimentoDado,qntHoraDecaimentoEsperado),
+                'enunciado': 'A lei de decomposição de um elemento X no tempo t >= 0 é dada por M(t) = C.{}, em que M(t) é quantidade de X no tempo t; C, K são constantes positivas. Se a quantidade primitiva M(0), quando dividida por {}, desaparece em {} anos, qual a quantidade perdida em {} anos?'.format(pretty(numBase ** (k*t)),numBase,qntHoraDecaimentoDado,qntHoraDecaimentoEsperado),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

@@ -1,5 +1,5 @@
 import random as rnd
-from sympy import pretty, sqrt, cbrt
+from sympy import pretty, sqrt, cbrt, symbols
 import json
 
 
@@ -20,6 +20,8 @@ for k in range(200):
     else:
         resultado = cbrt(numBase ** qntHoraEsperada)
         resultado = pretty(resultado)
+
+    C, k, t = symbols("C k t")
 
     listLetra = ["A","B","C","D","E"]
     questaoCerta = rnd.choice(listLetra)
@@ -143,7 +145,7 @@ for k in range(200):
         ],
         'atributosquestao': [
             {
-                'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = C.{}^kt, em que X(t) é o número de bactérias no tempo t >= 0; C, k são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas se pode esperar no fim de {} horas?'.format(numBase,numBase,qntHoraDada,qntHoraEsperada),
+                'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = {}, em que X(t) é o número de bactérias no tempo t >= 0; C, k são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas se pode esperar no fim de {} horas?'.format(pretty(C*(numBase**(k*t))),numBase,qntHoraDada,qntHoraEsperada),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

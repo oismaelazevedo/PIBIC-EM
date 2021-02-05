@@ -1,9 +1,12 @@
 import random as rnd
 import json
+from sympy import symbols, pretty
 
 for k in range(200):
 
     questoes = open('questao{}-91b.json'.format(k+1), 'w')
+
+    a, b, c, x, Y = symbols("a b c x Y")
 
     a = rnd.randint(-100,100)
     x1 = 7 - rnd.randint(-1000,1000)
@@ -111,7 +114,7 @@ for k in range(200):
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Determine as raízes da equação em IR+: X^({}y² + [{}y] + {}) = X'.format(a,b,c),
+                'enunciado': 'Determine as raízes da equação em IR+: {} = Y'.format(pretty(Y ** (a*(x**2) + b*x + c))),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

@@ -1,5 +1,6 @@
 import random as rnd
 import json
+from sympy import pretty, Symbol
 import math
 
 for k in range(200):
@@ -8,6 +9,8 @@ for k in range(200):
 
     expoenteConcentracao = rnd.randint(1,1000)
     resposta = round((expoenteConcentracao ** 2)/3, 2)
+
+    e = Symbol('e')
 
     listLetra = ["A","B","C","D","E"]
     questaoCerta = rnd.choice(listLetra)
@@ -99,7 +102,7 @@ for k in range(200):
         ],
         'atributosquestao': [
             {
-                'enunciado': 'O pH de uma solução é definido por pH = log(1/H+), em que H+ é a concentração de hidrogênio em íons-gama por litro de solução. Determine o quadrado sobre três do pH de uma solução tal que H+ = 1,0 x e{}. Admita que e = 10'.format(expoenteConcentracao),
+                'enunciado': 'O pH de uma solução é definido por pH = log(1/H+), em que H+ é a concentração de hidrogênio em íons-gama por litro de solução. Determine o quadrado sobre três do pH de uma solução tal que H+ = 1,0 x {}. Admita que e = 10'.format(pretty(e ** expoenteConcentracao)),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

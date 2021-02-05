@@ -1,5 +1,5 @@
 import random as rnd
-from sympy import pretty, sqrt, cbrt
+from sympy import pretty, Rational
 import json
 
 for k in range(200):
@@ -8,6 +8,8 @@ for k in range(200):
 
     numBase = rnd.randint(2,1000)
     resposta = -rnd.randint(2,5)
+
+    numBaseInverso = Rational(1, numBase)
 
     listLetra = ["A","B","C","D","E"]
 
@@ -59,7 +61,8 @@ for k in range(200):
         'equacaoExponencial' : [
             {
                 'numBase' : numBase,
-                'resposta': resposta
+                'resposta': resposta,
+                'numBaseInverso': pretty(numBaseInverso)
             }
         ],
         'respostas': [
@@ -94,7 +97,7 @@ for k in range(200):
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Resolva a seguinte equação exponencial: (1/{})^x = {}'.format(numBase, numBase ** -resposta),
+                'enunciado': 'Resolva a seguinte equação exponencial: ({})^x = {}'.format(numBaseInverso, numBase ** -resposta),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
