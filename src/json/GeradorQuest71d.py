@@ -1,19 +1,13 @@
 import random as rnd
+from sympy import pretty, sqrt, cbrt
 import json
 
 for k in range(200):
 
-    questoes = open('questao{}-91a.json'.format(k+1), 'w')
+    questoes = open("questao{}-71d.json".format(k+1), 'w')
 
-    a = rnd.randint(-100,100)
-    x1 = 7 - rnd.randint(-1000,1000)
-    x2 = 7 - rnd.randint(-1000,1000)
-
-    while x1 == x2:
-        x2 = 7 - rnd.randint(-1000,1000)
-
-    b = - a * (x1 + x2)
-    c = a * (x1 * x2)
+    numBase = rnd.randint(2,1000)
+    resposta = -rnd.randint(2,5)
 
     listLetra = ["A","B","C","D","E"]
 
@@ -30,20 +24,20 @@ for k in range(200):
     # Insere a resposta certa na letra escolhida para ser certa, uma letra recebe a questão invertida e o resto recebe números aleatórios
     for numLetra in range(0,5):
         if questaoCerta == listLetra[numLetra]:
-            listAlternativas[numLetra] = "{} e {}".format(x1, x2)
+            listAlternativas[numLetra] = resposta
             isCorrect[numLetra] = "Sim"
             howGenerated[numLetra] = "nenhum"
         elif questaoInvertida == listLetra[numLetra]:
+            
             numRandomTemporario = rnd.randint(0,1)
 
             if numRandomTemporario == 0:
 
-                listAlternativas[numLetra] = "{} e {}".format(x1 - 14, x2 - 14)
+                listAlternativas[numLetra] = rnd.randint(1,15) - resposta
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "invertida e positiva"
             else:
-
-                listAlternativas[numLetra] = "{} e {}".format(-x1 - 14, -x2 - 14)
+                listAlternativas[numLetra] = -rnd.randint(1,15) + resposta
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "invertida e negativa"
         else:
@@ -51,30 +45,21 @@ for k in range(200):
 
             if numRandomTemporario == 0:
 
-                x1Aleatorio = rnd.randint(-1000, 1000)
-                x2Aleatorio = rnd.randint(-1000, 1000)
-
-                listAlternativas[numLetra] = "{} e {}".format(x1Aleatorio,x2Aleatorio)
+                listAlternativas[numLetra] = rnd.randint(-resposta + 1, 15)
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "gerada aleatoriamente e positiva"
             else:
 
-                x1Aleatorio = rnd.randint(-1000, 1000)
-                x2Aleatorio = rnd.randint(-1000, 1000)
-
-                listAlternativas[numLetra] = "{} e {}".format(-x1Aleatorio, -x2Aleatorio)
+                listAlternativas[numLetra] = -rnd.randint(-resposta + 1, 15)
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "gerada aleatoriamente e negativa"
 
     # Cria a variável que será convertida em um arquivo json
     dados = {
-        'equacao2Grau' : [
+        'equacaoExponencial' : [
             {
-                'a' : a,
-                'b' : b,
-                'c' : c,
-                'x1' : x1,
-                'x2' : x2
+                'numBase' : numBase,
+                'resposta': resposta
             }
         ],
         'respostas': [
@@ -109,7 +94,7 @@ for k in range(200):
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Determine as raízes da equação em IR+: X^({}y² + ({}y) + {}) = 1'.format(a,b,c),
+                'enunciado': 'Resolva a seguinte equação exponencial: (1/{})^x = {}'.format(numBase, numBase ** -resposta),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
@@ -126,4 +111,3 @@ for k in range(200):
     json.dump(dados, questoes, indent=4)
 
 questoes.close()
-
