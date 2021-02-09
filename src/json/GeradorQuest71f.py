@@ -7,28 +7,26 @@ for k in range(200):
     questoes = open("questoes{}-71f.json".format(k+1), 'w')
 
     numBase = rnd.randint(2,1000)
-    numExpoente = rnd.randint(3,5)
-
-    qntMultiplos = 0
-
-    while qntMultiplos > 1:
-        for num in range(numBase):
-            if numBase % num == 0:
-                qntMultiplos += 1
-        if qntMultiplos > 1:
-            numBase = rnd.randint(2,1000)
-            qntMultiplos = 0
+    numExpoente = rnd.randint(2,5)
 
     # Mostra que tipo de raíz (sqrt ou cbrt) o número base será sujeitado
     tipoRadiciacaoNumBase = rnd.randint(2,3)
+    tipoRadiciacaoNumBaseComExpoente = 2
+
+    while numExpoente % tipoRadiciacaoNumBaseComExpoente == 0:
+        numExpoente = rnd.randint(2,5)
+    while numBase % tipoRadiciacaoNumBase == 0:
+        numBase = rnd.randint(2,1000)
 
     x = Symbol('x')
 
     if tipoRadiciacaoNumBase == 2:
+        
         resposta = round((numExpoente/2)/(1/2), 2)
         expressRaizNumBase = sqrt(numBase) ** x
         expressRaizNumBaseComExpoente = sqrt(numBase ** numExpoente)
     else:
+        
         resposta = round((numExpoente/2)/(1/3), 2)
         expressRaizNumBase = cbrt(numBase) ** x
         expressRaizNumBaseComExpoente = sqrt(numBase ** numExpoente)
@@ -57,12 +55,10 @@ for k in range(200):
 
             if numRandomTemporario == 0:
                 if tipoRadiciacaoNumBase == 2:
-                    
                     listAlternativas[numLetra] = round((numExpoente/2)/(1/3), 2)
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e positiva"
                 else:
-                    
                     listAlternativas[numLetra] = round((numExpoente/2)/(1/2), 2)
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e positiva"
@@ -80,6 +76,7 @@ for k in range(200):
         else:
             numRandomTemporario = rnd.randint(0,1)
             tipoRadiciacaoNumBaseTemporario = rnd.randint(2,3)
+            tipoRadiciacaoNumBaseComExpoenteTemporario = rnd.randint(2,3)
 
             if numRandomTemporario == 0:
                 if tipoRadiciacaoNumBaseTemporario == 2:
@@ -91,18 +88,20 @@ for k in range(200):
                     
                     listAlternativas[numLetra] = round((rnd.randint(1,15)/2)/(1/3),2)
                     isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "gerada aleatoriamente e positiva"
+                    howGenerated[numLetra] = "gerada aleatoriamente e positiva"  
             else:
                 if tipoRadiciacaoNumBaseTemporario == 2:
-                
-                    listAlternativas[numLetra] = round(-((rnd.randint(1,15)/2)/(1/2)),2)
+                    
+                    listAlternativas[numLetra] = round(-((rnd.randint(1,15)/2))/(1/2),2)
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e negativa"
+                    
                 else:
                     
-                    listAlternativas[numLetra] = round(-((rnd.randint(1,15)/2)/(1/3)),2)
+                    listAlternativas[numLetra] = round(-((rnd.randint(1,15)/2))/(1/3),2)
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e negativa"
+                    
 
 
     # Cria a variável que será convertida em um arquivo json
@@ -158,7 +157,7 @@ for k in range(200):
         ]
     }
 
-    print('Resolva a seguinte equação exponencial:\n{} =     {}'.format(pretty(expressRaizNumBase),pretty(expressRaizNumBaseComExpoente)))
+    print('Resolva a seguinte equação exponencial:\n{} = {}'.format(pretty(expressRaizNumBase),pretty(expressRaizNumBaseComExpoente)))
 
     # Cria o arquivo JSON
     print("\nquestao {}\n".format(k+1),json.dumps(dados))

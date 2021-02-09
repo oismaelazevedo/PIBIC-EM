@@ -9,18 +9,11 @@ for k in range(200):
     numBase = rnd.randint(2,1000)
     numExpoente = rnd.randint(2,5)
 
-    qntMultiplos = 0
-
-    while qntMultiplos > 1:
-        for num in range(numBase):
-            if numBase % num == 0:
-                qntMultiplos += 1
-        if qntMultiplos > 1:
-            numBase = rnd.randint(2,1000)
-            qntMultiplos = 0
-
     # Mostra que tipo de raíz (sqrt ou cbrt) o número base será sujeitado
     tipoRadiciacaoNumBase = rnd.randint(2,3)
+
+    while numBase % tipoRadiciacaoNumBase == 0:
+        numBase = rnd.randint(2,1000)
 
     x = Symbol('x')
 
