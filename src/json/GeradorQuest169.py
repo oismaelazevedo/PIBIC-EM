@@ -213,6 +213,8 @@ for k in range(200):
         ]
     }
 
+    print('A soma dos logaritmos de dois números na base {} é 1/{}. Determine o produto desses números.'.format(numBase,tipoDenominadorFracao))
+
     # Cria o arquivo JSON
     print("\nquestao {}\n".format(k+1),json.dumps(dados))
     json.dump(dados, questoes, indent=4)

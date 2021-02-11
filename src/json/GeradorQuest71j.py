@@ -157,7 +157,7 @@ for k in range(50):
         ]
     }
 
-    print('Resolva a seguinte equação exponencial:\n{} = 1/A{}'.format(pretty(expressRaizNumBase),pretty(expressRaizNumInvertido)))
+    print('Resolva a seguinte equação exponencial:\n{} = 1/{}'.format(pretty(expressRaizNumBase),pretty(expressRaizNumInvertido)))
 
     # Cria o arquivo JSON
     print("\nquestao {}\n".format(k+1),json.dumps(dados))
