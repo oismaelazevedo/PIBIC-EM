@@ -2,6 +2,14 @@ import random as rnd
 import math
 import json
 
+def elementosListaEhDistinta(lista):
+    for indiceLista in range(len(lista)):
+        for indiceListaComparacao in range(len(lista)):
+            if indiceLista == 4:
+                return True
+            elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
+                return False
+
 
 for k in range(200):
 
@@ -18,7 +26,7 @@ for k in range(200):
         listNumLogaritmando = [numBase ** rnd.randint(2,10), numBase ** rnd.randint(2,10)]
 
     # O decimais do resultado são reduzidos para 2 casas.
-    resultado = round(math.log(listNumLogaritmando[0], numBase)/math.log(listNumLogaritmando[1], numBase), 2)
+    resposta = round(math.log(listNumLogaritmando[0], numBase)/math.log(listNumLogaritmando[1], numBase), 2)
 
 
     listLetra = ["A","B","C","D","E"]
@@ -40,35 +48,36 @@ for k in range(200):
     howGenerated = ['','','','','']
 
     # Insere a resposta certa na letra escolhida para ser certa, uma letra recebe a questão invertida e o resto recebe números aleatórios
-    for numLetra in range(0, 5):
-        if questaoCerta == listLetra[numLetra]:
-            listAlternativas[numLetra] += resultado
-            isCorrect[numLetra] = "Sim"
-            howGenerated[numLetra] = "nenhum"
-        elif questaoInvertida == listLetra[numLetra]:
-            ehNegativoPositivo = rnd.randint(0,1)
+    while(elementosListaEhDistinta(listAlternativas) == False):
+        for numLetra in range(0, 5):
+            if questaoCerta == listLetra[numLetra]:
+                listAlternativas[numLetra] = resposta
+                isCorrect[numLetra] = "Sim"
+                howGenerated[numLetra] = "nenhum"
+            elif questaoInvertida == listLetra[numLetra]:
+                ehNegativoPositivo = rnd.randint(0,1)
 
-            if ehNegativoPositivo == 0:
+                if ehNegativoPositivo == 0:
 
-                listAlternativas[numLetra] += round(math.log(listNumLogaritmando[1], numBase)/math.log(listNumLogaritmando[0], numBase), 2)
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "invertida e positiva"
+                    listAlternativas[numLetra] = round(math.log(listNumLogaritmando[1], numBase)/math.log(listNumLogaritmando[0], numBase), 2)
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e positiva"
+                else:
+
+                    listAlternativas[numLetra] = round(-math.log(listNumLogaritmando[1], numBase)/math.log(listNumLogaritmando[0], numBase), 2)
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e negativa"
             else:
+                ehNegativoPositivo = rnd.randint(0,1)
 
-                listAlternativas[numLetra] += round(-math.log(listNumLogaritmando[1], numBase)/math.log(listNumLogaritmando[0], numBase), 2)
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "invertida e negativa"
-        else:
-            ehNegativoPositivo = rnd.randint(0,1)
-
-            if ehNegativoPositivo == 0:
-                listAlternativas[numLetra] += round(math.log(rnd.randint(2,10), rnd.randint(2,9))/math.log(rnd.randint(2,10), rnd.randint(2,9)), 2)
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "gerada aleatoriamente e positiva"
-            else:
-                listAlternativas[numLetra] += round(-math.log(rnd.randint(2,10), rnd.randint(2,9))/math.log(rnd.randint(2,10), rnd.randint(2,9)), 2)
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "gerada aleatoriamente e negativa"
+                if ehNegativoPositivo == 0:
+                    listAlternativas[numLetra] = round(math.log(rnd.randint(2,10), rnd.randint(2,9))/math.log(rnd.randint(2,10), rnd.randint(2,9)), 2)
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "gerada aleatoriamente e positiva"
+                else:
+                    listAlternativas[numLetra] = round(-math.log(rnd.randint(2,10), rnd.randint(2,9))/math.log(rnd.randint(2,10), rnd.randint(2,9)), 2)
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "gerada aleatoriamente e negativa"
 
     # Cria a variável que será convertida em um arquivo json
     dados = {

@@ -2,6 +2,14 @@ import random as rnd
 from sympy import pretty, sqrt, cbrt
 import json
 
+def elementosListaEhDistinta(lista):
+    for indiceLista in range(len(lista)):
+        for indiceListaComparacao in range(len(lista)):
+            if indiceLista == 4:
+                return True
+            elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
+                return False
+
 for k in range(200):
 
     questoes = open('questao{}-169.json'.format(k+1), 'w')
@@ -21,8 +29,8 @@ for k in range(200):
                 numBase = rnd.randint(2,1000)
                 qntMultiplos = 0
 
-        resultado = sqrt(numBase)
-        resultado = pretty(resultado)   
+        resposta = sqrt(numBase)
+        resposta = pretty(resposta)   
     else:
         # Verifica se o número é primo e, se for, gera um novo.
         qntMultiplos = 0
@@ -35,8 +43,8 @@ for k in range(200):
                 numBase = rnd.randint(2,1000)
                 qntMultiplos = 0
 
-        resultado = cbrt(numBase)
-        resultado = pretty(resultado)
+        resposta = cbrt(numBase)
+        resposta = pretty(resposta)
 
     listLetra = ["A","B","C","D","E"]
     questaoCerta = rnd.choice(listLetra)
@@ -51,122 +59,131 @@ for k in range(200):
     listAlternativas = [0,0,0,0,0]
 
     # Insere a resposta certa na letra escolhida para ser certa, uma letra recebe a questão invertida e o resto recebe números aleatórios
-    for numLetra in range(0, 5):
-        if questaoCerta == listLetra[numLetra]:
-            listAlternativas[numLetra] = resultado
-            isCorrect[numLetra] = "Sim"
-            howGenerated[numLetra] = "nenhum"
-        elif questaoInvertida == listLetra[numLetra]:
-            if tipoDenominadorFracao == 2:
-                numRandomTemporario = rnd.randint(0,1)
+    while(elementosListaEhDistinta(listAlternativas) == False):
+        for numLetra in range(0, 5):
+            if questaoCerta == listLetra[numLetra]:
+                listAlternativas[numLetra] = resposta
+                isCorrect[numLetra] = "Sim"
+                howGenerated[numLetra] = "nenhum"
+            elif questaoInvertida == listLetra[numLetra]:
+                if tipoDenominadorFracao == 2:
+                    numRandomTemporario = rnd.randint(0,1)
 
-                if numRandomTemporario == 0:
-                    listAlternativas[numLetra] = cbrt(numBase)
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "invertida e positiva"
+                    if numRandomTemporario == 0:
+                        listAlternativas[numLetra] = cbrt(numBase)
+                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+                        isCorrect[numLetra] = "Nao"
+                        howGenerated[numLetra] = "invertida e positiva"
+                    else:
+                        listAlternativas[numLetra] = -cbrt(numBase)
+                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+                        isCorrect[numLetra] = "Nao"
+                        howGenerated[numLetra] = "invertida e negativa"
                 else:
-                    listAlternativas[numLetra] = -cbrt(numBase)
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "invertida e negativa"
+                    numRandomTemporario = rnd.randint(0,1)
+
+                    if numRandomTemporario == 0:
+                        listAlternativas[numLetra] = sqrt(numBase)
+                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+                        isCorrect[numLetra] = "Nao"
+                        howGenerated[numLetra] = "invertida e positiva"
+                    else:
+                        listAlternativas[numLetra] = -sqrt(numBase)
+                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+                        isCorrect[numLetra] = "Nao"
+                        howGenerated[numLetra] = "invertida e negativa"
             else:
-                numRandomTemporario = rnd.randint(0,1)
+                numRandomTemporario = rnd.randint(2,3)
 
-                if numRandomTemporario == 0:
-                    listAlternativas[numLetra] = sqrt(numBase)
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "invertida e positiva"
+                if numRandomTemporario == 2:
+                    numRandomTemporario = rnd.randint(0,1)
+
+                    if numRandomTemporario == 0:
+
+                        numRandomTemporario = rnd.randint(2,numBase)
+
+                        # Verifica se o número é primo e, se for, gera um novo.
+                        qntMultiplos = 0
+                        while(qntMultiplos < 2):
+                            for count in range(2, numRandomTemporario):
+                                if (numRandomTemporario % count == 0):
+                                    qntMultiplos += 1
+                            if(qntMultiplos < 2):
+                                numRandomTemporario = rnd.randint(2,numBase)
+                                qntMultiplos = 0
+
+                        listAlternativas[numLetra] = sqrt(numRandomTemporario)
+                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+
+                        isCorrect[numLetra] = "Nao"
+                        howGenerated[numLetra] = "gerada aleatoriamente e positiva"
+                    else:
+                        numRandomTemporario = rnd.randint(2,numBase)
+
+                        # Verifica se o número é primo e, se for, gera um novo.
+                        qntMultiplos = 0
+                        while(qntMultiplos < 2):
+                            for count in range(2, numRandomTemporario):
+                                if (numRandomTemporario % count == 0):
+                                    qntMultiplos += 1
+                            if(qntMultiplos < 2):
+                                numRandomTemporario = rnd.randint(2,numBase)
+                                qntMultiplos = 0
+
+                        listAlternativas[numLetra] = -sqrt(numRandomTemporario)
+                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+
+                        isCorrect[numLetra] = "Nao"
+                        howGenerated[numLetra] = "gerada aleatoriamente e negativa"
                 else:
-                    listAlternativas[numLetra] = -sqrt(numBase)
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "invertida e negativa"
-        else:
-            numRandomTemporario = rnd.randint(2,3)
+                    numRandomTemporario = rnd.randint(0,1)
 
-            if numRandomTemporario == 2:
-                numRandomTemporario = rnd.randint(0,1)
+                    if numRandomTemporario == 0:
+                        numRandomTemporario = rnd.randint(2,numBase)
 
-                if numRandomTemporario == 0:
+                        # Verifica se o número é primo e, se for, gera um novo.
+                        qntMultiplos = 0
+                        while(qntMultiplos < 3):
+                            for count in range(2, numRandomTemporario):
+                                if (numRandomTemporario % count == 0):
+                                    qntMultiplos += 1
+                            if(qntMultiplos < 3):
+                                numRandomTemporario = rnd.randint(2,numBase)
+                                qntMultiplos = 0
 
-                    numRandomTemporario = rnd.randint(2,numBase)
+                        listAlternativas[numLetra] = cbrt(numRandomTemporario)
+                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+                        isCorrect[numLetra] = "Nao"
+                        howGenerated[numLetra] = "gerada aleatoriamente e positiva"
+                    else:
+                        numRandomTemporario = rnd.randint(2,numBase)
 
-                    # Verifica se o número é primo e, se for, gera um novo.
-                    qntMultiplos = 0
-                    while(qntMultiplos < 2):
-                        for count in range(2, numRandomTemporario):
-                            if (numRandomTemporario % count == 0):
-                                qntMultiplos += 1
-                        if(qntMultiplos < 2):
-                            numRandomTemporario = rnd.randint(2,numBase)
-                            qntMultiplos = 0
+                        # Verifica se o número é primo e, se for, gera um novo.
+                        qntMultiplos = 0
+                        while(qntMultiplos < 3):
+                            for count in range(2, numRandomTemporario):
+                                if (numRandomTemporario % count == 0):
+                                    qntMultiplos += 1
+                            if(qntMultiplos < 3):
+                                numRandomTemporario = rnd.randint(2,numBase)
+                                qntMultiplos = 0
 
-                    listAlternativas[numLetra] = sqrt(numRandomTemporario)
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "gerada aleatoriamente e positiva"
-                else:
-                    numRandomTemporario = rnd.randint(2,numBase)
-
-                    # Verifica se o número é primo e, se for, gera um novo.
-                    qntMultiplos = 0
-                    while(qntMultiplos < 2):
-                        for count in range(2, numRandomTemporario):
-                            if (numRandomTemporario % count == 0):
-                                qntMultiplos += 1
-                        if(qntMultiplos < 2):
-                            numRandomTemporario = rnd.randint(2,numBase)
-                            qntMultiplos = 0
-
-                    listAlternativas[numLetra] = -sqrt(numRandomTemporario)
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "gerada aleatoriamente e negativa"
-            else:
-                numRandomTemporario = rnd.randint(0,1)
-
-                if numRandomTemporario == 0:
-                    numRandomTemporario = rnd.randint(2,numBase)
-
-                    # Verifica se o número é primo e, se for, gera um novo.
-                    qntMultiplos = 0
-                    while(qntMultiplos < 3):
-                        for count in range(2, numRandomTemporario):
-                            if (numRandomTemporario % count == 0):
-                                qntMultiplos += 1
-                        if(qntMultiplos < 3):
-                            numRandomTemporario = rnd.randint(2,numBase)
-                            qntMultiplos = 0
-
-                    listAlternativas[numLetra] = cbrt(numRandomTemporario)
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "gerada aleatoriamente e positiva"
-                else:
-                    numRandomTemporario = rnd.randint(2,numBase)
-
-                    # Verifica se o número é primo e, se for, gera um novo.
-                    qntMultiplos = 0
-                    while(qntMultiplos < 3):
-                        for count in range(2, numRandomTemporario):
-                            if (numRandomTemporario % count == 0):
-                                qntMultiplos += 1
-                        if(qntMultiplos < 3):
-                            numRandomTemporario = rnd.randint(2,numBase)
-                            qntMultiplos = 0
-
-                    listAlternativas[numLetra] = -cbrt(numRandomTemporario)
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "gerada aleatoriamente e negativa"
+                        listAlternativas[numLetra] = -cbrt(numRandomTemporario)
+                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+                        isCorrect[numLetra] = "Nao"
+                        howGenerated[numLetra] = "gerada aleatoriamente e negativa"
 
 
     # Cria a variável que será convertida em um arquivo json
     dados = {
+        'logaritmo': [
+            {
+                'numBase': numBase,
+                'tipoDenominadorFracao': tipoDenominadorFracao,
+                'resposta': resposta
+            }
+        ],
+
         'respostas' : [
             {
                 'letra' : 'a)',

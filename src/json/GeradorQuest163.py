@@ -3,6 +3,14 @@ import json
 from sympy import pretty, Symbol
 import math
 
+def elementosListaEhDistinta(lista):
+    for indiceLista in range(len(lista)):
+        for indiceListaComparacao in range(len(lista)):
+            if indiceLista == 4:
+                return True
+            elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
+                return False
+
 for k in range(200):
 
     questoes = open('questao{}-163.json'.format(k+1), 'w')
@@ -29,35 +37,36 @@ for k in range(200):
     howGenerated = ['','','','','']
 
     # Insere a resposta certa na letra escolhida para ser certa, uma letra recebe a questão invertida e o resto recebe números aleatórios
-    for numLetra in range(0, 5):
-        if questaoCerta == listLetra[numLetra]:
-            listAlternativas[numLetra] = resposta
-            isCorrect[numLetra] = "Sim"
-            howGenerated[numLetra] = "nenhum"
-        elif questaoInvertida == listLetra[numLetra]:
-            ehNegativoPositivo = rnd.randint(0,1)
+    while(elementosListaEhDistinta(listAlternativas) == False):
+        for numLetra in range(0, 5):
+            if questaoCerta == listLetra[numLetra]:
+                listAlternativas[numLetra] = resposta
+                isCorrect[numLetra] = "Sim"
+                howGenerated[numLetra] = "nenhum"
+            elif questaoInvertida == listLetra[numLetra]:
+                ehNegativoPositivo = rnd.randint(0,1)
 
-            if ehNegativoPositivo == 0:
+                if ehNegativoPositivo == 0:
 
-                listAlternativas[numLetra] = round((expoenteConcentracao ** 3)/2, 2)
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "invertida e positiva"
+                    listAlternativas[numLetra] = round((expoenteConcentracao ** 3)/2, 2)
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e positiva"
+                else:
+                    
+                    listAlternativas[numLetra] = round(-(expoenteConcentracao ** 3)/2, 2)
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e negativa"
             else:
-                
-                listAlternativas[numLetra] = round(-(expoenteConcentracao ** 3)/2, 2)
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "invertida e negativa"
-        else:
-            ehNegativoPositivo = rnd.randint(0,1)
+                ehNegativoPositivo = rnd.randint(0,1)
 
-            if (ehNegativoPositivo == 0): 
-                listAlternativas[numLetra] = round((rnd.randint(1,expoenteConcentracao) ** 2)/3, 2) 
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "gerada aleatoriamente e positiva"
-            else: 
-                listAlternativas[numLetra] = round(-(rnd.randint(1,expoenteConcentracao) ** 2)/3, 2)
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "gerada aleatoriamente e negativa"
+                if (ehNegativoPositivo == 0): 
+                    listAlternativas[numLetra] = round((rnd.randint(1,expoenteConcentracao) ** 2)/3, 2) 
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "gerada aleatoriamente e positiva"
+                else: 
+                    listAlternativas[numLetra] = round(-(rnd.randint(1,expoenteConcentracao) ** 2)/3, 2)
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "gerada aleatoriamente e negativa"
 
 
     # Cria a variável que será convertida em um arquivo json

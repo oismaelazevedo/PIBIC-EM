@@ -2,6 +2,14 @@ import random as rnd
 import json
 from sympy import pretty, symbols
 
+def elementosListaEhDistinta(lista):
+    for indiceLista in range(len(lista)):
+        for indiceListaComparacao in range(len(lista)):
+            if indiceLista == 4:
+                return True
+            elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
+                return False
+
 for k in range(200):
 
     questoes = open('questao{}-227.json'.format(k+1),'w')
@@ -14,7 +22,7 @@ for k in range(200):
     while numBase == numExpoente:
         numExpoente = rnd.randint(2,10000)
 
-    resultado = round(numMultiplicadorNumBase/numExpoente, 6)
+    resposta = round(numMultiplicadorNumBase/numExpoente, 6)
 
     e,t = symbols("e t")
 
@@ -30,47 +38,48 @@ for k in range(200):
     howGenerated = ['','','','','']
 
     # Insere a resposta certa na letra escolhida para ser certa, uma letra recebe a questão invertida e o resto recebe números aleatórios
-    for numLetra in range(0,5):
-        if questaoCerta == listLetra[numLetra]:
+    while(elementosListaEhDistinta(listAlternativas) == False):
+        for numLetra in range(0,5):
+            if questaoCerta == listLetra[numLetra]:
 
-            listAlternativas[numLetra] = resultado
-            isCorrect[numLetra] = "Sim"
-            howGenerated[numLetra] = "nenhum"
-        elif questaoInvertida == listLetra[numLetra]:
-            numRandomTemporario = rnd.randint(0,1)
+                listAlternativas[numLetra] = resposta
+                isCorrect[numLetra] = "Sim"
+                howGenerated[numLetra] = "nenhum"
+            elif questaoInvertida == listLetra[numLetra]:
+                numRandomTemporario = rnd.randint(0,1)
 
-            if numRandomTemporario == 0:
-                listAlternativas[numLetra] = round(numMultiplicadorNumBase/numBase, 6)
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "invertida e positiva"
+                if numRandomTemporario == 0:
+                    listAlternativas[numLetra] = round(numMultiplicadorNumBase/numBase, 6)
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e positiva"
+                else:
+                    listAlternativas[numLetra] = round(-numMultiplicadorNumBase/numBase, 6)
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e negativa"
             else:
-                listAlternativas[numLetra] = round(-numMultiplicadorNumBase/numBase, 6)
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "invertida e negativa"
-        else:
-            numRandomTemporario = rnd.randint(0,1)
+                numRandomTemporario = rnd.randint(0,1)
 
-            if numRandomTemporario == 0:
-                numRandomTemporario = rnd.randint(2, numExpoente)
+                if numRandomTemporario == 0:
+                    numRandomTemporario = rnd.randint(2, numExpoente)
 
-                listAlternativas[numLetra] = round(numMultiplicadorNumBase/numRandomTemporario, 6)
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "gerada aleatoriamente e positiva"
-            else:
-                numRandomTemporario = rnd.randint(2, numExpoente)
+                    listAlternativas[numLetra] = round(numMultiplicadorNumBase/numRandomTemporario, 6)
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "gerada aleatoriamente e positiva"
+                else:
+                    numRandomTemporario = rnd.randint(2, numExpoente)
 
-                listAlternativas[numLetra] = round(-numMultiplicadorNumBase/numRandomTemporario, 6)
-                isCorrect[numLetra] = "Nao"
-                howGenerated[numLetra] = "gerada aleatoriamente e negativa"
+                    listAlternativas[numLetra] = round(-numMultiplicadorNumBase/numRandomTemporario, 6)
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "gerada aleatoriamente e negativa"
     
     # Cria a variável que será convertida em um arquivo json
     dados = {
-        'expoente' : [
+        'equacaoExponencial' : [
             {
                 'base' : numBase, 
                 'numMultiplicadorNumBase': numMultiplicadorNumBase,
                 'expoente': numExpoente,
-                'resultado' : resultado
+                'resposta' : resposta
             }
         ],
         'respostas': [

@@ -1,5 +1,4 @@
 import random as rnd
-from sympy import pretty, Symbol
 import json
 
 def elementosListaEhDistinta(lista):
@@ -10,18 +9,14 @@ def elementosListaEhDistinta(lista):
             elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
                 return False
 
-for k in range(50):
+for k in range(100):
 
-    questoes = open("questoes{}-79a.json".format(k+1),'w')
+    questoes = open("questoes{}-135d.json".format(k+1),'w')
 
-    numBase = rnd.randint(2,20)
-    numExpoenteNumBase = rnd.randint(1,10)
-    numMultiplicadorIncognitaAlternativa = 1 - numBase - (numBase ** 2) + (numBase ** 3)
-
-    resposta = numExpoenteNumBase + 1
-
-    x = Symbol('x')
-    express = numBase ** (x-1) - numBase ** x - numBase ** (x+1) + numBase ** (x+2)
+    numBaseLogaritmo = rnd.randint(2,10)
+    numExpoenteBase = rnd.randint(-10,-1)
+    numExpoenteLogaritmando = rnd.randint(2,10)
+    resposta = round(numExpoenteLogaritmando/numExpoenteBase, 2)
 
     listLetra = ["A","B","C","D","E"]
 
@@ -47,35 +42,36 @@ for k in range(50):
                 numRandomTemporario = rnd.randint(0,1)
 
                 if numRandomTemporario == 0:
-                    listAlternativas[numLetra] = numExpoenteNumBase - 1
+
+                    listAlternativas[numLetra] = -round(numExpoenteBase/numExpoenteLogaritmando,2)
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e positiva"
                 else:
-                    listAlternativas[numLetra] = -numExpoenteNumBase + 1
+                    listAlternativas[numLetra] = round(numExpoenteBase/numExpoenteLogaritmando,2)
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e negativa"
             else:
                 numRandomTemporario = rnd.randint(0,1)
 
                 if numRandomTemporario == 0:
-                    listAlternativas[numLetra] = rnd.randint(2,20) + 1
+
+                    listAlternativas[numLetra] = round(rnd.randint(1,20)/rnd.randint(1,20),2)
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 else:
-                    listAlternativas[numLetra] = -rnd.randint(2,20) + 1
+
+                    listAlternativas[numLetra] = -round(rnd.randint(1,20)/rnd.randint(1,20),2)
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e negativa"
-    
+
     # Cria a variável que será convertida em um arquivo json
     dados = {
-        'equacaoExponencial' : [
+        'logaritmo' : [
             {
-                'numBase': numBase,
-                'numExpoenteNumBase': numExpoenteNumBase,
-                'numMultiplicadorIncognitaAlternativa': numMultiplicadorIncognitaAlternativa,
-                'express': pretty(express),
+                'numBaseLogaritmo': numBaseLogaritmo,
+                'numExpoenteBase': numExpoenteBase,
+                'numExpoenteLogaritmando': numExpoenteLogaritmando,
                 'resposta': resposta
-
             }
         ],
         'respostas': [
@@ -110,7 +106,7 @@ for k in range(50):
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Resolva a seguinte equação exponencial:\n{} = {}'.format(pretty(express), numMultiplicadorIncognitaAlternativa * (numBase ** numExpoenteNumBase)),
+                'enunciado': 'Calcule pela definição os seguintes logaritmos:\nlog 1/{} ({})'.format(numBaseLogaritmo ** -numExpoenteBase, numBaseLogaritmo ** numExpoenteLogaritmando),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
@@ -122,12 +118,11 @@ for k in range(50):
         ]
     }
 
-    print('Resolva a seguinte equação exponencial:\n{} = {}'.format(pretty(express), numMultiplicadorIncognitaAlternativa * (numBase ** numExpoenteNumBase)))
+    print('Calcule pela definição os seguintes logaritmos:\nlog 1/{} ({})'.format(numBaseLogaritmo ** -numExpoenteBase, numBaseLogaritmo ** numExpoenteLogaritmando))
 
     # Cria o arquivo JSON
     print("\nquestao {}\n".format(k+1),json.dumps(dados))
     json.dump(dados, questoes, indent=4)
 
-questoes.close()
-                
 
+questoes.close()
