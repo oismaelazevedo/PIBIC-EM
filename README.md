@@ -50,6 +50,10 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 | Número da questão | Enunciado original | Enunciado adaptado | Fonte |
 | :----------: | :----------: | :----------: | :----------: |
 | 14 | (Fuvest) O número x > 1 tal que log<sub>x</sub> 2 = log<sub>4</sub> x é | (Fuvest-modificada) O número x > 1 tal que log<sub>x</sub> <número_aleatório> = log<sub><número_aleatório></sub> x é: | Vestibular Fuvest |
+| 71 - a | 2<sup>x</sup> = 128 | Resolva a seguinte equação exponencial: <número_aleatório><sup><número_aleatório></sup> = <número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 71 - c | 2<sup>x</sup> = 1/16 | Resolva a seguinte equação exponencial: <número_aleatório><sup><número_aleatório></sup> = 1/<número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 71 - d | (1/5)<sup>x</sup> = 125 | Resolva a seguinte equação exponencial: (1/<número_aleatório>)<sup>x</sup> = <número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 71 - e | (√2)<sup>x<sup> = 8 | Resolva a seguinte equação exponencial: (√<número_aleatório>)<sup>x</sup> = <número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
 | 79 - a | Resolva as seguintes equações exponenciais: a) 3<sup>x - 1</sup> - 3<sup>x</sup> + 3<sup>x + 1</sup> + 3<sup>x + 2</sup> = 306 | Resolva a seguinte equação exponencial: <express_aleatoria> = <número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
 | 79 - e | Resolva as seguintes equações exponenciais: e) 3 x 2<sup>x</sup> - 5 x 2<sup>x + 1</sup> + 5 x 2<sup>x + 3</sup> - 2<sup>x + 5</sup> = 2 | Resolva a seguinte equação exponencial: <express_aleatoria> = <número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
 | 79 - f | Resolva as seguintes equações exponenciais: f) 2 x 4<sup>x + 2<sup> - 5 x 4<sup>x + 1</sup> - 3 x 2<sup>2x + 1</sup> - 4<sup>x</sup> = 20 | Resolva a seguinte equação exponencial: <express_aleatoria> = <número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
