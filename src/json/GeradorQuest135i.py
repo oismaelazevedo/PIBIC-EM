@@ -12,7 +12,7 @@ def elementosListaEhDistinta(lista):
 
 for k in range(100):
 
-    questoes = open("questoes{}-135b.json".format(k+1),'w')
+    questoes = open("questoes{}-135i.json".format(k+1),'w')
 
     numBaseLogaritmo = rnd.randint(2,10)
     numExpoenteBase = rnd.randint(2,10)

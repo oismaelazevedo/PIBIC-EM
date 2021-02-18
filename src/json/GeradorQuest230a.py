@@ -1,5 +1,5 @@
 import random as rnd
-from sympy import pretty, sqrt, cbrt, Symbol
+from sympy import simplify, Rational, Symbol, pretty
 import json
 
 def elementosListaEhDistinta(lista):
@@ -10,36 +10,21 @@ def elementosListaEhDistinta(lista):
             elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
                 return False
 
-for k in range(50):
+for k in range(100):
 
-    questoes = open("questoes{}-71j.json".format(k+1), 'w')
+    questoes = open("questoes{}-230a.json".format(k+1),'w')
 
-    numBase = rnd.randint(2,10)
-    numExpoenteNumBase = rnd.randint(2,10)
-    numExpoenteNumInvertido = rnd.randint(2,10)
+    numBaseEsqrdEq = rnd.randint(2,1000)
+    numBaseDireitaEq = rnd.randint(2,500)
+    numExpoenteNumBaseDireitaEq = rnd.randint(2,3)
 
+    while numBaseEsqrdEq % numBaseDireitaEq == 0 or numBaseDireitaEq % numBaseEsqrdEq == 0:
+        numBaseEsqrdEq = rnd.randint(2,1000)
+        numBaseDireitaEq = rnd.randint(2,500)
 
-    # Mostra que tipo de raíz (sqrt ou cbrt) o número base será sujeitado
-    tipoRadiciacaoNumBase = rnd.randint(2,3)
-    tipoRadiciacaoNumBaseComExpoente = 2
-
-    while numExpoenteNumInvertido % tipoRadiciacaoNumBaseComExpoente == 0:
-        numExpoenteNumInvertido = rnd.randint(2,10)
-    while numExpoenteNumBase % tipoRadiciacaoNumBase == 0:
-        numExpoenteNumBase = rnd.randint(2,10)
+    resposta = "log{} ({})".format(simplify(Rational(numBaseEsqrdEq,numBaseDireitaEq)), numBaseDireitaEq ** numExpoenteNumBaseDireitaEq)
 
     x = Symbol('x')
-
-    if tipoRadiciacaoNumBase == 2:
-        
-        resposta = round((-numExpoenteNumInvertido/2)/(numExpoenteNumBase/2), 2)
-        expressRaizNumBase = sqrt(numBase**numExpoenteNumBase) ** x
-        expressRaizNumInvertido = sqrt(numBase ** numExpoenteNumInvertido)
-    else:
-        
-        resposta = round((-numExpoenteNumInvertido/2)/(numExpoenteNumBase/3), 2)
-        expressRaizNumBase = cbrt(numBase**numExpoenteNumBase) ** x
-        expressRaizNumInvertido = sqrt(numBase ** numExpoenteNumInvertido)
 
     listLetra = ["A","B","C","D","E"]
 
@@ -61,54 +46,51 @@ for k in range(50):
                 isCorrect[numLetra] = "Sim"
                 howGenerated[numLetra] = "nenhum"
             elif questaoInvertida == listLetra[numLetra]:
-
+                
                 numRandomTemporario = rnd.randint(0,1)
 
                 if numRandomTemporario == 0:
-                    if tipoRadiciacaoNumBase == 2:
-                        listAlternativas[numLetra] = round((-numExpoenteNumInvertido/2)/(numExpoenteNumBase/3), 2)
+                    if numExpoenteNumBaseDireitaEq == 2:
+                        listAlternativas[numLetra] = "log{} ({})".format(simplify(Rational(numBaseDireitaEq, numBaseEsqrdEq)), numBaseDireitaEq ** 3)
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "invertida e positiva"
                     else:
-                        listAlternativas[numLetra] = round((-numExpoenteNumInvertido/2)/(numExpoenteNumBase/2), 2)
+                        listAlternativas[numLetra] = "log{} ({})".format(simplify(Rational(numBaseDireitaEq, numBaseEsqrdEq)), numBaseDireitaEq ** 2)
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "invertida e positiva"
                 else:
-                    if tipoRadiciacaoNumBase == 2:
-                        
-                        listAlternativas[numLetra] = round(-((-numExpoenteNumInvertido/2)/(numExpoenteNumBase/3)), 2)
+                    if numExpoenteNumBaseDireitaEq == 2:
+                        listAlternativas[numLetra] = "-log{} ({})".format(simplify(Rational(numBaseDireitaEq, numBaseEsqrdEq)), numBaseDireitaEq ** 3)
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "invertida e negativa"
                     else:
-                        
-                        listAlternativas[numLetra] = round(-((-numExpoenteNumInvertido/2)/(numExpoenteNumBase/2)), 2)
+                        listAlternativas[numLetra] = "-log{} ({})".format(simplify(Rational(numBaseDireitaEq, numBaseEsqrdEq)), numBaseDireitaEq ** 2)
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "invertida e negativa"
             else:
                 numRandomTemporario = rnd.randint(0,1)
-                tipoRadiciacaoNumBaseTemporario = rnd.randint(2,3)
 
                 if numRandomTemporario == 0:
-                    if tipoRadiciacaoNumBaseTemporario == 2:
-                        
-                        listAlternativas[numLetra] = round((-rnd.randint(2,10)/2)/(rnd.randint(2,10)/2),2)
+                    numRandomTemporario = rnd.randint(2,3)
+
+                    if numRandomTemporario == 2:
+                        listAlternativas[numLetra] = "log{} ({})".format(simplify(Rational(rnd.randint(2,1000), rnd.randint(2,500))), rnd.randint(2,500) ** 2)
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                     else:
-                        
-                        listAlternativas[numLetra] = round((-rnd.randint(2,10)/2)/(rnd.randint(2,10)/3),2)
+                        listAlternativas[numLetra] = "log{} ({})".format(simplify(Rational(rnd.randint(2,1000), rnd.randint(2,500))), rnd.randint(2,500) ** 3)
                         isCorrect[numLetra] = "Nao"
-                        howGenerated[numLetra] = "gerada aleatoriamente e positiva"  
+                        howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 else:
-                    if tipoRadiciacaoNumBaseTemporario == 2:
-                        
-                        listAlternativas[numLetra] = round(-((-rnd.randint(2,10)/2))/(rnd.randint(2,10)/2),2)
+
+                    numRandomTemporario = rnd.randint(2,3)
+
+                    if numRandomTemporario == 2:
+                        listAlternativas[numLetra] = "-log{} ({})".format(simplify(Rational(rnd.randint(2,1000), rnd.randint(2,500))), rnd.randint(2,500) ** 2)
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "gerada aleatoriamente e negativa"
-                        
                     else:
-                        
-                        listAlternativas[numLetra] = round(-((-rnd.randint(2,10)/2))/(rnd.randint(2,10)/3),2)
+                        listAlternativas[numLetra] = "-log{} ({})".format(simplify(Rational(rnd.randint(2,1000), rnd.randint(2,500))), rnd.randint(2,500) ** 3)
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "gerada aleatoriamente e negativa"
 
@@ -116,9 +98,9 @@ for k in range(50):
     dados = {
         'equacaoExponencial' : [
             {
-                'numBase' : numBase,
-                'numExpoenteNumBase': numExpoenteNumBase,
-                'numExpoenteNumInvertido': numExpoenteNumInvertido,
+                'numBaseEsqrdEq': numBaseEsqrdEq,
+                'numBaseDireitaEq': numBaseDireitaEq,
+                'numExpoenteNumBaseDireitaEq': numExpoenteNumBaseDireitaEq,
                 'resposta': resposta
             }
         ],
@@ -154,7 +136,7 @@ for k in range(50):
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Resolva a seguinte equação exponencial:\n{} = 1/{}'.format(pretty(expressRaizNumBase),pretty(expressRaizNumInvertido)),
+                'enunciado': 'Resolva a equação. Admita que "**" = elevado a: a){} = {}'.format(simplify(numBaseEsqrdEq**x),simplify(numBaseDireitaEq**(x+numExpoenteNumBaseDireitaEq))),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
@@ -166,10 +148,12 @@ for k in range(50):
         ]
     }
 
-    print('Resolva a seguinte equação exponencial:\n{} = 1/{}'.format(pretty(expressRaizNumBase),pretty(expressRaizNumInvertido)))
+    print('Resolva a equação. Admita que "**" = elevado a: a){} = {}'.format(simplify(numBaseEsqrdEq**x),simplify(numBaseDireitaEq**(x+numExpoenteNumBaseDireitaEq))))
 
     # Cria o arquivo JSON
     print("\nquestao {}\n".format(k+1),json.dumps(dados))
     json.dump(dados, questoes, indent=4)
 
+
 questoes.close()
+                   
