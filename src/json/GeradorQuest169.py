@@ -60,12 +60,14 @@ for k in range(200):
 
     # Insere a resposta certa na letra escolhida para ser certa, uma letra recebe a questão invertida e o resto recebe números aleatórios
     while(elementosListaEhDistinta(listAlternativas) == False):
+        possuiQuestaoInvertida = rnd.randint(0,1)
+
         for numLetra in range(0, 5):
             if questaoCerta == listLetra[numLetra]:
                 listAlternativas[numLetra] = resposta
                 isCorrect[numLetra] = "Sim"
                 howGenerated[numLetra] = "nenhum"
-            elif questaoInvertida == listLetra[numLetra]:
+            elif questaoInvertida == listLetra[numLetra] and possuiQuestaoInvertida == 1:
                 if tipoDenominadorFracao == 2:
                     numRandomTemporario = rnd.randint(0,1)
 
