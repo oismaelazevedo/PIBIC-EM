@@ -16,7 +16,7 @@ for k in range(100):
 
     numBaseLogaritmo = rnd.randint(2,10)
     numExpoenteBase = rnd.randint(2,10)
-    numExpoenteLogaritmando = rnd.randint(-1,-10)
+    numExpoenteLogaritmando = -rnd.randint(1,10)
     resposta = round(numExpoenteLogaritmando/numExpoenteBase, 2)    
 
     listLetra = ["A","B","C","D","E"]
