@@ -1,5 +1,5 @@
 import random as rnd
-from sympy import simplify, Rational, Symbol, pretty
+from sympy import simplify, Symbol, pretty
 import json
 
 def elementosListaEhDistinta(lista):
@@ -12,7 +12,7 @@ def elementosListaEhDistinta(lista):
 
 for k in range(100):
 
-    questoes = open("questoes{}-230a.json".format(k+1),'w')
+    questoes = open("questoes{}-230c.json".format(k+1),'w')
 
     numBaseEsqrdEq = rnd.randint(2,1000)
     numBaseDireitaEq = rnd.randint(2,500)
@@ -22,7 +22,7 @@ for k in range(100):
         numBaseEsqrdEq = rnd.randint(2,1000)
         numBaseDireitaEq = rnd.randint(2,500)
 
-    resposta = "log{} ({})".format(simplify(Rational(numBaseEsqrdEq,numBaseDireitaEq)), numBaseDireitaEq ** numExpoenteNumBaseDireitaEq)
+    resposta = "log{} ({})".format(numBaseEsqrdEq * (numBaseDireitaEq ** 2), (numBaseDireitaEq ** numExpoenteNumBaseDireitaEq) * numBaseEsqrdEq)
 
     x = Symbol('x')
 
@@ -51,20 +51,20 @@ for k in range(100):
 
                 if numRandomTemporario == 0:
                     if numExpoenteNumBaseDireitaEq == 2:
-                        listAlternativas[numLetra] = "log{} ({})".format(simplify(Rational(numBaseDireitaEq, numBaseEsqrdEq)), numBaseDireitaEq ** 3)
+                        listAlternativas[numLetra] = "log{} ({})".format(numBaseDireitaEq * (numBaseEsqrdEq ** 2), (numBaseEsqrdEq ** 3) * numBaseDireitaEq)
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "invertida e positiva"
                     else:
-                        listAlternativas[numLetra] = "log{} ({})".format(simplify(Rational(numBaseDireitaEq, numBaseEsqrdEq)), numBaseDireitaEq ** 2)
+                        listAlternativas[numLetra] = "log{} ({})".format(numBaseDireitaEq * (numBaseEsqrdEq ** 2), (numBaseEsqrdEq ** 2) * numBaseDireitaEq)
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "invertida e positiva"
                 else:
                     if numExpoenteNumBaseDireitaEq == 2:
-                        listAlternativas[numLetra] = "log{} (-{})".format(simplify(Rational(numBaseDireitaEq, numBaseEsqrdEq)), numBaseDireitaEq ** 3)
+                        listAlternativas[numLetra] = "log{} (-{})".format(numBaseDireitaEq * (numBaseEsqrdEq ** 2), (numBaseEsqrdEq ** 3) * numBaseDireitaEq)
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "invertida e negativa"
                     else:
-                        listAlternativas[numLetra] = "log{} (-{})".format(simplify(Rational(numBaseDireitaEq, numBaseEsqrdEq)), numBaseDireitaEq ** 2)
+                        listAlternativas[numLetra] = "log{} (-{})".format(numBaseDireitaEq * (numBaseEsqrdEq ** 2), (numBaseEsqrdEq ** 2) * numBaseDireitaEq)
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "invertida e negativa"
             else:
@@ -74,11 +74,11 @@ for k in range(100):
                     numRandomTemporario = rnd.randint(2,3)
 
                     if numRandomTemporario == 2:
-                        listAlternativas[numLetra] = "log{} ({})".format(simplify(Rational(rnd.randint(2,1000), rnd.randint(2,500))), rnd.randint(2,500) ** 2)
+                        listAlternativas[numLetra] = "log{} ({})".format(rnd.randint(2,500) * (rnd.randint(2,1000) ** 2), (rnd.randint(2,1000) ** 2) * rnd.randint(2,500)) 
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                     else:
-                        listAlternativas[numLetra] = "log{} ({})".format(simplify(Rational(rnd.randint(2,1000), rnd.randint(2,500))), rnd.randint(2,500) ** 3)
+                        listAlternativas[numLetra] = "log{} ({})".format(rnd.randint(2,500) * (rnd.randint(2,1000) ** 2), (rnd.randint(2,1000) ** 3) * rnd.randint(2,500))
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 else:
@@ -86,11 +86,11 @@ for k in range(100):
                     numRandomTemporario = rnd.randint(2,3)
 
                     if numRandomTemporario == 2:
-                        listAlternativas[numLetra] = "log{} (-{})".format(simplify(Rational(rnd.randint(2,1000), rnd.randint(2,500))), rnd.randint(2,500) ** 2)
+                        listAlternativas[numLetra] = "log{} (-{})".format(rnd.randint(2,500) * (rnd.randint(2,1000) ** 2), (rnd.randint(2,1000) ** 2) * rnd.randint(2,500))
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "gerada aleatoriamente e negativa"
                     else:
-                        listAlternativas[numLetra] = "log{} (-{})".format(simplify(Rational(rnd.randint(2,1000), rnd.randint(2,500))), rnd.randint(2,500) ** 3)
+                        listAlternativas[numLetra] = "log{} (-{})".format(rnd.randint(2,500) * (rnd.randint(2,1000) ** 2), (rnd.randint(2,1000) ** 3) * rnd.randint(2,500))
                         isCorrect[numLetra] = "Nao"
                         howGenerated[numLetra] = "gerada aleatoriamente e negativa"
 
@@ -136,7 +136,7 @@ for k in range(100):
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Resolva a equação. Admita que "**" = elevado a: a){} = {}'.format(simplify(numBaseEsqrdEq**x),simplify(numBaseDireitaEq**(x+numExpoenteNumBaseDireitaEq))),
+                'enunciado': 'Resolva a equação. Admita que "**" = elevado a:\nc){} = {}'.format(simplify(numBaseDireitaEq ** (x-1)),simplify(numBaseEsqrdEq ** (numExpoenteNumBaseDireitaEq - 2*x))),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
@@ -148,7 +148,7 @@ for k in range(100):
         ]
     }
 
-    print('Resolva a equação. Admita que "**" = elevado a: a){} = {}'.format(simplify(numBaseEsqrdEq**x),simplify(numBaseDireitaEq**(x+numExpoenteNumBaseDireitaEq))))
+    print('Resolva a equação. Admita que "**" = elevado a:\nc){} = {}'.format(simplify(numBaseDireitaEq ** (x-1)),simplify(numBaseEsqrdEq ** (numExpoenteNumBaseDireitaEq - 2*x))))
 
     # Cria o arquivo JSON
     print("\nquestao {}\n".format(k+1),json.dumps(dados))
