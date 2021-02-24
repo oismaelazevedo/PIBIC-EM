@@ -10,7 +10,7 @@ def elementosListaEhDistinta(lista):
             elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
                 return False
 
-for k in range(200):
+for k in range(100):
 
     questoes = open("questao{}-14-fuvest.json".format(k+1), 'w')
 
