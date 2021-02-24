@@ -2,6 +2,7 @@ import random as rnd
 from sympy import pretty, sqrt
 import json
 
+
 def elementosListaEhDistinta(lista):
     for indiceLista in range(len(lista)):
         for indiceListaComparacao in range(len(lista)):
@@ -10,7 +11,9 @@ def elementosListaEhDistinta(lista):
             elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
                 return False
 
-for k in range(100):
+enunciado = [None]*200
+k = 0
+while k < 100:
 
     questoes = open("questao{}-14-fuvest.json".format(k+1), 'w')
 
@@ -127,8 +130,18 @@ for k in range(100):
         ]
     }
 
+    # Verifica os enunciados
+    if dados['atributosquestao'][0]['enunciado'] in enunciado:
+        continue
+    else:
+        
+    # Armazena os enunciados
+        enunciado[k] = dados['atributosquestao'][0]['enunciado']
+        
     # Cria o arquivo JSON
-    print("\nquestao {}\n".format(k+1),json.dumps(dados))
-    json.dump(dados, questoes, indent=4)
+        print("\nquestao {}\n".format(k+1),json.dumps(dados))
+        json.dump(dados, questoes, indent=4)
+        
+        k = k + 1
 
 questoes.close()
