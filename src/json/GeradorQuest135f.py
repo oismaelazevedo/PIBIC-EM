@@ -8,8 +8,10 @@ def elementosListaEhDistinta(lista):
                 return True
             elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
                 return False
-
-for k in range(100):
+            
+enunciado = [None]*100
+k = 0
+while k < 100:
 
     questoes = open("questoes{}-135f.json".format(k+1),'w')
 
@@ -120,11 +122,18 @@ for k in range(100):
         ]
     }
 
-    print('Calcule pela definição os seguintes logaritmos:\nlog{} ({})'.format(numBaseLogaritmo ** numExpoenteBase, numBaseLogaritmo ** numExpoenteLogaritmando))
-
+     # Verifica os enunciados
+    if dados['atributosquestao'][0]['enunciado'] in enunciado:
+        continue
+    else:
+        
+    # Armazena os enunciados
+        enunciado[k] = dados['atributosquestao'][0]['enunciado']
+        
     # Cria o arquivo JSON
-    print("\nquestao {}\n".format(k+1),json.dumps(dados))
-    json.dump(dados, questoes, indent=4)
+        print("\nquestao {}\n".format(k+1),json.dumps(dados))
+        json.dump(dados, questoes, indent=4)
+        k = k + 1
 
 
 questoes.close()
