@@ -234,7 +234,6 @@ while k < 200:
         ]
     }
 
-    print('A soma dos logaritmos de dois números na base {} é 1/{}. Determine o produto desses números.'.format(numBase,tipoDenominadorFracao))
 
     # Verifica os enunciados
     if dados['atributosquestao'][0]['enunciado'] in enunciado:
