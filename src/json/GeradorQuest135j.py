@@ -124,7 +124,7 @@ while k < 100:
         ]
     }
 
-         # Verifica os enunciados
+    # Verifica os enunciados
     if dados['atributosquestao'][0]['enunciado'] in enunciado:
         continue
     else:
