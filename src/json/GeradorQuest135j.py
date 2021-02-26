@@ -15,7 +15,7 @@ enunciado = [None]*100
 k = 0
 while k < 100:
 
-    questoes = open("questoes{}-135j.json".format(k+1),'w')
+    questoes = open("questao{}-135j.json".format(k+1),'w')
 
     numBaseLogaritmo = rnd.randint(2,10)
     numExpoenteBase = rnd.randint(-10,-1)
