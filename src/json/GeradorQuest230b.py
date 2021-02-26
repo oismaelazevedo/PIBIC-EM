@@ -9,10 +9,12 @@ def elementosListaEhDistinta(lista):
                 return True
             elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
                 return False
-
-for k in range(100):
-
-    questoes = open("questoes{}-230b.json".format(k+1),'w')
+            
+enunciado = [None]*100
+k = 0
+while k < 100:
+    
+    questoes = open("questao{}-230b.json".format(k+1),'w')
 
     numBaseEsqrdEq = rnd.randint(2,1000)
     numBaseDireitaEq = rnd.randint(2,500)
@@ -192,11 +194,18 @@ for k in range(100):
         ]
     }
 
-    print('Resolva a equação. Admita que "**" = elevado a: b){} = {}'.format(simplify(numBaseEsqrdEq ** (numExpoenteNumBaseEsqrdEq*x - 1)), simplify(numBaseDireitaEq ** (numExpoenteNumBaseDireitaEq*x + 2))))
-
+    # Verifica os enunciados
+    if dados['atributosquestao'][0]['enunciado'] in enunciado:
+        continue
+    else:
+        
+    # Armazena os enunciados
+        enunciado[k] = dados['atributosquestao'][0]['enunciado']
+        
     # Cria o arquivo JSON
-    print("\nquestao {}\n".format(k+1),json.dumps(dados))
-    json.dump(dados, questoes, indent=4)
+        print("\nquestao {}\n".format(k+1),json.dumps(dados))
+        json.dump(dados, questoes, indent=4)
+        k = k + 1
 
 
 questoes.close()
