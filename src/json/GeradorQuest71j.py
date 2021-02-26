@@ -10,9 +10,11 @@ def elementosListaEhDistinta(lista):
             elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
                 return False
 
-for k in range(50):
+enunciado = [None]*50
+k = 0
+while k < 50:
 
-    questoes = open("questoes{}-71j.json".format(k+1), 'w')
+    questoes = open("questao{}-71j.json".format(k+1), 'w')
 
     numBase = rnd.randint(2,10)
     numExpoenteNumBase = rnd.randint(2,10)
@@ -168,10 +170,17 @@ for k in range(50):
         ]
     }
 
-    print('Resolva a seguinte equação exponencial:\n{} = 1/{}'.format(pretty(expressRaizNumBase),pretty(expressRaizNumInvertido)))
-
+    # Verifica os enunciados
+    if dados['atributosquestao'][0]['enunciado'] in enunciado:
+        continue
+    else:
+        
+    # Armazena os enunciados
+        enunciado[k] = dados['atributosquestao'][0]['enunciado']
+        
     # Cria o arquivo JSON
-    print("\nquestao {}\n".format(k+1),json.dumps(dados))
-    json.dump(dados, questoes, indent=4)
+        print("\nquestao {}\n".format(k+1),json.dumps(dados))
+        json.dump(dados, questoes, indent=4)
+        k = k + 1
 
 questoes.close()
