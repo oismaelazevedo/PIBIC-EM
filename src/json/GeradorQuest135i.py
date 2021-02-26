@@ -136,6 +136,7 @@ while k < 100:
         print("\nquestao {}\n".format(k+1),json.dumps(dados))
         json.dump(dados, questoes, indent=4)
         k = k + 1
+        
 
 
 questoes.close()
