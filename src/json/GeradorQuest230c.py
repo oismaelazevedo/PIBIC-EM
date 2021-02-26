@@ -14,7 +14,7 @@ enunciado = [None]*100
 k = 0
 while k < 100:
 
-    questoes = open("questoes{}-230c.json".format(k+1),'w')
+    questoes = open("questao{}-230c.json".format(k+1),'w')
 
     numBaseEsqrdEq = rnd.randint(2,1000)
     numBaseDireitaEq = rnd.randint(2,500)
