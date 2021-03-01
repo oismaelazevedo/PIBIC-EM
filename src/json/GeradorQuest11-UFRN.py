@@ -1,7 +1,5 @@
 import random as rnd
-from sympy import pretty, sqrt
 import json
-
 
 def elementosListaEhDistinta(lista):
     for indiceLista in range(len(lista)):
@@ -14,15 +12,17 @@ def elementosListaEhDistinta(lista):
 enunciado = [None]*100
 k = 0
 while k < 100:
+    questoes = open("questao{}-11-UFRN.json".format(k+1), 'w')
 
-    questoes = open("questao{}-14-fuvest.json".format(k+1), 'w')
+    numFloatAleatorio01 = round(rnd.uniform(1,1000), 2)
+    numFloatAleatorio02 = round(rnd.uniform(1,100), 2)
+    ordemDez01 = rnd.randint(10,100)
+    ordemDez02 = ordemDez01 + 1
 
-    numBase = rnd.randint(2,10)
-    numMultiplicadorLogaritmando = rnd.randint(2,10)
-    numMultiplicadorBase = rnd.randint(2,10)
-
-    resposta = numBase ** (sqrt(numMultiplicadorBase * numMultiplicadorLogaritmando))
-    resposta = pretty(resposta)
+    if(numFloatAleatorio01 * (10 ** ordemDez01) >= numFloatAleatorio02 * (10 ** ordemDez02)):
+        resposta = "M ≥ N"
+    else:
+        resposta = "M < N"
 
     listLetra = ["A","B","C","D","E"]
 
@@ -37,53 +37,53 @@ while k < 100:
     howGenerated = ['','','','','']
 
     # Insere a resposta certa na letra escolhida para ser certa, uma letra recebe a questão invertida e o resto recebe números aleatórios
-    while(elementosListaEhDistinta(listAlternativas) == False):
-        possuiQuestaoInvertida = rnd.randint(0,1)
+    numRandomTemporario = 0
 
-        for numLetra in range(0,5):
-            if questaoCerta == listLetra[numLetra]:
-                listAlternativas[numLetra] = resposta
-                isCorrect[numLetra] = "Sim"
-                howGenerated[numLetra] = "nenhum"
-            elif questaoInvertida == listLetra[numLetra] and possuiQuestaoInvertida == 1:
-                
-                numRandomTemporario = rnd.randint(0,1)
-
-                if numRandomTemporario == 0:
-
-                    listAlternativas[numLetra] = numBase ** sqrt(int(numMultiplicadorBase/numMultiplicadorLogaritmando) + 1)
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "invertida e positiva"
-                else:
-                    listAlternativas[numLetra] = -(numBase ** sqrt(int(numMultiplicadorBase/numMultiplicadorLogaritmando) + 1))
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "invertida e negativa"
+    for numLetra in range(0,5):
+        if questaoCerta == listLetra[numLetra]:
+            listAlternativas[numLetra] = resposta
+            isCorrect[numLetra] = "Sim"
+            howGenerated[numLetra] = "nenhum"
+        elif questaoInvertida == listLetra[numLetra]:
+            if resposta == "M ≥ N":
+                listAlternativas[numLetra] = "M < N" 
+                isCorrect[numLetra] = "Nao"
+                howGenerated[numLetra] = "invertida e positiva"
             else:
-                numRandomTemporario = rnd.randint(0,1)
+                listAlternativas[numLetra] = "M ≥ N" 
+                isCorrect[numLetra] = "Nao"
+                howGenerated[numLetra] = "invertida e positiva"
+        else:
 
-                if numRandomTemporario == 0:
+            if numRandomTemporario == 0:
 
-                    listAlternativas[numLetra] = numBase ** sqrt(rnd.randint(2,10) * rnd.randint(2,10))
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "gerada aleatoriamente e positiva"
-                else:
+                listAlternativas[numLetra] = "M + N = {} X 10^{}".format(round(numFloatAleatorio01 + numFloatAleatorio02, 2), ordemDez01 + ordemDez02)
+                isCorrect[numLetra] = "Nao"
+                howGenerated[numLetra] = "gerada aleatoriamente e positiva"
+                numRandomTemporario += 1
+            elif numRandomTemporario == 1:
 
-                    listAlternativas[numLetra] = -(numBase ** sqrt(rnd.randint(2,10) * rnd.randint(2,10)))
-                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                    isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "gerada aleatoriamente e negativa"
+                listAlternativas[numLetra] = "M . N = {} X 10^{}".format(round(numFloatAleatorio01 * numFloatAleatorio02, 2), ordemDez01 + ordemDez02)
+                isCorrect[numLetra] = "Nao"
+                howGenerated[numLetra] = "gerada aleatoriamente e positiva"
+                numRandomTemporario += 1
+            else:
+                listAlternativas[numLetra] = "M / N = {} X 10^{}".format(round(numFloatAleatorio01 / numFloatAleatorio02, 2), ordemDez01 - ordemDez02)
+                isCorrect[numLetra] = "Nao"
+                howGenerated[numLetra] = "gerada aleatoriamente e positiva"
+
+
+
 
     # Cria a variável que será convertida em um arquivo json
     dados = {
         'equacaoExponencial' : [
             {
-                'numBase' : numBase,
-                'numMultiplicadorLogaritmando': numMultiplicadorLogaritmando,
-                'numMultiplicadorBase': numMultiplicadorBase,
-                'resposta': pretty(resposta),
+                'numFloatAleatorio01':numFloatAleatorio01,
+                'numFloatAleatorio02':numFloatAleatorio02,
+                'ordemDez01':ordemDez01,
+                'ordemDez02':ordemDez02,
+                'resposta': resposta
             }
         ],
         'respostas': [
@@ -118,7 +118,7 @@ while k < 100:
         ],
         'atributosquestao': [
             {
-                'enunciado': '(Fuvest-modificada) O número x > 1 tal que logx({}) = log{}(x) é:'.format(numBase ** numMultiplicadorLogaritmando, numBase ** numMultiplicadorBase),
+                'enunciado': '(UF-RN) Dados os números M = {} X 10^{} e N = {} X 10^{}. Pode-se afirmar que:'.format(numFloatAleatorio01, ordemDez01, numFloatAleatorio02, ordemDez02),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
@@ -144,3 +144,4 @@ while k < 100:
         k = k + 1
 
 questoes.close()
+
