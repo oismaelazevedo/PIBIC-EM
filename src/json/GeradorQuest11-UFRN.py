@@ -118,7 +118,7 @@ while k < 100:
         ],
         'atributosquestao': [
             {
-                'enunciado': '(UF-RN) Dados os números M = {} X 10^{} e N = {} X 10^{}. Pode-se afirmar que:'.format(numFloatAleatorio01, ordemDez01, numFloatAleatorio02, ordemDez02),
+                'enunciado': '(UF-RN-modificada) Dados os números M = {} X 10^{} e N = {} X 10^{}. Pode-se afirmar que:'.format(numFloatAleatorio01, ordemDez01, numFloatAleatorio02, ordemDez02),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
