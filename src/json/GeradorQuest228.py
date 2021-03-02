@@ -31,7 +31,7 @@ while k < 200:
         resultado = 1 - cbrt(numBase ** qntHoraDecaimentoEsperado)
         resultado = pretty(resultado)
 
-    k, t = symbols("k t")
+    p, t = symbols("p t")
 
     listLetra = ["A","B","C","D","E"]
 
@@ -159,7 +159,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'A lei de decomposição de um elemento X no tempo t >= 0 é dada por M(t) = C.{}, em que M(t) é quantidade de X no tempo t; C, K são constantes positivas. Se a quantidade primitiva M(0), quando dividida por {}, desaparece em {} anos, qual a quantidade perdida em {} anos?'.format(pretty(numBase ** (k*t)),numBase,qntHoraDecaimentoDado,qntHoraDecaimentoEsperado),
+                'enunciado': 'A lei de decomposição de um elemento X no tempo t ≥ 0 é dada por M(t) = C.{}, em que M(t) é quantidade de X no tempo t; C, p são constantes positivas. Se a quantidade primitiva M(0), quando dividida por {}, desaparece em {} anos, qual a quantidade perdida em {} anos?'.format(pretty(numBase ** (p*t)),numBase,qntHoraDecaimentoDado,qntHoraDecaimentoEsperado),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
@@ -182,7 +182,7 @@ while k < 200:
     # Cria o arquivo JSON
         print("\nquestao {}\n".format(k+1),json.dumps(dados))
         json.dump(dados, questoes, indent=4)
-        k = k + 1
+        k += 1
 
 questoes.close()
 

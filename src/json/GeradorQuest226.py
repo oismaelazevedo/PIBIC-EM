@@ -30,7 +30,7 @@ while k < 200:
         resposta = cbrt(numBase ** qntHoraEsperada)
         resposta = pretty(resposta)
 
-    C, k, t = symbols("C k t")
+    C, p, t = symbols("C p t")
 
     listLetra = ["A","B","C","D","E"]
     questaoCerta = rnd.choice(listLetra)
@@ -157,7 +157,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = {}, em que X(t) é o número de bactérias no tempo t >= 0; C, k são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas se pode esperar no fim de {} horas?'.format(pretty(C*(numBase**(k*t))),numBase,qntHoraDada,qntHoraEsperada),
+                'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = {}, em que X(t) é o número de bactérias no tempo t ≥ 0; C, p são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas se pode esperar no fim de {} horas?'.format(pretty(C*(numBase**(p*t))),numBase,qntHoraDada,qntHoraEsperada),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
@@ -180,7 +180,7 @@ while k < 200:
     # Cria o arquivo JSON
         print("\nquestao {}\n".format(k+1),json.dumps(dados))
         json.dump(dados, questoes, indent=4)
-        k = k + 1
+        k += 1
         
 
 questoes.close()
