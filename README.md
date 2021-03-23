@@ -49,6 +49,7 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 
 | Número da questão | Enunciado original | Enunciado adaptado | Fonte |
 | :----------: | :----------: | :----------: | :----------: |
+| 11 | (UF-RN) Dados os números M = 9,84 x 10<sup>15</sup> e N = 1,23 x 10<sup>16</sup>, pode-se afirmar que: | (UF-RN-modificada) Dados os números M = <número_aleatório> X 10<sup><número_aleatório></sup> e N = <número_aleatório> X 10<sup><número_aleatório></sup>. Pode-se afirmar que: | Livro Fundamentos de Matemática Elementar - Vol. 02 |
 | 14 | (Fuvest) O número x > 1 tal que log<sub>x</sub> 2 = log<sub>4</sub> x é | (Fuvest-modificada) O número x > 1 tal que log<sub>x</sub> <número_aleatório> = log<sub><número_aleatório></sub> x é: | Vestibular Fuvest |
 | 71 - a | 2<sup>x</sup> = 128 | Resolva a seguinte equação exponencial: <número_aleatório><sup><número_aleatório></sup> = <número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
 | 71 - c | 2<sup>x</sup> = 1/16 | Resolva a seguinte equação exponencial: <número_aleatório><sup><número_aleatório></sup> = 1/<número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
