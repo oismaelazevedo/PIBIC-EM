@@ -18,6 +18,8 @@
     * [Biblioteca necessária](#biblioteca-necessária)
     * [Servidor web](#servidor-web)
 ## 📋 Descrição
+O projeto visa criar um banco de questões não-repetidas e aleatórias baseadas em um questão-esqueleto genérica que será alterada a fim de gerar novos itens específicos para cada aluno. Além disto, também é pretendido montar um sistema web online intuitivo para o uso das questões geradas. O ponto-chave deste trabalho reside na tentativa de se criar uma inteligência computacional capaz de avaliar o perfil de acertos e erros do aluno e, com base nisto, enviar uma pergunta mais fácil ou difícil. Na perspectiva de futuros trabalhos acadêmicos, espera-se que este conjunto de soluções possam ser usadas pelos mais diversos profissionais da educação que modularão e expandiram o sistema para outras áreas do conhecimento humano.
+
 Este projeto faz parte do programa de iniciação científica para o ensino médio (PIBIC-EM). Um convênio da Universidade Federal do Rio de Janeiro (UFRJ) com diversas escolas públicas visando fomentar a pesquisa e desenvolvimento tecnológico, bem como formar cidadãos conscientes e futuros profissionais nas diversas áreas que formam a ciência como a conhecemos hoje.
 
 ## 🧑‍🤝‍🧑 Integrantes
