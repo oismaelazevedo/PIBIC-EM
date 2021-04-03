@@ -120,7 +120,8 @@ ob_start();
     <!--finaliza a mensagem do acerto-->
 
     <?php
-    include "conexao.php";
+    require_once("funcao/conexao.php");
+    require_once("funcao/validacao.php");
 
     //pegando hora atual
     date_default_timezone_set('America/Sao_Paulo');
@@ -138,22 +139,37 @@ ob_start();
     $consulta = $mysqli->query($sql);*/
 
         //versão local
-        $sql = "SELECT * FROM `usuarios` WHERE nome = '$nome' and email = '$email'";
-        $consulta = mysqli_query($mysqli, $sql) or die(mysqli_error($mysqli));
-        $total = mysqli_num_rows($consulta);
+        $PDO = CriarConexao();
+        $EhMesmoEmail = EhMesmoEmail($email, $PDO);
 
-        if ($total > 0) {
-            $linha = mysqli_fetch_assoc($consulta);
+        if ($total != 0) {
+            $sql = "SELECT * FROM usuarios WHERE email = :email";
+
+            $consulta = $PDO->prepare($sql);
+            $consulta->bindParam(":email", $email);
+            $consulta->execute();
+
+            $linha = $consulta->fetch(PDO::FETCH_ASSOC);
+
             $id_usuario = $linha['id'];
         } else { // Caso não exista... esse usuário é inserido e depois selecionado seu id
 
-            $sql1 = "INSERT INTO usuarios(nome, email) VALUE ('$nome', '$email')";
-            $sql_gravar = mysqli_query($mysqli, $sql1) or die(mysqli_error($mysqli));
+            $sql = "INSERT INTO usuarios(nome, email) VALUE (:nome, :email)";
 
-            $sql = "SELECT * FROM usuarios WHERE nome = '$nome' and email = '$email'";
-            $consulta = mysqli_query($mysqli, $sql) or die(mysqli_error($mysqli));
+            $consulta = $PDO->prepare($sql);
+            $consulta->bindParam(":nome", $nome);
+            $consulta->bindParam(":email", $email);
+            $consulta->execute();
 
-            $linha = mysqli_fetch_assoc($consulta);
+            $sql = "SELECT * FROM usuarios WHERE nome = :nome and email = :email";
+            
+            $consulta = $PDO->prepare($sql);
+            $consulta->bindParam(":nome", $nome);
+            $consulta->bindParam(":email", $email);
+            $consulta->execute();
+
+            $linha = $consulta->fetch(PDO::FETCH_ASSOC);
+
             $id_usuario = $linha['id'];
         }
         $_SESSION['id_usuario'] = $id_usuario;

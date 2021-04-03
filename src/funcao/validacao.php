@@ -1,7 +1,7 @@
 <?php
     //Verifica se o email já foi cadastrado
     function EhMesmoEmail($email, $PDO){
-        $CmdSQL = "SELECT Email FROM usuario WHERE Email = :email";
+        $CmdSQL = "SELECT `email` FROM `usuarios` WHERE email = :email";
 
         $Consulta  = $PDO->prepare($CmdSQL);
         $Consulta->bindParam(':email', $email);
