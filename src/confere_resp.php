@@ -91,11 +91,11 @@ ob_start();
 
 
         if ($letra_resp_user == $letra_correta) {
-
-            header("Location: index5.php?note=1");
+            $_SESSION["correto"] = "Sim";
+            header("Location: index5.php");
         } else if ($letra_resp_user != $letra_correta) {
-
-            header("Location: index5.php?note=2");
+            $_SESSION["correto"] = "Não";
+            header("Location: index5.php");
         }
         switch ($letra_resp_user) {
             case "A":
@@ -133,8 +133,9 @@ ob_start();
 
         unset($_SESSION['info']);
     } else{
-
-        header("Location: index5.php?note=3");
+        $_SESSION['info'] = $arquivo;
+        $_SESSION["correto"] = "Vazio";
+        header("Location: index5.php");
     }
 
     /*$analiseLetra = $lendo["respostas"][0]["letra"];

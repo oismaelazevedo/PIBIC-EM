@@ -70,7 +70,7 @@ ob_start();
                     <p>Marque alguma questão!</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="index5.php" onclick="$('#responda').modal('hide')"><button type="button" class="btn btn-primary">Próxima Questão</button></a>
+                    <a onclick="$('#responda').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@ ob_start();
                     <p>Tente na próxima questão!</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#" onclick="$('#erro1').modal('hide')"><button type="button" class="btn btn-primary">Ok</button></a>
+                    <a onclick="$('#erro1').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>
                 </div>
             </div>
         </div>
@@ -111,8 +111,8 @@ ob_start();
                     <p>Parabéns. Você acertou!</p>
                 </div>
                 <div class="modal-footer">
+                    <a onclick="$('#acerto').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>
 
-                    <a href="#" onclick="$('#acerto').modal('hide')"><button type="button" class="btn btn-primary">Ok</button></a>
                 </div>
             </div>
         </div>
@@ -162,7 +162,7 @@ ob_start();
             $consulta->execute();
 
             $sql = "SELECT * FROM usuarios WHERE nome = :nome and email = :email";
-            
+
             $consulta = $PDO->prepare($sql);
             $consulta->bindParam(":nome", $nome);
             $consulta->bindParam(":email", $email);
@@ -190,66 +190,65 @@ ob_start();
 
         $_SESSION['rodada'] = $rod + 1;
     }
-    if (!isset($_GET['note'])) {
-        $note = 0;
+
+    if (!isset($_SESSION["correto"])) {
+        $note = "Primeira";
     } else {
-        $note = $_GET['note'];
+        $note = $_SESSION["correto"];
     }
 
-    switch ($note) {
-        case 0:
-            //Monta a questão
-            $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
-            $info = file_get_contents($arquivo);
-            $_SESSION['info'] = $arquivo;
 
-        case 1:
+    if ($note == "Primeira") {
+        //Monta a questão
+        $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
+        $info = file_get_contents($arquivo);
+        $_SESSION['info'] = $arquivo;
+    } else if ($note == "Sim") {
+
+
     ?>
-            <script>
-                $('#acerto').modal({
-                    backdrop: 'static',
-                    keyboard: false
-                });
-            </script>
-        <?php
-            //Monta a questão
-            $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
-            $info = file_get_contents($arquivo);
-            $_SESSION['info'] = $arquivo;
-
-        case 2:
-        ?>
-            <!--chamando modal erro1-->
-            <script>
-                $('#erro1').modal({
-                    backdrop: 'static',
-                    keyboard: false
-                });
-            </script>
-        <?php
-            $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
-            $info = file_get_contents($arquivo);
-            $_SESSION['info'] = $arquivo;
-        case 3:
-        ?>
-            <script>
-                $('#responda').modal({
-                    backdrop: 'static',
-                    keyboard: false
-                });
-            </script>
+        <script>
+            $('#acerto').modal({
+                backdrop: 'static',
+                keyboard: false
+            });
+        </script>
     <?php
-            $info = file_get_contents($_SESSION['info']);
-            $_SESSION['info'] = $arquivo;
+        //Monta a questão
+        $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
+        $info = file_get_contents($arquivo);
+        $_SESSION['info'] = $arquivo;
+    } else if ($note == "Não") {
+    ?>
+        <!--chamando modal erro1-->
+        <script>
+            $('#erro1').modal({
+                backdrop: 'static',
+                keyboard: false
+            });
+        </script>
+    <?php
+        $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
+        $info = file_get_contents($arquivo);
+        $_SESSION['info'] = $arquivo;
+    } else if ($note == "Vazio") {
+    ?>
+        <script>
+            $('#responda').modal({
+                backdrop: 'static',
+                keyboard: false
+            });
+        </script>
+    <?php
     }
 
+    unset($_SESSION["correto"]);
 
 
 
 
-
-
-
+    $arquivo = $_SESSION['info'];
+    $info = file_get_contents($arquivo);
     $lendo = json_decode($info);
 
     foreach ($lendo->atributosquestao as $campo) {
@@ -305,7 +304,7 @@ ob_start();
                         </div><!-- end Icon da pergunta -->
                         <!-- pergunta em si -->
                         <div class="quest-str">
-                            <label class="question-info"><b>Enunciado: </b></label>
+                            <label class="question-info"><b>Enunciado: <?php echo $note; ?> </b></label>
                             <label class="question-info">
                                 <center>
                                     <?php
@@ -345,27 +344,27 @@ ob_start();
                             <div data-toggle="buttons">
                                 <div class="btn-group-toggle">
                                     <label class="btn btn-secondary">
-                                        <input type="radio" value="A" name="letra" autocomplete="off"> <?php echo $alt[0] . ") " . $resp[0]; ?>
+                                        <input type="radio" value="A" name="letra" autocomplete="off"> <?php echo $alt[0] . " " . $resp[0]; ?>
                                     </label>
                                 </div>
                                 <div class="btn-group-toggle">
                                     <label class="btn btn-secondary">
-                                        <input type="radio" value="B" name="letra" autocomplete="off"> <?php echo $alt[1] . ") " . $resp[1]; ?>
+                                        <input type="radio" value="B" name="letra" autocomplete="off"> <?php echo $alt[1] . " " . $resp[1]; ?>
                                     </label>
                                 </div>
                                 <div class="btn-group-toggle">
                                     <label class="btn btn-secondary">
-                                        <input type="radio" value="C" name="letra" autocomplete="off"> <?php echo $alt[2] . ") " . $resp[2]; ?>
+                                        <input type="radio" value="C" name="letra" autocomplete="off"> <?php echo $alt[2] . " " . $resp[2]; ?>
                                     </label>
                                 </div>
                                 <div class="btn-group-toggle">
                                     <label class="btn btn-secondary">
-                                        <input type="radio" value="D" name="letra" autocomplete="off"> <?php echo $alt[3] . ") " . $resp[3]; ?>
+                                        <input type="radio" value="D" name="letra" autocomplete="off"> <?php echo $alt[3] . " " . $resp[3]; ?>
                                     </label>
                                 </div>
                                 <div class="btn-group-toggle">
                                     <label class="btn btn-secondary">
-                                        <input type="radio" value="E" name="letra" autocomplete="off"> <?php echo $alt[4] . ") " . $resp[4]; ?>
+                                        <input type="radio" value="E" name="letra" autocomplete="off"> <?php echo $alt[4] . " " . $resp[4]; ?>
                                     </label>
                                 </div>
                             </div>
