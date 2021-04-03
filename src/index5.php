@@ -10,7 +10,7 @@ ob_start();
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Estevão Naval, Ismael Azevedo, Kawan Santana">
+    <meta name="author" content="Marcus Paulo de Q. Amorim">
 
     <title>Matemática</title>
 
@@ -57,25 +57,44 @@ ob_start();
         </div>
     </div>
     <!--finaliza a mensagem de informações-->
-    <!--inicia a mensagem do primeiro erro-->
-    <div class="modal fade" id="erro1">
+    <div class="modal fade" id="responda">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Incorreta</h5>
+                    <h5 class="modal-title">Campos em branco!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Tente mais uma vez!</p>
-                    <p>Obs.: As questões possuem apenas uma opção correta!</p>
+                    <p>Marque alguma questão!</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <a href="index5.php" onclick="$('#responda').modal('hide')"><button type="button" class="btn btn-primary">Próxima Questão</button></a>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    <!--inicia a mensagem do primeiro erro-->
+    <div class="modal fade" id="erro1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Resposta Incorreta!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Tente na próxima questão!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" onclick="$('#erro1').modal('hide')"><button type="button" class="btn btn-primary">Ok</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <!--finaliza a mensagem do primeiro erro-->
     <!--inicia a mensagem do acerto-->
@@ -83,7 +102,7 @@ ob_start();
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Correto</h5>
+                    <h5 class="modal-title">Correto!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -93,7 +112,7 @@ ob_start();
                 </div>
                 <div class="modal-footer">
 
-                    <a href="index5.php" onclick="$('#acerto').modal('hide')"><button type="button" class="btn btn-primary">Próxima Questão</button></a>
+                    <a href="#" onclick="$('#acerto').modal('hide')"><button type="button" class="btn btn-primary">Ok</button></a>
                 </div>
             </div>
         </div>
@@ -101,8 +120,7 @@ ob_start();
     <!--finaliza a mensagem do acerto-->
 
     <?php
-    require_once("funcao/validacao.php");
-    require_once("funcao/conexao.php");
+    include "conexao.php";
 
     //pegando hora atual
     date_default_timezone_set('America/Sao_Paulo');
@@ -116,45 +134,28 @@ ob_start();
 
         //verifica se já existe esse usuário e seleciona o seu id
         /*//versão de hospedagem
-        $sql = "SELECT * FROM usuarios WHERE nome = '$nome' and email = '$email'";
-        $consulta = $mysqli->query($sql);*/
+    $sql = "SELECT * FROM usuarios WHERE nome = '$nome' and email = '$email'";
+    $consulta = $mysqli->query($sql);*/
 
         //versão local
-        $PDO = CriarConexao();
-        $EhMesmoEmail = EhMesmoEmail($email,$PDO);
+        $sql = "SELECT * FROM `usuarios` WHERE nome = '$nome' and email = '$email'";
+        $consulta = mysqli_query($mysqli, $sql) or die(mysqli_error($mysqli));
+        $total = mysqli_num_rows($consulta);
 
-        if ($EhMesmoEmail == 1) {
-            $cmdSQL = "SELECT id FROM usuarios WHERE email LIKE :email";
-
-            $consulta = $PDO->prepare($cmdSQL);
-            $consulta->bindParam(":email", $email);
-            $consulta->execute();
-
-            $linha = $consulta->fetch(PDO::FETCH_ASSOC);
-
+        if ($total > 0) {
+            $linha = mysqli_fetch_assoc($consulta);
             $id_usuario = $linha['id'];
         } else { // Caso não exista... esse usuário é inserido e depois selecionado seu id
 
-            $cdmSQL = "INSERT INTO usuarios(nome, email) VALUE (:nome, :email)";
-            
-            $consulta = $PDO->prepare($cmdSQL);
-            $consulta->bindParam(":email", $email);
-            $consulta->bindParam(":nome", $nome);
-            $consulta->execute();
+            $sql1 = "INSERT INTO usuarios(nome, email) VALUE ('$nome', '$email')";
+            $sql_gravar = mysqli_query($mysqli, $sql1) or die(mysqli_error($mysqli));
 
-            $cdmSQL = "SELECT * FROM usuarios WHERE nome = :nome and email = :email";
-            
-            $consulta = $PDO->prepare($cmdSQL);
-            $consulta->bindParam(":email", $email);
-            $consulta->bindParam(":nome", $nome);
-            $consulta->execute();
+            $sql = "SELECT * FROM usuarios WHERE nome = '$nome' and email = '$email'";
+            $consulta = mysqli_query($mysqli, $sql) or die(mysqli_error($mysqli));
 
-            $linha = $consulta->fetch(PDO::FETCH_ASSOC);
-
+            $linha = mysqli_fetch_assoc($consulta);
             $id_usuario = $linha['id'];
         }
-
-
         $_SESSION['id_usuario'] = $id_usuario;
     }
 
@@ -171,52 +172,66 @@ ob_start();
 
         $_SESSION['rodada'] = $rod + 1;
     }
+    if (!isset($_GET['note'])) {
+        $note = 0;
+    } else {
+        $note = $_GET['note'];
+    }
 
-    //Monta a questão
-
-    //Verifica se não existe a sessão [3letras]. Se foi selecionada 3 ou mais opções.
-    if (!isset($_SESSION['3letras'])) {
-        //Verifica se a questão já foi selecionada
-        $seleciona = "sim";
-        while ($seleciona == "sim") {
+    switch ($note) {
+        case 0:
+            //Monta a questão
             $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
-            if (in_array($arquivo, $_SESSION['escolhido'])) {
-                $seleciona = "sim";
-            } else {
-                $seleciona = "não";
-                array_push($_SESSION['escolhido'], $arquivo);
-            }
-        }
-    } else {
-        unset($_SESSION['3letras']);
+            $info = file_get_contents($arquivo);
+            $_SESSION['info'] = $arquivo;
+
+        case 1:
+    ?>
+            <script>
+                $('#acerto').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                });
+            </script>
+        <?php
+            //Monta a questão
+            $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
+            $info = file_get_contents($arquivo);
+            $_SESSION['info'] = $arquivo;
+
+        case 2:
+        ?>
+            <!--chamando modal erro1-->
+            <script>
+                $('#erro1').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                });
+            </script>
+        <?php
+            $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
+            $info = file_get_contents($arquivo);
+            $_SESSION['info'] = $arquivo;
+        case 3:
+        ?>
+            <script>
+                $('#responda').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                });
+            </script>
+    <?php
+            $info = file_get_contents($_SESSION['info']);
+            $_SESSION['info'] = $arquivo;
     }
 
-    //Pega as informações do arquivo
-    //verifica se foi respondido errado. Se foi, a variável $info recebe o arquivo passado pela sessão. Senão, é pego o novo arquivo gerado aleatóriamente.
-    if (isset($_SESSION['info'])) {
-    ?>
-        <!--chamando modal erro1-->
-        <script>
-            $('#erro1').modal({
-                backdrop: 'static',
-                keyboard: false
-            });
-        </script>
-    <?php
-        $arquivo = $_SESSION['info'];
-        $info = file_get_contents($arquivo);
-        unset($_SESSION['info']);
-    } else {
-        ?>
-<script>
-            $('#acerto').modal({
-                backdrop: 'static',
-                keyboard: false
-            });
-        </script>
-        <?php
-        $info = file_get_contents($arquivo);
-    }
+
+
+
+
+
+
+
     $lendo = json_decode($info);
 
     foreach ($lendo->atributosquestao as $campo) {
@@ -312,27 +327,27 @@ ob_start();
                             <div data-toggle="buttons">
                                 <div class="btn-group-toggle">
                                     <label class="btn btn-secondary">
-                                        <input type="radio" value="A" name="letra" autocomplete="off"> <?php echo $alt[0] . " " . $resp[0]; ?>
+                                        <input type="radio" value="A" name="letra" autocomplete="off"> <?php echo $alt[0] . ") " . $resp[0]; ?>
                                     </label>
                                 </div>
                                 <div class="btn-group-toggle">
                                     <label class="btn btn-secondary">
-                                        <input type="radio" value="B" name="letra" autocomplete="off"> <?php echo $alt[1] . " " . $resp[1]; ?>
+                                        <input type="radio" value="B" name="letra" autocomplete="off"> <?php echo $alt[1] . ") " . $resp[1]; ?>
                                     </label>
                                 </div>
                                 <div class="btn-group-toggle">
                                     <label class="btn btn-secondary">
-                                        <input type="radio" value="C" name="letra" autocomplete="off"> <?php echo $alt[2] . " " . $resp[2]; ?>
+                                        <input type="radio" value="C" name="letra" autocomplete="off"> <?php echo $alt[2] . ") " . $resp[2]; ?>
                                     </label>
                                 </div>
                                 <div class="btn-group-toggle">
                                     <label class="btn btn-secondary">
-                                        <input type="radio" value="D" name="letra" autocomplete="off"> <?php echo $alt[3] . " " . $resp[3]; ?>
+                                        <input type="radio" value="D" name="letra" autocomplete="off"> <?php echo $alt[3] . ") " . $resp[3]; ?>
                                     </label>
                                 </div>
                                 <div class="btn-group-toggle">
                                     <label class="btn btn-secondary">
-                                        <input type="radio" value="E" name="letra" autocomplete="off"> <?php echo $alt[4] . " " . $resp[4]; ?>
+                                        <input type="radio" value="E" name="letra" autocomplete="off"> <?php echo $alt[4] . ") " . $resp[4]; ?>
                                     </label>
                                 </div>
                             </div>

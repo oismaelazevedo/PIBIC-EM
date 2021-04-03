@@ -26,69 +26,6 @@ ob_start();
 </header>
 
 <body>
-    <!--inicia a mensagem do segundo erro3-->
-    <div class="modal fade" id="erro3">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Incorreta Novamente</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>As questões possuem apenas uma opção correta!</p>
-                </div>
-                <div class="modal-footer">
-
-                    <a href="index5.php" onclick="$('#erro3').modal('hide')"><button type="button" class="btn btn-primary">Próxima Questão</button></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--finaliza a mensagem do primeiro erro3-->
-    <!--inicia a mensagem do segundo erro2-->
-    <div class="modal fade" id="erro2">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Incorreta Novamente</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Vamos tentar uma outra questão</p>
-                </div>
-                <div class="modal-footer">
-
-                    <a href="index5.php" onclick="$('#erro2').modal('hide')"><button type="button" class="btn btn-primary">Próxima Questão</button></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--finaliza a mensagem do primeiro erro-->
-    <!--inicia a mensagem do acerto-->
-    <div class="modal fade" id="acerto">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Correto</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Parabéns. Você acertou!</p>
-                </div>
-                <div class="modal-footer">
-
-                    <a href="index5.php" onclick="$('#acerto').modal('hide')"><button type="button" class="btn btn-primary">Próxima Questão</button></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--finaliza a mensagem do acerto-->
 
     <?php
 
@@ -146,52 +83,56 @@ ob_start();
     $info = file_get_contents($arquivo);
     $lendo = json_decode($info, true);
 
-    if (isset($_POST["letra"])) {
+    if (!empty($_POST["letra"])) {
 
         $letra_resp_user = $_POST["letra"];
-        
+
         $letra_correta = $lendo["atributosquestao"][0]["respostascorretas"];
 
+
         if ($letra_resp_user == $letra_correta) {
-            $resp_corr = "Sim";
-        } else {
-            $resp_corr = "Não";
+
+            header("Location: index5.php?note=1");
+        } else if ($letra_resp_user != $letra_correta) {
+
+            header("Location: index5.php?note=2");
+        }
+        switch ($letra_resp_user) {
+            case "A":
+                $indice = 0;
+            case "B":
+                $indice = 1;
+            case "C":
+                $indice = 2;
+            case "D":
+                $indice = 3;
+            case "E":
+                $indice = 4;
         }
 
-            
-        if ($resp_corr == "Sim") {
-            unset($_SESSION['info']);
-            unset($_SESSION['primatent']);
-    ?>
-            <!--chamando modal acerto-->
-            <script>
-                $('#acerto').modal({
-                    backdrop: 'static',
-                    keyboard: false
-                });
-            </script>
-    <?php
-        } elseif ($resp_corr == "Não") {
-            $resp_corr = "Não";
-            $_SESSION['info'] = $arquivo;
-            $_SESSION['primatent'];
-            header("Location: index5.php");
-            ?>
-            <script>
-                $('#erro3').modal({
-                    backdrop: 'static',
-                    keyboard: false
-                });
-            </script>
-    <?php
-        }
+        $tipoerro = $lendo["respostas"][$indice]["tipoerro"];
+
+        $sql = "INSERT INTO respostas(rodada, id_user, questao, resp_user, resp_corr, tipoerro, obs, tempo_gasto, ip) VALUES 
+                                ($rodada, $id_usuario, '$arquivo', '$letra_resp_user', '$letra_correta', 
+                                 '$tipoerro', '$obs', '$tempo_gasto', '$ip')";
+        $sql_gravar = mysqli_query($mysqli, $sql);
+
+        unset($_SESSION['info']);
+    } else{
+
+        header("Location: index5.php?note=3");
     }
 
+    /*$analiseLetra = $lendo["respostas"][0]["letra"];
 
-    $sql = "INSERT INTO respostas(rodada, id_user, questao, resposta, correta, selecionada, tipoerro, obs, tempo_gasto, ip) VALUE 
-                            ($rodada, $id_usuario, '$arquivo', '$resp_correta', '$resp_corr', 
-                            '$selecionada', '$tipoerro', '$obs', '$tempo_gasto', '$ip')";
-    $sql_gravar = mysqli_query($mysqli, $sql1);
+    var_dump(($analiseLetra));
+
+    for ($z = 0; $z < 5; $z){
+        if($letra_resp_user ==$analiseLetra[$z]){
+            $indice = $z;
+        }
+    }*/
+
 
     //echo $qtd_resp;
 
