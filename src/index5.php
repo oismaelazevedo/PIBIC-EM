@@ -142,7 +142,7 @@ ob_start();
         $PDO = CriarConexao();
         $EhMesmoEmail = EhMesmoEmail($email, $PDO);
 
-        if ($total != 0) {
+        if ($EhMesmoEmail != 0) {
             $sql = "SELECT * FROM usuarios WHERE email = :email";
 
             $consulta = $PDO->prepare($sql);
@@ -181,9 +181,11 @@ ob_start();
 
         //Cria a sessão que irá armazenar a rodada de exercícios
         $sql = "SELECT MAX(rodada) FROM respostas";
-        $consulta = mysqli_query($mysqli, $sql) or die(mysqli_error($mysqli));
+        
+        $consulta = $PDO->prepare($sql);
+        $consulta->execute();
 
-        $linha = mysqli_fetch_array($consulta);
+        $linha = $consulta->fetch();
         $rod = $linha[0];
 
         $_SESSION['rodada'] = $rod + 1;

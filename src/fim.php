@@ -1,7 +1,7 @@
 <?php
 session_start();
 ob_start();
-include "conexao.php";
+require_once("funcao/conexao.php");
 //unset($_SESSION['escolhido'] );
 ?>
 <!DOCTYPE html>
@@ -46,9 +46,14 @@ include "conexao.php";
                             //consulta as resposta da rodada
                             $rodada = $_SESSION['rodada'];
 
-                            $sql = "SELECT * FROM `usuarios`, `respostas` WHERE `respostas`.`id_user` = `usuarios`.`id` and `respostas`.`rodada` = $rodada";
-                            $consulta = mysqli_query($mysqli, $sql)or die(mysqli_error());
-                            $total = mysqli_num_rows($consulta);
+                            $PDO = CriarConexao();
+                            $sql = "SELECT * FROM `usuarios`, `respostas` WHERE `respostas`.`id_user` = `usuarios`.`id` and `respostas`.`rodada` = :rodada";
+
+                            $consulta = $PDO->prepare($sql);
+                            $consulta->bindParam(":rodada",$rodada);
+                            $consulta->execute();
+
+                            $total = $consulta->rowCount();
                             $questao = 0;
                             //echo "Total: ".$total."</br>";
                             ?>
@@ -73,7 +78,7 @@ include "conexao.php";
 
                             while($total > 0){
                                 $questao = $questao +1;
-                                $linha = mysqli_fetch_assoc($consulta);
+                                $linha = $consulta->fetch(PDO::FETCH_ASSOC);
                                 $nome = $linha['nome'];
                                 //$questao = $linha['questao'];
                                 $minterms0 = $linha['minterms0'];
