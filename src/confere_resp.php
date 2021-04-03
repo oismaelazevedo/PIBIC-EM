@@ -29,7 +29,7 @@ ob_start();
 
     <?php
 
-    include "conexao.php";
+    require_once("funcao/conexao.php");
 
     //Início função para calcular tempo de resposta
     date_default_timezone_set('America/Sao_Paulo');
@@ -112,10 +112,24 @@ ob_start();
 
         $tipoerro = $lendo["respostas"][$indice]["tipoerro"];
 
-        $sql = "INSERT INTO respostas(rodada, id_user, questao, resp_user, resp_corr, tipoerro, obs, tempo_gasto, ip) VALUES 
-                                ($rodada, $id_usuario, '$arquivo', '$letra_resp_user', '$letra_correta', 
-                                 '$tipoerro', '$obs', '$tempo_gasto', '$ip')";
-        $sql_gravar = mysqli_query($mysqli, $sql);
+        $PDO = CriarConexao();
+        $sql = "INSERT INTO respostas(rodada, id_user, questao, resposta, correta, tipoerro, obs, tempo_gasto, ip) VALUES 
+                                (:rodada, :id_usuario, :arquivo, :letra_resp_user, :letra_correta, 
+                                 :tipoerro, :obs, :tempo_gasto, :ip)";
+
+        $consulta = $PDO->prepare($sql);
+
+        $consulta->bindParam(":rodada",$rodada);
+        $consulta->bindParam(":id_usuario",$id_usuario);
+        $consulta->bindParam(":arquivo",$arquivo);
+        $consulta->bindParam(":letra_resp_user",$letra_resp_user);
+        $consulta->bindParam(":letra_correta",$letra_correta);
+        $consulta->bindParam(":tipoerro",$tipoerro);
+        $consulta->bindParam(":obs",$obs);
+        $consulta->bindParam(":tempo_gasto",$tempo_gasto);
+        $consulta->bindParam(":ip",$ip);
+
+        $consulta->execute();
 
         unset($_SESSION['info']);
     } else{

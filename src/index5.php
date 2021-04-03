@@ -180,8 +180,8 @@ ob_start();
         $_SESSION['escolhido'] = array();
 
         //Cria a sessão que irá armazenar a rodada de exercícios
-        $sql = "SELECT MAX(rodada) FROM respostas";
-        
+        $sql = "SELECT MAX(rodada) FROM resposta";
+
         $consulta = $PDO->prepare($sql);
         $consulta->execute();
 
