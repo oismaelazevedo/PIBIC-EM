@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 03, 2021 at 05:11 AM
+-- Generation Time: Apr 03, 2021 at 06:41 PM
 -- Server version: 5.7.17
 -- PHP Version: 5.6.30
 
@@ -40,8 +40,7 @@ CREATE TABLE `resposta` (
   `obs` text NOT NULL,
   `tempo_gasto` varchar(10) NOT NULL,
   `ip` varchar(30) NOT NULL,
-  `data_hora` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  FOREIGN KEY (`id_user`) REFERENCES `usuarios`(`id_user`)
+  `data_hora` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -55,6 +54,13 @@ CREATE TABLE `usuarios` (
   `nome` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `nome`, `email`) VALUES
+(1, 'Estevão Naval', 'navalestevao@gmail.com');
 
 --
 -- Indexes for dumped tables
@@ -80,7 +86,12 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT for table `resposta`
 --
 ALTER TABLE `resposta`
-  MODIFY `id_resp` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;COMMIT;
+  MODIFY `id_resp` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
