@@ -1,0 +1,584 @@
+html, body {
+    width: 800px; 
+    height: 640px;  
+} 
+
+body {
+    position: absolute;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*Início checkbox*/
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 20px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;   
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;   
+}
+/*Final checkbox*/
+.label-select { 
+    cursor: pointer;
+    position: relative;
+    top: 5%;
+    display: block;
+    text-align: center;
+    font-family: Verdana;
+    word-wrap: break-word;
+ }
+
+.container-all {
+	/*Firefox*/
+	background: -moz-linear-gradient(top, #81a6cb, #2f5071);
+	/*Safari/Chrome*/
+	background: -webkit-linear-gradient(top, #81a6cb, #2f5071);
+	/*Opera   */
+	background: -o-linear-gradient(top, #81a6cb, #2f5071);
+	/*Chrome até versão 9 e o Safari até versão 5*/
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #81a6cb), color-stop(100%, #2f5071));
+	/*IE*/
+	background: -ms-linear-gradient(top, #81a6cb 0%, #2f5071 100%);
+
+	width: 930px;
+    height: 640px;
+}
+
+.container-top {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 51px;
+    width: 720px;
+}
+
+.rnp-logo {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    float: right;
+}
+
+.logo-rnp {
+    height: 31.2px;
+    width: 64px;
+    float: right;
+    position: relative;
+    right: 29px;
+    top: 9.4px;
+}
+
+.title-top {
+    display: inline-block;
+    height: 50px;
+    width: 615px;
+}
+
+/*Layout Texto Simpleficando expressões*/
+.label-inter {
+    position: relative;
+    top: 4px;
+    left: 10px;
+    font-size: xx-large;
+    color: #ffffff;
+    word-wrap: break-word;
+    font-family: Verdana;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+}
+
+/*Caixa principal*/
+.container-body {
+    position: relative;
+    left: 6.5px;
+    /* top: 10%; */
+    height: 550px;
+    width: 910px;
+    background-color: #cfcfcf;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.container-group {
+    height: 375px;
+    width: 702.5px;
+}
+
+.container-answers {
+    height: 50px;
+    width: 698px;
+    position: relative;
+    left: 7px;
+    top: 10px;
+}
+
+.graph-display {
+    margin: 5px auto;
+    text-align:center;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 7px;
+    top: 15px;
+    background-color: #c2d5e7;
+    border: 1px solid #c2d5e7;
+    border-radius: 5px;
+}
+
+/*parte da pergunta (BOX)*/
+.box-quest {
+    background-color: #c2d5e7;
+    border: 1px solid #c2d5e7;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
+    height: 42px;
+    width: 890px;
+    display: table;
+}
+
+/*parte da pergunta*/
+.question-info {
+    font-family: Verdana;
+    height: auto;
+    width: auto;
+    font-size: 14px;
+    position: relative;
+    left: 15px;
+    bottom: 5px;
+}
+
+.group-a {
+    position: relative;
+    left: 5px;
+    top: 55px;
+    height: 265px;
+    width: 740px;
+}
+
+.table-group {
+    position: relative;
+    top: 25px;
+    height: 180px;
+    left: 2px;
+}
+
+.group-b {
+    position: relative;
+    left: 355px;
+    bottom: 220px;
+    height: 266px;
+    width: 345px;
+}
+
+.title-group {
+    height: 25px;
+    width: 238px;
+}
+/*Texto "Lista de mintermos"*/
+    .title-group > label {
+        position: relative;
+        top: 5%;
+        display: block;
+        text-align: center;
+        font-family: Verdana;
+        word-wrap: break-word;
+    }
+
+    /*caixa Branca de Respostas*/
+.content-group2 {
+	width: 635px;
+    height: 225px;
+    background-color: whiteSmoke;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+/*Texto "Legenda"*/
+.title-legenda > label {
+    position: absolute;
+    margin-top:230px;
+    margin-left:10px;
+    display: block;
+    text-align: center;
+    font-family: Verdana;
+    word-wrap: break-word;
+}
+
+/*Textarea*/
+.content-textarea {
+    position: absolute;
+    margin-top:300px;
+    margin-left:210px;
+    width: 50px;
+	height: 225px;
+}
+
+    /*caixa Branca de Legenda e observações*/
+.content-group3 {
+    width: 433px;
+    height: 140px;
+    background-color: whiteSmoke;
+    position:absolute;
+    margin-left:465px;
+    margin-top:400px;
+}
+
+
+
+
+.item-a, .item-b {
+	position: relative; 
+	/*top: 5%; 
+	left: 15%; 
+	margin-right: 2%;*/
+	cursor: pointer;
+    background-color: #c2d5e7;
+    border: 4px solid rgba(227, 228, 21, 0);
+	border-radius: 10px;
+	-webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.item-a.select {
+	border: 4px solid #003399;
+}
+
+.item-b.select {
+	border: 4px solid #003399;
+}
+
+/*parte do box branco das pergunta*/
+.container-answer {
+    position: relative;
+    left: 5px;
+    top: 17px;
+    height: 145px;
+    width: 688px;
+    background-color: whiteSmoke;
+}
+/*espaço das caixas azuis de opções de resposta*/
+.content-answer {
+    position: absolute;
+    top: 3px;
+    margin-left: 1px;
+    width: 400px;
+    height: 400px;
+}
+
+.answer { /* button to store an answer */
+    position: relative;
+    height: 30px;
+    width: 400px;
+    background-color: #c2d5e7;
+    float: center;
+    /*cursor: pointer;*/
+    margin-left:10px;
+    margin-top:10px;
+
+}
+
+/* texto das respostas */
+.quest-answer {
+    position: absolute;
+    top: 1px;
+    font-size: 17px;
+    font-family: "Times New Roman", Georgia, serif;
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+    /*cursor: pointer;*/
+    margin-left:1px;
+    margin-top:5px;
+    width: 400px;
+}
+
+/* respostas */
+.quest-icon {
+    background-color: #81a6cb;
+    height: 45px;
+    width: 50px;
+    display: table-cell;
+    border-left: 1px solid #81a6cb;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.quest-str {
+    height: 40px;
+    width: 630px;
+    display: table-cell;
+}
+
+.double-arrow {
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+.answer,
+.content-group,
+.content-group2,
+.content-group3,
+.container-answer {
+	border: 1px solid #E3E3E3;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.container-body {
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    box-shadow: inset 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.33);
+}
+
+.container-alert {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 478.5px;
+    width: 702.5px;
+    display: none;
+    background-color: #2F5071;
+    opacity: 0.9;
+    z-index: 999;
+    border-radius: 10px;
+}
+
+.correct {
+    display: none;
+    position: absolute;
+    top: 170px;
+    left: 220px;
+    right: 0;
+    bottom: 0;
+    /* opacity: 0.9; */
+    z-index: 999;
+    background-color: #cfcfcf;
+    width: 250px;
+    height: 120px;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    box-shadow: inset 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.33);
+}
+
+.fail {
+    display: none;
+    position: absolute;
+    top: 170px;
+    left: 220px;
+    right: 0;
+    bottom: 0;
+    /* opacity: 0.9; */
+    z-index: 999;
+    background-color: #cfcfcf;
+    width: 250px;
+    height: 120px;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    box-shadow: inset 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.33);
+}
+
+.qtd_correta {
+    display: none;
+    position: absolute;
+    top: 170px;
+    left: 220px;
+    right: 0;
+    bottom: 0;
+    /* opacity: 0.9; */
+    z-index: 999;
+    background-color: #cfcfcf;
+    width: 250px;
+    height: 120px;
+    border: 1px solid #E3E3E3;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    box-shadow: inset 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 2px 1px 1px 3px rgba(0, 0, 0, 0.33);
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.33);
+}
+
+.str-qtd_correta {
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    font-family: Verdana;
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+    color: #4D63D2;
+    z-index: 1000;
+}
+
+.str-correct {
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    font-family: Verdana;
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+    color: #4D63D2;
+    z-index: 1000;
+}
+
+.str-fail {
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    font-family: Verdana;
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+    color: #4D63D2;
+    z-index: 1000;
+}
+
+.title-select{
+    position: relative;
+    top: 30px;
+    height: 30px;
+    width: auto;
+}
+
+    .title-select > label {
+        position: relative;
+        top: 5%;
+        display: block;
+        text-align: center;
+        font-family: Verdana;
+        word-wrap: break-word;
+    }
+
+.icon-answer {
+    display: inline-block;
+    width: 55px;
+    height: 120px;
+}
+
+.icon-answer.check {
+    position: relative;
+    top: 25px;
+}
+
+.icon-answer.uncheck {
+    position: relative;
+    top: 18px;
+}
+
+.close-win {
+    display: inline-block;
+    position: relative;
+    bottom: 135px;
+    left: 225px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    font-weight: bold;
+    z-index: 3;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.45);
+    color: rgba(0, 0, 0, 0.31);
+    font: 14px Helvetica, Verdana, Arial, Serif;
+}
+
+.close-win > label {
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+
+.label-str {
+    display: inline-block;
+    width: 185px;
+    height: 120px;
+    position: relative;
+    bottom: 15px;
+}
+
+.answer.select {
+    border: 2px solid #003399;
+}
+
+
+/* tabela */
+/*body {
+    font: 75%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+  }*/
+  /*table {
+    border-collapse: collapse;
+    width: 50px;
+    border: 1px solid #666;
+  }
+  thead {
+    background: #ccc url(https://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
+    border-top: 1px solid #a5a5a5;
+    border-bottom: 1px solid #a5a5a5;
+  }
+  /*tr:hover {
+    background-color:#3d80df;
+    color: #fff;
+  }
+  thead tr:hover {
+    background-color: transparent;
+    color: inherit;
+  }
+  tr:nth-child(even) {
+      background-color: #edf5ff;
+  }
+  th {
+    font-weight: normal;
+    text-align: left;
+  }
+  th, td {
+    padding: 0.1em 0.5em;
+    height: 2px;
+  }*/
+ 
