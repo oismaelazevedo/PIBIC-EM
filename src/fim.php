@@ -47,7 +47,7 @@ require_once("funcao/conexao.php");
                             $rodada = $_SESSION['rodada'];
 
                             $PDO = CriarConexao();
-                            $sql = "SELECT * FROM `usuarios`, `respostas` WHERE `respostas`.`id_user` = `usuarios`.`id` and `respostas`.`rodada` = :rodada";
+                            $sql = "SELECT * FROM `usuarios`, `resposta` WHERE `resposta`.`id_user` = `usuarios`.`id` and `resposta`.`rodada` = :rodada";
 
                             $consulta = $PDO->prepare($sql);
                             $consulta->bindParam(":rodada",$rodada);
