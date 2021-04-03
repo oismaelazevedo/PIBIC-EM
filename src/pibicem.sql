@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 03, 2021 at 06:41 PM
+-- Generation Time: Apr 03, 2021 at 07:24 PM
 -- Server version: 5.7.17
 -- PHP Version: 5.6.30
 
@@ -35,7 +35,7 @@ CREATE TABLE `resposta` (
   `questao` varchar(50) NOT NULL,
   `resposta` varchar(50) NOT NULL,
   `correta` varchar(50) NOT NULL,
-  `selecionada` varchar(50) NOT NULL,
+  `selecionada` varchar(50) DEFAULT NULL,
   `tipoerro` varchar(50) NOT NULL,
   `obs` text NOT NULL,
   `tempo_gasto` varchar(10) NOT NULL,
