@@ -191,6 +191,9 @@ ob_start();
         $_SESSION['rodada'] = $rod + 1;
     }
 
+
+
+
     if (!isset($_SESSION["correto"])) {
         $note = "Primeira";
     } else {
@@ -198,9 +201,23 @@ ob_start();
     }
 
 
+    // Verifica quantas questões já foram executadas
+    if (!isset($_SESSION["contador"])) {
+        $_SESSION["contador"] = 1;
+        $contador = $_SESSION["contador"];
+
+    } else if ($_SESSION["contador"] > 10) {
+        unset($_SESSION["contador"]);
+        header("Location: fim.php");
+
+    } else if (isset($_SESSION["contador"])){
+        $contador = $_SESSION["contador"];
+    }
+
+
     if ($note == "Primeira") {
         //Monta a questão
-        $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
+        $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 200) . ".json";
         $info = file_get_contents($arquivo);
         $_SESSION['info'] = $arquivo;
     } else if ($note == "Sim") {
@@ -215,9 +232,12 @@ ob_start();
         </script>
     <?php
         //Monta a questão
-        $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
+        $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 200) . ".json";
         $info = file_get_contents($arquivo);
         $_SESSION['info'] = $arquivo;
+
+        
+        $_SESSION["contador"] = $_SESSION["contador"] + 1;
     } else if ($note == "Não") {
     ?>
         <!--chamando modal erro1-->
@@ -228,9 +248,12 @@ ob_start();
             });
         </script>
     <?php
-        $arquivo = "json/Gerador1/questao" . rand(1, 200) . ".json";
+        $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 200) . ".json";
         $info = file_get_contents($arquivo);
         $_SESSION['info'] = $arquivo;
+
+        
+        $_SESSION["contador"] = $_SESSION["contador"] + 1;
     } else if ($note == "Vazio") {
     ?>
         <script>
@@ -304,7 +327,7 @@ ob_start();
                         </div><!-- end Icon da pergunta -->
                         <!-- pergunta em si -->
                         <div class="quest-str">
-                            <label class="question-info"><b>Enunciado: <?php echo $note; ?> </b></label>
+                            <label class="question-info"><b>Enunciado: <?php echo $note.$contador; ?> </b></label>
                             <label class="question-info">
                                 <center>
                                     <?php

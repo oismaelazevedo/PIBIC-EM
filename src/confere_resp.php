@@ -154,6 +154,7 @@ ob_start();
     //Verifica se todas as questões já foram selecionadas
     if (count($_SESSION["escolhido"]) == 10) {
         //echo "<script  language=javascript>alert('escolhido - ']');</script>";
+        unset($_SESSION["contador"]);
         header("Location: fim.php");
     }
 
