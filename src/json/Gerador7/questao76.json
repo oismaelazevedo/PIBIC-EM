@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "radicando": 940,
+            "indice": 3,
+            "expoente": 8,
+            "resposta": "        3 ________\n1767200\u22c5\u2572\u2571 110450 "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "  3 ____\n2\u22c5\u2572\u2571 66 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "3 _____\n\u2572\u2571 717 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "        3 ________\n1767200\u22c5\u2572\u2571 110450 ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "2\u22c5\u221a190",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": " 3 _____\n-\u2572\u2571 493 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n940   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 940 em 3 horas, quantas se pode esperar no fim de 8 horas?",
+            "corretaspossiveis": "        3 ________\n1767200\u22c5\u2572\u2571 110450 ",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

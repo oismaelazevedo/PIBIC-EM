@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 987,
+            "tipoDenominadorFracao": 3,
+            "resposta": "3 _____\n\u2572\u2571 987 "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "3 _____\n\u2572\u2571 987 ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": " 3 _____\n-\u2572\u2571 658 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "     2/3\n-2\u22c511   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "3\u22c5\u221a107",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "-4\u22c5\u221a43",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 987 \u00e9 1/3. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3 _____\n\u2572\u2571 987 ",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

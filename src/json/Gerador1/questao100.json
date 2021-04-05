@@ -1,0 +1,55 @@
+{
+    "equacaoExponencial": [
+        {
+            "numFloatAleatorio01": 810.16,
+            "numFloatAleatorio02": 85.48,
+            "ordemDez01": 81,
+            "ordemDez02": 82,
+            "resposta": "M < N"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "M + N = 895.64 X 10^163",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "M . N = 69252.48 X 10^163",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "M \u2265 N",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "M < N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "M / N = 9.48 X 10^-1",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 810.16 X 10^81 e N = 85.48 X 10^82. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

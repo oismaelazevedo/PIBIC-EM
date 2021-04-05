@@ -1,0 +1,55 @@
+{
+    "equacaoExponencial": [
+        {
+            "numFloatAleatorio01": 571.62,
+            "numFloatAleatorio02": 97.17,
+            "ordemDez01": 44,
+            "ordemDez02": 45,
+            "resposta": "M < N"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "M + N = 668.79 X 10^89",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "M . N = 55544.32 X 10^89",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "M / N = 5.88 X 10^-1",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "M < N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "M \u2265 N",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 571.62 X 10^44 e N = 97.17 X 10^45. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

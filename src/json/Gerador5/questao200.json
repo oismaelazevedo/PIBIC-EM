@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 196,
+            "tipoDenominadorFracao": 2,
+            "resposta": "14"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "3 _____\n\u2572\u2571 124 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-\u221a158",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "14",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "  2/3\n14   ",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": " 3 _____\n-\u2572\u2571 138 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 196 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "14",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "radicando": 845,
+            "indice": 2,
+            "expoente": 3,
+            "resposta": "10985\u22c5\u221a5"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "-\u221a127",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "10985\u22c5\u221a5",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-845",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "3\u22c5\u221a17",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "3 _____\n\u2572\u2571 350 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n845   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 845 em 2 horas, quantas se pode esperar no fim de 3 horas?",
+            "corretaspossiveis": "10985\u22c5\u221a5",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
+        }
+    ]
+}

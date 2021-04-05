@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "radicando": 745,
+            "indice": 2,
+            "expoente": 3,
+            "resposta": "745\u22c5\u221a745"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "3\u22c5\u221a21",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "2\u22c5\u221a111",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "3 _____\n\u2572\u2571 315 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "3\u22c5\u221a33",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "745\u22c5\u221a745",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n745   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 745 em 2 horas, quantas se pode esperar no fim de 3 horas?",
+            "corretaspossiveis": "745\u22c5\u221a745",
+            "corretas": 1,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

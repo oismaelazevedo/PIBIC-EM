@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "radicando": 243,
+            "indice": 2,
+            "expoente": 8,
+            "resposta": "3486784401"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "        3 ___\n1594323\u22c5\u2572\u2571 3 ",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-2\u22c5\u221a17",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "3486784401",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u221a230",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "2\u22c5\u221a47",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n243   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 243 em 2 horas, quantas se pode esperar no fim de 8 horas?",
+            "corretaspossiveis": "3486784401",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

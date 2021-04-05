@@ -1,0 +1,55 @@
+{
+    "equacaoExponencial": [
+        {
+            "numFloatAleatorio01": 438.54,
+            "numFloatAleatorio02": 30.74,
+            "ordemDez01": 12,
+            "ordemDez02": 13,
+            "resposta": "M \u2265 N"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "M + N = 469.28 X 10^25",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "M \u2265 N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "M . N = 13480.72 X 10^25",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "M < N",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "M / N = 14.27 X 10^-1",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 438.54 X 10^12 e N = 30.74 X 10^13. Pode-se afirmar que:",
+            "corretaspossiveis": "M \u2265 N",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

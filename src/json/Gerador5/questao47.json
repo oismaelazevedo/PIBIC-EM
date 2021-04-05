@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 215,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a215"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "-\u221a213",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-\u221a174",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "3\u22c5\u221a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "3 _____\n\u2572\u2571 215 ",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u221a215",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 215 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a215",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

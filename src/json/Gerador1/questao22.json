@@ -1,0 +1,55 @@
+{
+    "equacaoExponencial": [
+        {
+            "numFloatAleatorio01": 452.38,
+            "numFloatAleatorio02": 74.63,
+            "ordemDez01": 76,
+            "ordemDez02": 77,
+            "resposta": "M < N"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "M + N = 527.01 X 10^153",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "M . N = 33761.12 X 10^153",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "M < N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "M \u2265 N",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "M / N = 6.06 X 10^-1",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 452.38 X 10^76 e N = 74.63 X 10^77. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

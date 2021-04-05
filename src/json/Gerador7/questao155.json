@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "radicando": 194,
+            "indice": 2,
+            "expoente": 5,
+            "resposta": "37636\u22c5\u221a194"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "        2/3\n-194\u22c5194   ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "3 ____\n\u2572\u2571 90 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": " 3 _____\n-\u2572\u2571 126 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "37636\u22c5\u221a194",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "-\u221a2",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n194   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 194 em 2 horas, quantas se pode esperar no fim de 5 horas?",
+            "corretaspossiveis": "37636\u22c5\u221a194",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
+        }
+    ]
+}

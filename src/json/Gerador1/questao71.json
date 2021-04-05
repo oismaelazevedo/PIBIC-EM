@@ -1,0 +1,55 @@
+{
+    "equacaoExponencial": [
+        {
+            "numFloatAleatorio01": 291.8,
+            "numFloatAleatorio02": 16.19,
+            "ordemDez01": 78,
+            "ordemDez02": 79,
+            "resposta": "M \u2265 N"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "M \u2265 N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "M + N = 307.99 X 10^157",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "M . N = 4724.24 X 10^157",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "M < N",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "M / N = 18.02 X 10^-1",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 291.8 X 10^78 e N = 16.19 X 10^79. Pode-se afirmar que:",
+            "corretaspossiveis": "M \u2265 N",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

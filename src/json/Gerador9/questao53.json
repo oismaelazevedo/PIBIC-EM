@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "radicando": 908,
+            "indice": 3,
+            "expoente": 5,
+            "resultado": "         3 ________\n1 - 1816\u22c5\u2572\u2571 103058 "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "1 - 3025\u22c5\u221a55",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "           2/3\n1 + 782\u22c5782   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "1 + 108241\u22c5\u221a329",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "         3 ________\n1 - 1816\u22c5\u2572\u2571 103058 ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "1 + 1648928\u22c5\u221a227",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.   p\u22c5t\n908   , em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 908, desaparece em 3 anos, qual a quantidade perdida em 5 anos?",
+            "corretaspossiveis": "         3 ________\n1 - 1816\u22c5\u2572\u2571 103058 ",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
+        }
+    ]
+}

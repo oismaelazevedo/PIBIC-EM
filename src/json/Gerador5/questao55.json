@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 724,
+            "tipoDenominadorFracao": 3,
+            "resposta": "3 _____\n\u2572\u2571 724 "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "3 _____\n\u2572\u2571 724 ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "3 _____\n\u2572\u2571 628 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-2\u22c5\u221a181",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "3 _____\n\u2572\u2571 660 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "-\u221a114",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 724 \u00e9 1/3. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3 _____\n\u2572\u2571 724 ",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
+        }
+    ]
+}

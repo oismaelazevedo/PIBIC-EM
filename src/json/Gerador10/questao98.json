@@ -1,0 +1,55 @@
+{
+    "logaritmo": [
+        {
+            "taxaMes": 9,
+            "valMultiplicadorMonteInicial": 417,
+            "logTaxaMes": 0.04,
+            "logValMultiplicadorMonteInicial": 2.62,
+            "resposta": 65
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": -12,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": 65,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": -11,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": -9,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": -20,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 9% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 417?\nAdmita que log1.09 = 0.04 e log417 = 2.62",
+            "corretaspossiveis": 65,
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

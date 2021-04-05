@@ -91,9 +91,14 @@ ob_start();
 
 
         if ($letra_resp_user == $letra_correta) {
+
+
+            $_SESSION["contador"] = $_SESSION["contador"] + 1;
             $_SESSION["correto"] = "Sim";
             header("Location: index5.php");
         } else if ($letra_resp_user != $letra_correta) {
+
+            $_SESSION["contador"] = $_SESSION["contador"] + 1;
             $_SESSION["correto"] = "Não";
             header("Location: index5.php");
         }
@@ -133,27 +138,14 @@ ob_start();
 
         unset($_SESSION['info']);
     } else{
+
+        $_SESSION["contador"] = $_SESSION["contador"];
         $_SESSION['info'] = $arquivo;
         $_SESSION["correto"] = "Vazio";
         header("Location: index5.php");
     }
 
-    /*$analiseLetra = $lendo["respostas"][0]["letra"];
-
-    var_dump(($analiseLetra));
-
-    for ($z = 0; $z < 5; $z){
-        if($letra_resp_user ==$analiseLetra[$z]){
-            $indice = $z;
-        }
-    }*/
-
-
-    //echo $qtd_resp;
-
-    //Verifica se todas as questões já foram selecionadas
     if (count($_SESSION["escolhido"]) == 10) {
-        //echo "<script  language=javascript>alert('escolhido - ']');</script>";
         unset($_SESSION["contador"]);
         header("Location: fim.php");
     }

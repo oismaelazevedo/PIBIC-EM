@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "base": 1157,
+            "numMultiplicadorNumBase": 2,
+            "expoente": 190,
+            "resposta": 0.010526
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": -0.025316,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": -0.015873,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": -0.013793,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": 0.010526,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": -0.030769,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Uma subst\u00e2ncia radioativa est\u00e1 em processo de desintegra\u00e7\u00e3o, de modo que no instante t a quantidade n\u00e3o desintegrada \u00e9 A(t) = A(0). -190\u22c5t\ne      , em que A(0) indica a quantidade de subst\u00e2ncia no instante t = 0. Calcule o tempo necess\u00e1rio para que a quantidade inicial dividida por 2314 se desintegre.",
+            "corretaspossiveis": 0.010526,
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

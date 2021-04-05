@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 843,
+            "valX02": 508,
+            "num01": 334,
+            "num02": 134,
+            "numResposta": 20,
+            "express": "3014 - 9317\u22c5x",
+            "resposta": "\u23a1274\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3847\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a15578\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35303\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1439\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3583\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1995\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3156\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1274\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3847\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1714 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35101\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(843x + 334) - log(508x - 134) = log 20, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1274\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3847\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

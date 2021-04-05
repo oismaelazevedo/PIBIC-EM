@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "base": 8176,
+            "numMultiplicadorNumBase": 4,
+            "expoente": 2113,
+            "resposta": 0.001893
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": -0.008639,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": 0.003854,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": -0.014981,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": -0.009852,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": 0.001893,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Uma subst\u00e2ncia radioativa est\u00e1 em processo de desintegra\u00e7\u00e3o, de modo que no instante t a quantidade n\u00e3o desintegrada \u00e9 A(t) = A(0). -2113\u22c5t\ne       , em que A(0) indica a quantidade de subst\u00e2ncia no instante t = 0. Calcule o tempo necess\u00e1rio para que a quantidade inicial dividida por 32704 se desintegre.",
+            "corretaspossiveis": 0.001893,
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

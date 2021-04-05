@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 835,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a835"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": " 3 _____\n-\u2572\u2571 154 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "2\u22c5\u221a197",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-3\u22c5\u221a69",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u221a835",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "   3 ____\n-3\u22c5\u2572\u2571 29 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 835 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a835",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 469,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a469"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "3 _____\n\u2572\u2571 276 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u221a213",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": " 3 _____\n-\u2572\u2571 469 ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "-\u221a202",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u221a469",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 469 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a469",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
+        }
+    ]
+}

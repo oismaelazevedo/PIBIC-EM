@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "numBase": 5,
+            "numMultiplicadorLogaritmando": 8,
+            "numMultiplicadorBase": 8,
+            "resposta": "390625"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": " \u221a21\n5   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "390625",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": " \u221a14\n5   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "  \u221a2\n-5  ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "  2\u22c5\u221a15\n-5     ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(390625) = log390625(x) \u00e9:",
+            "corretaspossiveis": "390625",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
+        }
+    ]
+}

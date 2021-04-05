@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 663,
+            "valX02": 146,
+            "num01": 30,
+            "num02": 345,
+            "numResposta": 8,
+            "express": "2790 - 505\u22c5x",
+            "resposta": "\u23a1558\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3101\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a18171\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33847\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1558\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3101\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a110369\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 8560\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1 1171\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a314074\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1526\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3483\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(663x + 30) - log(146x - 345) = log 8, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1558\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3101\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

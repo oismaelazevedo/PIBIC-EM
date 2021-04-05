@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 503,
+            "valX02": 273,
+            "num01": 611,
+            "num02": 822,
+            "numResposta": 11,
+            "express": "9653 - 2500\u22c5x",
+            "resposta": "\u23a19653\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32500\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a19571\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32518\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a13444\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3901 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a17816\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35533\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a19653\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32500\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a110819\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a314356\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(503x + 611) - log(273x - 822) = log 11, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a19653\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32500\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

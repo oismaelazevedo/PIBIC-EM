@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "numBase": 7,
+            "numMultiplicadorLogaritmando": 6,
+            "numMultiplicadorBase": 5,
+            "resposta": " \u221a30\n7   "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "  6\u22c5\u221a2\n-7    ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "  \u221a42\n-7   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": " \u221a30\n7   ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "  3\u22c5\u221a7\n-7    ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "-7",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(117649) = log16807(x) \u00e9:",
+            "corretaspossiveis": " \u221a30\n7   ",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

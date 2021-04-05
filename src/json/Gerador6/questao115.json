@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 730,
+            "valX02": 297,
+            "num01": 869,
+            "num02": 801,
+            "numResposta": 11,
+            "express": "9680 - 2537\u22c5x",
+            "resposta": "\u23a19680\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32537\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a19853\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38808\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1957\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3563\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a12292\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3817 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1-592 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  15 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a19680\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32537\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(730x + 869) - log(297x - 801) = log 11, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a19680\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32537\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

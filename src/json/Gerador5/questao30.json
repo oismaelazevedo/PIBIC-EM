@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 236,
+            "tipoDenominadorFracao": 3,
+            "resposta": "3 _____\n\u2572\u2571 236 "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "-\u221a138",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "3 _____\n\u2572\u2571 231 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-\u221a134",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "3 _____\n\u2572\u2571 236 ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "2\u22c5\u221a59",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 236 \u00e9 1/3. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3 _____\n\u2572\u2571 236 ",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 78,
+            "tipoDenominadorFracao": 3,
+            "resposta": "3 ____\n\u2572\u2571 78 "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": " 3 ____\n-\u2572\u2571 44 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "3 ____\n\u2572\u2571 78 ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "  2/3\n-6   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u221a15",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "3\u22c5\u221a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 78 \u00e9 1/3. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3 ____\n\u2572\u2571 78 ",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

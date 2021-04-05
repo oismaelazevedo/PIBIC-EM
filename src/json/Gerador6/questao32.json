@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 534,
+            "valX02": 687,
+            "num01": 519,
+            "num02": 450,
+            "numResposta": 9,
+            "express": "4569 - 5649\u22c5x",
+            "resposta": "\u23a11523\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31883\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a110620\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a314051\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a16471\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a39374\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a17851\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36946\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1968\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3801\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a11523\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31883\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(534x + 519) - log(687x - 450) = log 9, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a11523\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31883\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

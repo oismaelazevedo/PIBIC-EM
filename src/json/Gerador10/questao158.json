@@ -1,0 +1,55 @@
+{
+    "logaritmo": [
+        {
+            "taxaMes": 22,
+            "valMultiplicadorMonteInicial": 576,
+            "logTaxaMes": 0.09,
+            "logValMultiplicadorMonteInicial": 2.76,
+            "resposta": 30
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": -16,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": -32,
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": -28,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": 19,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": 30,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 22% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 576?\nAdmita que log1.22 = 0.09 e log576 = 2.76",
+            "corretaspossiveis": 30,
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
+        }
+    ]
+}

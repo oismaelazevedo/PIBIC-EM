@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 445,
+            "valX02": 13,
+            "num01": 434,
+            "num02": 996,
+            "numResposta": 12,
+            "express": "289\u22c5x + 12386",
+            "resposta": "\u23a1-12386 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  289  \u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1-12386 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  289  \u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1998 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31961\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a16217\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35340\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1379 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31693\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1483\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3191\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(445x + 434) - log(13x - 996) = log 12, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1-12386 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  289  \u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
+        }
+    ]
+}

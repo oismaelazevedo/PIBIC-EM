@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 109,
+            "valX02": 263,
+            "num01": 681,
+            "num02": 429,
+            "numResposta": 3,
+            "express": "1968 - 680\u22c5x",
+            "resposta": "\u23a1246\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 85\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1316\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3719\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a12735\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3327 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1246\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 85\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a14449\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31142\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a114585\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a315222\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(109x + 681) - log(263x - 429) = log 3, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1246\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 85\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

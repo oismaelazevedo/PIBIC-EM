@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 756,
+            "tipoDenominadorFracao": 2,
+            "resposta": "6\u22c5\u221a21"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "  3 ____\n2\u22c5\u2572\u2571 39 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u221a438",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": " 3 _____\n-\u2572\u2571 549 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "   3 ____\n-3\u22c5\u2572\u2571 28 ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "6\u22c5\u221a21",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 756 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "6\u22c5\u221a21",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
+        }
+    ]
+}

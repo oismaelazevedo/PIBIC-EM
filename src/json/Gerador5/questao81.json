@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 588,
+            "tipoDenominadorFracao": 2,
+            "resposta": "14\u22c5\u221a3"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": " 3 _____\n-\u2572\u2571 588 ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "   3 ___\n-4\u22c5\u2572\u2571 7 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-3\u22c5\u221a10",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "  3 ____\n2\u22c5\u2572\u2571 55 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "14\u22c5\u221a3",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 588 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "14\u22c5\u221a3",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 899,
+            "valX02": 921,
+            "num01": 151,
+            "num02": 673,
+            "numResposta": 5,
+            "express": "3516 - 3706\u22c5x",
+            "resposta": "\u23a11758\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31853\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a12197\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31767\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a17248\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36041\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a17474\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37335\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a11758\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31853\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1495 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31898\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(899x + 151) - log(921x - 673) = log 5, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a11758\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31853\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

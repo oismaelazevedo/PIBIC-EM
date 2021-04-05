@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 39,
+            "valX02": 521,
+            "num01": 172,
+            "num02": 158,
+            "numResposta": 15,
+            "express": "2542 - 7776\u22c5x",
+            "resposta": "\u23a11271\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33888\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a11336\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31157\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a13259\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3585 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a16019\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38089\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a11271\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33888\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a116843\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a313535\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(39x + 172) - log(521x - 158) = log 15, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a11271\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33888\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

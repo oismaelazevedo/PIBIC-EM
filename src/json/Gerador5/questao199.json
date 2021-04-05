@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 152,
+            "tipoDenominadorFracao": 3,
+            "resposta": "  3 ____\n2\u22c5\u2572\u2571 19 "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": " 3 _____\n-\u2572\u2571 116 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "  3 ____\n2\u22c5\u2572\u2571 19 ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-4",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "4\u22c5\u221a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "-2\u22c5\u221a38",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 152 \u00e9 1/3. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "  3 ____\n2\u22c5\u2572\u2571 19 ",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
+        }
+    ]
+}

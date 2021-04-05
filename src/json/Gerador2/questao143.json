@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "numBase": 4,
+            "numMultiplicadorLogaritmando": 10,
+            "numMultiplicadorBase": 3,
+            "resposta": " \u221a30\n4   "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": " 2\u22c5\u221a10\n4     ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "262144",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": " \u221a30\n4   ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "  2\u22c5\u221a15\n-4     ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "-4",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(1048576) = log64(x) \u00e9:",
+            "corretaspossiveis": " \u221a30\n4   ",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "logaritmo": [
+        {
+            "taxaMes": 43,
+            "valMultiplicadorMonteInicial": 483,
+            "logTaxaMes": 0.16,
+            "logValMultiplicadorMonteInicial": 2.68,
+            "resposta": 16
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": 16,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": -25,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": -45,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": -18,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": -27,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 43% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 483?\nAdmita que log1.43 = 0.16 e log483 = 2.68",
+            "corretaspossiveis": 16,
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

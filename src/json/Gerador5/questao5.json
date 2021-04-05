@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 247,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a247"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "-3\u22c5\u221a10",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-\u221a123",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": " 3 ____\n-\u2572\u2571 42 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u221a247",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": " 3 _____\n-\u2572\u2571 247 ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 247 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a247",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "logaritmo": [
+        {
+            "base": 10,
+            "logaritmando": 0.0,
+            "expoente": 872,
+            "resultado": 253461.33
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": -7600.33,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": 79381.33,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": 72385.33,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": 253461.33,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": 88408.33,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1/H+), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 x  872\ne   . Admita que e = 10",
+            "corretaspossiveis": 253461.33,
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

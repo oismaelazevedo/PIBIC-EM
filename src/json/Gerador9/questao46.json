@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "radicando": 1038,
+            "indice": 3,
+            "expoente": 5,
+            "resultado": "             2/3\n1 - 1038\u22c51038   "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "1 - 1077444\u22c5\u221a1038",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "           2/3\n1 - 474\u22c5474   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "             2/3\n1 - 1038\u22c51038   ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "           2/3\n1 + 265\u22c5265   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "         3 _______\n1 + 1480\u22c5\u2572\u2571 68450 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.    p\u22c5t\n1038   , em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 1038, desaparece em 3 anos, qual a quantidade perdida em 5 anos?",
+            "corretaspossiveis": "             2/3\n1 - 1038\u22c51038   ",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

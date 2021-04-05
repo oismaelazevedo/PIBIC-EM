@@ -1,0 +1,55 @@
+{
+    "logaritmo": [
+        {
+            "taxaMes": 20,
+            "valMultiplicadorMonteInicial": 911,
+            "logTaxaMes": 0.08,
+            "logValMultiplicadorMonteInicial": 2.96,
+            "resposta": 37
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": -6,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": -19,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": 37,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": -136,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": -15,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 20% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 911?\nAdmita que log1.2 = 0.08 e log911 = 2.96",
+            "corretaspossiveis": 37,
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

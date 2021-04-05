@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "numBase": 2,
+            "numMultiplicadorLogaritmando": 7,
+            "numMultiplicadorBase": 10,
+            "resposta": " \u221a70\n2   "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "-512",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": " \u221a21\n2   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": " \u221a70\n2   ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "  \u221a14\n-2   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "  \u221a2\n-2  ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(128) = log1024(x) \u00e9:",
+            "corretaspossiveis": " \u221a70\n2   ",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

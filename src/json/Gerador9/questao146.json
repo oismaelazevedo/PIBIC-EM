@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "radicando": 4791,
+            "indice": 3,
+            "expoente": 2,
+            "resultado": "        2/3\n1 - 4791   "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "        2/3\n1 - 4791   ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "1416",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-2264",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "        2/3\n1 + 1745   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "       2/3\n1 - 885   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.    p\u22c5t\n4791   , em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 4791, desaparece em 3 anos, qual a quantidade perdida em 2 anos?",
+            "corretaspossiveis": "        2/3\n1 - 4791   ",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

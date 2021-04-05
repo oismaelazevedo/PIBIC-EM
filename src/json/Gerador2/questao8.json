@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "numBase": 9,
+            "numMultiplicadorLogaritmando": 10,
+            "numMultiplicadorBase": 7,
+            "resposta": " \u221a70\n9   "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "-9",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "  \u221a35\n-9   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": " \u221a70\n9   ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "-81",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": " \u221a35\n9   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(3486784401) = log4782969(x) \u00e9:",
+            "corretaspossiveis": " \u221a70\n9   ",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 523,
+            "valX02": 453,
+            "num01": 938,
+            "num02": 607,
+            "numResposta": 8,
+            "express": "5794 - 3101\u22c5x",
+            "resposta": "\u23a15794\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33101\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a13134\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3 29 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1985 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32802\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a15794\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33101\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a12141\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31046\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a19507\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36013\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(523x + 938) - log(453x - 607) = log 8, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a15794\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33101\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

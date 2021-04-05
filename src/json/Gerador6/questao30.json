@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 579,
+            "valX02": 659,
+            "num01": 193,
+            "num02": 948,
+            "numResposta": 13,
+            "express": "12517 - 7988\u22c5x",
+            "resposta": "\u23a112517\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 7988\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a11372\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32509\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a112517\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 7988\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a116177\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 9020\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1431\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3904\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a14479\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36479\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(579x + 193) - log(659x - 948) = log 13, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a112517\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 7988\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
+        }
+    ]
+}

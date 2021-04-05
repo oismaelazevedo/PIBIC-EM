@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 668,
+            "tipoDenominadorFracao": 2,
+            "resposta": "2\u22c5\u221a167"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": " 3 _____\n-\u2572\u2571 475 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-\u221a30",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "2\u22c5\u221a167",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "3 _____\n\u2572\u2571 380 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": " 3 _____\n-\u2572\u2571 105 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 668 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a167",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

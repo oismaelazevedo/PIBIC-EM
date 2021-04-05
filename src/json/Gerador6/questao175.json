@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 960,
+            "valX02": 259,
+            "num01": 837,
+            "num02": 7,
+            "numResposta": 14,
+            "express": "935 - 2666\u22c5x",
+            "resposta": "\u23a1935 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32666\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a11097\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3522 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a19914\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38495\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a11203\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3374 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1935 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32666\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a11614\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32693\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(960x + 837) - log(259x - 7) = log 14, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1935 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32666\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

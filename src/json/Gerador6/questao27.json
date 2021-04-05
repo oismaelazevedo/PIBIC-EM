@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 976,
+            "valX02": 295,
+            "num01": 115,
+            "num02": 502,
+            "numResposta": 5,
+            "express": "2625 - 499\u22c5x",
+            "resposta": "\u23a12625\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3499 \u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a15513\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31116\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a12625\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3499 \u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1343 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31220\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1 94 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31233\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a111588\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 1803\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(976x + 115) - log(295x - 502) = log 5, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a12625\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3499 \u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

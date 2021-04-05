@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 324,
+            "tipoDenominadorFracao": 2,
+            "resposta": "18"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "18",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": " 3 _____\n-\u2572\u2571 308 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u221a266",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "-\u221a291",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "   3 ____\n-3\u22c5\u2572\u2571 12 ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 324 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "18",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
+        }
+    ]
+}

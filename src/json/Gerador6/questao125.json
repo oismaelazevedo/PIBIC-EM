@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 359,
+            "valX02": 58,
+            "num01": 762,
+            "num02": 851,
+            "numResposta": 15,
+            "express": "13527 - 511\u22c5x",
+            "resposta": "\u23a113527\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 511 \u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1283\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3313\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a12389\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3 59 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a116037\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a310880\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a113527\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 511 \u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1838\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3499\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(359x + 762) - log(58x - 851) = log 15, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a113527\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 511 \u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

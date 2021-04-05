@@ -1,0 +1,55 @@
+{
+    "logaritmo": [
+        {
+            "taxaMes": 63,
+            "valMultiplicadorMonteInicial": 402,
+            "logTaxaMes": 0.21,
+            "logValMultiplicadorMonteInicial": 2.6,
+            "resposta": 12
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": -9,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": 80,
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": 9,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": 12,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": 10,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 63% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 402?\nAdmita que log1.63 = 0.21 e log402 = 2.6",
+            "corretaspossiveis": 12,
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 806,
+            "tipoDenominadorFracao": 3,
+            "resposta": "3 _____\n\u2572\u2571 806 "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": " 3 ____\n-\u2572\u2571 42 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "   3 ___\n-2\u22c5\u2572\u2571 5 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u221a806",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": " 3 _____\n-\u2572\u2571 742 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "3 _____\n\u2572\u2571 806 ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 806 \u00e9 1/3. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3 _____\n\u2572\u2571 806 ",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

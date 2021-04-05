@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 598,
+            "tipoDenominadorFracao": 3,
+            "resposta": "3 _____\n\u2572\u2571 598 "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "10\u22c5\u221a3",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-\u221a553",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "3 _____\n\u2572\u2571 598 ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "   3 ____\n-2\u22c5\u2572\u2571 21 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "3 _____\n\u2572\u2571 148 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 598 \u00e9 1/3. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3 _____\n\u2572\u2571 598 ",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

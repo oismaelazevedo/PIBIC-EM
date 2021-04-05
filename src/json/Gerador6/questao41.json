@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 705,
+            "valX02": 376,
+            "num01": 163,
+            "num02": 870,
+            "numResposta": 4,
+            "express": "3643 - 799\u22c5x",
+            "resposta": "\u23a13643\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3799 \u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a13643\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3799 \u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a19209\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35842\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a11046\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3653 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a13218\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36395\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1166\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3139\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(705x + 163) - log(376x - 870) = log 4, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a13643\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3799 \u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

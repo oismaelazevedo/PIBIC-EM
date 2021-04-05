@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "radicando": 7993,
+            "indice": 3,
+            "expoente": 5,
+            "resultado": "             2/3\n1 - 7993\u22c57993   "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "1 + 9320809\u22c5\u221a3053",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "          3 ________\n1 - 34250\u22c5\u2572\u2571 375380 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "         3 ________\n1 + 4648\u22c5\u2572\u2571 675122 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "             2/3\n1 - 7993\u22c57993   ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "1 + 314158176\u22c5\u221a201",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.    p\u22c5t\n7993   , em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 7993, desaparece em 3 anos, qual a quantidade perdida em 5 anos?",
+            "corretaspossiveis": "             2/3\n1 - 7993\u22c57993   ",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

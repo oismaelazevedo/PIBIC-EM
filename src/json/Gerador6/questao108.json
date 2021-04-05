@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 552,
+            "valX02": 877,
+            "num01": 655,
+            "num02": 254,
+            "numResposta": 10,
+            "express": "3195 - 8218\u22c5x",
+            "resposta": "\u23a13195\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38218\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a113028\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 4275\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a11717\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33065\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a13195\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38218\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a13326\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31459\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a17681\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35520\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(552x + 655) - log(877x - 254) = log 10, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a13195\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38218\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

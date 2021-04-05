@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 213,
+            "valX02": 106,
+            "num01": 641,
+            "num02": 21,
+            "numResposta": 15,
+            "express": "956 - 1377\u22c5x",
+            "resposta": "\u23a1956 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31377\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1-2049 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 194  \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a119\u23a4\n\u23a2\u2500\u2500\u23a5\n\u23a311\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1956 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31377\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a17429\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38794\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1223\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3340\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(213x + 641) - log(106x - 21) = log 15, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1956 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31377\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

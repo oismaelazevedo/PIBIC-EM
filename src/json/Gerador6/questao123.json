@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 928,
+            "valX02": 364,
+            "num01": 776,
+            "num02": 383,
+            "numResposta": 6,
+            "express": "3074 - 1256\u22c5x",
+            "resposta": "\u23a11537\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3628 \u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a11801\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31856\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a17800\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33353\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a115207\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 7325\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a16601\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33236\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a11537\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3628 \u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(928x + 776) - log(364x - 383) = log 6, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a11537\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3628 \u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
+        }
+    ]
+}

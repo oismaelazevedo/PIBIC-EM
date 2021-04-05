@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 526,
+            "valX02": 811,
+            "num01": 695,
+            "num02": 58,
+            "numResposta": 20,
+            "express": "1855 - 15694\u22c5x",
+            "resposta": "\u23a1265 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32242\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a114769\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a310520\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1867\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3668\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a119906\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a313517\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a16443\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35819\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1265 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32242\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(526x + 695) - log(811x - 58) = log 20, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1265 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32242\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

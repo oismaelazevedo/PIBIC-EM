@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 997,
+            "valX02": 441,
+            "num01": 234,
+            "num02": 267,
+            "numResposta": 16,
+            "express": "4506 - 6059\u22c5x",
+            "resposta": "\u23a14506\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36059\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a113432\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a313567\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a14506\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36059\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a110073\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 1615\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1-1625 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  48  \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1101\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 85\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(997x + 234) - log(441x - 267) = log 16, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a14506\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36059\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

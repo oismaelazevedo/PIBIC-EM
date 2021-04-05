@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 490,
+            "valX02": 225,
+            "num01": 451,
+            "num02": 286,
+            "numResposta": 5,
+            "express": "1881 - 635\u22c5x",
+            "resposta": "\u23a11881\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3635 \u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1-3441 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  20  \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a12687\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31154\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a12040\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31549\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1 2291\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a311321\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a11881\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3635 \u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(490x + 451) - log(225x - 286) = log 5, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a11881\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3635 \u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 700,
+            "tipoDenominadorFracao": 2,
+            "resposta": "10\u22c5\u221a7"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "    2/3\n-4\u22c53   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u221a553",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-\u221a366",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "10\u22c5\u221a7",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "3 _____\n\u2572\u2571 657 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 700 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "10\u22c5\u221a7",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

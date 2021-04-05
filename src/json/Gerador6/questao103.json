@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 380,
+            "valX02": 13,
+            "num01": 775,
+            "num02": 46,
+            "numResposta": 18,
+            "express": "146\u22c5x + 1603",
+            "resposta": "\u23a1-1603 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 146  \u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1-1603 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 146  \u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a112775\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a318033\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1831\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3871\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a11927\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31344\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a114009\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 6840\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(380x + 775) - log(13x - 46) = log 18, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1-1603 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 146  \u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

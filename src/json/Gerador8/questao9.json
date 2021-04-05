@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "base": 6454,
+            "numMultiplicadorNumBase": 1,
+            "expoente": 7589,
+            "resposta": 0.000132
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": -0.000149,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": 0.000132,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": 0.001779,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": -0.000253,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": -0.000276,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Uma subst\u00e2ncia radioativa est\u00e1 em processo de desintegra\u00e7\u00e3o, de modo que no instante t a quantidade n\u00e3o desintegrada \u00e9 A(t) = A(0). -7589\u22c5t\ne       , em que A(0) indica a quantidade de subst\u00e2ncia no instante t = 0. Calcule o tempo necess\u00e1rio para que a quantidade inicial dividida por 6454 se desintegre.",
+            "corretaspossiveis": 0.000132,
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

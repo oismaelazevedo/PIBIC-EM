@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 460,
+            "tipoDenominadorFracao": 2,
+            "resposta": "2\u22c5\u221a115"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "   2/3\n-14   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "2\u22c5\u221a115",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": " 3 _____\n-\u2572\u2571 366 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": " 3 _____\n-\u2572\u2571 385 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u221a146",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 460 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a115",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

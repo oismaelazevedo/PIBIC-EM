@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "numBase": 8,
+            "numMultiplicadorLogaritmando": 9,
+            "numMultiplicadorBase": 10,
+            "resposta": " 3\u22c5\u221a10\n8     "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": " 3\u22c5\u221a10\n8     ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "  2\u22c5\u221a15\n-8     ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": " 2\u22c5\u221a10\n8     ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "  \u221a2\n-8  ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": " 5\u22c5\u221a2\n8    ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(134217728) = log1073741824(x) \u00e9:",
+            "corretaspossiveis": " 3\u22c5\u221a10\n8     ",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
+        }
+    ]
+}

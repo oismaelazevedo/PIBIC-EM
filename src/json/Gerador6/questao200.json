@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 791,
+            "valX02": 255,
+            "num01": 50,
+            "num02": 226,
+            "numResposta": 12,
+            "express": "2762 - 2269\u22c5x",
+            "resposta": "\u23a12762\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32269\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a11858\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32483\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a11081\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a39492\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a12762\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32269\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a17606\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3911 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1390 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32911\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(791x + 50) - log(255x - 226) = log 12, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a12762\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32269\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

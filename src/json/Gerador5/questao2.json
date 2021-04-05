@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 164,
+            "tipoDenominadorFracao": 2,
+            "resposta": "2\u22c5\u221a41"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "  3 ___\n4\u22c5\u2572\u2571 2 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-\u221a142",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "2\u22c5\u221a41",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "3 _____\n\u2572\u2571 110 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": " 3 _____\n-\u2572\u2571 164 ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 164 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a41",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

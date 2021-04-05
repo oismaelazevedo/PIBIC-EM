@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 275,
+            "valX02": 494,
+            "num01": 265,
+            "num02": 908,
+            "numResposta": 9,
+            "express": "8437 - 4171\u22c5x",
+            "resposta": "\u23a18437\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34171\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a19313\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33300\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a18437\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34171\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a17963\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3199 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a14227\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35885\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a14549\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38581\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(275x + 265) - log(494x - 908) = log 9, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a18437\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34171\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

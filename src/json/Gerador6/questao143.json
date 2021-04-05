@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 254,
+            "valX02": 848,
+            "num01": 450,
+            "num02": 431,
+            "numResposta": 18,
+            "express": "8208 - 15010\u22c5x",
+            "resposta": "\u23a1216\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3395\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a13827\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33941\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1280 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31247\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a111812\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a315737\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a16198\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31237\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1216\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3395\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(254x + 450) - log(848x - 431) = log 18, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1216\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3395\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}
