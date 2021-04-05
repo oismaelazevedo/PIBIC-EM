@@ -7,6 +7,7 @@ ob_start();
 <!DOCTYPE html>
 <html>
 <header>
+    <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -248,7 +249,6 @@ ob_start();
         $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 200) . ".json";
         $info = file_get_contents($arquivo);
         $_SESSION['info'] = $arquivo;
-
     } else if ($note == "Vazio") {
     ?>
         <script>
@@ -322,8 +322,8 @@ ob_start();
                         </div><!-- end Icon da pergunta -->
                         <!-- pergunta em si -->
                         <div class="quest-str">
-                            <label class="question-info"><b>Questão <?php echo $contador. ":"; ?> </b></label>
-                            <label class="question-info">
+                            <label class="question-info"><b>Questão <?php echo $contador . ":"; ?> </b></label>
+                            <label class="question-info" style="width: 813px;">
                                 <center>
                                     <?php
                                     echo $enunciado[0];
@@ -335,7 +335,7 @@ ob_start();
                 </div>
                 <!--end container com perguntas globais -->
                 <!-- grupos A -->
-                <div class="group-a">
+                <div class="group-a" style="top:85px;">
                     <!-- Titulo A -->
                     <div class="title-group">
                         <label style="font-family: Verdana; "><b>Alternativas</b></label>
@@ -343,7 +343,7 @@ ob_start();
 
 
                     <!-- conteudo do grupo 2 -->
-                    <div class="content-group2" style="margin-left: 0px; width: 898px">
+                    <div class="content-group2" style="margin-left: 0px;width: 898px;height: 235px;">
 
 
                         <!-- container2 de respostas -->
@@ -352,8 +352,14 @@ ob_start();
 
 
                             <div class="title-legenda" style="margin-left: 13px">
-                                <div class="content-textarea" style="margin-left: 0px;">
-                                    <textarea rows="4" cols="55" name="obs" id="obs"></textarea>
+                                <div class="content-textarea" style="
+    margin-left: 0px;
+    margin-top: 278.;
+    margin-top: 268px;
+">
+                                    <textarea rows="4" cols="55" name="obs" id="obs" style="
+    margin-bottom: 0px;
+"></textarea>
                                 </div>
                             </div>
 
