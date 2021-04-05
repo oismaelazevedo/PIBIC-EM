@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 693,
+            "tipoDenominadorFracao": 2,
+            "resposta": "3\u22c5\u221a77"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "9\u22c5\u221a5",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "3\u22c5\u221a77",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "3 _____\n\u2572\u2571 338 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "   3 ___\n-3\u22c5\u2572\u2571 7 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": " 3 _____\n-\u2572\u2571 574 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 693 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3\u22c5\u221a77",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

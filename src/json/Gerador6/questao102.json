@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 749,
+            "valX02": 804,
+            "num01": 531,
+            "num02": 380,
+            "numResposta": 15,
+            "express": "6231 - 11311\u22c5x",
+            "resposta": "\u23a1 6231\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a311311\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1-470 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 217 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a11258\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3903 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1565\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3811\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a11401\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31136\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1 6231\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a311311\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(749x + 531) - log(804x - 380) = log 15, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1 6231\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a311311\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 439,
+            "valX02": 177,
+            "num01": 158,
+            "num02": 802,
+            "numResposta": 3,
+            "express": "2564 - 92\u22c5x",
+            "resposta": "\u23a1641\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 23\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1 6397\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a310965\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1641\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 23\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a119124\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a315973\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a14885\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38689\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a12221\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3332 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(439x + 158) - log(177x - 802) = log 3, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1641\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 23\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

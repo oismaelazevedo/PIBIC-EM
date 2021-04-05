@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 129,
+            "valX02": 168,
+            "num01": 314,
+            "num02": 137,
+            "numResposta": 7,
+            "express": "1273 - 1047\u22c5x",
+            "resposta": "\u23a11273\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31047\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a16973\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37141\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1857\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3625\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a14877\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38222\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a11273\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31047\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1335\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 21\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(129x + 314) - log(168x - 137) = log 7, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a11273\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31047\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

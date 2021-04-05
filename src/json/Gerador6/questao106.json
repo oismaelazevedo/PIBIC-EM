@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 346,
+            "valX02": 293,
+            "num01": 891,
+            "num02": 870,
+            "numResposta": 20,
+            "express": "18291 - 5514\u22c5x",
+            "resposta": "\u23a16097\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31838\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1 2281\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a318057\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1 4464\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a310891\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a16097\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31838\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1-4563 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 550  \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a118983\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 6920\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(346x + 891) - log(293x - 870) = log 20, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a16097\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31838\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

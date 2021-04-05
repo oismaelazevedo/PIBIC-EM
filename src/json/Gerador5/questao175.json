@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 556,
+            "tipoDenominadorFracao": 2,
+            "resposta": "2\u22c5\u221a139"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "2\u22c5\u221a139",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-2\u22c5\u221a77",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "3 _____\n\u2572\u2571 414 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "  3 ____\n2\u22c5\u2572\u2571 69 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u221a386",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 556 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a139",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

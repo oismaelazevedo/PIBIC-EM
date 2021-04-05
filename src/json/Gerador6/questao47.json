@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 472,
+            "valX02": 833,
+            "num01": 988,
+            "num02": 977,
+            "numResposta": 12,
+            "express": "12712 - 9524\u22c5x",
+            "resposta": "\u23a13178\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32381\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a11397\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3442 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a13178\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32381\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a18639\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33569\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a16833\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32832\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1123\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3401\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(472x + 988) - log(833x - 977) = log 12, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a13178\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32381\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

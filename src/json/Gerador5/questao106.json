@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 192,
+            "tipoDenominadorFracao": 2,
+            "resposta": "8\u22c5\u221a3"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "2\u22c5\u221a37",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "   3 ___\n-4\u22c5\u2572\u2571 3 ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-\u221a145",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "3 _____\n\u2572\u2571 172 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "8\u22c5\u221a3",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 192 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "8\u22c5\u221a3",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
+        }
+    ]
+}

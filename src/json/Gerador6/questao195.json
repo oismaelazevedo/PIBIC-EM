@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 210,
+            "valX02": 136,
+            "num01": 484,
+            "num02": 359,
+            "numResposta": 14,
+            "express": "5510 - 1694\u22c5x",
+            "resposta": "\u23a12755\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3847 \u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a14703\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36062\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a16035\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34078\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1173\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3160\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a12755\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3847 \u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a17271\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32940\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(210x + 484) - log(136x - 359) = log 14, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a12755\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3847 \u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
+        }
+    ]
+}

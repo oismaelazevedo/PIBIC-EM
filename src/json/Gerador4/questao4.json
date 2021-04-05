@@ -1,0 +1,60 @@
+{
+    "logaritmo1": [
+        {
+            "base": 7,
+            "logaritmando": 343,
+            "resultado": 3.0
+        }
+    ],
+    "logaritmo2": [
+        {
+            "base": 7,
+            "logaritmando": 5764801,
+            "resultado": 8.0
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": -3.55,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": 0.38,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": 0.49,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": 2.97,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": -2.67,
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 343 e 5764801 numa base qualquer:",
+            "corretaspossiveis": 0.38,
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
+        }
+    ]
+}

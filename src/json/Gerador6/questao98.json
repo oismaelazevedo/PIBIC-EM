@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 342,
+            "valX02": 396,
+            "num01": 850,
+            "num02": 858,
+            "numResposta": 9,
+            "express": "8572 - 3222\u22c5x",
+            "resposta": "\u23a14286\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31611\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a14030\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32129\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a12839\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3 69 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a11484\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3513 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a14286\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31611\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a16388\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37201\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(342x + 850) - log(396x - 858) = log 9, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a14286\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31611\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
+        }
+    ]
+}

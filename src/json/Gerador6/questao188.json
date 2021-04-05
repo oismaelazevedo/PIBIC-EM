@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 891,
+            "valX02": 791,
+            "num01": 121,
+            "num02": 719,
+            "numResposta": 13,
+            "express": "9468 - 9392\u22c5x",
+            "resposta": "\u23a12367\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32348\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a12367\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32348\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1 1330\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a314033\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1 3083\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a311583\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1395 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32352\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "[-4874/7]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(891x + 121) - log(791x - 719) = log 13, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a12367\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32348\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 642,
+            "valX02": 735,
+            "num01": 396,
+            "num02": 817,
+            "numResposta": 14,
+            "express": "11834 - 9648\u22c5x",
+            "resposta": "\u23a15917\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34824\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a14243\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3243 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1-852 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 805 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a12021\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36340\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a15917\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34824\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a113324\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a312591\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(642x + 396) - log(735x - 817) = log 14, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a15917\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34824\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "numBase": 6,
+            "numMultiplicadorLogaritmando": 7,
+            "numMultiplicadorBase": 8,
+            "resposta": " 2\u22c5\u221a14\n6     "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": " 2\u22c5\u221a2\n6    ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": " \u221a10\n6   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "  3\u22c5\u221a7\n-6    ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "  \u221a2\n-6  ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": " 2\u22c5\u221a14\n6     ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(279936) = log1679616(x) \u00e9:",
+            "corretaspossiveis": " 2\u22c5\u221a14\n6     ",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
+        }
+    ]
+}

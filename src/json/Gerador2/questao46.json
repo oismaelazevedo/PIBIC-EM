@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "numBase": 5,
+            "numMultiplicadorLogaritmando": 8,
+            "numMultiplicadorBase": 3,
+            "resposta": " 2\u22c5\u221a6\n5    "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": " \u221a10\n5   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": " \u221a21\n5   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "  3\u22c5\u221a10\n-5     ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": " 2\u22c5\u221a6\n5    ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "  4\u22c5\u221a3\n-5    ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(390625) = log125(x) \u00e9:",
+            "corretaspossiveis": " 2\u22c5\u221a6\n5    ",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

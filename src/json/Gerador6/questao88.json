@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 108,
+            "valX02": 877,
+            "num01": 883,
+            "num02": 287,
+            "numResposta": 16,
+            "express": "5475 - 13924\u22c5x",
+            "resposta": "\u23a1 5475\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a313924\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a111753\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 1005\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1692 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31287\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1 5475\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a313924\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a13823\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3432 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a15196\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31171\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(108x + 883) - log(877x - 287) = log 16, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1 5475\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a313924\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

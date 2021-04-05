@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 645,
+            "valX02": 621,
+            "num01": 290,
+            "num02": 190,
+            "numResposta": 8,
+            "express": "1810 - 4323\u22c5x",
+            "resposta": "\u23a11810\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34323\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a11810\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34323\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a11747\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36526\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a13131\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35160\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a12082\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3961 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a18738\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35995\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(645x + 290) - log(621x - 190) = log 8, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a11810\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34323\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

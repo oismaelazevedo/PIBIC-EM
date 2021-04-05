@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 856,
+            "valX02": 678,
+            "num01": 608,
+            "num02": 631,
+            "numResposta": 10,
+            "express": "6918 - 5924\u22c5x",
+            "resposta": "\u23a13459\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32962\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a17389\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38560\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a13377\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3160 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1816\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3773\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a13459\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32962\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a19779\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37264\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(856x + 608) - log(678x - 631) = log 10, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a13459\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32962\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

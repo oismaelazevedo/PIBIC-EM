@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 666,
+            "valX02": 701,
+            "num01": 393,
+            "num02": 193,
+            "numResposta": 4,
+            "express": "1165 - 2138\u22c5x",
+            "resposta": "\u23a11165\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32138\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a19323\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38022\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a12383\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32470\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a12872\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3261 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a112886\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a310435\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a11165\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32138\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(666x + 393) - log(701x - 193) = log 4, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a11165\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32138\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 230,
+            "valX02": 765,
+            "num01": 453,
+            "num02": 33,
+            "numResposta": 2,
+            "express": "519 - 1300\u22c5x",
+            "resposta": "\u23a1519 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31300\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a18264\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a39165\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1519 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31300\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1426\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3115\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a14513\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31387\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1 5289\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a313153\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(230x + 453) - log(765x - 33) = log 2, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1519 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31300\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

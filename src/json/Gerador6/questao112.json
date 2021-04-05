@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 522,
+            "valX02": 8,
+            "num01": 287,
+            "num02": 889,
+            "numResposta": 9,
+            "express": "450\u22c5x + 8288",
+            "resposta": "\u23a1-4144 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 225  \u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a120\u23a4\n\u23a2\u2500\u2500\u23a5\n\u23a327\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a132\u23a4\n\u23a2\u2500\u2500\u23a5\n\u23a359\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a14289\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34007\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a12227\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37962\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1-4144 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 225  \u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(522x + 287) - log(8x - 889) = log 9, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1-4144 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 225  \u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 758,
+            "valX02": 651,
+            "num01": 166,
+            "num02": 662,
+            "numResposta": 2,
+            "express": "1490 - 544\u22c5x",
+            "resposta": "\u23a1745\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3272\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1745\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3272\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a15160\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36071\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a11645\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31516\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "[-98/5]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1-7097 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 516  \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(758x + 166) - log(651x - 662) = log 2, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1745\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3272\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
+        }
+    ]
+}

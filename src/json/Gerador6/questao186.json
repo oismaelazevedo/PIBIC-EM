@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 693,
+            "valX02": 515,
+            "num01": 386,
+            "num02": 186,
+            "numResposta": 14,
+            "express": "2990 - 6517\u22c5x",
+            "resposta": "\u23a12990\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36517\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a12990\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36517\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a18275\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31886\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1185\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3294\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1958 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31299\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1 6089\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a314853\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(693x + 386) - log(515x - 186) = log 14, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a12990\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36517\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

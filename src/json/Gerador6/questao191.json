@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 641,
+            "valX02": 281,
+            "num01": 219,
+            "num02": 146,
+            "numResposta": 13,
+            "express": "2117 - 3012\u22c5x",
+            "resposta": "\u23a12117\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33012\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a12871\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3745 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a12117\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33012\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a13274\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38333\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a13389\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32571\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a120691\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a317668\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(641x + 219) - log(281x - 146) = log 13, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a12117\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33012\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
+        }
+    ]
+}

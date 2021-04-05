@@ -1,0 +1,53 @@
+{
+    "logaritmo": [
+        {
+            "numBase": 738,
+            "tipoDenominadorFracao": 2,
+            "resposta": "3\u22c5\u221a82"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "    2/3\n-2\u22c57   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "3\u22c5\u221a82",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u221a278",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "3 _____\n\u2572\u2571 738 ",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": " 3 _____\n-\u2572\u2571 222 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 738 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3\u22c5\u221a82",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

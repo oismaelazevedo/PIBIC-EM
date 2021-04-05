@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 841,
+            "valX02": 449,
+            "num01": 143,
+            "num02": 201,
+            "numResposta": 19,
+            "express": "3962 - 7690\u22c5x",
+            "resposta": "\u23a11981\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33845\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a11981\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33845\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1 7655\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a310881\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a13193\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31823\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a11109\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31080\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1-919 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 515 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(841x + 143) - log(449x - 201) = log 19, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a11981\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33845\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 541,
+            "valX02": 175,
+            "num01": 148,
+            "num02": 932,
+            "numResposta": 7,
+            "express": "6672 - 684\u22c5x",
+            "resposta": "\u23a1556\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 57\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a19822\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37699\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1217\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 71\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1556\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 57\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a19389\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36725\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a15627\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3535 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(541x + 148) - log(175x - 932) = log 7, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1556\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 57\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 290,
+            "valX02": 907,
+            "num01": 387,
+            "num02": 833,
+            "numResposta": 2,
+            "express": "2053 - 1524\u22c5x",
+            "resposta": "\u23a12053\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31524\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a12435\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34903\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a11000\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3833 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a12053\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31524\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1-2385 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  73  \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a11257\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3290 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(290x + 387) - log(907x - 833) = log 2, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a12053\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31524\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

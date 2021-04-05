@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 674,
+            "valX02": 426,
+            "num01": 288,
+            "num02": 495,
+            "numResposta": 7,
+            "express": "3753 - 2308\u22c5x",
+            "resposta": "\u23a13753\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32308\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a13753\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32308\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a111\u23a4\n\u23a2\u2500\u2500\u23a5\n\u23a364\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a13111\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31456\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a14746\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35855\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "[80]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(674x + 288) - log(426x - 495) = log 7, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a13753\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32308\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

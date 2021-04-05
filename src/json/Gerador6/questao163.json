@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 934,
+            "valX02": 969,
+            "num01": 421,
+            "num02": 194,
+            "numResposta": 16,
+            "express": "3525 - 14570\u22c5x",
+            "resposta": "\u23a115\u23a4\n\u23a2\u2500\u2500\u23a5\n\u23a362\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a115\u23a4\n\u23a2\u2500\u2500\u23a5\n\u23a362\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1 7899\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a314944\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a111449\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 357 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a11549\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32120\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a13484\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31623\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(934x + 421) - log(969x - 194) = log 16, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a115\u23a4\n\u23a2\u2500\u2500\u23a5\n\u23a362\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "equacaoExponencial": [
+        {
+            "numBase": 10,
+            "numMultiplicadorLogaritmando": 4,
+            "numMultiplicadorBase": 5,
+            "resposta": "  2\u22c5\u221a5\n10    "
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "   6\u22c5\u221a2\n-10    ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "  2\u22c5\u221a5\n10    ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "   \u221a30\n-10   ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "   \u221a2\n-10  ",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "   2\u22c5\u221a10\n-10     ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(10000) = log100000(x) \u00e9:",
+            "corretaspossiveis": "  2\u22c5\u221a5\n10    ",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "logaritmo1": [
+        {
+            "base": 8,
+            "logaritmando": 4096,
+            "resultado": 4.0
+        }
+    ],
+    "logaritmo2": [
+        {
+            "base": 8,
+            "logaritmando": 134217728,
+            "resultado": 9.0
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": -0.39,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": 0.44,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": -0.13,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": -0.7,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": 2.09,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 4096 e 134217728 numa base qualquer:",
+            "corretaspossiveis": 0.44,
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

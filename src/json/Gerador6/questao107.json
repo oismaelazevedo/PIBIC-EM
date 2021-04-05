@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 26,
+            "valX02": 397,
+            "num01": 700,
+            "num02": 686,
+            "numResposta": 14,
+            "express": "10304 - 5532\u22c5x",
+            "resposta": "\u23a12576\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31383\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a11121\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3428 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a12576\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31383\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a19347\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34689\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a18081\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36209\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a15927\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36561\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(26x + 700) - log(397x - 686) = log 14, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a12576\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31383\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 827,
+            "valX02": 863,
+            "num01": 603,
+            "num02": 978,
+            "numResposta": 17,
+            "express": "17229 - 13844\u22c5x",
+            "resposta": "\u23a117229\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a313844\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a18520\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31001\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a110739\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 4442\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a117229\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a313844\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a12127\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34225\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a111744\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 2195\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(827x + 603) - log(863x - 978) = log 17, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a117229\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a313844\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

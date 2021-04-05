@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 893,
+            "valX02": 658,
+            "num01": 278,
+            "num02": 251,
+            "numResposta": 13,
+            "express": "3541 - 7661\u22c5x",
+            "resposta": "\u23a13541\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37661\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a13541\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37661\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a116700\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 3117\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a13201\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32848\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1-6053 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  41  \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1 4523\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a311609\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(893x + 278) - log(658x - 251) = log 13, ent\u00e3o x \u00e9 igual a:",
+            "corretaspossiveis": "\u23a13541\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37661\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
+        }
+    ]
+}
