@@ -322,7 +322,7 @@ ob_start();
                         </div><!-- end Icon da pergunta -->
                         <!-- pergunta em si -->
                         <div class="quest-str">
-                            <label class="question-info"><b>Enunciado: <?php echo $note . $contador; ?> </b></label>
+                            <label class="question-info"><b>Questão <?php echo $contador. ":"; ?> </b></label>
                             <label class="question-info">
                                 <center>
                                     <?php
