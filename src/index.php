@@ -82,7 +82,7 @@ $_SESSION['resperrada'] = 0;
                 <div class="spacing"><br /></div>
                 <button id="iniciar" name="iniciar" class="btn btn-info btn-sm pull-right">Iniciar Exercícios</button>
 
-
+              
               </fieldset>
             </form>
           </div>
