@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 190,
+            "radicando": 491,
             "indice": 3,
-            "expoente": 5,
-            "resposta": "       2/3\n190\u22c5190   "
+            "expoente": 8,
+            "resposta": "          2/3\n241081\u22c5491   "
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "       2/3\n190\u22c5190   ",
+            "resposta": "-58120048561",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-\u221a151",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": " 3 _____\n-\u2572\u2571 172 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "          2/3\n241081\u22c5491   ",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "b)",
-            "resposta": "3 ____\n\u2572\u2571 55 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "\u221a78",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "3 _____\n\u2572\u2571 163 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": " 3 ___\n-\u2572\u2571 2 ",
+            "resposta": "3 _____\n\u2572\u2571 249 ",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n190   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 190 em 3 horas, quantas se pode esperar no fim de 5 horas?",
-            "corretaspossiveis": "       2/3\n190\u22c5190   ",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.491^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 491 em 3 horas, quantas se pode esperar no fim de 8 horas?",
+            "corretaspossiveis": "          2/3\n241081\u22c5491   ",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
         }
     ]
 }

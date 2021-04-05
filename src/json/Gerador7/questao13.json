@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 466,
+            "radicando": 786,
             "indice": 3,
-            "expoente": 6,
-            "resposta": "217156"
+            "expoente": 2,
+            "resposta": "   2/3\n786   "
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "11\u22c5\u221a2",
+            "resposta": "786",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "3 _____\n\u2572\u2571 291 ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "b)",
-            "resposta": "-101194696",
+            "letra": "c)",
+            "resposta": "  3 ____\n3\u22c5\u2572\u2571 19 ",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "217156",
+            "letra": "d)",
+            "resposta": "   2/3\n786   ",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "d)",
-            "resposta": "\u221a281",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": " 3 _____\n-\u2572\u2571 277 ",
+            "resposta": " 3 _____\n-\u2572\u2571 260 ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n466   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 466 em 3 horas, quantas se pode esperar no fim de 6 horas?",
-            "corretaspossiveis": "217156",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.786^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 786 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "   2/3\n786   ",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
-            "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "C"
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
         }
     ]
 }

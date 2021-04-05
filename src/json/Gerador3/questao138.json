@@ -3,51 +3,51 @@
         {
             "base": 10,
             "logaritmando": 0.0,
-            "expoente": 758,
-            "resultado": 191521.33
+            "expoente": 651,
+            "resultado": 141267.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": 191521.33,
+            "resposta": 141267.0,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": -217759756.0,
+            "resposta": 39216.33,
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": -150976.33,
+            "resposta": -10800.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": -39445.33,
+            "resposta": -111361.33,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": -47628.0,
+            "resposta": -17480.33,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1/H+), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 x  758\ne   . Admita que e = 10",
-            "corretaspossiveis": 191521.33,
+            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1/H+), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 x 10^651.",
+            "corretaspossiveis": 141267.0,
             "corretas": 1,
-            "aleatoriapositiva": 0,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 3,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
+            "invertidanegativa": 0,
             "respostascorretas": "A"
         }
     ]

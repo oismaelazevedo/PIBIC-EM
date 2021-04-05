@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 199,
-            "indice": 3,
-            "expoente": 5,
-            "resposta": "       2/3\n199\u22c5199   "
+            "radicando": 639,
+            "indice": 2,
+            "expoente": 3,
+            "resposta": "1917\u22c5\u221a71"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a123",
+            "resposta": "-639",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a149",
+            "resposta": "1917\u22c5\u221a71",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "5\u22c5\u221a14",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "-\u221a193",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": " 2/3\n7   ",
+            "resposta": "3 _____\n\u2572\u2571 284 ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "       2/3\n199\u22c5199   ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "3 _____\n\u2572\u2571 401 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n199   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 199 em 3 horas, quantas se pode esperar no fim de 5 horas?",
-            "corretaspossiveis": "       2/3\n199\u22c5199   ",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.639^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 639 em 2 horas, quantas se pode esperar no fim de 3 horas?",
+            "corretaspossiveis": "1917\u22c5\u221a71",
             "corretas": 1,
             "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
         }
     ]
 }

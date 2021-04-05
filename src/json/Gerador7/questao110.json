@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 360,
+            "radicando": 541,
             "indice": 3,
-            "expoente": 6,
-            "resposta": "129600"
+            "expoente": 5,
+            "resposta": "       2/3\n541\u22c5541   "
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-46656000",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
-        },
-        {
-            "letra": "b)",
-            "resposta": "\u221a119",
+            "resposta": "3 _____\n\u2572\u2571 271 ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "b)",
+            "resposta": "       2/3\n541\u22c5541   ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
             "letra": "c)",
-            "resposta": " 3 _____\n-\u2572\u2571 244 ",
+            "resposta": "\u221a293",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "3 _____\n\u2572\u2571 291 ",
+            "resposta": "\u221a254",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "129600",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-292681\u22c5\u221a541",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n360   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 360 em 3 horas, quantas se pode esperar no fim de 6 horas?",
-            "corretaspossiveis": "129600",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.541^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 541 em 3 horas, quantas se pode esperar no fim de 5 horas?",
+            "corretaspossiveis": "       2/3\n541\u22c5541   ",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "respostascorretas": "B"
         }
     ]
 }

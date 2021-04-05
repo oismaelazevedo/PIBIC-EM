@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 7966,
+            "radicando": 8488,
             "indice": 3,
-            "expoente": 4,
-            "resultado": "         3 ______\n1 - 7966\u22c5\u2572\u2571 7966 "
+            "expoente": 5,
+            "resultado": "              2/3\n1 - 33952\u22c51061   "
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "        3 _____\n1 + 226\u22c5\u2572\u2571 226 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "              2/3\n1 - 33952\u22c51061   ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "-9941408",
+            "resposta": "             2/3\n1 - 10304\u22c5322   ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "        3 _____\n1 + 460\u22c5\u2572\u2571 460 ",
+            "resposta": "          3 _________\n1 + 18090\u22c5\u2572\u2571 1346700 ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-1334024",
+            "resposta": "             2/3\n1 + 3007\u22c53007   ",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "         3 ______\n1 - 7966\u22c5\u2572\u2571 7966 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "1 + 144092288\u22c5\u221a2122",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.    p\u22c5t\n7966   , em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 7966, desaparece em 3 anos, qual a quantidade perdida em 4 anos?",
-            "corretaspossiveis": "         3 ______\n1 - 7966\u22c5\u2572\u2571 7966 ",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.8488^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 8488, desaparece em 3 anos, qual a quantidade perdida em 5 anos?",
+            "corretaspossiveis": "              2/3\n1 - 33952\u22c51061   ",
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
         }
     ]
 }

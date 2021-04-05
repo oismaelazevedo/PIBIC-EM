@@ -1,51 +1,51 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 760,
-            "indice": 2,
-            "expoente": 10,
-            "resposta": "253552537600000"
+            "radicando": 389,
+            "indice": 3,
+            "expoente": 8,
+            "resposta": "          2/3\n151321\u22c5389   "
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a574",
+            "resposta": " 3 _____\n-\u2572\u2571 220 ",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-9\u22c5\u221a2",
+            "resposta": " 3 _____\n-\u2572\u2571 117 ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "253552537600000",
+            "resposta": "          2/3\n151321\u22c5389   ",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a337",
+            "resposta": "    2/3\n-3\u22c53   ",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a661",
+            "resposta": "10",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n760   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 760 em 2 horas, quantas se pode esperar no fim de 10 horas?",
-            "corretaspossiveis": "253552537600000",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.389^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 389 em 3 horas, quantas se pode esperar no fim de 8 horas?",
+            "corretaspossiveis": "          2/3\n151321\u22c5389   ",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "C"

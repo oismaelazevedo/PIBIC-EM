@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 9790,
-            "indice": 2,
+            "radicando": 1378,
+            "indice": 3,
             "expoente": 5,
-            "resultado": "1 - 95844100\u22c5\u221a9790"
+            "resultado": "             2/3\n1 - 1378\u22c51378   "
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 5026564\u22c5\u221a2242",
+            "resposta": "1 - 1898884\u22c5\u221a1378",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "             2/3\n1 - 2281\u22c52281   ",
+            "resposta": "1 + 879844\u22c5\u221a938",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "             2/3\n1 - 1354\u22c51354   ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "1 - 95844100\u22c5\u221a9790",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
             "letra": "d)",
-            "resposta": "1 + 1274641\u22c5\u221a1129",
+            "resposta": "1 + 1387684\u22c5\u221a1178",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "             2/3\n1 + 9790\u22c59790   ",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "resposta": "             2/3\n1 - 1378\u22c51378   ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.    p\u22c5t\n9790   , em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 9790, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 95844100\u22c5\u221a9790",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.1378^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 1378, desaparece em 3 anos, qual a quantidade perdida em 5 anos?",
+            "corretaspossiveis": "             2/3\n1 - 1378\u22c51378   ",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "C"
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
         }
     ]
 }

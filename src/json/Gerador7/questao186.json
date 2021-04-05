@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 345,
+            "radicando": 368,
             "indice": 3,
-            "expoente": 2,
-            "resposta": "   2/3\n345   "
+            "expoente": 6,
+            "resposta": "135424"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3 _____\n\u2572\u2571 211 ",
+            "resposta": "  3 ____\n2\u22c5\u2572\u2571 46 ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "   2/3\n345   ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-49836032",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a97",
+            "resposta": "-2\u22c5\u221a77",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-345",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "resposta": "135424",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "   3 ___\n-2\u22c5\u2572\u2571 2 ",
+            "resposta": "2\u22c5\u221a29",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n345   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 345 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "   2/3\n345   ",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.368^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 368 em 3 horas, quantas se pode esperar no fim de 6 horas?",
+            "corretaspossiveis": "135424",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "B"
+            "respostascorretas": "D"
         }
     ]
 }

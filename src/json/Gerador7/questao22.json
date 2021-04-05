@@ -1,53 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 658,
-            "indice": 3,
+            "radicando": 734,
+            "indice": 2,
             "expoente": 7,
-            "resposta": "       3 _____\n432964\u22c5\u2572\u2571 658 "
+            "resposta": "395446904\u22c5\u221a734"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3 _____\n\u2572\u2571 468 ",
+            "resposta": "\u221a143",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "284890312\u22c5\u221a658",
+            "resposta": "  3 ____\n3\u22c5\u2572\u2571 22 ",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "       3 _____\n432964\u22c5\u2572\u2571 658 ",
+            "resposta": "395446904\u22c5\u221a734",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "-2\u22c5\u221a21",
+            "resposta": "-\u221a634",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a389",
+            "resposta": "        3 _____\n-538756\u22c5\u2572\u2571 734 ",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n658   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 658 em 3 horas, quantas se pode esperar no fim de 7 horas?",
-            "corretaspossiveis": "       3 _____\n432964\u22c5\u2572\u2571 658 ",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.734^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 734 em 2 horas, quantas se pode esperar no fim de 7 horas?",
+            "corretaspossiveis": "395446904\u22c5\u221a734",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "C"
         }
     ]

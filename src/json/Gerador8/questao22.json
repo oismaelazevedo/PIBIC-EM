@@ -1,53 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "base": 8755,
-            "numMultiplicadorNumBase": 5,
-            "expoente": 9984,
-            "resposta": 0.000501
+            "base": 9778,
+            "numMultiplicadorNumBase": 3,
+            "expoente": 2861,
+            "resposta": 0.001049
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": -0.000838,
+            "resposta": 0.004666,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": 0.000551,
+            "resposta": 0.001678,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": 0.000807,
+            "resposta": 0.001337,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": 0.000501,
+            "resposta": 0.001049,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": 0.000611,
+            "resposta": -0.000307,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "Uma subst\u00e2ncia radioativa est\u00e1 em processo de desintegra\u00e7\u00e3o, de modo que no instante t a quantidade n\u00e3o desintegrada \u00e9 A(t) = A(0). -9984\u22c5t\ne       , em que A(0) indica a quantidade de subst\u00e2ncia no instante t = 0. Calcule o tempo necess\u00e1rio para que a quantidade inicial dividida por 43775 se desintegre.",
-            "corretaspossiveis": 0.000501,
+            "enunciado": "Uma subst\u00e2ncia radioativa est\u00e1 em processo de desintegra\u00e7\u00e3o, de modo que no instante t a quantidade n\u00e3o desintegrada \u00e9 A(t) = A(0).e^(-2861.t), em que A(0) indica a quantidade de subst\u00e2ncia no instante t = 0. Calcule o tempo necess\u00e1rio para que a quantidade inicial dividida por 29334 se desintegre.",
+            "corretaspossiveis": 0.001049,
             "corretas": 1,
             "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "D"
         }
     ]

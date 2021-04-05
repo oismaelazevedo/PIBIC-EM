@@ -1,53 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 781,
+            "radicando": 169,
             "indice": 2,
-            "expoente": 5,
-            "resposta": "609961\u22c5\u221a781"
+            "expoente": 7,
+            "resposta": "62748517"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "609961\u22c5\u221a781",
+            "resposta": "62748517",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a17",
+            "resposta": "\u221a41",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a51",
+            "resposta": "\u221a142",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "   3 ____\n-2\u22c5\u2572\u2571 29 ",
+            "resposta": "\u221a130",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "        2/3\n-781\u22c5781   ",
+            "resposta": "-\u221a29",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n781   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 781 em 2 horas, quantas se pode esperar no fim de 5 horas?",
-            "corretaspossiveis": "609961\u22c5\u221a781",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.169^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 169 em 2 horas, quantas se pode esperar no fim de 7 horas?",
+            "corretaspossiveis": "62748517",
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 3,
             "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
+            "invertidanegativa": 0,
             "respostascorretas": "A"
         }
     ]

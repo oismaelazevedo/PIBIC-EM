@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "base": 6405,
-            "numMultiplicadorNumBase": 2,
-            "expoente": 1191,
-            "resposta": 0.001679
+            "base": 3053,
+            "numMultiplicadorNumBase": 1,
+            "expoente": 1156,
+            "resposta": 0.000865
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": 0.000312,
+            "resposta": -0.000328,
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": -0.011236,
+            "resposta": -0.002494,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": 0.017094,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": 0.000865,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": 0.002004,
+            "resposta": -0.002933,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": 0.001679,
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": -0.003676,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "Uma subst\u00e2ncia radioativa est\u00e1 em processo de desintegra\u00e7\u00e3o, de modo que no instante t a quantidade n\u00e3o desintegrada \u00e9 A(t) = A(0). -1191\u22c5t\ne       , em que A(0) indica a quantidade de subst\u00e2ncia no instante t = 0. Calcule o tempo necess\u00e1rio para que a quantidade inicial dividida por 12810 se desintegre.",
-            "corretaspossiveis": 0.001679,
+            "enunciado": "Uma subst\u00e2ncia radioativa est\u00e1 em processo de desintegra\u00e7\u00e3o, de modo que no instante t a quantidade n\u00e3o desintegrada \u00e9 A(t) = A(0).e^(-1156.t), em que A(0) indica a quantidade de subst\u00e2ncia no instante t = 0. Calcule o tempo necess\u00e1rio para que a quantidade inicial dividida por 3053 se desintegre.",
+            "corretaspossiveis": 0.000865,
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
         }
     ]
 }

@@ -3,51 +3,51 @@
         {
             "base": 10,
             "logaritmando": 0.0,
-            "expoente": 871,
-            "resultado": 252880.33
+            "expoente": 693,
+            "resultado": 160083.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": -86021.33,
+            "resposta": -120400.33,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": -174243.0,
+            "resposta": -166406278.5,
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": -81345.33,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": 100467.0,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "d)",
-            "resposta": 252880.33,
+            "resposta": 160083.0,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": 330388155.5,
+            "resposta": 1825.33,
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1/H+), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 x  871\ne   . Admita que e = 10",
-            "corretaspossiveis": 252880.33,
+            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1/H+), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 x 10^693.",
+            "corretaspossiveis": 160083.0,
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "D"
         }
     ]
