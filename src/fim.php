@@ -77,7 +77,7 @@ require_once("funcao/conexao.php");
                             <?php
 
                             while($total > 0){
-                                $questao = $questao +1;
+                                $questao = $questao + 1;
                                 $linha = $consulta->fetch(PDO::FETCH_ASSOC);
                                 $nome = $linha['nome'];
                                 //$questao = $linha['questao'];
@@ -117,8 +117,7 @@ require_once("funcao/conexao.php");
                             
                         ?>
                             </table>
-                        <?php session_destroy();?>
-                        <a href="index.php" class="btn btn-info btn-sm pull-right">Finalizar</a>
+                        <a href="funcao/logout.php" class="btn btn-info btn-sm pull-right">Finalizar</a>
                     </fieldset>
                 </div>
             </div>

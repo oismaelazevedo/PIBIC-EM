@@ -2,53 +2,53 @@
     "logaritmo": [
         {
             "base": 10,
-            "logaritmando": 0.0,
-            "expoente": 989,
-            "resultado": 326040.33
+            "logaritmando": 1e-284,
+            "expoente": 284,
+            "resultado": 26885.33
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": 326040.33,
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": 19200.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": -257547.0,
+            "resposta": 3136.33,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": -87040.33,
+            "resposta": 4408.33,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": -133141.33,
+            "resposta": 208.33,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": -204885.33,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": 26885.33,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1/H+), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 x  989\ne   . Admita que e = 10",
-            "corretaspossiveis": 326040.33,
+            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1/H+), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 x 10^284.",
+            "corretaspossiveis": 26885.33,
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 4,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "E"
         }
     ]
 }

@@ -2,47 +2,47 @@
     "logaritmo": [
         {
             "base": 10,
-            "logaritmando": 0.0,
-            "expoente": 550,
-            "resultado": 100833.33
+            "logaritmando": 1e-46,
+            "expoente": 46,
+            "resultado": 705.33
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": -4181.33,
+            "resposta": 280.33,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": -24843.0,
+            "resposta": -456.33,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": 13872.0,
+            "resposta": 432.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": 2760.33,
+            "resposta": -147.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": 100833.33,
+            "resposta": 705.33,
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1/H+), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 x  550\ne   . Admita que e = 10",
-            "corretaspossiveis": 100833.33,
+            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1/H+), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 x 10^46.",
+            "corretaspossiveis": 705.33,
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,

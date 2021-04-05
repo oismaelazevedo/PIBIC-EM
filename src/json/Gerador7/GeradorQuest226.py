@@ -14,7 +14,7 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open("questao{}.json".format(k+1), 'w')
+    questoes = open("./src/json/Gerador7/questao{}.json".format(k+1), 'w')
     numBase = rnd.randint(2,1000)
 
     qntHoraDada = rnd.randint(2,3)
@@ -157,7 +157,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = {}, em que X(t) é o número de bactérias no tempo t ≥ 0; C, p são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas se pode esperar no fim de {} horas?'.format(pretty(C*(numBase**(p*t))),numBase,qntHoraDada,qntHoraEsperada),
+                'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = C.{}^(p.t), em que X(t) é o número de bactérias no tempo t ≥ 0; C, p são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas se pode esperar no fim de {} horas?'.format(numBase,numBase,qntHoraDada,qntHoraEsperada),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

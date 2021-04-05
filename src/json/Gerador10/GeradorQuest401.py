@@ -15,7 +15,7 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open("questao{}.json".format(k+1), 'w')
+    questoes = open("./src/json/Gerador10/questao{}.json".format(k+1), 'w')
 
     taxaMes = rnd.randint(2,100)
     valMultiplicadorMonteInicial = rnd.randint(2,1000)

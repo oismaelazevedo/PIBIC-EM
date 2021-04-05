@@ -262,9 +262,6 @@ ob_start();
 
     unset($_SESSION["correto"]);
 
-
-
-
     $arquivo = $_SESSION['info'];
     $info = file_get_contents($arquivo);
     $lendo = json_decode($info);

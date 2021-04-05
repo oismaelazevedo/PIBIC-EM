@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 8901,
+            "radicando": 3830,
             "indice": 3,
-            "expoente": 2,
-            "resultado": "      3 _________\n1 - 3\u22c5\u2572\u2571 2934363 "
+            "expoente": 4,
+            "resultado": "         3 ______\n1 - 3830\u22c5\u2572\u2571 3830 "
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "      3 _________\n1 - 3\u22c5\u2572\u2571 2934363 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "b)",
-            "resposta": "8902",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "        2/3\n1 - 6970   ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "280",
+            "resposta": "         3 ______\n1 + 1922\u22c5\u2572\u2571 1922 ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": "         3 ______\n1 + 1683\u22c5\u2572\u2571 1683 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "         3 ______\n1 + 2060\u22c5\u2572\u2571 2060 ",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "         3 ______\n1 - 3830\u22c5\u2572\u2571 3830 ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
             "letra": "e)",
-            "resposta": "      3 _________\n1 - 2\u22c5\u2572\u2571 5464818 ",
+            "resposta": "-1153475",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.    p\u22c5t\n8901   , em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 8901, desaparece em 3 anos, qual a quantidade perdida em 2 anos?",
-            "corretaspossiveis": "      3 _________\n1 - 3\u22c5\u2572\u2571 2934363 ",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.3830^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3830, desaparece em 3 anos, qual a quantidade perdida em 4 anos?",
+            "corretaspossiveis": "         3 ______\n1 - 3830\u22c5\u2572\u2571 3830 ",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "A"
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
         }
     ]
 }

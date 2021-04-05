@@ -14,7 +14,7 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open("questao{}.json".format(k+1), 'w')
+    questoes = open("./src/json/Gerador8/questao{}.json".format(k+1), 'w')
 
     numBase = rnd.randint(2,10000)
     # A variável abaixo multiplicará o valor base
@@ -118,7 +118,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Uma substância radioativa está em processo de desintegração, de modo que no instante t a quantidade não desintegrada é A(t) = A(0).{}, em que A(0) indica a quantidade de substância no instante t = 0. Calcule o tempo necessário para que a quantidade inicial dividida por {} se desintegre.'.format(pretty(e ** (-numExpoente * t)), numBase * numMultiplicadorNumBase),
+                'enunciado': 'Uma substância radioativa está em processo de desintegração, de modo que no instante t a quantidade não desintegrada é A(t) = A(0).e^(-{}.t), em que A(0) indica a quantidade de substância no instante t = 0. Calcule o tempo necessário para que a quantidade inicial dividida por {} se desintegre.'.format(numExpoente, numBase * numMultiplicadorNumBase),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

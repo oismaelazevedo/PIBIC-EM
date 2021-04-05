@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 199,
+            "radicando": 260,
             "indice": 2,
-            "expoente": 6,
-            "resposta": "7880599"
+            "expoente": 8,
+            "resposta": "4569760000"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a69",
+            "resposta": "4\u22c5\u221a7",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": " 3 _____\n-\u2572\u2571 138 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "3 ____\n\u2572\u2571 51 ",
+            "resposta": "13",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "d)",
-            "resposta": "7880599",
+            "letra": "c)",
+            "resposta": "4569760000",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "e)",
-            "resposta": "3 _____\n\u2572\u2571 158 ",
+            "letra": "d)",
+            "resposta": " 3 ____\n-\u2572\u2571 78 ",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "-\u221a21",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) =    p\u22c5t  \n199   \u22c5C, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 199 em 2 horas, quantas se pode esperar no fim de 6 horas?",
-            "corretaspossiveis": "7880599",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.260^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 260 em 2 horas, quantas se pode esperar no fim de 8 horas?",
+            "corretaspossiveis": "4569760000",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "C"
         }
     ]
 }

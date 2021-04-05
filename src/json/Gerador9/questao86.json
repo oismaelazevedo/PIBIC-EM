@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 5815,
+            "radicando": 6444,
             "indice": 3,
-            "expoente": 5,
-            "resultado": "             2/3\n1 - 5815\u22c55815   "
+            "expoente": 2,
+            "resultado": "      3 ________\n1 - 6\u22c5\u2572\u2571 192246 "
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "             2/3\n1 + 5501\u22c55501   ",
+            "resposta": "         2/3\n1 - 4\u22c5215   ",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "             2/3\n1 + 5637\u22c55637   ",
+            "resposta": "       2/3\n1 - 349   ",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "             2/3\n1 - 5815\u22c55815   ",
+            "resposta": "-5137",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "      3 ________\n1 - 6\u22c5\u2572\u2571 192246 ",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "d)",
-            "resposta": "1 + 26908448\u22c5\u221a917",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "e)",
-            "resposta": "1 + 5793649\u22c5\u221a2407",
+            "resposta": "         2/3\n1 - 4\u22c5505   ",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.    p\u22c5t\n5815   , em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 5815, desaparece em 3 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "             2/3\n1 - 5815\u22c55815   ",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.6444^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 6444, desaparece em 3 anos, qual a quantidade perdida em 2 anos?",
+            "corretaspossiveis": "      3 ________\n1 - 6\u22c5\u2572\u2571 192246 ",
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 4,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "D"
         }
     ]
 }

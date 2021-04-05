@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 8017,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 8017\u22c5\u221a8017"
+            "radicando": 6908,
+            "indice": 3,
+            "expoente": 5,
+            "resultado": "          3 _________\n1 - 13816\u22c5\u2572\u2571 5965058 "
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 8017\u22c5\u221a8017",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "b)",
-            "resposta": "1 + 3147\u22c5\u221a3147",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "5308",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "1 - 2344\u22c5\u221a293",
+            "resposta": "             2/3\n1 - 3994\u22c53994   ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "b)",
+            "resposta": "          3 _________\n1 - 13816\u22c5\u2572\u2571 5965058 ",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "1 + 95440928\u22c5\u221a1727",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "1 + 43309561\u22c5\u221a6581",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "e)",
-            "resposta": "1 - 354\u22c5\u221a354",
+            "resposta": "           2/3\n1 - 915\u22c5915   ",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.    p\u22c5t\n8017   , em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 8017, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 8017\u22c5\u221a8017",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.6908^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 6908, desaparece em 3 anos, qual a quantidade perdida em 5 anos?",
+            "corretaspossiveis": "          3 _________\n1 - 13816\u22c5\u2572\u2571 5965058 ",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
         }
     ]
 }

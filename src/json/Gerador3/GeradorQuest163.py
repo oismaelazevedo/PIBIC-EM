@@ -14,7 +14,7 @@ def elementosListaEhDistinta(lista):
 enunciado = [None]*200
 k = 0
 while k < 200:
-    questoes = open("questao{}.json".format(k+1), 'w')
+    questoes = open("./src/json/Gerador3/questao{}.json".format(k+1), 'w')
 
     expoenteConcentracao = rnd.randint(1,1000)
     resposta = round((expoenteConcentracao ** 2)/3, 2)
@@ -114,7 +114,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'O pH de uma solução é definido por pH = log(1/H+), em que H+ é a concentração de hidrogênio em íons-gama por litro de solução. Determine o quadrado sobre três do pH de uma solução tal que H+ = 1,0 x {}. Admita que e = 10'.format(pretty(e ** expoenteConcentracao)),
+                'enunciado': 'O pH de uma solução é definido por pH = log(1/H+), em que H+ é a concentração de hidrogênio em íons-gama por litro de solução. Determine o quadrado sobre três do pH de uma solução tal que H+ = 1,0 x 10^{}.'.format(expoenteConcentracao),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

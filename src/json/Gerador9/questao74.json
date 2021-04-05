@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 8603,
-            "indice": 3,
-            "expoente": 2,
-            "resultado": "        2/3\n1 - 8603   "
+            "radicando": 85,
+            "indice": 2,
+            "expoente": 5,
+            "resultado": "1 - 7225\u22c5\u221a85"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "        2/3\n1 - 7706   ",
+            "resposta": "         2/3\n1 + 14\u22c514   ",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "        2/3\n1 - 8603   ",
+            "resposta": "1 + 900\u22c5\u221a30",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "1 + 3025\u22c5\u221a55",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "1 - 7225\u22c5\u221a85",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "-2172",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "        2/3\n1 - 2281   ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": "        2/3\n1 + 5037   ",
+            "resposta": "1 + 2601\u22c5\u221a51",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.    p\u22c5t\n8603   , em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 8603, desaparece em 3 anos, qual a quantidade perdida em 2 anos?",
-            "corretaspossiveis": "        2/3\n1 - 8603   ",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.85^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 85, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
+            "corretaspossiveis": "1 - 7225\u22c5\u221a85",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "D"
         }
     ]
 }

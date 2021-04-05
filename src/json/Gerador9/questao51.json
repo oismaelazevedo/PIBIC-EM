@@ -1,52 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 3333,
+            "radicando": 5259,
             "indice": 3,
             "expoente": 2,
-            "resultado": "        2/3\n1 - 3333   "
+            "resultado": "        2/3\n1 - 5259   "
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "        2/3\n1 - 3333   ",
+            "resposta": "        2/3\n1 - 5259   ",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "-3332",
+            "resposta": "653",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-2218",
+            "resposta": "-4404",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "3147",
+            "resposta": "-4907",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-2233",
+            "resposta": "        2/3\n1 + 2867   ",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.    p\u22c5t\n3333   , em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3333, desaparece em 3 anos, qual a quantidade perdida em 2 anos?",
-            "corretaspossiveis": "        2/3\n1 - 3333   ",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.5259^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 5259, desaparece em 3 anos, qual a quantidade perdida em 2 anos?",
+            "corretaspossiveis": "        2/3\n1 - 5259   ",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "A"
         }
