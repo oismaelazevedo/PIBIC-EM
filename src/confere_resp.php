@@ -118,28 +118,29 @@ ob_start();
         }
 
         $tipoerro = $lendo["respostas"][$indice]["tipoerro"];
+        $secorreta = $_SESSION["correto"];
 
-        $PDO = CriarConexao();
-        $sql = "INSERT INTO resposta(rodada, id_user, questao, resposta, correta, tipoerro, obs, tempo_gasto, ip) VALUES 
-                                (:rodada, :id_usuario, :arquivo, :letra_resp_user, :letra_correta, 
+            $PDO = CriarConexao();
+        $sql = "INSERT INTO resposta(rodada, id_user, questao, selecionada, resposta, correta, tipoerro, obs, tempo_gasto, ip) VALUES 
+                                (:rodada, :id_usuario, :arquivo, :letra_resp_user, :letra_correta, :secorreta,
                                  :tipoerro, :obs, :tempo_gasto, :ip)";
 
         $consulta = $PDO->prepare($sql);
 
-        $consulta->bindParam(":rodada",$rodada);
-        $consulta->bindParam(":id_usuario",$id_usuario);
-        $consulta->bindParam(":arquivo",$arquivo);
-        $consulta->bindParam(":letra_resp_user",$letra_resp_user);
-        $consulta->bindParam(":letra_correta",$letra_correta);
-        $consulta->bindParam(":tipoerro",$tipoerro);
-        $consulta->bindParam(":obs",$obs);
-        $consulta->bindParam(":tempo_gasto",$tempo_gasto);
-        $consulta->bindParam(":ip",$ip);
+        $consulta->bindParam(":rodada", $rodada);
+        $consulta->bindParam(":id_usuario", $id_usuario);
+        $consulta->bindParam(":arquivo", $arquivo);
+        $consulta->bindParam(":letra_resp_user", $letra_resp_user);
+        $consulta->bindParam(":letra_correta", $letra_correta);
+        $consulta->bindParam(":tipoerro", $tipoerro);
+        $consulta->bindParam(":obs", $obs);
+        $consulta->bindParam(":tempo_gasto", $tempo_gasto);
+        $consulta->bindParam(":ip", $ip);
 
         $consulta->execute();
 
         unset($_SESSION['info']);
-    } else{
+    } else {
 
         $_SESSION["contador"] = $_SESSION["contador"];
         $_SESSION['info'] = $arquivo;
