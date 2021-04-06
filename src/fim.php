@@ -77,14 +77,9 @@ require_once("funcao/conexao.php");
                                     $linha = $consulta->fetch(PDO::FETCH_ASSOC);
                                     $nome = $linha['nome'];
                                     //$questao = $linha['questao'];
-                                    $correta = $linha['correta'];
-                                    $selec = $linha['resposta'];
-                                    if ($correta != $selec) {
-                                        $conclusao = "Não";
-                                    } else {
-                                        $conclusao = "Sim";
-                                    }
-
+                                    $correta = $linha['resposta'];
+                                    $selec = $linha['selecionada'];
+                                    $conclusao = $linha['correta'];
 
                                 ?>
 
