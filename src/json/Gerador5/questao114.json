@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 668,
+            "numBase": 922,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a167"
+            "resposta": "\u221a922"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 3 _____\n-\u2572\u2571 475 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "b)",
-            "resposta": "-\u221a30",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "2\u22c5\u221a167",
+            "resposta": "\u221a922",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "d)",
-            "resposta": "3 _____\n\u2572\u2571 380 ",
+            "letra": "b)",
+            "resposta": "5\u22c5\u221a30",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": "-\u221a205",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "-\u221a922",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
             "letra": "e)",
-            "resposta": " 3 _____\n-\u2572\u2571 105 ",
+            "resposta": "-9\u22c5\u221a3",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 668 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a167",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 922 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a922",
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
         }
     ]
 }

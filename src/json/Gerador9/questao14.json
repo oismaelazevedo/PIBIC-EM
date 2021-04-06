@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 201,
-            "indice": 3,
+            "radicando": 7144,
+            "indice": 2,
             "expoente": 4,
-            "resultado": "        3 _____\n1 - 201\u22c5\u2572\u2571 201 "
+            "resultado": "-51036735"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-12543",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "        3 ___\n1 + 112\u22c5\u2572\u2571 7 ",
+            "resposta": "10530026",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": "-23184224",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "c)",
-            "resposta": "       3 ____\n1 + 97\u22c5\u2572\u2571 97 ",
+            "resposta": "5755202",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "        3 _____\n1 - 201\u22c5\u2572\u2571 201 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "157610",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "20737",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "-51036735",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.201^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 201, desaparece em 3 anos, qual a quantidade perdida em 4 anos?",
-            "corretaspossiveis": "        3 _____\n1 - 201\u22c5\u2572\u2571 201 ",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.7144^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 7144, desaparece em 2 anos, qual a quantidade perdida em 4 anos?",
+            "corretaspossiveis": "-51036735",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "E"
         }
     ]
 }

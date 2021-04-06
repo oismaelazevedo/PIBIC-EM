@@ -1,5 +1,5 @@
 import random as rnd
-from sympy import pretty, sqrt, cbrt, symbols
+from sympy import pretty, sqrt, symbols
 import json
 
 def elementosListaEhDistinta(lista):
@@ -17,18 +17,11 @@ while k < 200:
     questoes = open("./src/json/Gerador7/questao{}.json".format(k+1), 'w')
     numBase = rnd.randint(2,1000)
 
-    qntHoraDada = rnd.randint(2,3)
-    qntHoraEsperada = rnd.randint(2,10)
-
-    while(qntHoraDada == qntHoraEsperada):
-        qntHoraEsperada = rnd.randint(2,10)
-
-    if(qntHoraDada == 2):
-        resposta = sqrt(numBase ** qntHoraEsperada)
-        resposta = pretty(resposta)
-    else:
-        resposta = cbrt(numBase ** qntHoraEsperada)
-        resposta = pretty(resposta)
+    qntHoraDada = 3
+    
+    resposta = sqrt(numBase ** 2)
+    resposta = pretty(resposta)
+    
 
     C, p, t = symbols("C p t")
 
@@ -53,67 +46,35 @@ while k < 200:
                 isCorrect[numLetra] = "Sim"
                 howGenerated[numLetra] = "nenhum"
             elif questaoInvertida == listLetra[numLetra] and possuiQuestaoInvertida == 1:
-                if(qntHoraDada == 2):
-                    numRandomTemporario = rnd.randint(0,1)
+                
+                numRandomTemporario = rnd.randint(0,1)
 
-                    if numRandomTemporario == 0:
+                if numRandomTemporario == 0:
 
-                        listAlternativas[numLetra] = cbrt(numBase ** qntHoraEsperada)
-                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                        isCorrect[numLetra] = "Nao"
-                        howGenerated[numLetra] = "invertida e positiva"
-                    else:
-                        listAlternativas[numLetra] = -cbrt(numBase ** qntHoraEsperada)
-                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                        isCorrect[numLetra] = "Nao"
-                        howGenerated[numLetra] = "invertida e negativa"
+                    listAlternativas[numLetra] = sqrt(numBase ** 2)
+                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra]) 
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e positiva"
                 else:
-                    numRandomTemporario = rnd.randint(0,1)
-
-                    if numRandomTemporario == 0:
-
-                        listAlternativas[numLetra] = sqrt(numBase ** qntHoraEsperada)
-                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra]) 
-                        isCorrect[numLetra] = "Nao"
-                        howGenerated[numLetra] = "invertida e positiva"
-                    else:
-                        listAlternativas[numLetra] = -sqrt(numBase ** qntHoraEsperada)
-                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra]) 
-                        isCorrect[numLetra] = "Nao"
-                        howGenerated[numLetra] = "invertida e negativa"
+                    listAlternativas[numLetra] = -sqrt(numBase ** 2)
+                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra]) 
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "invertida e negativa"
             else:
-                numRandomTemporario = rnd.randint(2,3)
+                numRandomTemporario = rnd.randint(0,1)
 
-                if numRandomTemporario == 2:
-                    numRandomTemporario = rnd.randint(0,1)
-
-                    if numRandomTemporario == 0:
-                        numRandomTemporario = rnd.randint(2, numBase)
-                        listAlternativas[numLetra] = sqrt(numRandomTemporario)
-                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                        isCorrect[numLetra] = "Nao"
-                        howGenerated[numLetra] = "gerada aleatoriamente e positiva"
-                    else:
-                        numRandomTemporario = rnd.randint(2, numBase)
-                        listAlternativas[numLetra] = -sqrt(numRandomTemporario)
-                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                        isCorrect[numLetra] = "Nao"
-                        howGenerated[numLetra] = "gerada aleatoriamente e negativa"
+                if numRandomTemporario == 0:
+                    numRandomTemporario = rnd.randint(2, numBase)
+                    listAlternativas[numLetra] = sqrt(numRandomTemporario)
+                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 else:
-                    numRandomTemporario = rnd.randint(0,1)
-
-                    if numRandomTemporario == 0:
-                        numRandomTemporario = rnd.randint(2, numBase)
-                        listAlternativas[numLetra] = cbrt(numRandomTemporario)
-                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                        isCorrect[numLetra] = "Nao"
-                        howGenerated[numLetra] = "gerada aleatoriamente e positiva"
-                    else:
-                        numRandomTemporario = rnd.randint(2, numBase)
-                        listAlternativas[numLetra] = -cbrt(numRandomTemporario)
-                        listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
-                        isCorrect[numLetra] = "Nao"
-                        howGenerated[numLetra] = "gerada aleatoriamente e negativa"
+                    numRandomTemporario = rnd.randint(2, numBase)
+                    listAlternativas[numLetra] = -sqrt(numRandomTemporario)
+                    listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
+                    isCorrect[numLetra] = "Nao"
+                    howGenerated[numLetra] = "gerada aleatoriamente e negativa"
                     
     # Cria a variável que será convertida em um arquivo json
     dados = {
@@ -121,7 +82,7 @@ while k < 200:
             {
                 'radicando' : numBase, 
                 'indice': qntHoraDada,
-                'expoente': qntHoraEsperada,
+                'expoente': 2,
                 'resposta' : resposta
             }
         ],
@@ -157,7 +118,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = C.{}^(p.t), em que X(t) é o número de bactérias no tempo t ≥ 0; C, p são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas se pode esperar no fim de {} horas?'.format(numBase,numBase,qntHoraDada,qntHoraEsperada),
+                'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = C.{}^(p.t), em que X(t) é o número de bactérias no tempo t ≥ 0; C, p são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas se pode esperar no fim de 2 horas?'.format(numBase,numBase,qntHoraDada),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

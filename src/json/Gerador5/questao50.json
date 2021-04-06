@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 834,
-            "tipoDenominadorFracao": 3,
-            "resposta": "3 _____\n\u2572\u2571 834 "
+            "numBase": 978,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a978"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 83 ",
+            "resposta": "-\u221a438",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a137",
+            "resposta": "\u221a706",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "3 _____\n\u2572\u2571 147 ",
+            "resposta": "-\u221a685",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "3 _____\n\u2572\u2571 390 ",
+            "resposta": "-\u221a978",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "3 _____\n\u2572\u2571 834 ",
+            "resposta": "\u221a978",
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 834 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3 _____\n\u2572\u2571 834 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 978 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a978",
             "corretas": 1,
-            "aleatoriapositiva": 4,
-            "aleatorianegativa": 0,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "E"
         }
     ]

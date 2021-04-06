@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 700,
+            "numBase": 656,
             "tipoDenominadorFracao": 2,
-            "resposta": "10\u22c5\u221a7"
+            "resposta": "4\u22c5\u221a41"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "    2/3\n-4\u22c53   ",
+            "resposta": "3\u22c5\u221a41",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a553",
+            "resposta": "-4\u22c5\u221a41",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a366",
+            "resposta": "9\u22c5\u221a3",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "10\u22c5\u221a7",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "\u221a542",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "3 _____\n\u2572\u2571 657 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "4\u22c5\u221a41",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 700 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "10\u22c5\u221a7",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 656 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "4\u22c5\u221a41",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
         }
     ]
 }

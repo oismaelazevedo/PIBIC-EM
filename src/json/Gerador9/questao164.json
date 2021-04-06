@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 13,
-            "indice": 3,
-            "expoente": 5,
-            "resultado": "         2/3\n1 - 13\u22c513   "
+            "radicando": 3464,
+            "indice": 2,
+            "expoente": 4,
+            "resultado": "-11999295"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "         2/3\n1 - 13\u22c513   ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "b)",
-            "resposta": "       3 ____\n1 + 24\u22c5\u2572\u2571 18 ",
+            "resposta": "522730",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": "-11999295",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
             "letra": "c)",
-            "resposta": "1 + 25\u22c5\u221a5",
+            "resposta": "13457",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "         2/3\n1 + 10\u22c510   ",
+            "resposta": "-9381968",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "         2/3\n1 - 11\u22c511   ",
+            "resposta": "11999297",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.13^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 13, desaparece em 3 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "         2/3\n1 - 13\u22c513   ",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.3464^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3464, desaparece em 2 anos, qual a quantidade perdida em 4 anos?",
+            "corretaspossiveis": "-11999295",
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
         }
     ]
 }

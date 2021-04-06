@@ -1,50 +1,50 @@
 {
     "logaritmo": [
         {
-            "numBase": 798,
-            "tipoDenominadorFracao": 3,
-            "resposta": "3 _____\n\u2572\u2571 798 "
+            "numBase": 105,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a105"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 3 _____\n-\u2572\u2571 207 ",
+            "resposta": "2\u22c5\u221a17",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "6\u22c5\u221a11",
+            "resposta": "5\u22c5\u221a3",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "3 _____\n\u2572\u2571 798 ",
+            "resposta": "\u221a105",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "3\u22c5\u221a29",
+            "resposta": "-\u221a34",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "  3 ____\n3\u22c5\u2572\u2571 11 ",
+            "resposta": "-6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 798 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3 _____\n\u2572\u2571 798 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 105 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a105",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "C"

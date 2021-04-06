@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 553,
-            "indice": 2,
-            "expoente": 9,
-            "resposta": "93519144481\u22c5\u221a553"
+            "radicando": 634,
+            "indice": 3,
+            "expoente": 2,
+            "resposta": "634"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a357",
+            "resposta": "-14",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "3 _____\n\u2572\u2571 173 ",
+            "resposta": "-634",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "3\u22c5\u221a14",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "634",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a119",
+            "resposta": "-\u221a323",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "93519144481\u22c5\u221a553",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "\u221a31",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.553^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 553 em 2 horas, quantas se pode esperar no fim de 9 horas?",
-            "corretaspossiveis": "93519144481\u22c5\u221a553",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.634^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 634 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "634",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
         }
     ]
 }

@@ -1,52 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 1539,
+            "radicando": 369,
             "indice": 2,
             "expoente": 3,
-            "resultado": "1 - 13851\u22c5\u221a19"
+            "resultado": "1 - 1107\u22c5\u221a41"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 777\u22c5\u221a777",
+            "resposta": "1 + 317\u22c5\u221a317",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-1538",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "1 - 263\u22c5\u221a263",
+            "resposta": "1 - 26\u22c5\u221a26",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": "1 + 680\u22c5\u221a85",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": "1 - 13851\u22c5\u221a19",
+            "resposta": "1 - 1107\u22c5\u221a41",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 919\u22c5\u221a919",
+            "resposta": "1 + 137\u22c5\u221a137",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.1539^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 1539, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 13851\u22c5\u221a19",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.369^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 369, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
+            "corretaspossiveis": "1 - 1107\u22c5\u221a41",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 0,
-            "invertidapositiva": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "D"
         }

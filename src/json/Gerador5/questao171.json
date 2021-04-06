@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 272,
-            "tipoDenominadorFracao": 3,
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 34 "
+            "numBase": 855,
+            "tipoDenominadorFracao": 2,
+            "resposta": "3\u22c5\u221a95"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-3\u22c5\u221a30",
+            "resposta": "\u221a259",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "3 _____\n\u2572\u2571 117 ",
+            "resposta": "\u221a273",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "4\u22c5\u221a17",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 34 ",
+            "resposta": "3\u22c5\u221a95",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "e)",
-            "resposta": "   3 ___\n-2\u22c5\u2572\u2571 7 ",
+            "letra": "d)",
+            "resposta": "21",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u221a581",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 272 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "  3 ____\n2\u22c5\u2572\u2571 34 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 855 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3\u22c5\u221a95",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 1,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "C"
         }
     ]
 }

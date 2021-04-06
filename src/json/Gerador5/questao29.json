@@ -1,47 +1,47 @@
 {
     "logaritmo": [
         {
-            "numBase": 91,
+            "numBase": 670,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a91"
+            "resposta": "\u221a670"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-9",
+            "resposta": "-\u221a469",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-6\u22c5\u221a2",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "2\u22c5\u221a3",
+            "resposta": "\u221a262",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": "-4\u22c5\u221a26",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": "\u221a91",
+            "resposta": "\u221a670",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "   3 ___\n-2\u22c5\u2572\u2571 2 ",
+            "resposta": "-3\u22c5\u221a74",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 91 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a91",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 670 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a670",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 3,

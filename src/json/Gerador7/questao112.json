@@ -1,53 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 28,
+            "radicando": 438,
             "indice": 3,
             "expoente": 2,
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 98 "
+            "resposta": "438"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a19",
+            "resposta": "-\u221a123",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "3 ____\n\u2572\u2571 19 ",
+            "resposta": "-10\u22c5\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "3\u22c5\u221a3",
+            "resposta": "-\u221a365",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-28",
+            "resposta": "-\u221a367",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 98 ",
+            "resposta": "438",
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.28^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 28 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "  3 ____\n2\u22c5\u2572\u2571 98 ",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.438^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 438 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "438",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 0,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
+            "invertidanegativa": 0,
             "respostascorretas": "E"
         }
     ]

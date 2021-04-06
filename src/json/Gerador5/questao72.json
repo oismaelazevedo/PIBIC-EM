@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 234,
-            "tipoDenominadorFracao": 3,
-            "resposta": "3 _____\n\u2572\u2571 234 "
+            "numBase": 346,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a346"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-3\u22c5\u221a26",
+            "resposta": "-14",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a6",
+            "resposta": "\u221a203",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a166",
+            "resposta": "\u221a170",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "3 _____\n\u2572\u2571 234 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "2\u22c5\u221a78",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 20 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "\u221a346",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 234 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3 _____\n\u2572\u2571 234 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 346 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a346",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "D"
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
         }
     ]
 }

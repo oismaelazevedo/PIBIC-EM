@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 120,
+            "numBase": 788,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a30"
+            "resposta": "2\u22c5\u221a197"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a94",
+            "resposta": "-2\u22c5\u221a197",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "   3 ____\n-2\u22c5\u2572\u2571 11 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "2\u22c5\u221a30",
+            "resposta": "2\u22c5\u221a197",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "c)",
+            "resposta": "4\u22c5\u221a19",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "d)",
-            "resposta": " 3 ____\n-\u2572\u2571 42 ",
+            "resposta": "-\u221a561",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "   3 ___\n-3\u22c5\u2572\u2571 3 ",
+            "resposta": "-\u221a674",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 120 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a30",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 788 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a197",
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 4,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
         }
     ]
 }

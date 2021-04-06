@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 716,
+            "radicando": 5878,
             "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 1025312\u22c5\u221a179"
+            "expoente": 3,
+            "resultado": "1 - 5878\u22c5\u221a5878"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "         2/3\n1 - 13\u22c513   ",
+            "resposta": "1 - 3783\u22c5\u221a3783",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "       3 ___\n1 - 27\u22c5\u2572\u2571 3 ",
+            "resposta": "1 - 22016\u22c5\u221a43",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "1 - 1025312\u22c5\u221a179",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "1 + 5494\u22c5\u221a5494",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "1025",
+            "resposta": "1 + 5838\u22c5\u221a5838",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 400000\u22c5\u221a2",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "1 - 5878\u22c5\u221a5878",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.716^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 716, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 1025312\u22c5\u221a179",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.5878^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 5878, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
+            "corretaspossiveis": "1 - 5878\u22c5\u221a5878",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "E"
         }
     ]
 }

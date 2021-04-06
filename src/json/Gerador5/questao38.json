@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 206,
+            "numBase": 693,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a206"
+            "resposta": "3\u22c5\u221a77"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a30",
+            "resposta": "-2\u22c5\u221a37",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "3\u22c5\u221a55",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "b)",
-            "resposta": " 3 _____\n-\u2572\u2571 206 ",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
-        },
-        {
             "letra": "c)",
-            "resposta": "-\u221a174",
+            "resposta": "-\u221a483",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-4\u22c5\u221a5",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "3\u22c5\u221a77",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a206",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-2\u22c5\u221a69",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 206 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a206",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 693 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3\u22c5\u221a77",
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
         }
     ]
 }

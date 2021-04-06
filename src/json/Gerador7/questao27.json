@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 530,
-            "indice": 2,
-            "expoente": 5,
-            "resposta": "280900\u22c5\u221a530"
+            "radicando": 195,
+            "indice": 3,
+            "expoente": 2,
+            "resposta": "195"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "280900\u22c5\u221a530",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-195",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "3 _____\n\u2572\u2571 246 ",
+            "resposta": "\u221a39",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "-2\u22c5\u221a95",
+            "resposta": "-\u221a95",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "       2/3\n530\u22c5530   ",
+            "resposta": "-\u221a82",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": " 3 _____\n-\u2572\u2571 519 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "195",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.530^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 530 em 2 horas, quantas se pode esperar no fim de 5 horas?",
-            "corretaspossiveis": "280900\u22c5\u221a530",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.195^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 195 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "195",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
         }
     ]
 }

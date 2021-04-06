@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 310,
-            "tipoDenominadorFracao": 3,
-            "resposta": "3 _____\n\u2572\u2571 310 "
+            "numBase": 350,
+            "tipoDenominadorFracao": 2,
+            "resposta": "5\u22c5\u221a14"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3 _____\n\u2572\u2571 150 ",
+            "resposta": "\u221a186",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-3\u22c5\u221a22",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "3 _____\n\u2572\u2571 310 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "d)",
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 17 ",
+            "resposta": "2\u22c5\u221a22",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "e)",
-            "resposta": "-3\u22c5\u221a29",
+            "letra": "c)",
+            "resposta": "\u221a102",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "5\u22c5\u221a14",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u221a69",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 310 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3 _____\n\u2572\u2571 310 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 350 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "5\u22c5\u221a14",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "D"
         }
     ]
 }

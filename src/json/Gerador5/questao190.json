@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 460,
+            "numBase": 902,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a115"
+            "resposta": "\u221a902"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "   2/3\n-14   ",
+            "resposta": "3\u22c5\u221a57",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a115",
+            "resposta": "4\u22c5\u221a51",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u221a902",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": " 3 _____\n-\u2572\u2571 366 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": " 3 _____\n-\u2572\u2571 385 ",
+            "resposta": "\u221a231",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a146",
+            "resposta": "\u221a581",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 460 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a115",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 902 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a902",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "C"
         }
     ]
 }

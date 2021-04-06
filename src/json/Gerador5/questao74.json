@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 604,
-            "tipoDenominadorFracao": 3,
-            "resposta": "3 _____\n\u2572\u2571 604 "
+            "numBase": 928,
+            "tipoDenominadorFracao": 2,
+            "resposta": "4\u22c5\u221a58"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-2\u22c5\u221a151",
+            "resposta": "-3\u22c5\u221a61",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": " 3 _____\n-\u2572\u2571 164 ",
+            "resposta": "-6\u22c5\u221a15",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a295",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "4\u22c5\u221a58",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "2\u22c5\u221a33",
+            "resposta": "-\u221a285",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "3 _____\n\u2572\u2571 604 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-\u221a35",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 604 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3 _____\n\u2572\u2571 604 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 928 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "4\u22c5\u221a58",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
         }
     ]
 }

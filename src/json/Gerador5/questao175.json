@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 556,
+            "numBase": 537,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a139"
+            "resposta": "\u221a537"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "2\u22c5\u221a139",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "b)",
-            "resposta": "-2\u22c5\u221a77",
+            "resposta": "-\u221a247",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": "3 _____\n\u2572\u2571 414 ",
+            "letra": "b)",
+            "resposta": "4\u22c5\u221a31",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-\u221a177",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 69 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "\u221a537",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a386",
+            "resposta": "-8\u22c5\u221a3",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 556 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a139",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 537 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a537",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "D"
         }
     ]
 }

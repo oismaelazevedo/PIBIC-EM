@@ -1,50 +1,50 @@
 {
     "logaritmo": [
         {
-            "numBase": 588,
+            "numBase": 321,
             "tipoDenominadorFracao": 2,
-            "resposta": "14\u22c5\u221a3"
+            "resposta": "\u221a321"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 3 _____\n-\u2572\u2571 588 ",
+            "resposta": "\u221a265",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-\u221a321",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "   3 ___\n-4\u22c5\u2572\u2571 7 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "c)",
-            "resposta": "-3\u22c5\u221a10",
+            "resposta": "-\u221a215",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 55 ",
+            "resposta": "\u221a65",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "14\u22c5\u221a3",
+            "resposta": "\u221a321",
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 588 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "14\u22c5\u221a3",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 321 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a321",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
             "respostascorretas": "E"

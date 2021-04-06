@@ -1,48 +1,48 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 739,
+            "radicando": 180,
             "indice": 3,
-            "expoente": 6,
-            "resposta": "546121"
+            "expoente": 2,
+            "resposta": "180"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a370",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "b)",
-            "resposta": "\u221a170",
+            "resposta": "\u221a141",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "b)",
+            "resposta": "-\u221a3",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "c)",
-            "resposta": "-403583419",
+            "resposta": "-180",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "546121",
+            "resposta": "180",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a214",
+            "resposta": "-\u221a38",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.739^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 739 em 3 horas, quantas se pode esperar no fim de 6 horas?",
-            "corretaspossiveis": "546121",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.180^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 180 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "180",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,

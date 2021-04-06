@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 408,
-            "tipoDenominadorFracao": 3,
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 51 "
+            "numBase": 957,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a957"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a393",
+            "resposta": "-\u221a957",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a82",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "\u221a957",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "3 _____\n\u2572\u2571 222 ",
+            "resposta": "\u221a219",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-2\u22c5\u221a102",
+            "resposta": "-\u221a518",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 51 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "21",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 408 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "  3 ____\n2\u22c5\u2572\u2571 51 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 957 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a957",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "respostascorretas": "B"
         }
     ]
 }

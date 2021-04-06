@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 437,
+            "numBase": 982,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a437"
+            "resposta": "\u221a982"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3 _____\n\u2572\u2571 322 ",
+            "resposta": "\u221a662",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "3 _____\n\u2572\u2571 116 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "-\u221a362",
+            "resposta": "-\u221a430",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "c)",
+            "resposta": "\u221a799",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "d)",
-            "resposta": "\u221a437",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "\u221a958",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a393",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "\u221a982",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 437 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a437",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 982 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a982",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "E"
         }
     ]
 }

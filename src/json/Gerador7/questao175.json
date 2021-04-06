@@ -1,51 +1,51 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 895,
+            "radicando": 405,
             "indice": 3,
-            "expoente": 9,
-            "resposta": "716917375"
+            "expoente": 2,
+            "resposta": "405"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a885",
+            "resposta": "3\u22c5\u221a3",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "2",
+            "resposta": "-\u221a167",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "3 _____\n\u2572\u2571 569 ",
+            "resposta": "2\u22c5\u221a65",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "716917375",
+            "resposta": "405",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "    2/3\n-2\u22c57   ",
+            "resposta": "-\u221a145",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.895^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 895 em 3 horas, quantas se pode esperar no fim de 9 horas?",
-            "corretaspossiveis": "716917375",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.405^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 405 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "405",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "D"

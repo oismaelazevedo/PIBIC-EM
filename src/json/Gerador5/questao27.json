@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 966,
+            "numBase": 480,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a966"
+            "resposta": "4\u22c5\u221a30"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a413",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "4\u22c5\u221a30",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a377",
+            "resposta": "7\u22c5\u221a3",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "2\u22c5\u221a35",
+            "resposta": "\u221a185",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a966",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "3\u22c5\u221a10",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": " 3 _____\n-\u2572\u2571 604 ",
+            "resposta": "-2\u22c5\u221a35",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 966 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a966",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 480 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "4\u22c5\u221a30",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "A"
         }
     ]
 }

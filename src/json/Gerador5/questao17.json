@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 888,
-            "tipoDenominadorFracao": 3,
-            "resposta": "  3 _____\n2\u22c5\u2572\u2571 111 "
+            "numBase": 866,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a866"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 3 _____\n-\u2572\u2571 399 ",
+            "resposta": "4\u22c5\u221a53",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "3 _____\n\u2572\u2571 847 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "3\u22c5\u221a11",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "  3 _____\n2\u22c5\u2572\u2571 111 ",
+            "resposta": "\u221a866",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "c)",
+            "resposta": "-\u221a570",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "-2\u22c5\u221a141",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "e)",
-            "resposta": " 3 _____\n-\u2572\u2571 867 ",
+            "resposta": "-\u221a813",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 888 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "  3 _____\n2\u22c5\u2572\u2571 111 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 866 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a866",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "B"
         }
     ]
 }

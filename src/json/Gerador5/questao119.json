@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 708,
-            "tipoDenominadorFracao": 3,
-            "resposta": "3 _____\n\u2572\u2571 708 "
+            "numBase": 402,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a402"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "2\u22c5\u221a177",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "    2/3\n-3\u22c52   ",
+            "resposta": "-\u221a183",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": "\u221a78",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "c)",
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 19 ",
+            "resposta": "\u221a221",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "3 _____\n\u2572\u2571 708 ",
+            "resposta": "\u221a402",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": " 3 _____\n-\u2572\u2571 492 ",
+            "resposta": "-\u221a402",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 708 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3 _____\n\u2572\u2571 708 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 402 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a402",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "D"
         }
     ]

@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 174,
+            "numBase": 390,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a174"
+            "resposta": "\u221a390"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a174",
+            "resposta": "3\u22c5\u221a41",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u221a390",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "b)",
-            "resposta": "   3 ____\n-2\u22c5\u2572\u2571 11 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "c)",
-            "resposta": " 3 _____\n-\u2572\u2571 164 ",
+            "resposta": "-\u221a213",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a141",
+            "resposta": "-2\u22c5\u221a17",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a143",
+            "resposta": "-\u221a390",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 174 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a174",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 390 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a390",
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
         }
     ]
 }

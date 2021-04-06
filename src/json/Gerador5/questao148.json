@@ -1,47 +1,47 @@
 {
     "logaritmo": [
         {
-            "numBase": 892,
+            "numBase": 64,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a223"
+            "resposta": "8"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3 _____\n\u2572\u2571 399 ",
+            "resposta": "\u221a26",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "   3 ____\n-2\u22c5\u2572\u2571 47 ",
+            "resposta": "2\u22c5\u221a5",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a681",
+            "resposta": "\u221a55",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a6",
+            "resposta": "-2\u22c5\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a223",
+            "resposta": "8",
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 892 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a223",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 64 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "8",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 1,

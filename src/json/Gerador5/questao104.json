@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 664,
-            "tipoDenominadorFracao": 3,
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 83 "
+            "numBase": 943,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a943"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3\u22c5\u221a55",
+            "resposta": "\u221a182",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a166",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "resposta": "\u221a943",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a542",
+            "resposta": "-2\u22c5\u221a31",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a231",
+            "resposta": "-2\u22c5\u221a122",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "  3 ____\n2\u22c5\u2572\u2571 83 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-12\u22c5\u221a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 664 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "  3 ____\n2\u22c5\u2572\u2571 83 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 943 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a943",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "B"
         }
     ]
 }

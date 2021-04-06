@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 428,
+            "numBase": 442,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a107"
+            "resposta": "\u221a442"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "2\u22c5\u221a107",
+            "resposta": "-\u221a221",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u221a442",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "b)",
-            "resposta": "  3 ___\n5\u22c5\u2572\u2571 3 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "c)",
-            "resposta": "   3 ___\n-5\u22c5\u2572\u2571 2 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": " 3 _____\n-\u2572\u2571 428 ",
+            "resposta": "-\u221a442",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
-            "letra": "e)",
-            "resposta": "-8\u22c5\u221a6",
+            "letra": "d)",
+            "resposta": "-\u221a214",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u221a341",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 428 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a107",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 442 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a442",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "A"
+            "respostascorretas": "B"
         }
     ]
 }

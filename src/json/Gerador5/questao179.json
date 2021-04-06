@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 201,
+            "numBase": 156,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a201"
+            "resposta": "2\u22c5\u221a39"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a94",
+            "resposta": "-7\u22c5\u221a3",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "   3 ___\n-2\u22c5\u2572\u2571 2 ",
+            "resposta": "-\u221a62",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a201",
+            "resposta": "2\u22c5\u221a39",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "3 _____\n\u2572\u2571 165 ",
+            "resposta": "\u221a62",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a23",
+            "resposta": "-2\u22c5\u221a39",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 201 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a201",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 156 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a39",
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "C"
         }
     ]

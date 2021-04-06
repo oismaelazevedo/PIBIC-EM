@@ -1,51 +1,51 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 9534,
-            "indice": 3,
-            "expoente": 2,
-            "resultado": "        2/3\n1 - 9534   "
+            "radicando": 9363,
+            "indice": 2,
+            "expoente": 3,
+            "resultado": "1 - 9363\u22c5\u221a9363"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-5937",
+            "resposta": "1 - 9118\u22c5\u221a9118",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "         2/3\n1 + 4\u22c5617   ",
+            "resposta": "1 - 1031\u22c5\u221a1031",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "       3 _____\n1 - 43\u22c5\u2572\u2571 172 ",
+            "resposta": "1 - 7114\u22c5\u221a7114",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "        2/3\n1 - 9534   ",
+            "resposta": "1 - 9363\u22c5\u221a9363",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "6833",
+            "resposta": "1 + 1851\u22c5\u221a1851",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.9534^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 9534, desaparece em 3 anos, qual a quantidade perdida em 2 anos?",
-            "corretaspossiveis": "        2/3\n1 - 9534   ",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.9363^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 9363, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
+            "corretaspossiveis": "1 - 9363\u22c5\u221a9363",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "D"

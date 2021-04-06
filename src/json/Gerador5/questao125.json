@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 476,
-            "tipoDenominadorFracao": 3,
-            "resposta": "3 _____\n\u2572\u2571 476 "
+            "numBase": 898,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a898"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 3 _____\n-\u2572\u2571 102 ",
+            "resposta": "-\u221a898",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-\u221a230",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "3 _____\n\u2572\u2571 476 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
             "letra": "c)",
-            "resposta": "-2\u22c5\u221a113",
+            "resposta": "-\u221a391",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a407",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "\u221a898",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "3 _____\n\u2572\u2571 290 ",
+            "resposta": "-\u221a665",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 476 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3 _____\n\u2572\u2571 476 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 898 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a898",
             "corretas": 1,
-            "aleatoriapositiva": 1,
+            "aleatoriapositiva": 0,
             "aleatorianegativa": 3,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
         }
     ]
 }

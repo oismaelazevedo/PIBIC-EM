@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 324,
+            "numBase": 55,
             "tipoDenominadorFracao": 2,
-            "resposta": "18"
+            "resposta": "\u221a55"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "18",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "b)",
-            "resposta": " 3 _____\n-\u2572\u2571 308 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "\u221a266",
+            "resposta": "4\u22c5\u221a2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "b)",
+            "resposta": "\u221a55",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-\u221a22",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": "-\u221a291",
+            "resposta": "-2\u22c5\u221a5",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "   3 ____\n-3\u22c5\u2572\u2571 12 ",
+            "resposta": "-4",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 324 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "18",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 55 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a55",
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "A"
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
         }
     ]
 }

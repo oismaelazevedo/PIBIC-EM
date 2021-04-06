@@ -1,53 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 235,
-            "indice": 2,
-            "expoente": 3,
-            "resposta": "235\u22c5\u221a235"
+            "radicando": 46,
+            "indice": 3,
+            "expoente": 2,
+            "resposta": "46"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-235",
+            "resposta": "-\u221a2",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "235\u22c5\u221a235",
+            "resposta": "46",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "-4\u22c5\u221a6",
+            "resposta": "-\u221a14",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "3 _____\n\u2572\u2571 226 ",
+            "resposta": "-\u221a17",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "  3 ___\n2\u22c5\u2572\u2571 6 ",
+            "resposta": "-2\u22c5\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.235^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 235 em 2 horas, quantas se pode esperar no fim de 3 horas?",
-            "corretaspossiveis": "235\u22c5\u221a235",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.46^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 46 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "46",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
+            "invertidanegativa": 0,
             "respostascorretas": "B"
         }
     ]

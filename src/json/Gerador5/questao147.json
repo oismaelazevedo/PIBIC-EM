@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 429,
+            "numBase": 766,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a429"
+            "resposta": "\u221a766"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a429",
+            "resposta": "\u221a766",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a42",
+            "resposta": "2\u22c5\u221a143",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "3 _____\n\u2572\u2571 138 ",
+            "resposta": "\u221a254",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-4\u22c5\u221a22",
+            "resposta": "-\u221a766",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a426",
+            "resposta": "-5\u22c5\u221a23",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 429 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a429",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 766 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a766",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "A"
         }
     ]

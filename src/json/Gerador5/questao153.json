@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 791,
+            "numBase": 172,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a791"
+            "resposta": "2\u22c5\u221a43"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a430",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "   3 ____\n-2\u22c5\u2572\u2571 28 ",
+            "resposta": "-3\u22c5\u221a2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": "\u221a762",
+            "letra": "b)",
+            "resposta": "-2\u22c5\u221a43",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
-            "letra": "d)",
-            "resposta": "\u221a791",
+            "letra": "c)",
+            "resposta": "2\u22c5\u221a43",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "e)",
-            "resposta": "2\u22c5\u221a119",
+            "letra": "d)",
+            "resposta": "\u221a105",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "-3\u22c5\u221a15",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 791 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a791",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 172 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a43",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
         }
     ]
 }

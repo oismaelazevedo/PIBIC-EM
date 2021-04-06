@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 238,
-            "tipoDenominadorFracao": 3,
-            "resposta": "3 _____\n\u2572\u2571 238 "
+            "numBase": 514,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a514"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "   3 ___\n-2\u22c5\u2572\u2571 5 ",
+            "resposta": "2\u22c5\u221a65",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-\u221a483",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "3 _____\n\u2572\u2571 238 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
             "letra": "c)",
-            "resposta": "   3 ____\n-2\u22c5\u2572\u2571 10 ",
+            "resposta": "-2\u22c5\u221a17",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a238",
+            "resposta": "-\u221a202",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": " 3 _____\n-\u2572\u2571 117 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "\u221a514",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 238 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3 _____\n\u2572\u2571 238 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 514 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a514",
             "corretas": 1,
-            "aleatoriapositiva": 0,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 3,
-            "invertidapositiva": 1,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "E"
         }
     ]
 }

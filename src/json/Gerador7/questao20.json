@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 313,
-            "indice": 2,
-            "expoente": 7,
-            "resposta": "30664297\u22c5\u221a313"
+            "radicando": 134,
+            "indice": 3,
+            "expoente": 2,
+            "resposta": "134"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "13",
+            "resposta": "\u221a77",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "30664297\u22c5\u221a313",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-\u221a39",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": " 3 _____\n-\u2572\u2571 171 ",
+            "resposta": "-\u221a37",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "       3 _____\n-97969\u22c5\u2572\u2571 313 ",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "resposta": "134",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a191",
+            "resposta": "-3\u22c5\u221a2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.313^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 313 em 2 horas, quantas se pode esperar no fim de 7 horas?",
-            "corretaspossiveis": "30664297\u22c5\u221a313",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.134^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 134 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "134",
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "B"
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
         }
     ]
 }

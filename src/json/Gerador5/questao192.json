@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 551,
+            "numBase": 676,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a551"
+            "resposta": "26"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a394",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "2\u22c5\u221a102",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "\u221a551",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "d)",
-            "resposta": "-6\u22c5\u221a2",
+            "resposta": "-\u221a501",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "e)",
-            "resposta": "12\u22c5\u221a2",
+            "letra": "b)",
+            "resposta": "-26",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u221a478",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "16\u22c5\u221a2",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "26",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 551 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a551",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 676 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "26",
             "corretas": 1,
-            "aleatoriapositiva": 3,
+            "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
         }
     ]
 }

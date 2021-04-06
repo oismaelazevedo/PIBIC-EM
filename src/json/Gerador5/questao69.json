@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 64,
+            "numBase": 219,
             "tipoDenominadorFracao": 2,
-            "resposta": "8"
+            "resposta": "\u221a219"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3 ____\n\u2572\u2571 44 ",
+            "resposta": "-2\u22c5\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a15",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "-4",
+            "resposta": "-\u221a219",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
-            "letra": "d)",
-            "resposta": "\u221a51",
+            "letra": "c)",
+            "resposta": "-2\u22c5\u221a23",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u221a219",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "8",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-2\u22c5\u221a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 64 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "8",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 219 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a219",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 0,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "respostascorretas": "D"
         }
     ]
 }

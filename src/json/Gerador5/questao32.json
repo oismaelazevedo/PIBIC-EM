@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 868,
-            "tipoDenominadorFracao": 3,
-            "resposta": "3 _____\n\u2572\u2571 868 "
+            "numBase": 760,
+            "tipoDenominadorFracao": 2,
+            "resposta": "2\u22c5\u221a190"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3 _____\n\u2572\u2571 868 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-5\u22c5\u221a15",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-2\u22c5\u221a217",
+            "resposta": "-2\u22c5\u221a190",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a759",
+            "resposta": "\u221a398",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-2\u22c5\u221a134",
+            "resposta": "\u221a69",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a34",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "2\u22c5\u221a190",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 868 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3 _____\n\u2572\u2571 868 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 760 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a190",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "A"
+            "respostascorretas": "E"
         }
     ]
 }

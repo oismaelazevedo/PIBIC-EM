@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 491,
+            "radicando": 641,
             "indice": 3,
-            "expoente": 8,
-            "resposta": "          2/3\n241081\u22c5491   "
+            "expoente": 2,
+            "resposta": "641"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-58120048561",
+            "resposta": "-\u221a67",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a151",
+            "resposta": "-\u221a266",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": " 3 _____\n-\u2572\u2571 172 ",
+            "resposta": "\u221a417",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "-10\u22c5\u221a2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "d)",
-            "resposta": "          2/3\n241081\u22c5491   ",
+            "letra": "e)",
+            "resposta": "641",
             "correta": "Sim",
             "tipoerro": "nenhum"
-        },
-        {
-            "letra": "e)",
-            "resposta": "3 _____\n\u2572\u2571 249 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.491^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 491 em 3 horas, quantas se pode esperar no fim de 8 horas?",
-            "corretaspossiveis": "          2/3\n241081\u22c5491   ",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.641^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 641 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "641",
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "D"
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
         }
     ]
 }

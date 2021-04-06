@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 318,
-            "tipoDenominadorFracao": 3,
-            "resposta": "3 _____\n\u2572\u2571 318 "
+            "numBase": 843,
+            "tipoDenominadorFracao": 2,
+            "resposta": "\u221a843"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 3 ____\n-\u2572\u2571 12 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "\u221a843",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "   3 ____\n-2\u22c5\u2572\u2571 19 ",
+            "resposta": "-\u221a843",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-\u221a295",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": "\u221a318",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
             "letra": "d)",
-            "resposta": "3 _____\n\u2572\u2571 222 ",
+            "resposta": "-3\u22c5\u221a65",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "3 _____\n\u2572\u2571 318 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "2\u22c5\u221a35",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 318 \u00e9 1/3. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3 _____\n\u2572\u2571 318 ",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 843 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a843",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
         }
     ]
 }

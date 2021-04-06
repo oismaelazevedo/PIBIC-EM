@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 40,
+            "numBase": 939,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a10"
+            "resposta": "\u221a939"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "2\u22c5\u221a10",
+            "resposta": "\u221a939",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "   3 ___\n-2\u22c5\u2572\u2571 2 ",
+            "resposta": "2\u22c5\u221a217",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "    2/3\n-2\u22c52   ",
+            "resposta": "-2\u22c5\u221a186",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-2\u22c5\u221a6",
+            "resposta": "-\u221a939",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "3 ____\n\u2572\u2571 18 ",
+            "resposta": "-2\u22c5\u221a93",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 40 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a10",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 939 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a939",
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "A"
         }
     ]

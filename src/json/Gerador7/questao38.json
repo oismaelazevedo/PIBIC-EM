@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 947,
+            "radicando": 414,
             "indice": 3,
-            "expoente": 9,
-            "resposta": "849278123"
+            "expoente": 2,
+            "resposta": "414"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3 ____\n\u2572\u2571 86 ",
+            "resposta": "\u221a410",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "849278123",
+            "resposta": "-3\u22c5\u221a42",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-414",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "414",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "4\u22c5\u221a23",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "804266382481\u22c5\u221a947",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a95",
+            "resposta": "\u221a173",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.947^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 947 em 3 horas, quantas se pode esperar no fim de 9 horas?",
-            "corretaspossiveis": "849278123",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.414^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 414 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "414",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 0,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
         }
     ]
 }

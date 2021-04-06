@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 156,
+            "numBase": 964,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a39"
+            "resposta": "2\u22c5\u221a241"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "   3 ___\n-2\u22c5\u2572\u2571 6 ",
+            "resposta": "2\u22c5\u221a23",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a39",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-2\u22c5\u221a241",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "c)",
-            "resposta": " 3 ____\n-\u2572\u2571 63 ",
+            "resposta": "-\u221a231",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "  2/3\n10   ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "2\u22c5\u221a241",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "3 _____\n\u2572\u2571 156 ",
+            "resposta": "\u221a618",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 156 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a39",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 964 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a241",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
         }
     ]
 }

@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 936,
+            "numBase": 262,
             "tipoDenominadorFracao": 2,
-            "resposta": "6\u22c5\u221a26"
+            "resposta": "\u221a262"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "6\u22c5\u221a26",
+            "resposta": "-\u221a217",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-2\u22c5\u221a38",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u221a262",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "b)",
-            "resposta": "3 _____\n\u2572\u2571 548 ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "   3 _____\n-2\u22c5\u2572\u2571 117 ",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": "-7\u22c5\u221a7",
+            "resposta": "-3\u22c5\u221a11",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "   3 ____\n-3\u22c5\u2572\u2571 17 ",
+            "resposta": "5\u22c5\u221a3",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 936 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "6\u22c5\u221a26",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 262 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a262",
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "A"
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
         }
     ]
 }

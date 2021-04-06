@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 277,
+            "radicando": 5539,
             "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 76729\u22c5\u221a277"
+            "expoente": 3,
+            "resultado": "1 - 5539\u22c5\u221a5539"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 76729\u22c5\u221a277",
+            "resposta": "1 - 667\u22c5\u221a667",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "1 + 4621\u22c5\u221a4621",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "1 - 5539\u22c5\u221a5539",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "b)",
-            "resposta": "1 - 361\u22c5\u221a19",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "           2/3\n1 + 277\u22c5277   ",
+            "letra": "d)",
+            "resposta": "1 + 5539\u22c5\u221a5539",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
-            "letra": "d)",
-            "resposta": "          2/3\n1 - 544\u22c517   ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": "         3 ____\n1 - 3375\u22c5\u2572\u2571 15 ",
+            "resposta": "1 + 602\u22c5\u221a602",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.277^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 277, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 76729\u22c5\u221a277",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.5539^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 5539, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
+            "corretaspossiveis": "1 - 5539\u22c5\u221a5539",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 0,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "A"
+            "respostascorretas": "C"
         }
     ]
 }

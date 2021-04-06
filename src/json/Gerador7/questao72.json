@@ -1,53 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 687,
-            "indice": 2,
-            "expoente": 7,
-            "resposta": "324242703\u22c5\u221a687"
+            "radicando": 267,
+            "indice": 3,
+            "expoente": 2,
+            "resposta": "267"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3 _____\n\u2572\u2571 577 ",
+            "resposta": "-\u221a205",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "   3 ___\n-4\u22c5\u2572\u2571 2 ",
+            "resposta": "-\u221a19",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "        3 _____\n-471969\u22c5\u2572\u2571 687 ",
+            "resposta": "\u221a47",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "324242703\u22c5\u221a687",
+            "resposta": "267",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "3 _____\n\u2572\u2571 365 ",
+            "resposta": "3\u22c5\u221a13",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.687^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 687 em 2 horas, quantas se pode esperar no fim de 7 horas?",
-            "corretaspossiveis": "324242703\u22c5\u221a687",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.267^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 267 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "267",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
+            "invertidanegativa": 0,
             "respostascorretas": "D"
         }
     ]

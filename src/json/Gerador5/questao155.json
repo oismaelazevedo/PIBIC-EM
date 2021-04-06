@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 862,
+            "numBase": 662,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a862"
+            "resposta": "\u221a662"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a246",
+            "resposta": "2\u22c5\u221a165",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "3 _____\n\u2572\u2571 735 ",
+            "resposta": "-\u221a161",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "5\u22c5\u221a3",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "\u221a662",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "2\u22c5\u221a177",
+            "resposta": "-\u221a201",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a862",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-\u221a371",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 862 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a862",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 662 \u00e9 1/2. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a662",
             "corretas": 1,
-            "aleatoriapositiva": 4,
-            "aleatorianegativa": 0,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "C"
         }
     ]
 }

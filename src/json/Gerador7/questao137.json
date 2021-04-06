@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 865,
+            "radicando": 829,
             "indice": 3,
-            "expoente": 7,
-            "resposta": "       3 _____\n748225\u22c5\u2572\u2571 865 "
+            "expoente": 2,
+            "resposta": "829"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 3 _____\n-\u2572\u2571 366 ",
+            "resposta": "\u221a271",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-2\u22c5\u221a30",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "829",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "-4\u22c5\u221a39",
+            "resposta": "2\u22c5\u221a203",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a694",
+            "resposta": "-\u221a582",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "       3 _____\n748225\u22c5\u2572\u2571 865 ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-829",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.865^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 865 em 3 horas, quantas se pode esperar no fim de 7 horas?",
-            "corretaspossiveis": "       3 _____\n748225\u22c5\u2572\u2571 865 ",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.829^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 829 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "829",
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 4,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
         }
     ]
 }

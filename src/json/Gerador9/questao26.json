@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 9690,
-            "indice": 3,
-            "expoente": 2,
-            "resultado": "        2/3\n1 - 9690   "
+            "radicando": 6043,
+            "indice": 2,
+            "expoente": 3,
+            "resultado": "1 - 6043\u22c5\u221a6043"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "      3 _________\n1 - 3\u22c5\u2572\u2571 1142067 ",
+            "resposta": "1 - 7192\u22c5\u221a899",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-9689",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "4797",
+            "resposta": "1 + 22375\u22c5\u221a179",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "d)",
-            "resposta": "        2/3\n1 - 9690   ",
+            "letra": "c)",
+            "resposta": "1 - 6043\u22c5\u221a6043",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "d)",
+            "resposta": "1 + 6043\u22c5\u221a6043",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
             "letra": "e)",
-            "resposta": "      3 __________\n1 - 2\u22c5\u2572\u2571 10626050 ",
+            "resposta": "1 - 4259\u22c5\u221a4259",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.9690^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 9690, desaparece em 3 anos, qual a quantidade perdida em 2 anos?",
-            "corretaspossiveis": "        2/3\n1 - 9690   ",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.6043^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 6043, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
+            "corretaspossiveis": "1 - 6043\u22c5\u221a6043",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
         }
     ]
 }

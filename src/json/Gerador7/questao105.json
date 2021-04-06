@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 967,
-            "indice": 2,
-            "expoente": 10,
-            "resposta": "845536520469607"
+            "radicando": 229,
+            "indice": 3,
+            "expoente": 2,
+            "resposta": "229"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "845536520469607",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "3\u22c5\u221a15",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a285",
+            "resposta": "-7",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-4\u22c5\u221a58",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "229",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a442",
+            "resposta": "-4\u22c5\u221a5",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "9\u22c5\u221a2",
+            "resposta": "-\u221a105",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.967^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 967 em 2 horas, quantas se pode esperar no fim de 10 horas?",
-            "corretaspossiveis": "845536520469607",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.229^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 229 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "229",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "C"
         }
     ]
 }
