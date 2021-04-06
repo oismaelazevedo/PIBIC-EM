@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 4,
-            "numMultiplicadorLogaritmando": 10,
-            "numMultiplicadorBase": 4,
-            "resposta": " 2\u22c5\u221a10\n4     "
+            "numBase": 8,
+            "numMultiplicadorLogaritmando": 5,
+            "numMultiplicadorBase": 2,
+            "resposta": "\u221a10"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "  5\u22c5\u221a2\n-4    ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "\u221a10",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "4",
+            "resposta": "3\u22c5\u221a10",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "  3\u22c5\u221a2\n-4    ",
+            "resposta": "3\u22c5\u221a7",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "  \u221a30\n-4   ",
+            "resposta": "-1",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": " 2\u22c5\u221a10\n4     ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-\u221a70",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(1048576) = log256(x) \u00e9:",
-            "corretaspossiveis": " 2\u22c5\u221a10\n4     ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(32768) = log64(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "\u221a10",
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 3,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
         }
     ]
 }

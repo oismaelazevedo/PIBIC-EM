@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 8,
-            "numMultiplicadorLogaritmando": 4,
-            "numMultiplicadorBase": 9,
-            "resposta": "262144"
+            "numBase": 3,
+            "numMultiplicadorLogaritmando": 7,
+            "numMultiplicadorBase": 4,
+            "resposta": "2\u22c5\u221a7"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 3\u22c5\u221a10\n8     ",
+            "resposta": "\u221a30",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "  2\u22c5\u221a10\n-8     ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "2\u22c5\u221a7",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "  2\u22c5\u221a6\n-8    ",
+            "resposta": "-1",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "  \u221a21\n-8   ",
+            "resposta": "4\u22c5\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "262144",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-2\u22c5\u221a15",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(4096) = log134217728(x) \u00e9:",
-            "corretaspossiveis": "262144",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(2187) = log81(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "2\u22c5\u221a7",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
         }
     ]
 }

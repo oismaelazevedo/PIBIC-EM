@@ -1,51 +1,51 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 3,
-            "numMultiplicadorLogaritmando": 4,
-            "numMultiplicadorBase": 4,
-            "resposta": "81"
+            "numBase": 5,
+            "numMultiplicadorLogaritmando": 2,
+            "numMultiplicadorBase": 6,
+            "resposta": "2\u22c5\u221a3"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "81",
+            "resposta": "2\u22c5\u221a3",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "243",
+            "resposta": "\u221a10",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "-243",
+            "resposta": "3\u22c5\u221a2",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "-4\u22c5\u221a3",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "d)",
-            "resposta": "59049",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": "729",
+            "resposta": "-4\u22c5\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(81) = log81(x) \u00e9:",
-            "corretaspossiveis": "81",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(25) = log15625(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "2\u22c5\u221a3",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "A"

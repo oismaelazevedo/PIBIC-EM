@@ -3,51 +3,51 @@
         {
             "numBase": 6,
             "numMultiplicadorLogaritmando": 4,
-            "numMultiplicadorBase": 4,
-            "resposta": "1296"
+            "numMultiplicadorBase": 5,
+            "resposta": "2\u22c5\u221a5"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-1296",
+            "resposta": "\u221a70",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "1296",
+            "resposta": "2\u22c5\u221a5",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": " 4\u22c5\u221a2\n6    ",
+            "resposta": "4\u22c5\u221a5",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": " 2\u22c5\u221a14\n6     ",
+            "resposta": "3\u22c5\u221a6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": " 2\u22c5\u221a6\n6    ",
+            "resposta": "-\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(1296) = log1296(x) \u00e9:",
-            "corretaspossiveis": "1296",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(1296) = log7776(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "2\u22c5\u221a5",
             "corretas": 1,
             "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "B"
         }
     ]

@@ -2,53 +2,53 @@
     "equacaoExponencial": [
         {
             "numBase": 2,
-            "numMultiplicadorLogaritmando": 4,
-            "numMultiplicadorBase": 7,
-            "resposta": " 2\u22c5\u221a7\n2    "
+            "numMultiplicadorLogaritmando": 9,
+            "numMultiplicadorBase": 2,
+            "resposta": "3\u22c5\u221a2"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1024",
+            "resposta": "-2\u22c5\u221a3",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "8",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": " 2\u22c5\u221a7\n2    ",
+            "resposta": "3\u22c5\u221a2",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "d)",
-            "resposta": " \u221a42\n2   ",
+            "letra": "c)",
+            "resposta": "6\u22c5\u221a2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "e)",
-            "resposta": " \u221a2\n2  ",
+            "letra": "d)",
+            "resposta": "-\u221a30",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u221a30",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(16) = log128(x) \u00e9:",
-            "corretaspossiveis": " 2\u22c5\u221a7\n2    ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(512) = log4(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "3\u22c5\u221a2",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 0,
-            "invertidapositiva": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "B"
         }
     ]
 }

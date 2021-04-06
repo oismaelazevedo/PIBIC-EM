@@ -3,52 +3,52 @@
         {
             "numBase": 9,
             "numMultiplicadorLogaritmando": 8,
-            "numMultiplicadorBase": 8,
-            "resposta": "43046721"
+            "numMultiplicadorBase": 6,
+            "resposta": "4\u22c5\u221a3"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "43046721",
+            "resposta": "5\u22c5\u221a2",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "3\u22c5\u221a3",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "4\u22c5\u221a3",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "b)",
-            "resposta": "  \u221a2\n-9  ",
+            "letra": "d)",
+            "resposta": "-1",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": "  5\u22c5\u221a2\n-9    ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "  \u221a35\n-9   ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "e)",
-            "resposta": "  3\u22c5\u221a2\n-9    ",
+            "resposta": "2\u22c5\u221a14",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(43046721) = log43046721(x) \u00e9:",
-            "corretaspossiveis": "43046721",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(43046721) = log531441(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "4\u22c5\u221a3",
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "A"
+            "respostascorretas": "C"
         }
     ]
 }

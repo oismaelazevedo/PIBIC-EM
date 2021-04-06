@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 6,
+            "numBase": 9,
             "numMultiplicadorLogaritmando": 5,
-            "numMultiplicadorBase": 2,
-            "resposta": " \u221a10\n6   "
+            "numMultiplicadorBase": 10,
+            "resposta": "5\u22c5\u221a2"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 2\u22c5\u221a3\n6    ",
+            "resposta": "-\u221a70",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": " 5\u22c5\u221a2\n6    ",
+            "resposta": "-\u221a3",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-\u221a15",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u221a35",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": " \u221a10\n6   ",
+            "letra": "e)",
+            "resposta": "5\u22c5\u221a2",
             "correta": "Sim",
             "tipoerro": "nenhum"
-        },
-        {
-            "letra": "d)",
-            "resposta": "  5\u22c5\u221a2\n-6    ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "e)",
-            "resposta": "  2\u22c5\u221a10\n-6     ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(7776) = log36(x) \u00e9:",
-            "corretaspossiveis": " \u221a10\n6   ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(59049) = log3486784401(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "5\u22c5\u221a2",
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
         }
     ]
 }

@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 8,
-            "numMultiplicadorLogaritmando": 3,
-            "numMultiplicadorBase": 7,
-            "resposta": " \u221a21\n8   "
+            "numBase": 6,
+            "numMultiplicadorLogaritmando": 10,
+            "numMultiplicadorBase": 3,
+            "resposta": "\u221a30"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "512",
+            "resposta": "\u221a35",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": " \u221a21\n8   ",
+            "resposta": "-\u221a10",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u221a30",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "  3\u22c5\u221a2\n-8    ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": "  2\u22c5\u221a7\n-8    ",
+            "resposta": "-1",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": " 2\u22c5\u221a7\n8    ",
+            "resposta": "-3\u22c5\u221a6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(512) = log2097152(x) \u00e9:",
-            "corretaspossiveis": " \u221a21\n8   ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(60466176) = log216(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "\u221a30",
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
         }
     ]
 }

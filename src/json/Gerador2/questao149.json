@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 5,
-            "numMultiplicadorLogaritmando": 3,
-            "numMultiplicadorBase": 6,
-            "resposta": " 3\u22c5\u221a2\n5    "
+            "numBase": 2,
+            "numMultiplicadorLogaritmando": 7,
+            "numMultiplicadorBase": 5,
+            "resposta": "\u221a35"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 3\u22c5\u221a2\n5    ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "b)",
-            "resposta": "1953125",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "  3\u22c5\u221a2\n-5    ",
+            "resposta": "-3\u22c5\u221a6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": "-\u221a10",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u221a35",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
             "letra": "d)",
-            "resposta": " 2\u22c5\u221a6\n5    ",
+            "resposta": "3\u22c5\u221a2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": " \u221a3\n5  ",
+            "resposta": "1",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(125) = log15625(x) \u00e9:",
-            "corretaspossiveis": " 3\u22c5\u221a2\n5    ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(128) = log32(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "\u221a35",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "C"
         }
     ]
 }

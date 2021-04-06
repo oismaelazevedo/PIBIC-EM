@@ -1,53 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 3,
-            "numMultiplicadorLogaritmando": 10,
-            "numMultiplicadorBase": 5,
-            "resposta": " 5\u22c5\u221a2\n3    "
+            "numBase": 10,
+            "numMultiplicadorLogaritmando": 4,
+            "numMultiplicadorBase": 3,
+            "resposta": "2\u22c5\u221a3"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "  2\u22c5\u221a10\n-3     ",
+            "resposta": "-1",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "729",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "  2\u22c5\u221a14\n-3     ",
+            "resposta": "-3\u22c5\u221a10",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "d)",
-            "resposta": " 3\u22c5\u221a5\n3    ",
+            "letra": "c)",
+            "resposta": "3\u22c5\u221a6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "d)",
+            "resposta": "-\u221a30",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "e)",
-            "resposta": " 5\u22c5\u221a2\n3    ",
+            "resposta": "2\u22c5\u221a3",
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(59049) = log243(x) \u00e9:",
-            "corretaspossiveis": " 5\u22c5\u221a2\n3    ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(10000) = log1000(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "2\u22c5\u221a3",
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "E"
         }
     ]

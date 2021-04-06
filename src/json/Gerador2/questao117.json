@@ -1,48 +1,48 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 10,
+            "numBase": 2,
             "numMultiplicadorLogaritmando": 9,
-            "numMultiplicadorBase": 6,
-            "resposta": "  3\u22c5\u221a6\n10    "
+            "numMultiplicadorBase": 10,
+            "resposta": "3\u22c5\u221a10"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "  3\u22c5\u221a6\n10    ",
+            "resposta": "3\u22c5\u221a10",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "-10",
+            "resposta": "2\u22c5\u221a2",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-\u221a2",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": "   3\u22c5\u221a2\n-10    ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": "  \u221a15\n10   ",
+            "resposta": "4\u22c5\u221a2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "  2\u22c5\u221a3\n10    ",
+            "resposta": "-2\u22c5\u221a15",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(1000000000) = log1000000(x) \u00e9:",
-            "corretaspossiveis": "  3\u22c5\u221a6\n10    ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(512) = log1024(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "3\u22c5\u221a10",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 1,

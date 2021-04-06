@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 9,
-            "numMultiplicadorLogaritmando": 6,
-            "numMultiplicadorBase": 8,
-            "resposta": " 4\u22c5\u221a3\n9    "
+            "numBase": 5,
+            "numMultiplicadorLogaritmando": 10,
+            "numMultiplicadorBase": 7,
+            "resposta": "\u221a70"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 4\u22c5\u221a3\n9    ",
+            "resposta": "1",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-2\u22c5\u221a2",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-6\u22c5\u221a2",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u221a70",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "b)",
-            "resposta": " 5\u22c5\u221a2\n9    ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": " 2\u22c5\u221a15\n9     ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "4782969",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": " \u221a70\n9   ",
+            "resposta": "-4\u22c5\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(531441) = log43046721(x) \u00e9:",
-            "corretaspossiveis": " 4\u22c5\u221a3\n9    ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(9765625) = log78125(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "\u221a70",
             "corretas": 1,
-            "aleatoriapositiva": 4,
-            "aleatorianegativa": 0,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "D"
         }
     ]
 }

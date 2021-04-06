@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 5,
-            "numMultiplicadorLogaritmando": 4,
-            "numMultiplicadorBase": 9,
-            "resposta": "15625"
+            "numBase": 4,
+            "numMultiplicadorLogaritmando": 8,
+            "numMultiplicadorBase": 3,
+            "resposta": "2\u22c5\u221a6"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "  \u221a3\n-5  ",
+            "resposta": "1",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "15625",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "4",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": " 2\u22c5\u221a7\n5    ",
+            "resposta": "10",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "  2\u22c5\u221a10\n-5     ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "2\u22c5\u221a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": " 3\u22c5\u221a7\n5    ",
+            "resposta": "\u221a42",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(625) = log1953125(x) \u00e9:",
-            "corretaspossiveis": "15625",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(65536) = log64(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "2\u22c5\u221a6",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "B"
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
         }
     ]
 }

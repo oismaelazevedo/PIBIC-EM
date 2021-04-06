@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 6,
-            "numMultiplicadorLogaritmando": 6,
-            "numMultiplicadorBase": 5,
-            "resposta": " \u221a30\n6   "
+            "numBase": 3,
+            "numMultiplicadorLogaritmando": 2,
+            "numMultiplicadorBase": 7,
+            "resposta": "\u221a14"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "  4\u22c5\u221a3\n-6    ",
+            "resposta": "5",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "  2\u22c5\u221a10\n-6     ",
+            "resposta": "-6\u22c5\u221a2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": " \u221a30\n6   ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "d)",
-            "resposta": " 2\u22c5\u221a10\n6     ",
+            "resposta": "\u221a15",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "e)",
-            "resposta": "-6",
+            "letra": "d)",
+            "resposta": "2",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u221a14",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(46656) = log7776(x) \u00e9:",
-            "corretaspossiveis": " \u221a30\n6   ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(9) = log2187(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "\u221a14",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "C"
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
         }
     ]
 }

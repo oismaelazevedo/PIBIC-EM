@@ -1,52 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 2,
-            "numMultiplicadorLogaritmando": 2,
-            "numMultiplicadorBase": 5,
-            "resposta": " \u221a10\n2   "
+            "numBase": 9,
+            "numMultiplicadorLogaritmando": 10,
+            "numMultiplicadorBase": 6,
+            "resposta": "2\u22c5\u221a15"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " 3\u22c5\u221a5\n2    ",
+            "resposta": "3\u22c5\u221a5",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": " \u221a10\n2   ",
+            "resposta": "2\u22c5\u221a15",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "  2\u22c5\u221a3\n-2    ",
+            "resposta": "\u221a14",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": " \u221a3\n2  ",
+            "resposta": "-\u221a21",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "  2\u22c5\u221a6\n-2    ",
+            "resposta": "2\u22c5\u221a6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(4) = log32(x) \u00e9:",
-            "corretaspossiveis": " \u221a10\n2   ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(3486784401) = log531441(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "2\u22c5\u221a15",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "B"
         }

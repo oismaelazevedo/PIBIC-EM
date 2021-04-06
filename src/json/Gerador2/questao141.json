@@ -1,52 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 5,
-            "numMultiplicadorLogaritmando": 9,
-            "numMultiplicadorBase": 3,
-            "resposta": " 3\u22c5\u221a3\n5    "
+            "numBase": 8,
+            "numMultiplicadorLogaritmando": 6,
+            "numMultiplicadorBase": 6,
+            "resposta": "6"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "5",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": " 2\u22c5\u221a14\n5     ",
+            "resposta": "\u221a30",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "b)",
+            "resposta": "-6\u22c5\u221a2",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "c)",
-            "resposta": " 3\u22c5\u221a3\n5    ",
+            "resposta": "6",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "625",
+            "resposta": "3\u22c5\u221a3",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-25",
+            "resposta": "-10",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(1953125) = log125(x) \u00e9:",
-            "corretaspossiveis": " 3\u22c5\u221a3\n5    ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(262144) = log262144(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "6",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "C"
         }

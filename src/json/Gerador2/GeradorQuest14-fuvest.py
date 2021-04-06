@@ -21,7 +21,7 @@ while k < 200:
     numMultiplicadorLogaritmando = rnd.randint(2,10)
     numMultiplicadorBase = rnd.randint(2,10)
 
-    resposta = numBase ** (sqrt(numMultiplicadorBase * numMultiplicadorLogaritmando))
+    resposta = sqrt(numMultiplicadorBase * numMultiplicadorLogaritmando)
     resposta = pretty(resposta)
 
     listLetra = ["A","B","C","D","E"]
@@ -51,12 +51,12 @@ while k < 200:
 
                 if numRandomTemporario == 0:
 
-                    listAlternativas[numLetra] = numBase ** sqrt(int(numMultiplicadorBase/numMultiplicadorLogaritmando) + 1)
+                    listAlternativas[numLetra] = sqrt(int(numMultiplicadorBase/numMultiplicadorLogaritmando) + 1)
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e positiva"
                 else:
-                    listAlternativas[numLetra] = -(numBase ** sqrt(int(numMultiplicadorBase/numMultiplicadorLogaritmando) + 1))
+                    listAlternativas[numLetra] = -(sqrt(int(numMultiplicadorBase/numMultiplicadorLogaritmando) + 1))
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e negativa"
@@ -65,13 +65,13 @@ while k < 200:
 
                 if numRandomTemporario == 0:
 
-                    listAlternativas[numLetra] = numBase ** sqrt(rnd.randint(2,10) * rnd.randint(2,10))
+                    listAlternativas[numLetra] = sqrt(rnd.randint(2,10) * rnd.randint(2,10))
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 else:
 
-                    listAlternativas[numLetra] = -(numBase ** sqrt(rnd.randint(2,10) * rnd.randint(2,10)))
+                    listAlternativas[numLetra] = -(sqrt(rnd.randint(2,10) * rnd.randint(2,10)))
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e negativa"
@@ -118,7 +118,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': '(Fuvest-modificada) O número x > 1 tal que logx({}) = log{}(x) é:'.format(numBase ** numMultiplicadorLogaritmando, numBase ** numMultiplicadorBase),
+                'enunciado': '(Fuvest-modificada) Temos que x > 1 tal que logx({}) = log{}(x). Assim sendo, o logarítmo de x em uma base qualquer é:'.format(numBase ** numMultiplicadorLogaritmando, numBase ** numMultiplicadorBase),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

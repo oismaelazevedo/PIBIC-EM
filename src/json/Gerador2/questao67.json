@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 5,
-            "numMultiplicadorLogaritmando": 7,
-            "numMultiplicadorBase": 7,
-            "resposta": "78125"
+            "numBase": 8,
+            "numMultiplicadorLogaritmando": 6,
+            "numMultiplicadorBase": 4,
+            "resposta": "2\u22c5\u221a6"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": " \u221a2\n5  ",
+            "resposta": "\u221a42",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "78125",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-10",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "625",
+            "resposta": "2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "  \u221a30\n-5   ",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "2\u22c5\u221a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": " 3\u22c5\u221a7\n5    ",
+            "resposta": "-1",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(78125) = log78125(x) \u00e9:",
-            "corretaspossiveis": "78125",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(262144) = log4096(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "2\u22c5\u221a6",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
         }
     ]
 }

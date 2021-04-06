@@ -2,53 +2,53 @@
     "equacaoExponencial": [
         {
             "numBase": 8,
-            "numMultiplicadorLogaritmando": 4,
-            "numMultiplicadorBase": 8,
-            "resposta": " 4\u22c5\u221a2\n8    "
+            "numMultiplicadorLogaritmando": 7,
+            "numMultiplicadorBase": 9,
+            "resposta": "3\u22c5\u221a7"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "134217728",
+            "resposta": "4",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "262144",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": " 4\u22c5\u221a2\n8    ",
+            "resposta": "3\u22c5\u221a7",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "d)",
-            "resposta": "1073741824",
+            "letra": "c)",
+            "resposta": "-4",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "-4\u22c5\u221a2",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": " 4\u22c5\u221a3\n8    ",
+            "resposta": "\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(4096) = log16777216(x) \u00e9:",
-            "corretaspossiveis": " 4\u22c5\u221a2\n8    ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(2097152) = log134217728(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "3\u22c5\u221a7",
             "corretas": 1,
-            "aleatoriapositiva": 4,
-            "aleatorianegativa": 0,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "B"
         }
     ]
 }

@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 2,
-            "numMultiplicadorLogaritmando": 7,
+            "numBase": 8,
+            "numMultiplicadorLogaritmando": 2,
             "numMultiplicadorBase": 10,
-            "resposta": " \u221a70\n2   "
+            "resposta": "2\u22c5\u221a5"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-512",
+            "resposta": "7",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": " \u221a21\n2   ",
+            "resposta": "2\u22c5\u221a14",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": " \u221a70\n2   ",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "2\u22c5\u221a3",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "  \u221a14\n-2   ",
+            "resposta": "\u221a6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "  \u221a2\n-2  ",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "resposta": "2\u22c5\u221a5",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) O n\u00famero x > 1 tal que logx(128) = log1024(x) \u00e9:",
-            "corretaspossiveis": " \u221a70\n2   ",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(64) = log1073741824(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "corretaspossiveis": "2\u22c5\u221a5",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "C"
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
         }
     ]
 }
