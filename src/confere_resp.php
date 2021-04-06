@@ -132,6 +132,7 @@ ob_start();
         $consulta->bindParam(":arquivo", $arquivo);
         $consulta->bindParam(":letra_resp_user", $letra_resp_user);
         $consulta->bindParam(":letra_correta", $letra_correta);
+        $consulta->bindParam(":secorreta", $secorreta);
         $consulta->bindParam(":tipoerro", $tipoerro);
         $consulta->bindParam(":obs", $obs);
         $consulta->bindParam(":tempo_gasto", $tempo_gasto);
