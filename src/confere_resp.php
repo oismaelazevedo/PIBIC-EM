@@ -118,7 +118,7 @@ ob_start();
         $tipoerro = $lendo["respostas"][$indice]["tipoerro"];
 
         $PDO = CriarConexao();
-        $sql = "INSERT INTO respostas(rodada, id_user, questao, resposta, correta, tipoerro, obs, tempo_gasto, ip) VALUES 
+        $sql = "INSERT INTO resposta(rodada, id_user, questao, resposta, correta, tipoerro, obs, tempo_gasto, ip) VALUES 
                                 (:rodada, :id_usuario, :arquivo, :letra_resp_user, :letra_correta, 
                                  :tipoerro, :obs, :tempo_gasto, :ip)";
 

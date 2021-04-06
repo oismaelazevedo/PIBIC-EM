@@ -45,9 +45,6 @@ ob_start();
                     <ul>
                         <li>Por exemplo: </li>
                         <li>Quais as dificuldades encontradas? </li>
-                        <li>Como você resolveu a questão? </li>
-                        <li>Você usou o mapa de Karnaugh? </li>
-                        <li>Quantos blocos encontrou no mapa? </li>
                         <li>Ficou com alguma dúvida? Qual?</li>
                     </ul>
                 </div>

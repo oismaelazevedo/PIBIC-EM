@@ -61,15 +61,8 @@ require_once("funcao/conexao.php");
                                 
                                             <tr>
                                                 <th style="width:50px;">Questão</th>
-                                                <th style="width:50px;">E1</th>
-                                                <th style="width:50px;">E2</th>
-                                                <th style="width:50px;">E3</th>
-                                                <th style="width:50px;">E4</th>
-                                                <th style="width:50px;">E5</th>
-                                                <th style="width:50px;">E6</th>
-                                                <th style="width:50px;">E7</th>
-                                                <th style="width:250px;">Correta 1</th>
-                                                <th style="width:250px;">Correta 2</th>
+                                                <th style="width:250px;">Correta</th>
+                                                <th style="width:250px;">Selecionada</th>
                                                 <th style="width:50px;">Acertou</th>
 
                                             </tr>
@@ -81,32 +74,22 @@ require_once("funcao/conexao.php");
                                 $linha = $consulta->fetch(PDO::FETCH_ASSOC);
                                 $nome = $linha['nome'];
                                 //$questao = $linha['questao'];
-                                $minterms0 = $linha['minterms0'];
-                                $minterms1 = $linha['minterms1'];
-                                $minterms2 = $linha['minterms2'];
-                                $minterms3 = $linha['minterms3'];
-                                $minterms4 = $linha['minterms4'];
-                                $minterms5 = $linha['minterms5'];
-                                $minterms6 = $linha['minterms6'];
-                                $correta1 = $linha['correta1'];
-                                $correta2 = $linha['correta2'];
                                 $correta = $linha['correta'];
+                                $selec = $linha['resposta'];
+                                if($correta != $selec){
+                                    $conclusao = "Não";
+                                }else{
+                                    $conclusao = "Sim";
+                                }
 
                                 
                                 ?>
 
                                             <tr>
                                                 <td style="width:50px;"><?php echo $questao; ?></td>
-                                                <td style="width:50px;"><?php echo $minterms0; ?></td>
-                                                <td style="width:50px;"><?php echo $minterms1; ?></td>
-                                                <td style="width:50px;"><?php echo $minterms2; ?></td>
-                                                <td style="width:50px;"><?php echo $minterms3; ?></td>
-                                                <td style="width:50px;"><?php echo $minterms4; ?></td>
-                                                <td style="width:50px;"><?php echo $minterms5; ?></td>
-                                                <td style="width:50px;"><?php echo $minterms6; ?></td>
-                                                <td style="width:250px;"><?php echo $correta1; ?></td>
-                                                <td style="width:250px;"><?php echo $correta2; ?></td>
                                                 <td style="width:50px;"><?php echo $correta; ?></td>
+                                                <td style="width:50px;"><?php echo $selec; ?></td>
+                                                <td style="width:50px;"><?php echo $conclusao; ?></td>
                                             </tr>
  
 

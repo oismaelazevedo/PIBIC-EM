@@ -76,9 +76,9 @@ $_SESSION['resperrada'] = 0;
             <form class="form-horizontal" action="index5.php" method="post">
               <fieldset>
 
-                <input id="nome" name="nome" type="text" placeholder="Entre com seu nome completo" class="form-control input-md">
+                <input id="nome" name="nome" type="text" placeholder="Entre com seu nome completo" class="form-control input-md" required>
                 <div class="spacing"><br /></div>
-                <input id="email" name="email" type="text" placeholder="Entre com seu email" class="form-control input-md">
+                <input id="email" name="email" type="email" placeholder="Entre com seu email" class="form-control input-md" required>
                 <div class="spacing"><br /></div>
                 <button id="iniciar" name="iniciar" class="btn btn-info btn-sm pull-right">Iniciar Exercícios</button>
 
