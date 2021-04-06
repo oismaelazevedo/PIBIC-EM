@@ -6,14 +6,17 @@ require_once("funcao/conexao.php");
 ?>
 <!DOCTYPE html>
 <html>
-<header><meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="Marcus Paulo de Q. Amorim">
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
 
-        <!-- Estilo CSS -->
-        <!--<link href="css/estilo.css" rel="stylesheet">  --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Ismael Carlos S. da C. de Azevedo">
+    <meta name="author" content="Estevão Vitor G. Naval">
+    <meta name="author" content="Kawan P. de Santana">
+
+    <!-- Estilo CSS -->
+    <!--<link href="css/estilo.css" rel="stylesheet">  -->
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
@@ -27,22 +30,22 @@ require_once("funcao/conexao.php");
 </header>
 
 <body>
-<div class="middlePage">
-    <div class="relative">
-        <h1 class="logo">Resultado!</h1>
-    </div>
-    <div class="panel panel-info" class="col-md-10">
-        <div class="panel-heading">
-            <h3 class="panel-title"><?php echo "Nome: ".$_SESSION['nome']."</br>";?></h3>
+    <div class="middlePage">
+        <div class="relative">
+            <h1 class="logo">Resultado!</h1>
         </div>
-        <div class="panel-body">
-            <div class="row">
-                <div class="col-md-7" style="border-left:1px solid #ccc;height:300px">
-                    <fieldset>
-                        <div class="spacing"><br/></div>
+        <div class="panel panel-info" class="col-md-10">
+            <div class="panel-heading">
+                <h3 class="panel-title"><?php echo "Nome: " . $_SESSION['nome'] . "</br>"; ?></h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-7" style="border-left:1px solid #ccc;height:300px">
+                        <fieldset>
+                            <div class="spacing"><br /></div>
 
-                        
-                        <?php
+
+                            <?php
                             //consulta as resposta da rodada
                             $rodada = $_SESSION['rodada'];
 
@@ -50,7 +53,7 @@ require_once("funcao/conexao.php");
                             $sql = "SELECT * FROM `usuarios`, `resposta` WHERE `resposta`.`id_user` = `usuarios`.`id` and `resposta`.`rodada` = :rodada";
 
                             $consulta = $PDO->prepare($sql);
-                            $consulta->bindParam(":rodada",$rodada);
+                            $consulta->bindParam(":rodada", $rodada);
                             $consulta->execute();
 
                             $total = $consulta->rowCount();
@@ -58,55 +61,55 @@ require_once("funcao/conexao.php");
                             //echo "Total: ".$total."</br>";
                             ?>
                             <table border="1px">
-                                
-                                            <tr>
-                                                <th style="width:50px;">Questão</th>
-                                                <th style="width:250px;">Correta</th>
-                                                <th style="width:250px;">Selecionada</th>
-                                                <th style="width:50px;">Acertou</th>
 
-                                            </tr>
+                                <tr>
+                                    <th style="width:50px;">Questão</th>
+                                    <th style="width:250px;">Correta</th>
+                                    <th style="width:250px;">Selecionada</th>
+                                    <th style="width:50px;">Acertou</th>
 
-                            <?php
-
-                            while($total > 0){
-                                $questao = $questao + 1;
-                                $linha = $consulta->fetch(PDO::FETCH_ASSOC);
-                                $nome = $linha['nome'];
-                                //$questao = $linha['questao'];
-                                $correta = $linha['correta'];
-                                $selec = $linha['resposta'];
-                                if($correta != $selec){
-                                    $conclusao = "Não";
-                                }else{
-                                    $conclusao = "Sim";
-                                }
-
-                                
-                                ?>
-
-                                            <tr>
-                                                <td style="width:50px;"><?php echo $questao; ?></td>
-                                                <td style="width:50px;"><?php echo $correta; ?></td>
-                                                <td style="width:50px;"><?php echo $selec; ?></td>
-                                                <td style="width:50px;"><?php echo $conclusao; ?></td>
-                                            </tr>
- 
+                                </tr>
 
                                 <?php
-                                
-                                $total = $total -1;
-                            }
-                            
-                        ?>
+
+                                while ($total > 0) {
+                                    $questao = $questao + 1;
+                                    $linha = $consulta->fetch(PDO::FETCH_ASSOC);
+                                    $nome = $linha['nome'];
+                                    //$questao = $linha['questao'];
+                                    $correta = $linha['correta'];
+                                    $selec = $linha['resposta'];
+                                    if ($correta != $selec) {
+                                        $conclusao = "Não";
+                                    } else {
+                                        $conclusao = "Sim";
+                                    }
+
+
+                                ?>
+
+                                    <tr>
+                                        <td style="width:50px;"><?php echo $questao; ?></td>
+                                        <td style="width:50px;"><?php echo $correta; ?></td>
+                                        <td style="width:50px;"><?php echo $selec; ?></td>
+                                        <td style="width:50px;"><?php echo $conclusao; ?></td>
+                                    </tr>
+
+
+                                <?php
+
+                                    $total = $total - 1;
+                                }
+
+                                ?>
                             </table>
-                        <a href="funcao/logout.php" class="btn btn-info btn-sm pull-right">Finalizar</a>
-                    </fieldset>
+                            <a href="funcao/logout.php" class="btn btn-info btn-sm pull-right">Finalizar</a>
+                        </fieldset>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </body>
-</html>
 
+</html>

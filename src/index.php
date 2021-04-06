@@ -12,7 +12,9 @@ $_SESSION['resperrada'] = 0;
   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
-  <meta name="author" content="Marcus Paulo de Q. Amorim">
+  <meta name="author" content="Ismael Carlos S. da C. de Azevedo">
+  <meta name="author" content="Estevão Vitor G. Naval">
+  <meta name="author" content="Kawan P. de Santana">
 
   <script src="js/jquery.js"></script>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -82,7 +84,7 @@ $_SESSION['resperrada'] = 0;
                 <div class="spacing"><br /></div>
                 <button id="iniciar" name="iniciar" class="btn btn-info btn-sm pull-right">Iniciar Exercícios</button>
 
-              
+
               </fieldset>
             </form>
           </div>
