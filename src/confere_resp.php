@@ -10,7 +10,7 @@ ob_start();
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Marcus Paulo de Q. Amorim">
+    <meta name="author" content="Ismael Carlos">
 
     <title>Introdução a Informática</title>
 
