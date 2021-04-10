@@ -116,11 +116,15 @@ ob_start();
 
         $tipoerro = $lendo["respostas"][$indice]["tipoerro"];
         $secorreta = $_SESSION["correto"];
+        $qtdAleatoriaPositiva = $lendo["atributosquestao"][0]["aleatoriapositiva"];
+        $qtdAleatoriaNegativa = $lendo["atributosquestao"][0]["aleatorianegativa"];
+        $qtdInvertidaPositiva = $lendo["atributosquestao"][0]["invertidapositiva"];
+        $qtdInvertidaNegativa = $lendo["atributosquestao"][0]["invertidanegativa"];
 
         $PDO = CriarConexao();
-        $sql = "INSERT INTO resposta(rodada, id_user, questao, selecionada, resposta, correta, tipoerro, obs, tempo_gasto, ip) VALUES 
+        $sql = "INSERT INTO resposta(rodada, id_user, questao, selecionada, resposta, correta, tipoerro, obs, tempo_gasto, ip, qtdaleatoriapositiva, qtdaleatorianegativa, qtdinvertidapositiva, qtdinvertidanegativa) VALUES 
                                 (:rodada, :id_usuario, :arquivo, :letra_resp_user, :letra_correta, :secorreta,
-                                 :tipoerro, :obs, :tempo_gasto, :ip)";
+                                 :tipoerro, :obs, :tempo_gasto, :ip, :qtdAleatoriaPositiva, :qtdAleatoriaNegativa,:qtdInvertidaPositiva,:qtdInvertidaNegativa)";
 
         $consulta = $PDO->prepare($sql);
 
@@ -134,6 +138,10 @@ ob_start();
         $consulta->bindParam(":obs", $obs);
         $consulta->bindParam(":tempo_gasto", $tempo_gasto);
         $consulta->bindParam(":ip", $ip);
+        $consulta->bindParam(":qtdAleatoriaPositiva", $qtdAleatoriaPositiva);
+        $consulta->bindParam(":qtdAleatoriaNegativa", $qtdAleatoriaNegativa);
+        $consulta->bindParam(":qtdInvertidaPositiva", $qtdInvertidaPositiva);
+        $consulta->bindParam(":qtdInvertidaNegativa", $qtdInvertidaNegativa);
 
         $consulta->execute();
 
