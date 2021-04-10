@@ -32,6 +32,7 @@ ob_start();
 </header>
 
 <body>
+
     <!--inicia a mensagem de informações-->
     <!-- Modal -->
     <div class="modal fade" id="Observacao" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
@@ -135,8 +136,8 @@ ob_start();
 
         //verifica se já existe esse usuário e seleciona o seu id
         /*//versão de hospedagem
-    $sql = "SELECT * FROM usuarios WHERE nome = '$nome' and email = '$email'";
-    $consulta = $mysqli->query($sql);*/
+        $sql = "SELECT * FROM usuarios WHERE nome = '$nome' and email = '$email'";
+        $consulta = $mysqli->query($sql);*/
 
         //versão local
         $PDO = CriarConexao();

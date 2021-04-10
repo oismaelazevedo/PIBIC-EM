@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 3464,
+            "radicando": 1024,
             "indice": 2,
-            "expoente": 4,
-            "resultado": "-11999295"
+            "expoente": 3,
+            "resultado": "-32767"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "522730",
+            "resposta": "32769",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "1 - 190\u22c5\u221a190",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "-11999295",
+            "letra": "c)",
+            "resposta": "-32767",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "13457",
+            "letra": "d)",
+            "resposta": "1 - 91\u22c5\u221a91",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "d)",
-            "resposta": "-9381968",
+            "letra": "e)",
+            "resposta": "1 + 472\u22c5\u221a59",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "e)",
-            "resposta": "11999297",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.3464^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3464, desaparece em 2 anos, qual a quantidade perdida em 4 anos?",
-            "corretaspossiveis": "-11999295",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.1024^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 1024, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
+            "corretaspossiveis": "-32767",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
-            "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "B"
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
         }
     ]
 }

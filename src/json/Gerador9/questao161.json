@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 9926,
+            "radicando": 7407,
             "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 9926\u22c5\u221a9926"
+            "expoente": 5,
+            "resultado": "1 - 164590947\u22c5\u221a823"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 9926\u22c5\u221a9926",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "1 - 3243601\u22c5\u221a1801",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 447\u22c5\u221a447",
+            "resposta": "1 + 141467067\u22c5\u221a763",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "1 - 4891\u22c5\u221a4891",
+            "resposta": "1 - 14265729\u22c5\u221a3777",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 6618\u22c5\u221a6618",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "1 - 164590947\u22c5\u221a823",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 6697\u22c5\u221a6697",
+            "resposta": "1 + 21996100\u22c5\u221a4690",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.9926^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 9926, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 9926\u22c5\u221a9926",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.7407^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 7407, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
+            "corretaspossiveis": "1 - 164590947\u22c5\u221a823",
             "corretas": 1,
-            "aleatoriapositiva": 4,
-            "aleatorianegativa": 0,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "D"
         }
     ]
 }

@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 304,
+            "radicando": 5366,
             "indice": 2,
             "expoente": 3,
-            "resultado": "1 - 1216\u22c5\u221a19"
+            "resultado": "1 - 5366\u22c5\u221a5366"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 223\u22c5\u221a223",
+            "resposta": "1 - 21266\u22c5\u221a62",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 1216\u22c5\u221a19",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "1 - 14875\u22c5\u221a119",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "1 + 560\u22c5\u221a70",
+            "resposta": "1 - 4054\u22c5\u221a4054",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 70\u22c5\u221a70",
+            "resposta": "1 - 7344\u22c5\u221a34",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 287\u22c5\u221a287",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "1 - 5366\u22c5\u221a5366",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.304^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 304, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 1216\u22c5\u221a19",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.5366^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 5366, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
+            "corretaspossiveis": "1 - 5366\u22c5\u221a5366",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "E"
         }
     ]
 }

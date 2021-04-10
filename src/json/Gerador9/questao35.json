@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 511,
+            "radicando": 6326,
             "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 261121\u22c5\u221a511"
+            "expoente": 3,
+            "resultado": "1 - 6326\u22c5\u221a6326"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 28125\u22c5\u221a3",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "1 + 11552\u22c5\u221a19",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "1 - 261121\u22c5\u221a511",
+            "resposta": "1 - 6326\u22c5\u221a6326",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "d)",
-            "resposta": "1 - 19881\u22c5\u221a141",
+            "letra": "b)",
+            "resposta": "1 + 3386\u22c5\u221a3386",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "e)",
-            "resposta": "1 + 66564\u22c5\u221a258",
+            "letra": "c)",
+            "resposta": "1 + 6326\u22c5\u221a6326",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "1 - 3783\u22c5\u221a3783",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "1 + 11032\u22c5\u221a1379",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.511^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 511, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 261121\u22c5\u221a511",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.6326^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 6326, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
+            "corretaspossiveis": "1 - 6326\u22c5\u221a6326",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 0,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "A"
         }
     ]
 }

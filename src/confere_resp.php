@@ -72,10 +72,6 @@ ob_start();
     $id_usuario = $_SESSION['id_usuario'];
     $rodada = $_SESSION['rodada'];
 
-
-
-
-
     calculaTempo($hora_inicial, $hora_final);
 
     $acertou = 0;
@@ -86,41 +82,42 @@ ob_start();
     $lendo = json_decode($info, true);
 
     if (!empty($_POST["letra"])) {
-
         $letra_resp_user = $_POST["letra"];
-
         $letra_correta = $lendo["atributosquestao"][0]["respostascorretas"];
 
 
         if ($letra_resp_user == $letra_correta) {
 
-
             $_SESSION["contador"] = $_SESSION["contador"] + 1;
             $_SESSION["correto"] = "Sim";
-            header("Location: index5.php");
+            
         } else if ($letra_resp_user != $letra_correta) {
 
             $_SESSION["contador"] = $_SESSION["contador"] + 1;
             $_SESSION["correto"] = "Não";
-            header("Location: index5.php");
         }
         switch ($letra_resp_user) {
             case "A":
                 $indice = 0;
+                break;
             case "B":
                 $indice = 1;
+                break;
             case "C":
                 $indice = 2;
+                break;
             case "D":
                 $indice = 3;
+                break;
             case "E":
                 $indice = 4;
+                break;
         }
 
         $tipoerro = $lendo["respostas"][$indice]["tipoerro"];
         $secorreta = $_SESSION["correto"];
 
-            $PDO = CriarConexao();
+        $PDO = CriarConexao();
         $sql = "INSERT INTO resposta(rodada, id_user, questao, selecionada, resposta, correta, tipoerro, obs, tempo_gasto, ip) VALUES 
                                 (:rodada, :id_usuario, :arquivo, :letra_resp_user, :letra_correta, :secorreta,
                                  :tipoerro, :obs, :tempo_gasto, :ip)";
@@ -140,6 +137,8 @@ ob_start();
 
         $consulta->execute();
 
+        header("Location: index5.php");
+
         unset($_SESSION['info']);
     } else {
 
@@ -155,7 +154,6 @@ ob_start();
     }
 
     ?>
-
 </body>
 
 </html>

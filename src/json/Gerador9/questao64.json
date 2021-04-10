@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 2470,
+            "radicando": 3430,
             "indice": 2,
             "expoente": 5,
-            "resultado": "1 - 6100900\u22c5\u221a2470"
+            "resultado": "1 - 82354300\u22c5\u221a70"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 6100900\u22c5\u221a2470",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "b)",
-            "resposta": "1 - 273529\u22c5\u221a523",
+            "resposta": "1 + 9746884\u22c5\u221a3122",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "b)",
+            "resposta": "1 - 82354300\u22c5\u221a70",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
             "letra": "c)",
-            "resposta": "1 + 6100900\u22c5\u221a2470",
+            "resposta": "1 + 6345361\u22c5\u221a2519",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "1 + 4992800\u22c5\u221a395",
+            "resposta": "1 - 1030225\u22c5\u221a1015",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 24649\u22c5\u221a157",
+            "resposta": "1 + 82354300\u22c5\u221a70",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.2470^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 2470, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 6100900\u22c5\u221a2470",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.3430^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3430, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
+            "corretaspossiveis": "1 - 82354300\u22c5\u221a70",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "A"
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
         }
     ]
 }

@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 5198,
+            "radicando": 2359,
             "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 5198\u22c5\u221a5198"
+            "expoente": 5,
+            "resultado": "1 - 5564881\u22c5\u221a2359"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 5198\u22c5\u221a5198",
+            "resposta": "1 + 5564881\u22c5\u221a2359",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "1 - 5564881\u22c5\u221a2359",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "b)",
-            "resposta": "1 - 4744\u22c5\u221a593",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "c)",
-            "resposta": "1 - 1047\u22c5\u221a1047",
+            "resposta": "1 - 35563612\u22c5\u221a46",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 8216\u22c5\u221a1027",
+            "resposta": "1 + 2187441\u22c5\u221a1479",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 5063\u22c5\u221a5063",
+            "resposta": "14348908",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.5198^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 5198, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 5198\u22c5\u221a5198",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.2359^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 2359, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
+            "corretaspossiveis": "1 - 5564881\u22c5\u221a2359",
             "corretas": 1,
-            "aleatoriapositiva": 4,
-            "aleatorianegativa": 0,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "B"
         }
     ]
 }
