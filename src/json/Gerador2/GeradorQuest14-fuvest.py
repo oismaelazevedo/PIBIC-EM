@@ -118,7 +118,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': '(Fuvest-modificada) Temos que x > 1 tal que logx({}) = log{}(x). Assim sendo, o logarítmo de x em uma base qualquer é:'.format(numBase ** numMultiplicadorLogaritmando, numBase ** numMultiplicadorBase),
+                'enunciado': '(Fuvest-modificada) Temos que x > 1 tal que logx({}) = log{}(x). Assim sendo, o logarítmo de x na base 10 é:'.format(numBase ** numMultiplicadorLogaritmando, numBase ** numMultiplicadorBase),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

@@ -24,9 +24,9 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 
 ## 🧑‍🤝‍🧑 Integrantes
 ### Professores orientadores
-- Profa. Alayne Duarte Amorim, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/6728091845181284)
-- Prof. Daniel Sadoc Menasche, Universidade Federal do Rio de Janeiro - [Lattes](http://lattes.cnpq.br/9931198850020140)
-- Prof. Marcus Paulo de Q. Amorim, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/5890334014963199)
+- Profa. M.Sc. Alayne Duarte Amorim, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/6728091845181284)
+- Prof. Ph.D. Daniel Sadoc Menasche, Universidade Federal do Rio de Janeiro - [Lattes](http://lattes.cnpq.br/9931198850020140)
+- Prof. M.Sc. Marcus Paulo de Q. Amorim, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/5890334014963199)
 ### Orientandos
 - Estevão Vitor Gregorio Naval, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/3949652173819005)
 - Ismael C. S. da Costa de Azevedo, Colégio Pedro II - [Lattes](http://lattes.cnpq.br/2052748666550756)
@@ -52,7 +52,7 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 | Número da questão | Enunciado original | Enunciado adaptado | Fonte |
 | :----------: | :----------: | :----------: | :----------: |
 | 11 | (UF-RN) Dados os números M = 9,84 x 10<sup>15</sup> e N = 1,23 x 10<sup>16</sup>, pode-se afirmar que: | (UF-RN-modificada) Dados os números M = <número_aleatório> X 10<sup><número_aleatório></sup> e N = <número_aleatório> X 10<sup><número_aleatório></sup>. Pode-se afirmar que: | Vestibular UFRN |
-| 14 | (Fuvest) O número x > 1 tal que log<sub>x</sub> 2 = log<sub>4</sub> x é | (Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub> (<número_aleatório>) = log<sub><número_aleatório></sub> (x). Assim sendo, o logarítmo de x em uma base qualquer é: | Vestibular Fuvest |
+| 14 | (Fuvest) O número x > 1 tal que log<sub>x</sub> 2 = log<sub>4</sub> x é | (Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub> (<número_aleatório>) = log<sub><número_aleatório></sub> (x). Assim sendo, o logarítmo de x na base 10 é: | Vestibular Fuvest |
 | 71 - a | 2<sup>x</sup> = 128 | Resolva a seguinte equação exponencial: <número_aleatório><sup><número_aleatório></sup> = <número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
 | 71 - c | 2<sup>x</sup> = 1/16 | Resolva a seguinte equação exponencial: <número_aleatório><sup><número_aleatório></sup> = 1/<número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
 | 71 - d | (1/5)<sup>x</sup> = 125 | Resolva a seguinte equação exponencial: (1/<número_aleatório>)<sup>x</sup> = <número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
