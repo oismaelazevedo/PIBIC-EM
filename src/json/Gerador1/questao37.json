@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 853.05,
-            "numFloatAleatorio02": 19.64,
-            "ordemDez01": 19,
-            "ordemDez02": 20,
+            "numFloatAleatorio01": 731.75,
+            "numFloatAleatorio02": 23.77,
+            "ordemDez01": 41,
+            "ordemDez02": 42,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 872,69 . 10<sup>39</sup>",
+            "resposta": "M + N = 755,52 \u00d7 10<sup>83</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,26 +23,26 @@
         },
         {
             "letra": "c)",
-            "resposta": "M < N",
+            "resposta": "M . N = 17393,7 \u00d7 10<sup>83</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M . N = 16753,9 . 10<sup>39</sup>",
+            "resposta": "M / N = 30,78 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 43,43 . 10<sup>-1</sup>",
+            "resposta": "M < N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 853,05 . 10<sup>19</sup> e N = 19,64 . 10<sup>20</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 731,75 \u00d7 10<sup>41</sup> e N = 23,77 \u00d7 10<sup>42</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

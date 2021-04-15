@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 697.05,
-            "numFloatAleatorio02": 67.07,
-            "ordemDez01": 94,
-            "ordemDez02": 95,
+            "numFloatAleatorio01": 539.93,
+            "numFloatAleatorio02": 8.11,
+            "ordemDez01": 27,
+            "ordemDez02": 28,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 764,12 . 10<sup>189</sup>",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
             "resposta": "M < N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "M . N = 46751,14 . 10<sup>189</sup>",
+            "letra": "b)",
+            "resposta": "M + N = 548,04 \u00d7 10<sup>55</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "d)",
+            "letra": "c)",
             "resposta": "M \u2265 N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "d)",
+            "resposta": "M . N = 4378,83 \u00d7 10<sup>55</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "e)",
-            "resposta": "M / N = 10,39 . 10<sup>-1</sup>",
+            "resposta": "M / N = 66,58 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 697,05 . 10<sup>94</sup> e N = 67,07 . 10<sup>95</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 539,93 \u00d7 10<sup>27</sup> e N = 8,11 \u00d7 10<sup>28</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "C"
         }
     ]
 }

@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 50.61,
-            "numFloatAleatorio02": 71.2,
-            "ordemDez01": 12,
-            "ordemDez02": 13,
-            "resposta": "M < N"
+            "numFloatAleatorio01": 991.41,
+            "numFloatAleatorio02": 36.41,
+            "ordemDez01": 42,
+            "ordemDez02": 43,
+            "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
             "resposta": "M \u2265 N",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 121,81 . 10<sup>25</sup>",
+            "resposta": "M + N = 1027,82 \u00d7 10<sup>85</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
             "resposta": "M < N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M . N = 3603,43 . 10<sup>25</sup>",
+            "resposta": "M . N = 36097,24 \u00d7 10<sup>85</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 0,71 . 10<sup>-1</sup>",
+            "resposta": "M / N = 27,23 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 50,61 . 10<sup>12</sup> e N = 71,2 . 10<sup>13</sup>. Pode-se afirmar que:",
-            "corretaspossiveis": "M < N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 991,41 \u00d7 10<sup>42</sup> e N = 36,41 \u00d7 10<sup>43</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "A"
         }
     ]
 }

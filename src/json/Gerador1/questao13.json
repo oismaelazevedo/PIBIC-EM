@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 498.19,
-            "numFloatAleatorio02": 27.79,
-            "ordemDez01": 29,
-            "ordemDez02": 30,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 164.27,
+            "numFloatAleatorio02": 81.03,
+            "ordemDez01": 66,
+            "ordemDez02": 67,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 525,98 . 10<sup>59</sup>",
+            "resposta": "M + N = 245,3 \u00d7 10<sup>133</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
             "resposta": "M \u2265 N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 13844,7 . 10<sup>59</sup>",
+            "resposta": "M . N = 13310,8 \u00d7 10<sup>133</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 17,93 . 10<sup>-1</sup>",
+            "resposta": "M / N = 2,03 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
             "resposta": "M < N",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 498,19 . 10<sup>29</sup> e N = 27,79 . 10<sup>30</sup>. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 164,27 \u00d7 10<sup>66</sup> e N = 81,03 \u00d7 10<sup>67</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "E"
         }
     ]
 }

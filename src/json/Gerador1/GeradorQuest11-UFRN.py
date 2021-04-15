@@ -57,18 +57,18 @@ while k < 200:
 
             if numRandomTemporario == 0:
 
-                listAlternativas[numLetra] = "M + N = {} . 10<sup>{}</sup>".format(str(round(numFloatAleatorio01+ numFloatAleatorio02, 2)).replace('.', ','), ordemDez01 + ordemDez02)
+                listAlternativas[numLetra] = "M + N = {} × 10<sup>{}</sup>".format(str(round(numFloatAleatorio01+ numFloatAleatorio02, 2)).replace('.', ','), ordemDez01 + ordemDez02)
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 numRandomTemporario += 1
             elif numRandomTemporario == 1:
 
-                listAlternativas[numLetra] = "M . N = {} . 10<sup>{}</sup>".format(str(round(numFloatAleatorio01 * numFloatAleatorio02, 2)).replace('.', ','), ordemDez01 + ordemDez02)
+                listAlternativas[numLetra] = "M . N = {} × 10<sup>{}</sup>".format(str(round(numFloatAleatorio01 * numFloatAleatorio02, 2)).replace('.', ','), ordemDez01 + ordemDez02)
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 numRandomTemporario += 1
             else:
-                listAlternativas[numLetra] = "M ÷ N = {} . 10<sup>{}</sup>".format(str(round(numFloatAleatorio01 / numFloatAleatorio02, 2)).replace('.', ','), ordemDez01 - ordemDez02)
+                listAlternativas[numLetra] = "M / N = {} × 10<sup>{}</sup>".format(str(round(numFloatAleatorio01 / numFloatAleatorio02, 2)).replace('.', ','), ordemDez01 - ordemDez02)
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "gerada aleatoriamente e positiva"
 
@@ -119,7 +119,7 @@ while k < 200:
         'atributosquestao': [
             {
                 # str(numero_com_ponto).replace('.', ',')
-                'enunciado': '(UF-RN-modificada) Dados os números M = {} . 10<sup>{}</sup> e N = {} . 10<sup>{}</sup>. Pode-se afirmar que:'.format(str(numFloatAleatorio01).replace('.', ','), ordemDez01, str(numFloatAleatorio02).replace('.', ','), ordemDez02),
+                'enunciado': '(UF-RN-modificada) Dados os números M = {} × 10<sup>{}</sup> e N = {} × 10<sup>{}</sup>. Pode-se afirmar que:'.format(str(numFloatAleatorio01).replace('.', ','), ordemDez01, str(numFloatAleatorio02).replace('.', ','), ordemDez02),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

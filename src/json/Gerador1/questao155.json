@@ -1,25 +1,25 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 768.1,
-            "numFloatAleatorio02": 9.45,
-            "ordemDez01": 32,
-            "ordemDez02": 33,
+            "numFloatAleatorio01": 718.32,
+            "numFloatAleatorio02": 41.42,
+            "ordemDez01": 96,
+            "ordemDez02": 97,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 777,55 . 10<sup>65</sup>",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
             "resposta": "M < N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "M + N = 759,74 \u00d7 10<sup>193</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
@@ -29,20 +29,20 @@
         },
         {
             "letra": "d)",
-            "resposta": "M . N = 7258,55 . 10<sup>65</sup>",
+            "resposta": "M . N = 29752,81 \u00d7 10<sup>193</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 81,28 . 10<sup>-1</sup>",
+            "resposta": "M / N = 17,34 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 768,1 . 10<sup>32</sup> e N = 9,45 . 10<sup>33</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 718,32 \u00d7 10<sup>96</sup> e N = 41,42 \u00d7 10<sup>97</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

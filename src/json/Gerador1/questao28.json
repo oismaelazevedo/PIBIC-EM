@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 827.95,
-            "numFloatAleatorio02": 7.19,
-            "ordemDez01": 41,
-            "ordemDez02": 42,
+            "numFloatAleatorio01": 949.45,
+            "numFloatAleatorio02": 80.13,
+            "ordemDez01": 10,
+            "ordemDez02": 11,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 835,14 . 10<sup>83</sup>",
+            "resposta": "M + N = 1029,58 \u00d7 10<sup>21</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M < N",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "c)",
             "resposta": "M \u2265 N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "c)",
+            "resposta": "M < N",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
             "letra": "d)",
-            "resposta": "M . N = 5952,96 . 10<sup>83</sup>",
+            "resposta": "M . N = 76079,43 \u00d7 10<sup>21</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 115,15 . 10<sup>-1</sup>",
+            "resposta": "M / N = 11,85 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 827,95 . 10<sup>41</sup> e N = 7,19 . 10<sup>42</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 949,45 \u00d7 10<sup>10</sup> e N = 80,13 \u00d7 10<sup>11</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "B"
         }
     ]
 }

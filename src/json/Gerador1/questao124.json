@@ -1,8 +1,8 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 207.55,
-            "numFloatAleatorio02": 91.03,
+            "numFloatAleatorio01": 422.41,
+            "numFloatAleatorio02": 74.12,
             "ordemDez01": 86,
             "ordemDez02": 87,
             "resposta": "M < N"
@@ -11,45 +11,45 @@
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M < N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "M \u2265 N",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 298,58 . 10<sup>173</sup>",
+            "resposta": "M + N = 496,53 \u00d7 10<sup>173</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 18893,28 . 10<sup>173</sup>",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "M < N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 2,28 . 10<sup>-1</sup>",
+            "resposta": "M . N = 31309,03 \u00d7 10<sup>173</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M \u2265 N",
+            "resposta": "M / N = 5,7 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 207,55 . 10<sup>86</sup> e N = 91,03 . 10<sup>87</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 422,41 \u00d7 10<sup>86</sup> e N = 74,12 \u00d7 10<sup>87</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "C"
         }
     ]
 }

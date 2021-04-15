@@ -1,29 +1,29 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 331.17,
-            "numFloatAleatorio02": 1.56,
-            "ordemDez01": 18,
-            "ordemDez02": 19,
+            "numFloatAleatorio01": 670.0,
+            "numFloatAleatorio02": 27.52,
+            "ordemDez01": 93,
+            "ordemDez02": 94,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 332,73 . 10<sup>37</sup>",
+            "resposta": "M + N = 697,52 \u00d7 10<sup>187</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 516,63 . 10<sup>37</sup>",
+            "resposta": "M . N = 18438,4 \u00d7 10<sup>187</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M / N = 212,29 . 10<sup>-1</sup>",
+            "resposta": "M / N = 24,35 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 331,17 . 10<sup>18</sup> e N = 1,56 . 10<sup>19</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 670,0 \u00d7 10<sup>93</sup> e N = 27,52 \u00d7 10<sup>94</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

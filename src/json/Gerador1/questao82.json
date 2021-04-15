@@ -1,10 +1,10 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 321.25,
-            "numFloatAleatorio02": 31.89,
-            "ordemDez01": 43,
-            "ordemDez02": 44,
+            "numFloatAleatorio01": 782.59,
+            "numFloatAleatorio02": 10.88,
+            "ordemDez01": 71,
+            "ordemDez02": 72,
             "resposta": "M \u2265 N"
         }
     ],
@@ -17,19 +17,19 @@
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 353,14 . 10<sup>87</sup>",
+            "resposta": "M + N = 793,47 \u00d7 10<sup>143</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 10244,66 . 10<sup>87</sup>",
+            "resposta": "M . N = 8514,58 \u00d7 10<sup>143</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 10,07 . 10<sup>-1</sup>",
+            "resposta": "M / N = 71,93 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 321,25 . 10<sup>43</sup> e N = 31,89 . 10<sup>44</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 782,59 \u00d7 10<sup>71</sup> e N = 10,88 \u00d7 10<sup>72</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

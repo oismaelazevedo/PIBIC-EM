@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 767.34,
-            "numFloatAleatorio02": 6.74,
-            "ordemDez01": 21,
-            "ordemDez02": 22,
+            "numFloatAleatorio01": 770.11,
+            "numFloatAleatorio02": 21.27,
+            "ordemDez01": 52,
+            "ordemDez02": 53,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 774,08 . 10<sup>43</sup>",
+            "resposta": "M + N = 791,38 \u00d7 10<sup>105</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M < N",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "M . N = 5171,87 . 10<sup>43</sup>",
+            "resposta": "M . N = 16380,24 \u00d7 10<sup>105</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "d)",
+            "letra": "c)",
             "resposta": "M \u2265 N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "e)",
-            "resposta": "M / N = 113,85 . 10<sup>-1</sup>",
+            "letra": "d)",
+            "resposta": "M / N = 36,21 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "M < N",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 767,34 . 10<sup>21</sup> e N = 6,74 . 10<sup>22</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 770,11 \u00d7 10<sup>52</sup> e N = 21,27 \u00d7 10<sup>53</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "C"
         }
     ]
 }

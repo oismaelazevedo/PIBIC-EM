@@ -1,29 +1,29 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 12.38,
-            "numFloatAleatorio02": 87.5,
-            "ordemDez01": 72,
-            "ordemDez02": 73,
+            "numFloatAleatorio01": 511.03,
+            "numFloatAleatorio02": 82.27,
+            "ordemDez01": 31,
+            "ordemDez02": 32,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 99,88 . 10<sup>145</sup>",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 1083,25 . 10<sup>145</sup>",
+            "resposta": "M + N = 593,3 \u00d7 10<sup>63</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M / N = 0,14 . 10<sup>-1</sup>",
+            "resposta": "M . N = 42042,44 \u00d7 10<sup>63</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -35,14 +35,14 @@
         },
         {
             "letra": "e)",
-            "resposta": "M \u2265 N",
+            "resposta": "M / N = 6,21 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 12,38 . 10<sup>72</sup> e N = 87,5 . 10<sup>73</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 511,03 \u00d7 10<sup>31</sup> e N = 82,27 \u00d7 10<sup>32</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

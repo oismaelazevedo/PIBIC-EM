@@ -1,49 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 336.15,
-            "numFloatAleatorio02": 12.68,
-            "ordemDez01": 18,
-            "ordemDez02": 19,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 296.48,
+            "numFloatAleatorio02": 59.2,
+            "ordemDez01": 20,
+            "ordemDez02": 21,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 348,83 . 10<sup>37</sup>",
+            "resposta": "M + N = 355,68 \u00d7 10<sup>41</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M < N",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 4262,38 . 10<sup>37</sup>",
+            "resposta": "M . N = 17551,62 \u00d7 10<sup>41</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M \u2265 N",
+            "resposta": "M < N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 26,51 . 10<sup>-1</sup>",
+            "resposta": "M / N = 5,01 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 336,15 . 10<sup>18</sup> e N = 12,68 . 10<sup>19</sup>. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 296,48 \u00d7 10<sup>20</sup> e N = 59,2 \u00d7 10<sup>21</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,

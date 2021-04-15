@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 435.06,
-            "numFloatAleatorio02": 93.09,
-            "ordemDez01": 16,
-            "ordemDez02": 17,
+            "numFloatAleatorio01": 317.9,
+            "numFloatAleatorio02": 34.69,
+            "ordemDez01": 29,
+            "ordemDez02": 30,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 528,15 . 10<sup>33</sup>",
+            "resposta": "M + N = 352,59 \u00d7 10<sup>59</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,26 +23,26 @@
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 40499,74 . 10<sup>33</sup>",
+            "resposta": "M . N = 11027,95 \u00d7 10<sup>59</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M \u2265 N",
+            "resposta": "M / N = 9,16 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 4,67 . 10<sup>-1</sup>",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 435,06 . 10<sup>16</sup> e N = 93,09 . 10<sup>17</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 317,9 \u00d7 10<sup>29</sup> e N = 34,69 \u00d7 10<sup>30</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

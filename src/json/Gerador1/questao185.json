@@ -1,49 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 319.17,
-            "numFloatAleatorio02": 19.33,
-            "ordemDez01": 68,
-            "ordemDez02": 69,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 203.96,
+            "numFloatAleatorio02": 93.29,
+            "ordemDez01": 10,
+            "ordemDez02": 11,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 338,5 . 10<sup>137</sup>",
+            "resposta": "M + N = 297,25 \u00d7 10<sup>21</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M < N",
+            "resposta": "M . N = 19027,43 \u00d7 10<sup>21</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M \u2265 N",
+            "resposta": "M < N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "M . N = 6169,56 . 10<sup>137</sup>",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 16,51 . 10<sup>-1</sup>",
+            "resposta": "M / N = 2,19 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 319,17 . 10<sup>68</sup> e N = 19,33 . 10<sup>69</sup>. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 203,96 \u00d7 10<sup>10</sup> e N = 93,29 \u00d7 10<sup>11</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,

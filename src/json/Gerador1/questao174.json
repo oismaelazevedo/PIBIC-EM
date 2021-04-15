@@ -1,10 +1,10 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 136.48,
-            "numFloatAleatorio02": 89.47,
-            "ordemDez01": 20,
-            "ordemDez02": 21,
+            "numFloatAleatorio01": 446.47,
+            "numFloatAleatorio02": 46.87,
+            "ordemDez01": 99,
+            "ordemDez02": 100,
             "resposta": "M < N"
         }
     ],
@@ -17,32 +17,32 @@
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 225,95 . 10<sup>41</sup>",
+            "resposta": "M + N = 493,34 \u00d7 10<sup>199</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
+            "resposta": "M . N = 20926,05 \u00d7 10<sup>199</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
             "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
-            "letra": "d)",
-            "resposta": "M . N = 12210,87 . 10<sup>41</sup>",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": "M / N = 1,53 . 10<sup>-1</sup>",
+            "resposta": "M / N = 9,53 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 136,48 . 10<sup>20</sup> e N = 89,47 . 10<sup>21</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 446,47 \u00d7 10<sup>99</sup> e N = 46,87 \u00d7 10<sup>100</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
