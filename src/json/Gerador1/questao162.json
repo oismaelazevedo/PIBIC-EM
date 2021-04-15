@@ -1,29 +1,29 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 226.19,
-            "numFloatAleatorio02": 52.59,
-            "ordemDez01": 38,
-            "ordemDez02": 39,
+            "numFloatAleatorio01": 775.03,
+            "numFloatAleatorio02": 81.74,
+            "ordemDez01": 78,
+            "ordemDez02": 79,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 278.78 X 10^77",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
             "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
+            "letra": "b)",
+            "resposta": "M + N = 856,77 X 10^157",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "c)",
-            "resposta": "M . N = 11895.33 X 10^77",
+            "resposta": "M . N = 63350,95 X 10^157",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -35,14 +35,14 @@
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 4.3 X 10^-1",
+            "resposta": "M / N = 9,48 X 10^-1",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 226.19 X 10^38 e N = 52.59 X 10^39. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 775,03 X 10^78 e N = 81,74 X 10^79. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

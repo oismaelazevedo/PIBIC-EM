@@ -1,29 +1,29 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 225.41,
-            "numFloatAleatorio02": 71.95,
-            "ordemDez01": 63,
-            "ordemDez02": 64,
+            "numFloatAleatorio01": 458.62,
+            "numFloatAleatorio02": 73.25,
+            "ordemDez01": 58,
+            "ordemDez02": 59,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 297.36 X 10^127",
+            "resposta": "M + N = 531,87 X 10^117",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 16218.25 X 10^127",
+            "resposta": "M . N = 33593,92 X 10^117",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M / N = 3.13 X 10^-1",
+            "resposta": "M / N = 6,26 X 10^-1",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 225.41 X 10^63 e N = 71.95 X 10^64. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 458,62 X 10^58 e N = 73,25 X 10^59. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

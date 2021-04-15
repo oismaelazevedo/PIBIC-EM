@@ -12,7 +12,7 @@ def elementosListaEhDistinta(lista):
 enunciado = [None]*200
 k = 0
 while k < 200:
-    questoes = open("./src/json/Gerador1/questao{}.json".format(k+1), 'w')
+    questoes = open("questao{}.json".format(k+1), 'w')
 
     numFloatAleatorio01 = round(rnd.uniform(1,1000), 2)
     numFloatAleatorio02 = round(rnd.uniform(1,100), 2)
@@ -57,18 +57,18 @@ while k < 200:
 
             if numRandomTemporario == 0:
 
-                listAlternativas[numLetra] = "M + N = {} X 10^{}".format(round(numFloatAleatorio01 + numFloatAleatorio02, 2), ordemDez01 + ordemDez02)
+                listAlternativas[numLetra] = "M + N = {} X 10^{}".format(str(round(numFloatAleatorio01+ numFloatAleatorio02, 2)).replace('.', ','), ordemDez01 + ordemDez02)
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 numRandomTemporario += 1
             elif numRandomTemporario == 1:
 
-                listAlternativas[numLetra] = "M . N = {} X 10^{}".format(round(numFloatAleatorio01 * numFloatAleatorio02, 2), ordemDez01 + ordemDez02)
+                listAlternativas[numLetra] = "M . N = {} X 10^{}".format(str(round(numFloatAleatorio01 * numFloatAleatorio02, 2)).replace('.', ','), ordemDez01 + ordemDez02)
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 numRandomTemporario += 1
             else:
-                listAlternativas[numLetra] = "M / N = {} X 10^{}".format(round(numFloatAleatorio01 / numFloatAleatorio02, 2), ordemDez01 - ordemDez02)
+                listAlternativas[numLetra] = "M / N = {} X 10^{}".format(str(round(numFloatAleatorio01 / numFloatAleatorio02, 2)).replace('.', ','), ordemDez01 - ordemDez02)
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "gerada aleatoriamente e positiva"
 
@@ -118,7 +118,8 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': '(UF-RN-modificada) Dados os números M = {} X 10^{} e N = {} X 10^{}. Pode-se afirmar que:'.format(numFloatAleatorio01, ordemDez01, numFloatAleatorio02, ordemDez02),
+                # str(numero_com_ponto).replace('.', ',')
+                'enunciado': '(UF-RN-modificada) Dados os números M = {} X 10^{} e N = {} X 10^{}. Pode-se afirmar que:'.format(str(numFloatAleatorio01).replace('.', ','), ordemDez01, str(numFloatAleatorio02).replace('.', ','), ordemDez02),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

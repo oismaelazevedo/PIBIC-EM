@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 487.94,
-            "numFloatAleatorio02": 59.26,
-            "ordemDez01": 25,
-            "ordemDez02": 26,
+            "numFloatAleatorio01": 207.42,
+            "numFloatAleatorio02": 22.77,
+            "ordemDez01": 31,
+            "ordemDez02": 32,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 547.2 X 10^51",
+            "resposta": "M + N = 230,19 X 10^63",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -29,20 +29,20 @@
         },
         {
             "letra": "d)",
-            "resposta": "M . N = 28915.32 X 10^51",
+            "resposta": "M . N = 4722,95 X 10^63",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 8.23 X 10^-1",
+            "resposta": "M / N = 9,11 X 10^-1",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 487.94 X 10^25 e N = 59.26 X 10^26. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 207,42 X 10^31 e N = 22,77 X 10^32. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

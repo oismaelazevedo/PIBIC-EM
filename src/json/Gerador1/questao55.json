@@ -1,35 +1,35 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 968.76,
-            "numFloatAleatorio02": 72.28,
-            "ordemDez01": 44,
-            "ordemDez02": 45,
+            "numFloatAleatorio01": 788.85,
+            "numFloatAleatorio02": 44.18,
+            "ordemDez01": 95,
+            "ordemDez02": 96,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M < N",
+            "resposta": "M + N = 833,03 X 10^191",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 1041.04 X 10^89",
+            "resposta": "M . N = 34851,39 X 10^191",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 70021.97 X 10^89",
+            "resposta": "M < N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 13.4 X 10^-1",
+            "resposta": "M / N = 17,86 X 10^-1",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 968.76 X 10^44 e N = 72.28 X 10^45. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 788,85 X 10^95 e N = 44,18 X 10^96. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

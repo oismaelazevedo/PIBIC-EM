@@ -1,23 +1,23 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 453.38,
-            "numFloatAleatorio02": 46.89,
-            "ordemDez01": 48,
-            "ordemDez02": 49,
+            "numFloatAleatorio01": 235.5,
+            "numFloatAleatorio02": 70.72,
+            "ordemDez01": 34,
+            "ordemDez02": 35,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 500.27 X 10^97",
+            "resposta": "M + N = 306,22 X 10^69",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 21258.99 X 10^97",
+            "resposta": "M . N = 16654,56 X 10^69",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -29,20 +29,20 @@
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 9.67 X 10^-1",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "e)",
             "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "M / N = 3,33 X 10^-1",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 453.38 X 10^48 e N = 46.89 X 10^49. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 235,5 X 10^34 e N = 70,72 X 10^35. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

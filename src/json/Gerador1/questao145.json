@@ -1,49 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 149.12,
-            "numFloatAleatorio02": 49.74,
-            "ordemDez01": 21,
-            "ordemDez02": 22,
-            "resposta": "M < N"
+            "numFloatAleatorio01": 594.85,
+            "numFloatAleatorio02": 3.67,
+            "ordemDez01": 52,
+            "ordemDez02": 53,
+            "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 198.86 X 10^43",
+            "resposta": "M + N = 598,52 X 10^105",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M < N",
+            "resposta": "M \u2265 N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 7417.23 X 10^43",
+            "resposta": "M . N = 2183,1 X 10^105",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M \u2265 N",
+            "resposta": "M < N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 3.0 X 10^-1",
+            "resposta": "M / N = 162,08 X 10^-1",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 149.12 X 10^21 e N = 49.74 X 10^22. Pode-se afirmar que:",
-            "corretaspossiveis": "M < N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 594,85 X 10^52 e N = 3,67 X 10^53. Pode-se afirmar que:",
+            "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,

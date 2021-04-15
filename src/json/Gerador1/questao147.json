@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 538.12,
-            "numFloatAleatorio02": 12.28,
-            "ordemDez01": 24,
-            "ordemDez02": 25,
+            "numFloatAleatorio01": 730.26,
+            "numFloatAleatorio02": 70.9,
+            "ordemDez01": 51,
+            "ordemDez02": 52,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 550.4 X 10^49",
+            "resposta": "M + N = 801,16 X 10^103",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,26 +23,26 @@
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 6608.11 X 10^49",
+            "resposta": "M < N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 43.82 X 10^-1",
+            "resposta": "M . N = 51775,43 X 10^103",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M < N",
+            "resposta": "M / N = 10,3 X 10^-1",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 538.12 X 10^24 e N = 12.28 X 10^25. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 730,26 X 10^51 e N = 70,9 X 10^52. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

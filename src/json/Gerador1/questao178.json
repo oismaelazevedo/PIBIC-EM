@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 941.76,
-            "numFloatAleatorio02": 15.41,
-            "ordemDez01": 100,
-            "ordemDez02": 101,
+            "numFloatAleatorio01": 724.11,
+            "numFloatAleatorio02": 16.19,
+            "ordemDez01": 71,
+            "ordemDez02": 72,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 957.17 X 10^201",
+            "resposta": "M + N = 740,3 X 10^143",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,26 +23,26 @@
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 14512.52 X 10^201",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
             "resposta": "M < N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
+            "letra": "d)",
+            "resposta": "M . N = 11723,34 X 10^143",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "e)",
-            "resposta": "M / N = 61.11 X 10^-1",
+            "resposta": "M / N = 44,73 X 10^-1",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 941.76 X 10^100 e N = 15.41 X 10^101. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 724,11 X 10^71 e N = 16,19 X 10^72. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

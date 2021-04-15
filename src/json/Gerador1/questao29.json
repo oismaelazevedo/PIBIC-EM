@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 477.75,
-            "numFloatAleatorio02": 92.46,
-            "ordemDez01": 48,
-            "ordemDez02": 49,
+            "numFloatAleatorio01": 43.29,
+            "numFloatAleatorio02": 89.89,
+            "ordemDez01": 12,
+            "ordemDez02": 13,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
+            "resposta": "M + N = 133,18 X 10^25",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
             "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
-            "letra": "b)",
-            "resposta": "M + N = 570.21 X 10^97",
+            "letra": "c)",
+            "resposta": "M . N = 3891,34 X 10^25",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
+            "letra": "d)",
             "resposta": "M < N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "d)",
-            "resposta": "M . N = 44172.76 X 10^97",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": "M / N = 5.17 X 10^-1",
+            "resposta": "M / N = 0,48 X 10^-1",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 477.75 X 10^48 e N = 92.46 X 10^49. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 43,29 X 10^12 e N = 89,89 X 10^13. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "D"
         }
     ]
 }
