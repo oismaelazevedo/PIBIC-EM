@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 800.18,
-            "numFloatAleatorio02": 81.74,
-            "ordemDez01": 81,
-            "ordemDez02": 82,
-            "resposta": "M < N"
+            "numFloatAleatorio01": 756.7,
+            "numFloatAleatorio02": 3.43,
+            "ordemDez01": 43,
+            "ordemDez02": 44,
+            "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M \u2265 N",
+            "resposta": "M + N = 760,13 . 10<sup>87</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M < N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "M . N = 2595,48 . 10<sup>87</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M + N = 881,92 X 10^163",
+            "resposta": "M / N = 220,61 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M . N = 65406,71 X 10^163",
+            "resposta": "M < N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 9,79 X 10^-1",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "M \u2265 N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 800,18 X 10^81 e N = 81,74 X 10^82. Pode-se afirmar que:",
-            "corretaspossiveis": "M < N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 756,7 . 10<sup>43</sup> e N = 3,43 . 10<sup>44</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "E"
         }
     ]
 }

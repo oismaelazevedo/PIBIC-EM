@@ -1,49 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 843.54,
-            "numFloatAleatorio02": 3.39,
-            "ordemDez01": 24,
-            "ordemDez02": 25,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 610.66,
+            "numFloatAleatorio02": 97.07,
+            "ordemDez01": 46,
+            "ordemDez02": 47,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 846,93 X 10^49",
+            "resposta": "M + N = 707,73 . 10<sup>93</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M < N",
+            "resposta": "M . N = 59276,77 . 10<sup>93</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 2859,6 X 10^49",
+            "resposta": "M / N = 6,29 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M \u2265 N",
+            "resposta": "M < N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 248,83 X 10^-1",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 843,54 X 10^24 e N = 3,39 X 10^25. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 610,66 . 10<sup>46</sup> e N = 97,07 . 10<sup>47</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,

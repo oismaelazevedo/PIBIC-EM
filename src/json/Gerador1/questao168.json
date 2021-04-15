@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 535.84,
-            "numFloatAleatorio02": 84.01,
-            "ordemDez01": 64,
-            "ordemDez02": 65,
+            "numFloatAleatorio01": 855.86,
+            "numFloatAleatorio02": 98.63,
+            "ordemDez01": 74,
+            "ordemDez02": 75,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M \u2265 N",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "M + N = 619,85 X 10^129",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "M . N = 45015,92 X 10^129",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
             "resposta": "M < N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "b)",
+            "resposta": "M + N = 954,49 . 10<sup>149</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "M . N = 84413,47 . 10<sup>149</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "M \u2265 N",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
             "letra": "e)",
-            "resposta": "M / N = 6,38 X 10^-1",
+            "resposta": "M / N = 8,68 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 535,84 X 10^64 e N = 84,01 X 10^65. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 855,86 . 10<sup>74</sup> e N = 98,63 . 10<sup>75</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "A"
         }
     ]
 }

@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 200.98,
-            "numFloatAleatorio02": 7.77,
-            "ordemDez01": 34,
-            "ordemDez02": 35,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 215.3,
+            "numFloatAleatorio02": 45.45,
+            "ordemDez01": 57,
+            "ordemDez02": 58,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 208,75 X 10^69",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
             "resposta": "M \u2265 N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "c)",
-            "resposta": "M < N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
+            "letra": "b)",
+            "resposta": "M + N = 260,75 . 10<sup>115</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "M . N = 9785,39 . 10<sup>115</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "d)",
-            "resposta": "M . N = 1561,61 X 10^69",
+            "resposta": "M / N = 4,74 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 25,87 X 10^-1",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "M < N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 200,98 X 10^34 e N = 7,77 X 10^35. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 215,3 . 10<sup>57</sup> e N = 45,45 . 10<sup>58</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "E"
         }
     ]
 }

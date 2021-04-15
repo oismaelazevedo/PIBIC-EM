@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 319.86,
-            "numFloatAleatorio02": 73.73,
-            "ordemDez01": 78,
-            "ordemDez02": 79,
+            "numFloatAleatorio01": 264.63,
+            "numFloatAleatorio02": 39.13,
+            "ordemDez01": 31,
+            "ordemDez02": 32,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 393,59 X 10^157",
+            "resposta": "M + N = 303,76 . 10<sup>63</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
+            "resposta": "M . N = 10354,97 . 10<sup>63</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
             "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "M . N = 23583,28 X 10^157",
+            "letra": "d)",
+            "resposta": "M / N = 6,76 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "M < N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 4,34 X 10^-1",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "M < N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 319,86 X 10^78 e N = 73,73 X 10^79. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 264,63 . 10<sup>31</sup> e N = 39,13 . 10<sup>32</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "E"
         }
     ]
 }

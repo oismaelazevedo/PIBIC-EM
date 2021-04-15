@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 43.29,
-            "numFloatAleatorio02": 89.89,
-            "ordemDez01": 12,
-            "ordemDez02": 13,
-            "resposta": "M < N"
+            "numFloatAleatorio01": 210.73,
+            "numFloatAleatorio02": 21.04,
+            "ordemDez01": 63,
+            "ordemDez02": 64,
+            "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 133,18 X 10^25",
+            "resposta": "M + N = 231,77 . 10<sup>127</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M \u2265 N",
+            "resposta": "M < N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 3891,34 X 10^25",
+            "resposta": "M . N = 4433,76 . 10<sup>127</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M < N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "M / N = 10,02 . 10<sup>-1</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 0,48 X 10^-1",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "M \u2265 N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 43,29 X 10^12 e N = 89,89 X 10^13. Pode-se afirmar que:",
-            "corretaspossiveis": "M < N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 210,73 . 10<sup>63</sup> e N = 21,04 . 10<sup>64</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "E"
         }
     ]
 }

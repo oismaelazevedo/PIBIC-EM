@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 517.93,
-            "numFloatAleatorio02": 11.54,
-            "ordemDez01": 24,
-            "ordemDez02": 25,
+            "numFloatAleatorio01": 876.76,
+            "numFloatAleatorio02": 56.51,
+            "ordemDez01": 17,
+            "ordemDez02": 18,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M \u2265 N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "M + N = 933,27 . 10<sup>35</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 529,47 X 10^49",
+            "resposta": "M . N = 49545,71 . 10<sup>35</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M < N",
+            "resposta": "M / N = 15,52 . 10<sup>-1</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M . N = 5976,91 X 10^49",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "M \u2265 N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 44,88 X 10^-1",
+            "resposta": "M < N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 517,93 X 10^24 e N = 11,54 X 10^25. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 876,76 . 10<sup>17</sup> e N = 56,51 . 10<sup>18</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "D"
         }
     ]
 }

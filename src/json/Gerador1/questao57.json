@@ -1,29 +1,29 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 95.06,
-            "numFloatAleatorio02": 69.24,
-            "ordemDez01": 100,
-            "ordemDez02": 101,
+            "numFloatAleatorio01": 243.06,
+            "numFloatAleatorio02": 31.27,
+            "ordemDez01": 74,
+            "ordemDez02": 75,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 164,3 X 10^201",
+            "resposta": "M + N = 274,33 . 10<sup>149</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 6581,95 X 10^201",
+            "resposta": "M . N = 7600,49 . 10<sup>149</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M / N = 1,37 X 10^-1",
+            "resposta": "M / N = 7,77 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 95,06 X 10^100 e N = 69,24 X 10^101. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 243,06 . 10<sup>74</sup> e N = 31,27 . 10<sup>75</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

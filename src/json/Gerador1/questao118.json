@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 141.05,
-            "numFloatAleatorio02": 26.01,
-            "ordemDez01": 15,
-            "ordemDez02": 16,
-            "resposta": "M < N"
+            "numFloatAleatorio01": 397.62,
+            "numFloatAleatorio02": 15.63,
+            "ordemDez01": 26,
+            "ordemDez02": 27,
+            "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
             "resposta": "M \u2265 N",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 167,06 X 10^31",
+            "resposta": "M + N = 413,25 . 10<sup>53</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 3668,71 X 10^31",
+            "resposta": "M . N = 6214,8 . 10<sup>53</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
             "resposta": "M < N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 5,42 X 10^-1",
+            "resposta": "M / N = 25,44 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 141,05 X 10^15 e N = 26,01 X 10^16. Pode-se afirmar que:",
-            "corretaspossiveis": "M < N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 397,62 . 10<sup>26</sup> e N = 15,63 . 10<sup>27</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "A"
         }
     ]
 }

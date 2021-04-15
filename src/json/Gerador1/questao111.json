@@ -1,49 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 503.97,
-            "numFloatAleatorio02": 36.67,
-            "ordemDez01": 15,
-            "ordemDez02": 16,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 99.44,
+            "numFloatAleatorio02": 57.4,
+            "ordemDez01": 54,
+            "ordemDez02": 55,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 540,64 X 10^31",
+            "resposta": "M + N = 156,84 . 10<sup>109</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M < N",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 18480,58 X 10^31",
+            "resposta": "M . N = 5707,86 . 10<sup>109</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M \u2265 N",
+            "resposta": "M < N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 13,74 X 10^-1",
+            "resposta": "M / N = 1,73 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 503,97 X 10^15 e N = 36,67 X 10^16. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 99,44 . 10<sup>54</sup> e N = 57,4 . 10<sup>55</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,

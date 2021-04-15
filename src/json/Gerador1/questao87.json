@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 612.68,
-            "numFloatAleatorio02": 52.23,
-            "ordemDez01": 17,
-            "ordemDez02": 18,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 165.71,
+            "numFloatAleatorio02": 66.2,
+            "ordemDez01": 71,
+            "ordemDez02": 72,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 664,91 X 10^35",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "M \u2265 N",
+            "resposta": "M < N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "b)",
+            "resposta": "M + N = 231,91 . 10<sup>143</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "c)",
-            "resposta": "M . N = 32000,28 X 10^35",
+            "resposta": "M . N = 10970,0 . 10<sup>143</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M < N",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 11,73 X 10^-1",
+            "resposta": "M / N = 2,5 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 612,68 X 10^17 e N = 52,23 X 10^18. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 165,71 . 10<sup>71</sup> e N = 66,2 . 10<sup>72</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "A"
         }
     ]
 }

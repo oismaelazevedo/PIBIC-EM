@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 37.54,
-            "numFloatAleatorio02": 70.77,
-            "ordemDez01": 100,
-            "ordemDez02": 101,
-            "resposta": "M < N"
+            "numFloatAleatorio01": 596.42,
+            "numFloatAleatorio02": 11.18,
+            "ordemDez01": 82,
+            "ordemDez02": 83,
+            "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 108,31 X 10^201",
+            "resposta": "M + N = 607,6 . 10<sup>165</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
             "resposta": "M \u2265 N",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 2656,71 X 10^201",
+            "resposta": "M . N = 6667,98 . 10<sup>165</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 0,53 X 10^-1",
+            "resposta": "M / N = 53,35 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
             "resposta": "M < N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 37,54 X 10^100 e N = 70,77 X 10^101. Pode-se afirmar que:",
-            "corretaspossiveis": "M < N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 596,42 . 10<sup>82</sup> e N = 11,18 . 10<sup>83</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "B"
         }
     ]
 }

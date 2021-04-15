@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 280.16,
-            "numFloatAleatorio02": 91.49,
-            "ordemDez01": 19,
-            "ordemDez02": 20,
+            "numFloatAleatorio01": 63.45,
+            "numFloatAleatorio02": 46.27,
+            "ordemDez01": 98,
+            "ordemDez02": 99,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 371,65 X 10^39",
+            "resposta": "M + N = 109,72 . 10<sup>197</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 25631,84 X 10^39",
+            "resposta": "M . N = 2935,83 . 10<sup>197</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M < N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "M \u2265 N",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 3,06 X 10^-1",
+            "resposta": "M / N = 1,37 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M \u2265 N",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "resposta": "M < N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 280,16 X 10^19 e N = 91,49 X 10^20. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 63,45 . 10<sup>98</sup> e N = 46,27 . 10<sup>99</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "E"
         }
     ]
 }

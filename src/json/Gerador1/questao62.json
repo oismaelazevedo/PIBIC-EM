@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 884.62,
-            "numFloatAleatorio02": 58.6,
-            "ordemDez01": 47,
-            "ordemDez02": 48,
+            "numFloatAleatorio01": 806.16,
+            "numFloatAleatorio02": 68.63,
+            "ordemDez01": 86,
+            "ordemDez02": 87,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 943,22 X 10^95",
+            "resposta": "M + N = 874,79 . 10<sup>173</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,13 +23,13 @@
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 51838,73 X 10^95",
+            "resposta": "M . N = 55326,76 . 10<sup>173</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 15,1 X 10^-1",
+            "resposta": "M / N = 11,75 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 884,62 X 10^47 e N = 58,6 X 10^48. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 806,16 . 10<sup>86</sup> e N = 68,63 . 10<sup>87</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

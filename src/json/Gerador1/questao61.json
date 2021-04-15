@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 340.84,
-            "numFloatAleatorio02": 29.91,
-            "ordemDez01": 41,
-            "ordemDez02": 42,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 136.54,
+            "numFloatAleatorio02": 45.82,
+            "ordemDez01": 11,
+            "ordemDez02": 12,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 370,75 X 10^83",
+            "resposta": "M + N = 182,36 . 10<sup>23</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
             "resposta": "M \u2265 N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 10194,52 X 10^83",
+            "resposta": "M . N = 6256,26 . 10<sup>23</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 11,4 X 10^-1",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "M < N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "M < N",
+            "resposta": "M / N = 2,98 . 10<sup>-1</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 340,84 X 10^41 e N = 29,91 X 10^42. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 136,54 . 10<sup>11</sup> e N = 45,82 . 10<sup>12</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "D"
         }
     ]
 }

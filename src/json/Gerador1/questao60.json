@@ -1,35 +1,35 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 712.29,
-            "numFloatAleatorio02": 38.05,
-            "ordemDez01": 75,
-            "ordemDez02": 76,
+            "numFloatAleatorio01": 926.14,
+            "numFloatAleatorio02": 29.27,
+            "ordemDez01": 63,
+            "ordemDez02": 64,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M < N",
+            "resposta": "M + N = 955,41 . 10<sup>127</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 750,34 X 10^151",
+            "resposta": "M . N = 27108,12 . 10<sup>127</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 27102,63 X 10^151",
+            "resposta": "M < N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 18,72 X 10^-1",
+            "resposta": "M / N = 31,64 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 712,29 X 10^75 e N = 38,05 X 10^76. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 926,14 . 10<sup>63</sup> e N = 29,27 . 10<sup>64</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

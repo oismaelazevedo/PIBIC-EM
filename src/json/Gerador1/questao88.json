@@ -1,23 +1,23 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 379.66,
-            "numFloatAleatorio02": 69.39,
-            "ordemDez01": 31,
-            "ordemDez02": 32,
+            "numFloatAleatorio01": 29.68,
+            "numFloatAleatorio02": 48.57,
+            "ordemDez01": 68,
+            "ordemDez02": 69,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 449,05 X 10^63",
+            "resposta": "M + N = 78,25 . 10<sup>137</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 26344,61 X 10^63",
+            "resposta": "M . N = 1441,56 . 10<sup>137</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -29,7 +29,7 @@
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 5,47 X 10^-1",
+            "resposta": "M / N = 0,61 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 379,66 X 10^31 e N = 69,39 X 10^32. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 29,68 . 10<sup>68</sup> e N = 48,57 . 10<sup>69</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

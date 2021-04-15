@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 296.27,
-            "numFloatAleatorio02": 27.07,
-            "ordemDez01": 31,
-            "ordemDez02": 32,
+            "numFloatAleatorio01": 336.15,
+            "numFloatAleatorio02": 12.68,
+            "ordemDez01": 18,
+            "ordemDez02": 19,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 323,34 X 10^63",
+            "resposta": "M + N = 348,83 . 10<sup>37</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,7 +23,7 @@
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 8020,03 X 10^63",
+            "resposta": "M . N = 4262,38 . 10<sup>37</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -35,14 +35,14 @@
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 10,94 X 10^-1",
+            "resposta": "M / N = 26,51 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 296,27 X 10^31 e N = 27,07 X 10^32. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 336,15 . 10<sup>18</sup> e N = 12,68 . 10<sup>19</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

@@ -1,10 +1,10 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 803.28,
-            "numFloatAleatorio02": 43.44,
-            "ordemDez01": 83,
-            "ordemDez02": 84,
+            "numFloatAleatorio01": 964.51,
+            "numFloatAleatorio02": 93.46,
+            "ordemDez01": 19,
+            "ordemDez02": 20,
             "resposta": "M \u2265 N"
         }
     ],
@@ -17,32 +17,32 @@
         },
         {
             "letra": "b)",
+            "resposta": "M + N = 1057,97 . 10<sup>39</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
             "resposta": "M < N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "M + N = 846,72 X 10^167",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "d)",
-            "resposta": "M . N = 34894,48 X 10^167",
+            "resposta": "M . N = 90143,1 . 10<sup>39</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 18,49 X 10^-1",
+            "resposta": "M / N = 10,32 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 803,28 X 10^83 e N = 43,44 X 10^84. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 964,51 . 10<sup>19</sup> e N = 93,46 . 10<sup>20</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

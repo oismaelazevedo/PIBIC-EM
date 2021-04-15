@@ -1,10 +1,10 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 678.2,
-            "numFloatAleatorio02": 6.08,
-            "ordemDez01": 58,
-            "ordemDez02": 59,
+            "numFloatAleatorio01": 791.42,
+            "numFloatAleatorio02": 51.39,
+            "ordemDez01": 76,
+            "ordemDez02": 77,
             "resposta": "M \u2265 N"
         }
     ],
@@ -17,19 +17,19 @@
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 684,28 X 10^117",
+            "resposta": "M + N = 842,81 . 10<sup>153</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 4123,46 X 10^117",
+            "resposta": "M . N = 40671,07 . 10<sup>153</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 111,55 X 10^-1",
+            "resposta": "M / N = 15,4 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 678,2 X 10^58 e N = 6,08 X 10^59. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 791,42 . 10<sup>76</sup> e N = 51,39 . 10<sup>77</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

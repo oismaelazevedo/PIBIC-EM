@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 401.39,
-            "numFloatAleatorio02": 72.82,
-            "ordemDez01": 46,
-            "ordemDez02": 47,
+            "numFloatAleatorio01": 20.66,
+            "numFloatAleatorio02": 64.51,
+            "ordemDez01": 75,
+            "ordemDez02": 76,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 474,21 X 10^93",
+            "resposta": "M + N = 85,17 . 10<sup>151</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,26 +23,26 @@
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 29229,22 X 10^93",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 5,51 X 10^-1",
+            "resposta": "M . N = 1332,78 . 10<sup>151</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M \u2265 N",
+            "resposta": "M / N = 0,32 . 10<sup>-1</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 401,39 X 10^46 e N = 72,82 X 10^47. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 20,66 . 10<sup>75</sup> e N = 64,51 . 10<sup>76</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

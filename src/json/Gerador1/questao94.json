@@ -1,10 +1,10 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 366.73,
-            "numFloatAleatorio02": 23.34,
-            "ordemDez01": 91,
-            "ordemDez02": 92,
+            "numFloatAleatorio01": 762.63,
+            "numFloatAleatorio02": 6.83,
+            "ordemDez01": 68,
+            "ordemDez02": 69,
             "resposta": "M \u2265 N"
         }
     ],
@@ -17,39 +17,39 @@
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 390,07 X 10^183",
+            "resposta": "M + N = 769,46 . 10<sup>137</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 8559,48 X 10^183",
+            "resposta": "M . N = 5208,76 . 10<sup>137</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 15,71 X 10^-1",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "e)",
             "resposta": "M \u2265 N",
             "correta": "Sim",
             "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "M / N = 111,66 . 10<sup>-1</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 366,73 X 10^91 e N = 23,34 X 10^92. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 762,63 . 10<sup>68</sup> e N = 6,83 . 10<sup>69</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "D"
         }
     ]
 }

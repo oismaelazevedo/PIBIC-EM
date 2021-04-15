@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 594.85,
-            "numFloatAleatorio02": 3.67,
-            "ordemDez01": 52,
-            "ordemDez02": 53,
+            "numFloatAleatorio01": 694.02,
+            "numFloatAleatorio02": 33.6,
+            "ordemDez01": 73,
+            "ordemDez02": 74,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 598,52 X 10^105",
+            "resposta": "M + N = 727,62 . 10<sup>147</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,7 +23,7 @@
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 2183,1 X 10^105",
+            "resposta": "M . N = 23319,07 . 10<sup>147</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -35,14 +35,14 @@
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 162,08 X 10^-1",
+            "resposta": "M / N = 20,66 . 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 594,85 X 10^52 e N = 3,67 X 10^53. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 694,02 . 10<sup>73</sup> e N = 33,6 . 10<sup>74</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
