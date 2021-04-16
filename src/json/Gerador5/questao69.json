@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 447,
+            "numBase": 675,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a447"
+            "resposta": "1.41"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a94",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "1.41",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "3\u22c5\u221a26",
+            "resposta": "-1.4",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-5.66",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "1.15",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "-\u221a319",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "-\u221a134",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "e)",
-            "resposta": "\u221a447",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "1.34",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 447 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a447",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 675 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.41",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
         }
     ]
 }

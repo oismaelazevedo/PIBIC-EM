@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 333,
+            "numBase": 123,
             "tipoDenominadorFracao": 2,
-            "resposta": "3\u22c5\u221a37"
+            "resposta": "1.04"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3\u22c5\u221a37",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "b)",
-            "resposta": "\u221a166",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "-3\u22c5\u221a11",
+            "resposta": "-0.85",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": "-1.03",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "1.04",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
             "letra": "d)",
-            "resposta": "4\u22c5\u221a2",
+            "resposta": "0.66",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a38",
+            "resposta": "-4.18",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 333 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3\u22c5\u221a37",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 123 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.04",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
         }
     ]
 }

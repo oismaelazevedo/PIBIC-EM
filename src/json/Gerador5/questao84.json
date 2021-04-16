@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 786,
+            "numBase": 955,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a786"
+            "resposta": "1.49"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a538",
+            "resposta": "-1.43",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-4\u22c5\u221a23",
+            "resposta": "-5.96",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-1.28",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": "\u221a415",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "d)",
-            "resposta": "7\u22c5\u221a3",
+            "resposta": "1.37",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a786",
+            "resposta": "1.49",
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 786 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a786",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 955 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.49",
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "E"
         }
     ]

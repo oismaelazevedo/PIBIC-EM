@@ -1,6 +1,7 @@
 import random as rnd
 from sympy import pretty, sqrt
 import json
+from math import log10
 
 def elementosListaEhDistinta(lista):
     for indiceLista in range(len(lista)):
@@ -30,7 +31,7 @@ while k < 200:
             numBase = rnd.randint(2,1000)
             qntMultiplos = 0
 
-    resposta = sqrt(numBase)
+    resposta = round(log10(sqrt(numBase)), 2)
     resposta = pretty(resposta)   
 
     listLetra = ["A","B","C","D","E"]
@@ -59,12 +60,12 @@ while k < 200:
                 numRandomTemporario = rnd.randint(0,1)
 
                 if numRandomTemporario == 0:
-                    listAlternativas[numLetra] = sqrt(numBase)
+                    listAlternativas[numLetra] = round(log10(numBase**2), 2)
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e positiva"
                 else:
-                    listAlternativas[numLetra] = -sqrt(numBase)
+                    listAlternativas[numLetra] = -round(log10(numBase**2), 2)
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e negativa"
@@ -86,7 +87,7 @@ while k < 200:
                             numRandomTemporario = rnd.randint(2,numBase)
                             qntMultiplos = 0
 
-                    listAlternativas[numLetra] = sqrt(numRandomTemporario)
+                    listAlternativas[numLetra] = round(log10(sqrt(numRandomTemporario)), 2)
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
 
                     isCorrect[numLetra] = "Nao"
@@ -104,7 +105,7 @@ while k < 200:
                             numRandomTemporario = rnd.randint(2,numBase)
                             qntMultiplos = 0
 
-                    listAlternativas[numLetra] = -sqrt(numRandomTemporario)
+                    listAlternativas[numLetra] = -round(log10(sqrt(numRandomTemporario)),2)
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
 
                     isCorrect[numLetra] = "Nao"
@@ -155,7 +156,7 @@ while k < 200:
         ],
         'atributosquestao' : [
             {
-                'enunciado' : 'A soma dos logaritmos de dois números na base {} é 1&frasl;<sub>2</sub>. Determine o produto desses números.'.format(numBase),
+                'enunciado' : 'A soma dos logaritmos de dois números na base {} é 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes números.'.format(numBase),
                 'corretaspossiveis' : listAlternativas[isCorrect.index("Sim")],
                 'corretas' : isCorrect.count("Sim"),
                 'aleatoriapositiva' : howGenerated.count("gerada aleatoriamente e positiva"),

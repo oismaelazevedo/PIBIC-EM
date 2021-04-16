@@ -1,47 +1,47 @@
 {
     "logaritmo": [
         {
-            "numBase": 212,
+            "numBase": 668,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a53"
+            "resposta": "1.41"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a170",
+            "resposta": "-1.37",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a53",
+            "resposta": "1.41",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a185",
+            "resposta": "1.26",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "2\u22c5\u221a19",
+            "resposta": "1.17",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a58",
+            "resposta": "1.1",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 212 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a53",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 668 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.41",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 1,

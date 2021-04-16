@@ -1,50 +1,50 @@
 {
     "logaritmo": [
         {
-            "numBase": 44,
+            "numBase": 985,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a11"
+            "resposta": "1.5"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a39",
+            "resposta": "-1.49",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "3\u22c5\u221a3",
+            "resposta": "1.41",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "2\u22c5\u221a11",
+            "resposta": "1.5",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a22",
+            "resposta": "1.3",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a10",
+            "resposta": "-1.35",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 44 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a11",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 985 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.5",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "C"

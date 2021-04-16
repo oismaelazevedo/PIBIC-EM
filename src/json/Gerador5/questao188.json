@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 608,
+            "numBase": 68,
             "tipoDenominadorFracao": 2,
-            "resposta": "4\u22c5\u221a38"
+            "resposta": "0.92"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-4\u22c5\u221a38",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "resposta": "0.92",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "4\u22c5\u221a6",
+            "resposta": "3.67",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "0.87",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "-\u221a469",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": "-8\u22c5\u221a3",
+            "resposta": "0.88",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "4\u22c5\u221a38",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-0.92",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 608 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "4\u22c5\u221a38",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 68 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "0.92",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
         }
     ]
 }

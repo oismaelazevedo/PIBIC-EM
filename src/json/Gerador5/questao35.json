@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 722,
+            "numBase": 477,
             "tipoDenominadorFracao": 2,
-            "resposta": "19\u22c5\u221a2"
+            "resposta": "1.34"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "19\u22c5\u221a2",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "1.23",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-4\u22c5\u221a26",
+            "resposta": "-0.87",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-5\u22c5\u221a10",
+            "resposta": "1.31",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "4\u22c5\u221a34",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "1.34",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a186",
+            "resposta": "-1.13",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 722 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "19\u22c5\u221a2",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 477 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.34",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "D"
         }
     ]
 }

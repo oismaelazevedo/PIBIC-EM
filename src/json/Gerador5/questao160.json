@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 708,
+            "numBase": 516,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a177"
+            "resposta": "1.36"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a458",
+            "resposta": "1.22",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a177",
+            "resposta": "1.36",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "2\u22c5\u221a163",
+            "resposta": "-5.43",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a681",
+            "resposta": "1.27",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a35",
+            "resposta": "1.15",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 708 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a177",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 516 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.36",
             "corretas": 1,
-            "aleatoriapositiva": 4,
+            "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "B"
         }
     ]

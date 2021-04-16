@@ -1,50 +1,50 @@
 {
     "logaritmo": [
         {
-            "numBase": 376,
+            "numBase": 336,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a94"
+            "resposta": "1.26"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a214",
+            "resposta": "1.16",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a174",
+            "resposta": "0.82",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "2\u22c5\u221a94",
+            "resposta": "1.26",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a302",
+            "resposta": "1.18",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-2\u22c5\u221a91",
+            "resposta": "0.83",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 376 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a94",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 336 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.26",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "C"

@@ -1,47 +1,47 @@
 {
     "logaritmo": [
         {
-            "numBase": 758,
+            "numBase": 800,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a758"
+            "resposta": "1.45"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a758",
+            "resposta": "1.45",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a318",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "\u221a551",
+            "resposta": "1.35",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": "-1.41",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": "-\u221a535",
+            "resposta": "-1.45",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a119",
+            "resposta": "0.95",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 758 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a758",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 800 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.45",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,

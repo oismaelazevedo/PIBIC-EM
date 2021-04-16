@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 640,
+            "numBase": 966,
             "tipoDenominadorFracao": 2,
-            "resposta": "8\u22c5\u221a10"
+            "resposta": "1.49"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "8\u22c5\u221a10",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "1.25",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a187",
+            "resposta": "1.26",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "-2\u22c5\u221a123",
+            "resposta": "-1.37",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-3\u22c5\u221a55",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "1.49",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a413",
+            "resposta": "-0.91",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 640 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "8\u22c5\u221a10",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 966 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.49",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "D"
         }
     ]
 }

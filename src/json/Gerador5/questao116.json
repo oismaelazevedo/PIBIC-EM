@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 560,
+            "numBase": 496,
             "tipoDenominadorFracao": 2,
-            "resposta": "4\u22c5\u221a35"
+            "resposta": "1.35"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-11\u22c5\u221a2",
+            "resposta": "1.2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "4\u22c5\u221a35",
+            "resposta": "1.35",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "-4\u22c5\u221a35",
+            "resposta": "-1.32",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "2\u22c5\u221a43",
+            "resposta": "-1.31",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "-6\u22c5\u221a2",
+            "resposta": "1.16",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 560 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "4\u22c5\u221a35",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 496 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.35",
             "corretas": 1,
-            "aleatoriapositiva": 1,
+            "aleatoriapositiva": 2,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
+            "invertidanegativa": 0,
             "respostascorretas": "B"
         }
     ]

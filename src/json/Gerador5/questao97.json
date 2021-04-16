@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 925,
+            "numBase": 943,
             "tipoDenominadorFracao": 2,
-            "resposta": "5\u22c5\u221a37"
+            "resposta": "1.49"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a591",
+            "resposta": "5.95",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-2\u22c5\u221a174",
+            "resposta": "1.16",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a697",
+            "resposta": "-1.27",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "5\u22c5\u221a37",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "1.27",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-5\u22c5\u221a21",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "1.49",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 925 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "5\u22c5\u221a37",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 943 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.49",
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 4,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "E"
         }
     ]
 }

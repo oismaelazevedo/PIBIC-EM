@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 748,
+            "numBase": 880,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a187"
+            "resposta": "1.47"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a595",
+            "resposta": "1.25",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a70",
+            "resposta": "-1.27",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-1.28",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "1.19",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "-2\u22c5\u221a187",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "2\u22c5\u221a187",
+            "letra": "e)",
+            "resposta": "1.47",
             "correta": "Sim",
             "tipoerro": "nenhum"
-        },
-        {
-            "letra": "e)",
-            "resposta": "-12",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 748 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a187",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 880 \u00e9 1&frasl;<sub>2</sub>. Determine o logaritmo na base 10 do produto destes n\u00fameros.",
+            "corretaspossiveis": "1.47",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "D"
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
         }
     ]
 }
