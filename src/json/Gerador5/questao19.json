@@ -1,47 +1,47 @@
 {
     "logaritmo": [
         {
-            "numBase": 434,
+            "numBase": 778,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a434"
+            "resposta": "\u221a778"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a434",
+            "resposta": "\u221a778",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a13",
+            "resposta": "-2\u22c5\u221a23",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "3\u22c5\u221a3",
+            "resposta": "-3\u22c5\u221a74",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "10\u22c5\u221a3",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "d)",
-            "resposta": "-2\u22c5\u221a91",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "e)",
-            "resposta": "-\u221a267",
+            "resposta": "3\u22c5\u221a42",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 434 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a434",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 778 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a778",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,

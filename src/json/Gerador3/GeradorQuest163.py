@@ -14,7 +14,7 @@ def elementosListaEhDistinta(lista):
 enunciado = [None]*200
 k = 0
 while k < 200:
-    questoes = open("./src/json/Gerador3/questao{}.json".format(k+1), 'w')
+    questoes = open("questao{}.json".format(k+1), 'w')
 
     expoenteConcentracao = rnd.randint(1,1000)
     resposta = round((expoenteConcentracao ** 2)/3, 2)
@@ -51,23 +51,23 @@ while k < 200:
 
                 if ehNegativoPositivo == 0:
 
-                    listAlternativas[numLetra] = round((expoenteConcentracao ** 3)/2, 2)
+                    listAlternativas[numLetra] = str(round((expoenteConcentracao ** 3)/2, 2)).replace(".",",")
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e positiva"
                 else:
                     
-                    listAlternativas[numLetra] = round(-(expoenteConcentracao ** 3)/2, 2)
+                    listAlternativas[numLetra] = str(round(-(expoenteConcentracao ** 3)/2, 2)).replace(".",",")
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e negativa"
             else:
                 ehNegativoPositivo = rnd.randint(0,1)
 
                 if (ehNegativoPositivo == 0): 
-                    listAlternativas[numLetra] = round((rnd.randint(1,expoenteConcentracao) ** 2)/3, 2) 
+                    listAlternativas[numLetra] = str(round((rnd.randint(1,expoenteConcentracao) ** 2)/3, 2)).replace(".",",") 
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 else: 
-                    listAlternativas[numLetra] = round(-(rnd.randint(1,expoenteConcentracao) ** 2)/3, 2)
+                    listAlternativas[numLetra] = str(round(-(rnd.randint(1,expoenteConcentracao) ** 2)/3, 2)).replace(".",",")
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e negativa"
 
@@ -114,7 +114,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'O pH de uma solução é definido por pH = log(1/H+), em que H+ é a concentração de hidrogênio em íons-gama por litro de solução. Determine o quadrado sobre três do pH de uma solução tal que H+ = 1,0 x 10^{}.'.format(expoenteConcentracao),
+                'enunciado': 'O pH de uma solução é definido por pH = log(1&frasl;<sub>H+</sub>), em que H+ é a concentração de hidrogênio em íons-gama por litro de solução. Determine o quadrado sobre três do pH de uma solução tal que H+ = 1,0 × 10<sup>{}</sup>.'.format(expoenteConcentracao),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

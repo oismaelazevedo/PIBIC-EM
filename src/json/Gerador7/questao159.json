@@ -1,51 +1,51 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 571,
+            "radicando": 809,
             "indice": 3,
             "expoente": 2,
-            "resposta": "571"
+            "resposta": "809"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-571",
+            "resposta": "-\u221a123",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-809",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "\u221a285",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "c)",
-            "resposta": "\u221a262",
+            "resposta": "3\u22c5\u221a17",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "571",
+            "resposta": "809",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a93",
+            "resposta": "-\u221a609",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.571^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 571 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "571",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.809<sup>(p.t)</sup>, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 809 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "809",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
             "respostascorretas": "D"

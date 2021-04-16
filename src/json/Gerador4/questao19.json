@@ -1,60 +1,60 @@
 {
     "logaritmo1": [
         {
-            "base": 2,
-            "logaritmando": 8,
-            "resultado": 3.0
+            "base": 4,
+            "logaritmando": 1048576,
+            "resultado": 10.0
         }
     ],
     "logaritmo2": [
         {
-            "base": 2,
-            "logaritmando": 32,
-            "resultado": 5.0
+            "base": 4,
+            "logaritmando": 16384,
+            "resultado": 7.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": -3.48,
+            "resposta": "0,65",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "-1,23",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": 0.6,
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
             "letra": "c)",
-            "resposta": 0.44,
+            "resposta": "0,85",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": 1.67,
+            "resposta": "0,7",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": -1.0,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "1,43",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 8 e 32 numa base qualquer:",
-            "corretaspossiveis": 0.6,
+            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 1048576 e 16384 numa base qualquer:",
+            "corretaspossiveis": "1,43",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "E"
         }
     ]
 }

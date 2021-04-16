@@ -1,50 +1,50 @@
 {
     "logaritmo": [
         {
-            "numBase": 875,
+            "numBase": 895,
             "tipoDenominadorFracao": 2,
-            "resposta": "5\u22c5\u221a35"
+            "resposta": "\u221a895"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "5\u22c5\u221a35",
+            "resposta": "\u221a895",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a110",
+            "resposta": "-3\u22c5\u221a71",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a649",
+            "resposta": "-\u221a638",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a106",
+            "resposta": "2\u22c5\u221a5",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a290",
+            "resposta": "-2\u22c5\u221a51",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 875 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "5\u22c5\u221a35",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 895 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a895",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "A"

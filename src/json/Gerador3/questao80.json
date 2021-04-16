@@ -3,46 +3,46 @@
         {
             "base": 10,
             "logaritmando": 0.0,
-            "expoente": 446,
-            "resultado": 66305.33
+            "expoente": 564,
+            "resultado": 106032.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": -13333.33,
+            "resposta": "-14700,0",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": 17787.0,
+            "resposta": "86021,33",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": 44358268.0,
+            "resposta": "89703072,0",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
             "letra": "d)",
-            "resposta": -3267.0,
+            "resposta": "-25576,33",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": 66305.33,
+            "resposta": 106032.0,
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1/H+), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 x 10^446.",
-            "corretaspossiveis": 66305.33,
+            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1&frasl;<sub>H+</sub>), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 \u00d7 10<sup>564</sup>.",
+            "corretaspossiveis": 106032.0,
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,

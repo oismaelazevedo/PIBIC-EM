@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 978,
+            "numBase": 663,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a978"
+            "resposta": "\u221a663"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a438",
+            "resposta": "-\u221a535",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a706",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "-\u221a685",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "-\u221a978",
+            "resposta": "-\u221a663",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
-            "letra": "e)",
-            "resposta": "\u221a978",
+            "letra": "c)",
+            "resposta": "\u221a663",
             "correta": "Sim",
             "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "2\u22c5\u221a46",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "2\u22c5\u221a95",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 978 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a978",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 663 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a663",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "respostascorretas": "C"
         }
     ]
 }

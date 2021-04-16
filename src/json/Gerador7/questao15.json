@@ -1,53 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 733,
+            "radicando": 490,
             "indice": 3,
             "expoente": 2,
-            "resposta": "733"
+            "resposta": "490"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-733",
+            "resposta": "-20",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "733",
+            "resposta": "490",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a267",
+            "resposta": "-4\u22c5\u221a11",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a701",
+            "resposta": "-\u221a134",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "-2\u22c5\u221a102",
+            "resposta": "-\u221a307",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.733^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 733 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "733",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.490<sup>(p.t)</sup>, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 490 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "490",
             "corretas": 1,
             "aleatoriapositiva": 0,
-            "aleatorianegativa": 3,
+            "aleatorianegativa": 4,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
+            "invertidanegativa": 0,
             "respostascorretas": "B"
         }
     ]

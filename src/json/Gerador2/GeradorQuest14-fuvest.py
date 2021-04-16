@@ -15,7 +15,7 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open("./src/json/Gerador2/questao{}.json".format(k+1), 'w')
+    questoes = open("questao{}.json".format(k+1), 'w')
 
     numBase = rnd.randint(2,10)
     numMultiplicadorLogaritmando = rnd.randint(2,10)
@@ -118,7 +118,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': '(Fuvest-modificada) Temos que x > 1 tal que logx({}) = log{}(x). Assim sendo, o logarítmo de x na base 10 é:'.format(numBase ** numMultiplicadorLogaritmando, numBase ** numMultiplicadorBase),
+                'enunciado': '(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>({}) = log<sub>{}</sub>(x). Assim sendo, o logarítmo de x na base 10 é:'.format(numBase ** numMultiplicadorLogaritmando, numBase ** numMultiplicadorBase),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

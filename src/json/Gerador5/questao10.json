@@ -1,47 +1,47 @@
 {
     "logaritmo": [
         {
-            "numBase": 15,
+            "numBase": 580,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a15"
+            "resposta": "2\u22c5\u221a145"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a15",
+            "resposta": "2\u22c5\u221a145",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a6",
+            "resposta": "-2\u22c5\u221a145",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a10",
+            "resposta": "2\u22c5\u221a33",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a10",
+            "resposta": "-5\u22c5\u221a10",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a15",
+            "resposta": "-2\u22c5\u221a31",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 15 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a15",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 580 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a145",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,

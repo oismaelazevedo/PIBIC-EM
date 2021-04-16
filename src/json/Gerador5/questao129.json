@@ -1,47 +1,47 @@
 {
     "logaritmo": [
         {
-            "numBase": 695,
+            "numBase": 867,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a695"
+            "resposta": "17\u22c5\u221a3"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a695",
+            "resposta": "17\u22c5\u221a3",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "-2\u22c5\u221a23",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "\u221a534",
+            "resposta": "\u221a370",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": "-\u221a186",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": "-\u221a33",
+            "resposta": "-11\u22c5\u221a6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a22",
+            "resposta": "\u221a818",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 695 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a695",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 867 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "17\u22c5\u221a3",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,

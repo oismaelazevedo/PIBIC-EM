@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 995,
+            "radicando": 771,
             "indice": 3,
             "expoente": 2,
-            "resposta": "995"
+            "resposta": "771"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "995",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "\u221a679",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a682",
+            "resposta": "-\u221a61",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-995",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "resposta": "771",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a142",
+            "resposta": "-4\u22c5\u221a10",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a434",
+            "resposta": "\u221a417",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.995^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 995 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "995",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.771<sup>(p.t)</sup>, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 771 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "771",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "A"
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
         }
     ]
 }

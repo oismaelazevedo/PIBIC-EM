@@ -1,60 +1,60 @@
 {
     "logaritmo1": [
         {
-            "base": 10,
-            "logaritmando": 10000,
-            "resultado": 4.0
+            "base": 5,
+            "logaritmando": 3125,
+            "resultado": 5.0
         }
     ],
     "logaritmo2": [
         {
-            "base": 10,
-            "logaritmando": 10000000,
+            "base": 5,
+            "logaritmando": 78125,
             "resultado": 7.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": -1.75,
+            "resposta": "-2,0",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": 1.63,
+            "resposta": "3,13",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": -0.92,
+            "resposta": "-1,4",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "d)",
-            "resposta": -1.46,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "0,71",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": 0.57,
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "1,12",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 10000 e 10000000 numa base qualquer:",
-            "corretaspossiveis": 0.57,
+            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 3125 e 78125 numa base qualquer:",
+            "corretaspossiveis": "0,71",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "respostascorretas": "D"
         }
     ]
 }

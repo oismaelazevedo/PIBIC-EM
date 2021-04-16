@@ -3,50 +3,50 @@
         {
             "base": 10,
             "logaritmando": 0.0,
-            "expoente": 386,
-            "resultado": 49665.33
+            "expoente": 547,
+            "resultado": 99736.33
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": 0.33,
+            "resposta": "75525,33",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": 28756228.0,
+            "resposta": "89096,33",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": 21675.0,
+            "resposta": "1925,33",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": 11532.0,
+            "resposta": "79056,33",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": 49665.33,
+            "resposta": 99736.33,
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1/H+), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 x 10^386.",
-            "corretaspossiveis": 49665.33,
+            "enunciado": "O pH de uma solu\u00e7\u00e3o \u00e9 definido por pH = log(1&frasl;<sub>H+</sub>), em que H+ \u00e9 a concentra\u00e7\u00e3o de hidrog\u00eanio em \u00edons-gama por litro de solu\u00e7\u00e3o. Determine o quadrado sobre tr\u00eas do pH de uma solu\u00e7\u00e3o tal que H+ = 1,0 \u00d7 10<sup>547</sup>.",
+            "corretaspossiveis": 99736.33,
             "corretas": 1,
-            "aleatoriapositiva": 3,
+            "aleatoriapositiva": 4,
             "aleatorianegativa": 0,
-            "invertidapositiva": 1,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "E"
         }

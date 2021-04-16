@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 939,
+            "numBase": 918,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a939"
+            "resposta": "3\u22c5\u221a102"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a939",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-\u221a813",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a217",
+            "resposta": "\u221a411",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "-2\u22c5\u221a186",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "3\u22c5\u221a102",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a939",
+            "resposta": "-3\u22c5\u221a102",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "-2\u22c5\u221a93",
+            "resposta": "-\u221a301",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 939 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a939",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 918 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3\u22c5\u221a102",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "A"
+            "respostascorretas": "C"
         }
     ]
 }

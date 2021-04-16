@@ -1,10 +1,10 @@
 {
     "logaritmo": [
         {
-            "taxaMes": 61,
-            "valMultiplicadorMonteInicial": 125,
-            "logTaxaMes": 0.21,
-            "logValMultiplicadorMonteInicial": 2.1,
+            "taxaMes": 55,
+            "valMultiplicadorMonteInicial": 117,
+            "logTaxaMes": 0.19,
+            "logValMultiplicadorMonteInicial": 2.07,
             "resposta": 10
         }
     ],
@@ -17,37 +17,37 @@
         },
         {
             "letra": "b)",
-            "resposta": 216,
+            "resposta": 91,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "c)",
-            "resposta": 8,
+            "resposta": -10,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": -27,
+            "resposta": -16,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": 31,
+            "resposta": -15,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 61% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 125?\nAdmita que log1.6099999999999999 = 0.21 e log125 = 2.1",
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C<sub>0</sub> \u00d7 (1 + i)<sup>t</sup>, em que C<sub>0</sub> \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 55% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 117?\nAdmita que log(1.55) = 0.19 e log(117) = 2.07",
             "corretaspossiveis": 10,
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
             "respostascorretas": "A"
         }

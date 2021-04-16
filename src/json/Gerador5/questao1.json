@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 508,
+            "numBase": 261,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a127"
+            "resposta": "3\u22c5\u221a29"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a418",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "b)",
-            "resposta": "\u221a417",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "-2\u22c5\u221a127",
+            "resposta": "-3\u22c5\u221a29",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": "3\u22c5\u221a29",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "3\u22c5\u221a26",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "d)",
-            "resposta": "\u221a318",
+            "resposta": "2\u22c5\u221a42",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a127",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-\u221a14",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 508 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a127",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 261 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3\u22c5\u221a29",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "respostascorretas": "B"
         }
     ]
 }

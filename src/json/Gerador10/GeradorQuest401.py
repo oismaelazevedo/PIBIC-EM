@@ -15,7 +15,7 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open("./src/json/Gerador10/questao{}.json".format(k+1), 'w')
+    questoes = open("questao{}.json".format(k+1), 'w')
 
     taxaMes = rnd.randint(2,100)
     valMultiplicadorMonteInicial = rnd.randint(2,1000)
@@ -120,7 +120,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do período), após t períodos, é dado por C = C0.(1 + i)^t, em que C0 é o valor inicial.\nQual é o tempo necessário para que um capital empregado à taxa de {}% ao mês, com juros capitalizados mensalmente, seja multiplicado por {}?\nAdmita que log{} = {} e log{} = {}'.format(taxaMes, valMultiplicadorMonteInicial,(taxaMes/100) + 1, logTaxaMes, valMultiplicadorMonteInicial, logValMultiplicadorMonteInicial),
+                'enunciado': 'O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do período), após t períodos, é dado por C = C<sub>0</sub> × (1 + i)<sup>t</sup>, em que C<sub>0</sub> é o valor inicial.\nQual é o tempo necessário para que um capital empregado à taxa de {}% ao mês, com juros capitalizados mensalmente, seja multiplicado por {}?\nAdmita que log({}) = {} e log({}) = {}'.format(taxaMes, valMultiplicadorMonteInicial,(taxaMes/100) + 1, logTaxaMes, valMultiplicadorMonteInicial, logValMultiplicadorMonteInicial),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

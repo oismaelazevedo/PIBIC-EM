@@ -1,55 +1,55 @@
 {
     "logaritmo": [
         {
-            "taxaMes": 46,
-            "valMultiplicadorMonteInicial": 597,
-            "logTaxaMes": 0.16,
-            "logValMultiplicadorMonteInicial": 2.78,
-            "resposta": 17
+            "taxaMes": 72,
+            "valMultiplicadorMonteInicial": 195,
+            "logTaxaMes": 0.24,
+            "logValMultiplicadorMonteInicial": 2.29,
+            "resposta": 9
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": -16,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "b)",
-            "resposta": 8,
+            "resposta": 40,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": -9,
+            "letra": "b)",
+            "resposta": -10,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "d)",
+            "letra": "c)",
             "resposta": 6,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "e)",
-            "resposta": 17,
+            "letra": "d)",
+            "resposta": 9,
             "correta": "Sim",
             "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": 104,
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 46% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 597?\nAdmita que log1.46 = 0.16 e log597 = 2.78",
-            "corretaspossiveis": 17,
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C<sub>0</sub> \u00d7 (1 + i)<sup>t</sup>, em que C<sub>0</sub> \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 72% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 195?\nAdmita que log(1.72) = 0.24 e log(195) = 2.29",
+            "corretaspossiveis": 9,
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 0,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "D"
         }
     ]
 }

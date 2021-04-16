@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 704,
+            "radicando": 605,
             "indice": 3,
             "expoente": 2,
-            "resposta": "704"
+            "resposta": "605"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a151",
+            "resposta": "\u221a437",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "704",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-605",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "2\u22c5\u221a38",
+            "resposta": "5\u22c5\u221a15",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "2\u22c5\u221a129",
+            "resposta": "3\u22c5\u221a46",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a619",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "605",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.704^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 704 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "704",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.605<sup>(p.t)</sup>, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 605 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "605",
             "corretas": 1,
-            "aleatoriapositiva": 4,
+            "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
         }
     ]
 }

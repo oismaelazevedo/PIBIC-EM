@@ -1,51 +1,51 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 371,
+            "radicando": 561,
             "indice": 3,
             "expoente": 2,
-            "resposta": "371"
+            "resposta": "561"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a233",
+            "resposta": "\u221a141",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-371",
+            "resposta": "-561",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "371",
+            "resposta": "561",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "-4\u22c5\u221a15",
+            "resposta": "2\u22c5\u221a131",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a143",
+            "resposta": "\u221a211",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.371^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 371 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "371",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.561<sup>(p.t)</sup>, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 561 em 3 horas, quantas se pode esperar no fim de 2 horas?",
+            "corretaspossiveis": "561",
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
             "respostascorretas": "C"

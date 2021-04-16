@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "taxaMes": 98,
-            "valMultiplicadorMonteInicial": 153,
-            "logTaxaMes": 0.3,
-            "logValMultiplicadorMonteInicial": 2.18,
-            "resposta": 7
+            "taxaMes": 14,
+            "valMultiplicadorMonteInicial": 512,
+            "logTaxaMes": 0.06,
+            "logValMultiplicadorMonteInicial": 2.71,
+            "resposta": 45
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": 7,
+            "resposta": 45,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": 34,
+            "resposta": -8,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": -54,
+            "resposta": -17,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": -21,
+            "resposta": 12,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": -7,
+            "resposta": 9,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 98% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 153?\nAdmita que log1.98 = 0.3 e log153 = 2.18",
-            "corretaspossiveis": 7,
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C<sub>0</sub> \u00d7 (1 + i)<sup>t</sup>, em que C<sub>0</sub> \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 14% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 512?\nAdmita que log(1.1400000000000001) = 0.06 e log(512) = 2.71",
+            "corretaspossiveis": 45,
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "A"

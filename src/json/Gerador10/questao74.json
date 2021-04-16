@@ -1,55 +1,55 @@
 {
     "logaritmo": [
         {
-            "taxaMes": 57,
-            "valMultiplicadorMonteInicial": 485,
-            "logTaxaMes": 0.2,
-            "logValMultiplicadorMonteInicial": 2.69,
-            "resposta": 13
+            "taxaMes": 38,
+            "valMultiplicadorMonteInicial": 907,
+            "logTaxaMes": 0.14,
+            "logValMultiplicadorMonteInicial": 2.96,
+            "resposta": 21
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": -17,
+            "resposta": -13,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": 8,
+            "resposta": -9,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": 12,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": 21,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": -10,
+            "resposta": -6,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": 13,
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": 23,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 57% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 485?\nAdmita que log1.5699999999999998 = 0.2 e log485 = 2.69",
-            "corretaspossiveis": 13,
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C<sub>0</sub> \u00d7 (1 + i)<sup>t</sup>, em que C<sub>0</sub> \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 38% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 907?\nAdmita que log(1.38) = 0.14 e log(907) = 2.96",
+            "corretaspossiveis": 21,
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "C"
         }
     ]
 }

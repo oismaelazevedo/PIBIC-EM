@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "taxaMes": 19,
-            "valMultiplicadorMonteInicial": 806,
-            "logTaxaMes": 0.08,
+            "taxaMes": 17,
+            "valMultiplicadorMonteInicial": 820,
+            "logTaxaMes": 0.07,
             "logValMultiplicadorMonteInicial": 2.91,
-            "resposta": 36
+            "resposta": 41
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": -18,
+            "resposta": 13,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": 36,
+            "resposta": 41,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": -159,
+            "resposta": 190,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": -147,
+            "resposta": 24,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": -14,
+            "resposta": 18,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 19% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 806?\nAdmita que log1.19 = 0.08 e log806 = 2.91",
-            "corretaspossiveis": 36,
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C<sub>0</sub> \u00d7 (1 + i)<sup>t</sup>, em que C<sub>0</sub> \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 17% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 820?\nAdmita que log(1.17) = 0.07 e log(820) = 2.91",
+            "corretaspossiveis": 41,
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 4,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
             "respostascorretas": "B"
         }

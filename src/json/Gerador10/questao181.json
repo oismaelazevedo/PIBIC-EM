@@ -1,17 +1,17 @@
 {
     "logaritmo": [
         {
-            "taxaMes": 48,
-            "valMultiplicadorMonteInicial": 292,
-            "logTaxaMes": 0.17,
-            "logValMultiplicadorMonteInicial": 2.47,
+            "taxaMes": 63,
+            "valMultiplicadorMonteInicial": 876,
+            "logTaxaMes": 0.21,
+            "logValMultiplicadorMonteInicial": 2.94,
             "resposta": 14
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": -14,
+            "resposta": -17,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
@@ -23,32 +23,32 @@
         },
         {
             "letra": "c)",
-            "resposta": -11,
+            "resposta": -29,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": -23,
+            "resposta": 319,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": 25,
+            "resposta": -71,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 48% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 292?\nAdmita que log1.48 = 0.17 e log292 = 2.47",
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C<sub>0</sub> \u00d7 (1 + i)<sup>t</sup>, em que C<sub>0</sub> \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 63% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 876?\nAdmita que log(1.63) = 0.21 e log(876) = 2.94",
             "corretaspossiveis": 14,
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "B"
         }
     ]

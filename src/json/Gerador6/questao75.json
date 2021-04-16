@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 335,
-            "valX02": 649,
-            "num01": 369,
-            "num02": 44,
-            "numResposta": 8,
-            "express": "721 - 4857\u22c5x",
-            "resposta": "\u23a1721 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34857\u23a6"
+            "valX01": 508,
+            "valX02": 182,
+            "num01": 156,
+            "num02": 109,
+            "numResposta": 10,
+            "express": "1246 - 1312\u22c5x",
+            "resposta": "\u23a1623\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3656\u23a6"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a11247\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33927\u23a6",
+            "resposta": "\u23a1679 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31590\u23a6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "\u23a16217\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31646\u23a6",
+            "resposta": "\u23a12836\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32805\u23a6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u23a13560\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31427\u23a6",
+            "resposta": "\u23a1436\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 63\u23a6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "\u23a1721 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34857\u23a6",
+            "resposta": "\u23a1623\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3656\u23a6",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "\u23a1729\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3536\u23a6",
+            "resposta": "\u23a11919\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3736 \u23a6",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(335x + 369) - log(649x - 44) = log 8, ent\u00e3o x \u00e9 igual a:",
-            "corretaspossiveis": "\u23a1721 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34857\u23a6",
+            "enunciado": "(PUC-PR-modificada) Se log(508\ud835\udc65 + 156) - log(182\ud835\udc65 - 109) = log 10, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1623\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3656\u23a6",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "D"
         }

@@ -1,50 +1,50 @@
 {
     "logaritmo": [
         {
-            "numBase": 999,
+            "numBase": 993,
             "tipoDenominadorFracao": 2,
-            "resposta": "3\u22c5\u221a111"
+            "resposta": "\u221a993"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a413",
+            "resposta": "-2\u22c5\u221a213",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "3\u22c5\u221a111",
+            "resposta": "\u221a993",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "2\u22c5\u221a77",
+            "resposta": "-\u221a69",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a86",
+            "resposta": "-4\u22c5\u221a11",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a629",
+            "resposta": "\u221a649",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 999 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3\u22c5\u221a111",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 993 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a993",
             "corretas": 1,
-            "aleatoriapositiva": 4,
-            "aleatorianegativa": 0,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "B"

@@ -1,57 +1,57 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 979,
-            "valX02": 453,
-            "num01": 730,
-            "num02": 626,
-            "numResposta": 5,
-            "express": "3860 - 1286\u22c5x",
-            "resposta": "\u23a11930\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3643 \u23a6"
+            "valX01": 462,
+            "valX02": 936,
+            "num01": 283,
+            "num02": 698,
+            "numResposta": 3,
+            "express": "2377 - 2346\u22c5x",
+            "resposta": "\u23a12377\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32346\u23a6"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a12089\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33280\u23a6",
+            "resposta": "\u23a1989\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3174\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a11613\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32687\u23a6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "\u23a11930\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3643 \u23a6",
+            "letra": "c)",
+            "resposta": "\u23a12377\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32346\u23a6",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "\u23a15088\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35891\u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": "\u23a1351 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31723\u23a6",
+            "resposta": "\u23a17371\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a39145\u23a6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u23a11736\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31613\u23a6",
+            "resposta": "\u23a11782\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36977\u23a6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(979x + 730) - log(453x - 626) = log 5, ent\u00e3o x \u00e9 igual a:",
-            "corretaspossiveis": "\u23a11930\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3643 \u23a6",
+            "enunciado": "(PUC-PR-modificada) Se log(462\ud835\udc65 + 283) - log(936\ud835\udc65 - 698) = log 3, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
+            "corretaspossiveis": "\u23a12377\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32346\u23a6",
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 4,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "C"
         }
     ]
 }
