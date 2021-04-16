@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 44,
-            "indice": 3,
+            "radicando": 359,
+            "indice": 2,
             "expoente": 2,
-            "resposta": "44"
+            "qntHoraEsperada": 7,
+            "resposta": "8.94"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a21",
+            "resposta": "0.94",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a14",
+            "resposta": "1.14",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "44",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-0.98",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a22",
+            "resposta": "1.23",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a35",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "8.94",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.44^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 44 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "44",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.359^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 359 em 2 horas, quantas vezes do valor inicial de bact\u00e9rias se pode esperar no fim de 7 horas? Admita que a resposta ser\u00e1 o resultado do logar\u00edtmo da quantidade de vezes na base 10.",
+            "corretaspossiveis": "8.94",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "E"
         }
     ]
 }

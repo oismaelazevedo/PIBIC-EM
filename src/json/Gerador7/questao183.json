@@ -1,52 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 8,
-            "indice": 3,
+            "radicando": 980,
+            "indice": 2,
             "expoente": 2,
-            "resposta": "8"
+            "qntHoraEsperada": 5,
+            "resposta": "7.48"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a3",
+            "resposta": "0.87",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "2.99",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-1.4",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "\u221a5",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "\u221a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "d)",
-            "resposta": "8",
+            "resposta": "7.48",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a5",
+            "resposta": "1.46",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.8^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 8 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "8",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.980^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 980 em 2 horas, quantas vezes do valor inicial de bact\u00e9rias se pode esperar no fim de 5 horas? Admita que a resposta ser\u00e1 o resultado do logar\u00edtmo da quantidade de vezes na base 10.",
+            "corretaspossiveis": "7.48",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 0,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
             "respostascorretas": "D"
         }

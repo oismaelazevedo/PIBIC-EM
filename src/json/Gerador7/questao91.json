@@ -1,52 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 279,
-            "indice": 3,
+            "radicando": 153,
+            "indice": 2,
             "expoente": 2,
-            "resposta": "279"
+            "qntHoraEsperada": 3,
+            "resposta": "3.28"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a267",
+            "resposta": "2.18",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "279",
+            "resposta": "3.28",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a149",
+            "resposta": "-1.09",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a10",
+            "resposta": "1.03",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a209",
+            "resposta": "-1.02",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.279^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 279 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "279",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.153^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 153 em 2 horas, quantas vezes do valor inicial de bact\u00e9rias se pode esperar no fim de 3 horas? Admita que a resposta ser\u00e1 o resultado do logar\u00edtmo da quantidade de vezes na base 10.",
+            "corretaspossiveis": "3.28",
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 4,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
             "respostascorretas": "B"
         }

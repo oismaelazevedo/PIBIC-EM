@@ -1,51 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 677,
-            "indice": 3,
+            "radicando": 341,
+            "indice": 2,
             "expoente": 2,
-            "resposta": "677"
+            "qntHoraEsperada": 9,
+            "resposta": "11.4"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a518",
+            "resposta": "1.08",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-2\u22c5\u221a43",
+            "resposta": "-0.87",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-24",
+            "resposta": "-0.93",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "17\u22c5\u221a2",
+            "resposta": "0.6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "677",
+            "resposta": "11.4",
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.677^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 677 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "677",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.341^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 341 em 2 horas, quantas vezes do valor inicial de bact\u00e9rias se pode esperar no fim de 9 horas? Admita que a resposta ser\u00e1 o resultado do logar\u00edtmo da quantidade de vezes na base 10.",
+            "corretaspossiveis": "11.4",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "E"

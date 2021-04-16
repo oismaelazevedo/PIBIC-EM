@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 952,
-            "indice": 3,
+            "radicando": 568,
+            "indice": 2,
             "expoente": 2,
-            "resposta": "952"
+            "qntHoraEsperada": 3,
+            "resposta": "4.13"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a327",
+            "resposta": "4.13",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "1.09",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "b)",
-            "resposta": "-\u221a678",
+            "letra": "c)",
+            "resposta": "-1.07",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": "7\u22c5\u221a2",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "d)",
-            "resposta": "-952",
+            "resposta": "-2.75",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "952",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-1.26",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.952^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 952 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "952",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.568^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 568 em 2 horas, quantas vezes do valor inicial de bact\u00e9rias se pode esperar no fim de 3 horas? Admita que a resposta ser\u00e1 o resultado do logar\u00edtmo da quantidade de vezes na base 10.",
+            "corretaspossiveis": "4.13",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "respostascorretas": "A"
         }
     ]
 }

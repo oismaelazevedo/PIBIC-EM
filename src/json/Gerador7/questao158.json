@@ -1,53 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 905,
-            "indice": 3,
+            "radicando": 393,
+            "indice": 2,
             "expoente": 2,
-            "resposta": "905"
+            "qntHoraEsperada": 7,
+            "resposta": "9.08"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a358",
+            "resposta": "-2.59",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "16\u22c5\u221a2",
+            "resposta": "1.26",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "905",
+            "resposta": "9.08",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a330",
+            "resposta": "-1.23",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a122",
+            "resposta": "-1.16",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.905^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 905 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "905",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.393^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 393 em 2 horas, quantas vezes do valor inicial de bact\u00e9rias se pode esperar no fim de 7 horas? Admita que a resposta ser\u00e1 o resultado do logar\u00edtmo da quantidade de vezes na base 10.",
+            "corretaspossiveis": "9.08",
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "C"
         }
     ]

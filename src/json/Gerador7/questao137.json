@@ -1,53 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 829,
-            "indice": 3,
+            "radicando": 660,
+            "indice": 2,
             "expoente": 2,
-            "resposta": "829"
+            "qntHoraEsperada": 5,
+            "resposta": "7.05"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a271",
+            "resposta": "1.08",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "829",
+            "resposta": "7.05",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "2\u22c5\u221a203",
+            "resposta": "0.98",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a582",
+            "resposta": "1.38",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-829",
+            "resposta": "-1.31",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.829^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 829 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "829",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.660^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 660 em 2 horas, quantas vezes do valor inicial de bact\u00e9rias se pode esperar no fim de 5 horas? Admita que a resposta ser\u00e1 o resultado do logar\u00edtmo da quantidade de vezes na base 10.",
+            "corretaspossiveis": "7.05",
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 3,
             "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
+            "invertidanegativa": 0,
             "respostascorretas": "B"
         }
     ]

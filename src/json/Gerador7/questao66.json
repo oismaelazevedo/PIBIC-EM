@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 533,
-            "indice": 3,
+            "radicando": 762,
+            "indice": 2,
             "expoente": 2,
-            "resposta": "533"
+            "qntHoraEsperada": 3,
+            "resposta": "4.32"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "2\u22c5\u221a10",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "-\u221a494",
+            "resposta": "-1.16",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": "6",
+            "letra": "b)",
+            "resposta": "1.04",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": "-2.88",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": "533",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-1.07",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "-533",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "resposta": "4.32",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.533^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 533 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "533",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.762^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 762 em 2 horas, quantas vezes do valor inicial de bact\u00e9rias se pode esperar no fim de 3 horas? Admita que a resposta ser\u00e1 o resultado do logar\u00edtmo da quantidade de vezes na base 10.",
+            "corretaspossiveis": "4.32",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "D"
+            "respostascorretas": "E"
         }
     ]
 }

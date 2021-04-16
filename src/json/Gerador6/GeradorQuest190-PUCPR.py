@@ -58,12 +58,12 @@ while k < 200:
                     listAlternativas[numLetra] = solve(numResposta*(-valX01*x + num01) + valX02 + num02)
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "invertida e positiva"
+                    howGenerated[numLetra] = "invertida e negativa"
                 else:
                     listAlternativas[numLetra] = solve(-(numResposta*(-valX01*x + num01) + valX02 + num02))
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "invertida e negativa"
+                    howGenerated[numLetra] = "invertida e positiva"
             else:
                 numRandomTemporario = rnd.randint(0,1)
 
@@ -72,13 +72,13 @@ while k < 200:
                     listAlternativas[numLetra] = solve(rnd.randint(2,1000)*x + rnd.randint(2,1000) + rnd.randint(2,20)*(-rnd.randint(2,1000)*x + rnd.randint(2,1000)))
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "gerada aleatoriamente e positiva"
+                    howGenerated[numLetra] = "gerada aleatoriamente e negativa"
                 else:
 
                     listAlternativas[numLetra] = solve(-(rnd.randint(2,1000)*x + rnd.randint(2,1000) + rnd.randint(2,20)*(-rnd.randint(2,1000)*x + rnd.randint(2,1000))))
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
-                    howGenerated[numLetra] = "gerada aleatoriamente e negativa"
+                    howGenerated[numLetra] = "gerada aleatoriamente e positiva"
 
     # Cria a variável que será convertida em um arquivo json
     dados = {

@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 166,
-            "indice": 3,
+            "radicando": 117,
+            "indice": 2,
             "expoente": 2,
-            "resposta": "166"
+            "qntHoraEsperada": 3,
+            "resposta": "3.1"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a157",
+            "resposta": "-2.07",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a89",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "166",
+            "resposta": "3.1",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "c)",
+            "resposta": "0.95",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "d)",
-            "resposta": "\u221a46",
+            "resposta": "1.01",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a3",
+            "resposta": "-0.86",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.166^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 166 em 3 horas, quantas se pode esperar no fim de 2 horas?",
-            "corretaspossiveis": "166",
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.117^(p.t), em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 117 em 2 horas, quantas vezes do valor inicial de bact\u00e9rias se pode esperar no fim de 3 horas? Admita que a resposta ser\u00e1 o resultado do logar\u00edtmo da quantidade de vezes na base 10.",
+            "corretaspossiveis": "3.1",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
         }
     ]
 }
