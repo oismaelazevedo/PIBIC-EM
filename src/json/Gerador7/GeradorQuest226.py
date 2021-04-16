@@ -15,7 +15,7 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open("questao{}.json".format(k+1), 'w')
+    questoes = open("./src/json/Gerador7/questao{}.json".format(k+1), 'w')
     numBase = rnd.randint(2,1000)
 
     qntHoraDada = 2
@@ -124,11 +124,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-<<<<<<< HEAD
-                'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = C.{}^(p.t), em que X(t) é o número de bactérias no tempo t ≥ 0; C, p são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas vezes do valor inicial de bactérias se pode esperar no fim de {} horas? Admita que a resposta será o resultado do logarítmo da quantidade de vezes na base 10.'.format(numBase,numBase,qntHoraDada, qntHoraEsperada),
-=======
-                'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = C.{}<sup>(p.t)</sup>, em que X(t) é o número de bactérias no tempo t ≥ 0; C, p são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas se pode esperar no fim de 2 horas?'.format(numBase,numBase,qntHoraDada),
->>>>>>> d9874bfb4769deccbef0a28629920e62cec7ccf9
+                'enunciado': 'O crescimento de uma certa cultura de bactérias obedece à função X(t) = C.{}<sup>(p.t)</sup>, em que X(t) é o número de bactérias no tempo t ≥ 0; C, p são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por {} em {} horas, quantas vezes do valor inicial de bactérias se pode esperar no fim de {} horas? Admita que a resposta será o resultado do logarítmo da quantidade de vezes na base 10.'.format(numBase,numBase,qntHoraDada, qntHoraEsperada),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

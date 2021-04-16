@@ -1,0 +1,55 @@
+{
+    "equacaoExponencial": [
+        {
+            "radicando": 282,
+            "indice": 2,
+            "expoente": 2,
+            "qntHoraEsperada": 5,
+            "resposta": "6.13"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "0.74",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "0.82",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "6.13",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "0.75",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "-2.45",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.282<sup>(p.t)</sup>, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 282 em 2 horas, quantas vezes do valor inicial de bact\u00e9rias se pode esperar no fim de 5 horas? Admita que a resposta ser\u00e1 o resultado do logar\u00edtmo da quantidade de vezes na base 10.",
+            "corretaspossiveis": "6.13",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

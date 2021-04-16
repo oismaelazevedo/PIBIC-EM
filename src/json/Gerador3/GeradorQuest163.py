@@ -14,7 +14,7 @@ def elementosListaEhDistinta(lista):
 enunciado = [None]*200
 k = 0
 while k < 200:
-    questoes = open("questao{}.json".format(k+1), 'w')
+    questoes = open("./src/json/Gerador3/questao{}.json".format(k+1), 'w')
 
     expoenteConcentracao = rnd.randint(1,1000)
     resposta = round((expoenteConcentracao ** 2)/3, 2)

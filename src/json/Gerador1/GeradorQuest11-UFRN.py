@@ -12,7 +12,7 @@ def elementosListaEhDistinta(lista):
 enunciado = [None]*200
 k = 0
 while k < 200:
-    questoes = open("questao{}.json".format(k+1), 'w')
+    questoes = open("./src/json/Gerador1/questao{}.json".format(k+1), 'w')
 
     numFloatAleatorio01 = round(rnd.uniform(1,1000), 2)
     numFloatAleatorio02 = round(rnd.uniform(1,100), 2)

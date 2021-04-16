@@ -1,0 +1,55 @@
+{
+    "equacaoExponencial": [
+        {
+            "radicando": 533,
+            "indice": 2,
+            "expoente": 2,
+            "qntHoraEsperada": 7,
+            "resposta": "9.54"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "-1.3",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "1.12",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "2.73",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "0.82",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "9.54",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "O crescimento de uma certa cultura de bact\u00e9rias obedece \u00e0 fun\u00e7\u00e3o X(t) = C.533<sup>(p.t)</sup>, em que X(t) \u00e9 o n\u00famero de bact\u00e9rias no tempo t \u2265 0; C, p s\u00e3o constantes positivas. Verificando que o n\u00famero inicial de bact\u00e9rias X(0) \u00e9 multiplicado por 533 em 2 horas, quantas vezes do valor inicial de bact\u00e9rias se pode esperar no fim de 7 horas? Admita que a resposta ser\u00e1 o resultado do logar\u00edtmo da quantidade de vezes na base 10.",
+            "corretaspossiveis": "9.54",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}
