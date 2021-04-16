@@ -1,52 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 3962,
+            "radicando": 8992,
             "indice": 2,
             "expoente": 5,
-            "resultado": "1 - 15697444\u22c5\u221a3962"
+            "resultado": "1 - 323424256\u22c5\u221a562"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 14394436\u22c5\u221a3794",
+            "resposta": "1 + 323424256\u22c5\u221a562",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 15697444\u22c5\u221a3962",
+            "resposta": "1 - 323424256\u22c5\u221a562",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "1 - 10699441\u22c5\u221a3271",
+            "resposta": "1 - 75595808\u22c5\u221a1537",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 612500\u22c5\u221a14",
+            "resposta": "1 + 1277347968\u22c5\u221a26",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 171802697\u22c5\u221a11",
+            "resposta": "1 - 14371681\u22c5\u221a3791",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.3962^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3962, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 15697444\u22c5\u221a3962",
+            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 8992<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 8992, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
+            "corretaspossiveis": "1 - 323424256\u22c5\u221a562",
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 4,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
             "respostascorretas": "B"
         }

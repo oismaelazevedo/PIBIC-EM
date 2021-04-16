@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 993,
+            "numBase": 255,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a993"
+            "resposta": "\u221a255"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a658",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "b)",
-            "resposta": "-14\u22c5\u221a2",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "\u221a993",
+            "resposta": "\u221a255",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "b)",
+            "resposta": "-\u221a255",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-\u221a118",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": "14\u22c5\u221a5",
+            "resposta": "\u221a159",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a58",
+            "resposta": "-\u221a111",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 993 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a993",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 255 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a255",
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
         }
     ]
 }

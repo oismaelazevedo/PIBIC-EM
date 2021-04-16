@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 648,
+            "numBase": 473,
             "tipoDenominadorFracao": 2,
-            "resposta": "18\u22c5\u221a2"
+            "resposta": "\u221a473"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "5\u22c5\u221a19",
+            "resposta": "-\u221a213",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "2\u22c5\u221a97",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "b)",
-            "resposta": "-\u221a366",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "c)",
-            "resposta": "-2\u22c5\u221a123",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "18\u22c5\u221a2",
+            "resposta": "\u221a473",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "e)",
-            "resposta": "-\u221a562",
+            "letra": "d)",
+            "resposta": "-2\u22c5\u221a118",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "-\u221a473",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 648 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "18\u22c5\u221a2",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 473 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a473",
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
         }
     ]
 }

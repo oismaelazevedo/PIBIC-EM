@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 321,
+            "numBase": 943,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a321"
+            "resposta": "\u221a943"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a265",
+            "resposta": "\u221a917",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a321",
+            "resposta": "\u221a186",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a215",
+            "resposta": "-4\u22c5\u221a14",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a65",
+            "resposta": "-6\u22c5\u221a11",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a321",
+            "resposta": "\u221a943",
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 321 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a321",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 943 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a943",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
+            "invertidanegativa": 0,
             "respostascorretas": "E"
         }
     ]

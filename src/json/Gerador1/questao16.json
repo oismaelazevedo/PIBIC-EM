@@ -1,37 +1,37 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 528.9,
-            "numFloatAleatorio02": 50.03,
-            "ordemDez01": 88,
-            "ordemDez02": 89,
+            "numFloatAleatorio01": 880.87,
+            "numFloatAleatorio02": 6.64,
+            "ordemDez01": 18,
+            "ordemDez02": 19,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 578.93 X 10^177",
+            "resposta": "M + N = 887,51 \u00d7 10<sup>37</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 26460.87 X 10^177",
+            "resposta": "M . N = 5848,98 \u00d7 10<sup>37</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M / N = 10.57 X 10^-1",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
             "resposta": "M < N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "M / N = 132,66 \u00d7 10<sup>-1</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 528.9 X 10^88 e N = 50.03 X 10^89. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 880,87 \u00d7 10<sup>18</sup> e N = 6,64 \u00d7 10<sup>19</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

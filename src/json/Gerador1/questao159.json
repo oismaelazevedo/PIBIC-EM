@@ -1,35 +1,35 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 202.3,
-            "numFloatAleatorio02": 64.67,
-            "ordemDez01": 38,
-            "ordemDez02": 39,
+            "numFloatAleatorio01": 717.18,
+            "numFloatAleatorio02": 85.43,
+            "ordemDez01": 64,
+            "ordemDez02": 65,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 266.97 X 10^77",
+            "resposta": "M + N = 802,61 \u00d7 10<sup>129</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 13082.74 X 10^77",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
             "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": "M . N = 61268,69 \u00d7 10<sup>129</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "d)",
-            "resposta": "M / N = 3.13 X 10^-1",
+            "resposta": "M / N = 8,39 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 202.3 X 10^38 e N = 64.67 X 10^39. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 717,18 \u00d7 10<sup>64</sup> e N = 85,43 \u00d7 10<sup>65</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

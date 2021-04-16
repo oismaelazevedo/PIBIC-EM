@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 91,
+            "numBase": 268,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a91"
+            "resposta": "2\u22c5\u221a67"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a39",
+            "resposta": "2\u22c5\u221a29",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a82",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "\u221a74",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "-\u221a86",
+            "resposta": "-\u221a217",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "c)",
+            "resposta": "-2\u22c5\u221a67",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "8\u22c5\u221a3",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "e)",
-            "resposta": "\u221a91",
+            "resposta": "2\u22c5\u221a67",
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 91 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a91",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 268 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a67",
             "corretas": 1,
-            "aleatoriapositiva": 3,
+            "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "E"
         }
     ]

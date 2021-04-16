@@ -1,23 +1,23 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 216.52,
-            "numFloatAleatorio02": 97.84,
-            "ordemDez01": 75,
-            "ordemDez02": 76,
+            "numFloatAleatorio01": 526.44,
+            "numFloatAleatorio02": 86.21,
+            "ordemDez01": 45,
+            "ordemDez02": 46,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 314.36 X 10^151",
+            "resposta": "M + N = 612,65 \u00d7 10<sup>91</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 21184.32 X 10^151",
+            "resposta": "M . N = 45384,39 \u00d7 10<sup>91</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -35,14 +35,14 @@
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 2.21 X 10^-1",
+            "resposta": "M / N = 6,11 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 216.52 X 10^75 e N = 97.84 X 10^76. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 526,44 \u00d7 10<sup>45</sup> e N = 86,21 \u00d7 10<sup>46</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

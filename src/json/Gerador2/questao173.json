@@ -1,53 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 2,
+            "numBase": 3,
             "numMultiplicadorLogaritmando": 3,
-            "numMultiplicadorBase": 2,
-            "resposta": "\u221a6"
+            "numMultiplicadorBase": 10,
+            "resposta": "\u221a30"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-2\u22c5\u221a10",
+            "resposta": "-2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a6",
+            "resposta": "\u221a30",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "-3\u22c5\u221a2",
+            "resposta": "3\u22c5\u221a6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-6\u22c5\u221a2",
+            "resposta": "-3\u22c5\u221a6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a10",
+            "resposta": "5",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(8) = log4(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
-            "corretaspossiveis": "\u221a6",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(27) = log<sub>59049</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "\u221a30",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "B"
         }
     ]

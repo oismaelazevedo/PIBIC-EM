@@ -1,10 +1,10 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 63.13,
-            "numFloatAleatorio02": 4.89,
-            "ordemDez01": 71,
-            "ordemDez02": 72,
+            "numFloatAleatorio01": 388.61,
+            "numFloatAleatorio02": 13.16,
+            "ordemDez01": 25,
+            "ordemDez02": 26,
             "resposta": "M \u2265 N"
         }
     ],
@@ -17,13 +17,13 @@
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 68.02 X 10^143",
+            "resposta": "M + N = 401,77 \u00d7 10<sup>51</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 308.71 X 10^143",
+            "resposta": "M . N = 5114,11 \u00d7 10<sup>51</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -35,14 +35,14 @@
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 12.91 X 10^-1",
+            "resposta": "M / N = 29,53 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 63.13 X 10^71 e N = 4.89 X 10^72. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 388,61 \u00d7 10<sup>25</sup> e N = 13,16 \u00d7 10<sup>26</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

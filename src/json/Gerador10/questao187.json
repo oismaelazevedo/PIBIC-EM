@@ -1,55 +1,55 @@
 {
     "logaritmo": [
         {
-            "taxaMes": 98,
-            "valMultiplicadorMonteInicial": 559,
+            "taxaMes": 99,
+            "valMultiplicadorMonteInicial": 630,
             "logTaxaMes": 0.3,
-            "logValMultiplicadorMonteInicial": 2.75,
+            "logValMultiplicadorMonteInicial": 2.8,
             "resposta": 9
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": 23,
+            "resposta": 10,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": 14,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
             "resposta": 9,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "c)",
+            "resposta": -10,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": -22,
+            "resposta": -16,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": -109,
+            "resposta": -37,
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 98% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 559?\nAdmita que log1.98 = 0.3 e log559 = 2.75",
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C<sub>0</sub> \u00d7 (1 + i)<sup>t</sup>, em que C<sub>0</sub> \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 99% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 630?\nAdmita que log(1.99) = 0.3 e log(630) = 2.8",
             "corretaspossiveis": 9,
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "C"
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
         }
     ]
 }

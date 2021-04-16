@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 989.36,
-            "numFloatAleatorio02": 48.39,
-            "ordemDez01": 32,
-            "ordemDez02": 33,
+            "numFloatAleatorio01": 438.49,
+            "numFloatAleatorio02": 4.94,
+            "ordemDez01": 77,
+            "ordemDez02": 78,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 1037.75 X 10^65",
+            "resposta": "M + N = 443,43 \u00d7 10<sup>155</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -29,20 +29,20 @@
         },
         {
             "letra": "d)",
-            "resposta": "M . N = 47875.13 X 10^65",
+            "resposta": "M . N = 2166,14 \u00d7 10<sup>155</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 20.45 X 10^-1",
+            "resposta": "M / N = 88,76 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 989.36 X 10^32 e N = 48.39 X 10^33. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 438,49 \u00d7 10<sup>77</sup> e N = 4,94 \u00d7 10<sup>78</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

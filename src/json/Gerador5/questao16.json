@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 980,
+            "numBase": 690,
             "tipoDenominadorFracao": 2,
-            "resposta": "14\u22c5\u221a5"
+            "resposta": "\u221a690"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a430",
+            "resposta": "-\u221a74",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u221a623",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "b)",
-            "resposta": "14\u22c5\u221a5",
+            "letra": "c)",
+            "resposta": "\u221a690",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "-2\u22c5\u221a103",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": "-2\u22c5\u221a145",
+            "resposta": "\u221a390",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a35",
+            "resposta": "-2\u22c5\u221a37",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 980 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "14\u22c5\u221a5",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 690 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a690",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "C"
         }
     ]
 }

@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 5,
-            "numMultiplicadorLogaritmando": 8,
+            "numBase": 4,
+            "numMultiplicadorLogaritmando": 6,
             "numMultiplicadorBase": 6,
-            "resposta": "4\u22c5\u221a3"
+            "resposta": "6"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "2\u22c5\u221a3",
+            "resposta": "-\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "4\u22c5\u221a3",
+            "resposta": "6",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "c)",
+            "resposta": "\u221a70",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "d)",
-            "resposta": "-4\u22c5\u221a2",
+            "resposta": "-4\u22c5\u221a5",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "-9",
+            "resposta": "-\u221a10",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(390625) = log15625(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
-            "corretaspossiveis": "4\u22c5\u221a3",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(4096) = log<sub>4096</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "6",
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
         }
     ]
 }

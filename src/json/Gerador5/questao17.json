@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 866,
+            "numBase": 236,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a866"
+            "resposta": "2\u22c5\u221a59"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "4\u22c5\u221a53",
+            "resposta": "-2\u22c5\u221a21",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a866",
+            "resposta": "-\u221a102",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "2\u22c5\u221a59",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "-\u221a570",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": "-2\u22c5\u221a141",
+            "resposta": "\u221a158",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a813",
+            "resposta": "-3\u22c5\u221a3",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 866 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a866",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 236 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a59",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "C"
         }
     ]
 }

@@ -1,60 +1,60 @@
 {
     "logaritmo1": [
         {
-            "base": 7,
-            "logaritmando": 2401,
-            "resultado": 4.0
+            "base": 9,
+            "logaritmando": 531441,
+            "resultado": 6.0
         }
     ],
     "logaritmo2": [
         {
-            "base": 7,
-            "logaritmando": 40353607,
-            "resultado": 9.0
+            "base": 9,
+            "logaritmando": 6561,
+            "resultado": 4.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": 2.11,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": 2.0,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": 0.44,
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "d)",
-            "resposta": -2.84,
+            "resposta": "-3,51",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": "1,5",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "3,63",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "0,67",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
             "letra": "e)",
-            "resposta": 0.67,
+            "resposta": "0,26",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 2401 e 40353607 numa base qualquer:",
-            "corretaspossiveis": 0.44,
+            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 531441 e 6561 numa base qualquer:",
+            "corretaspossiveis": "1,5",
             "corretas": 1,
-            "aleatoriapositiva": 3,
+            "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
-            "invertidapositiva": 0,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "B"
         }
     ]
 }

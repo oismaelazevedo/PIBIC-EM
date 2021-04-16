@@ -1,53 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 3,
+            "numBase": 7,
             "numMultiplicadorLogaritmando": 5,
-            "numMultiplicadorBase": 2,
-            "resposta": "\u221a10"
+            "numMultiplicadorBase": 7,
+            "resposta": "\u221a35"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a10",
+            "resposta": "\u221a35",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "-1",
+            "resposta": "-\u221a30",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "3\u22c5\u221a3",
+            "resposta": "-8",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-2\u22c5\u221a10",
+            "resposta": "-\u221a15",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "3\u22c5\u221a6",
+            "resposta": "-3\u22c5\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(243) = log9(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
-            "corretaspossiveis": "\u221a10",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(16807) = log<sub>823543</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "\u221a35",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
+            "invertidanegativa": 0,
             "respostascorretas": "A"
         }
     ]

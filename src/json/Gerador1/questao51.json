@@ -1,23 +1,23 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 505.49,
-            "numFloatAleatorio02": 18.82,
-            "ordemDez01": 67,
-            "ordemDez02": 68,
+            "numFloatAleatorio01": 854.44,
+            "numFloatAleatorio02": 65.83,
+            "ordemDez01": 84,
+            "ordemDez02": 85,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 524.31 X 10^135",
+            "resposta": "M + N = 920,27 \u00d7 10<sup>169</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 9513.32 X 10^135",
+            "resposta": "M . N = 56247,79 \u00d7 10<sup>169</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -35,14 +35,14 @@
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 26.86 X 10^-1",
+            "resposta": "M / N = 12,98 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 505.49 X 10^67 e N = 18.82 X 10^68. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 854,44 \u00d7 10<sup>84</sup> e N = 65,83 \u00d7 10<sup>85</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

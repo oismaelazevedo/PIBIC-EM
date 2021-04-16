@@ -1,10 +1,10 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 232.09,
-            "numFloatAleatorio02": 29.08,
-            "ordemDez01": 94,
-            "ordemDez02": 95,
+            "numFloatAleatorio01": 194.01,
+            "numFloatAleatorio02": 34.76,
+            "ordemDez01": 42,
+            "ordemDez02": 43,
             "resposta": "M < N"
         }
     ],
@@ -17,32 +17,32 @@
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 261.17 X 10^189",
+            "resposta": "M + N = 228,77 \u00d7 10<sup>85</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 6749.18 X 10^189",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
             "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
+            "letra": "d)",
+            "resposta": "M . N = 6743,79 \u00d7 10<sup>85</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "e)",
-            "resposta": "M / N = 7.98 X 10^-1",
+            "resposta": "M / N = 5,58 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 232.09 X 10^94 e N = 29.08 X 10^95. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 194,01 \u00d7 10<sup>42</sup> e N = 34,76 \u00d7 10<sup>43</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

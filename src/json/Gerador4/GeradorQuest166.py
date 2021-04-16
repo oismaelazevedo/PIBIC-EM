@@ -15,7 +15,7 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open("./src/json/Gerador4/questao{}.json".format(k+1), 'w')
+    questoes = open("questao{}.json".format(k+1), 'w')
 
     # insere um valor aleatório de 2 a 10 para ser a base.
     numBase =  rnd.randint(2,10)
@@ -28,7 +28,7 @@ while k < 200:
         listNumLogaritmando = [numBase ** rnd.randint(2,10), numBase ** rnd.randint(2,10)]
 
     # O decimais do resultado são reduzidos para 2 casas.
-    resposta = round(math.log(listNumLogaritmando[0], numBase)/math.log(listNumLogaritmando[1], numBase), 2)
+    resposta = str(round(math.log(listNumLogaritmando[0], numBase)/math.log(listNumLogaritmando[1], numBase), 2)).replace(".",",")
 
 
     listLetra = ["A","B","C","D","E"]
@@ -63,23 +63,23 @@ while k < 200:
 
                 if ehNegativoPositivo == 0:
 
-                    listAlternativas[numLetra] = round(math.log(listNumLogaritmando[1], numBase)/math.log(listNumLogaritmando[0], numBase), 2)
+                    listAlternativas[numLetra] = str(round(math.log(listNumLogaritmando[1], numBase)/math.log(listNumLogaritmando[0], numBase), 2)).replace(".",",")
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e positiva"
                 else:
 
-                    listAlternativas[numLetra] = round(-math.log(listNumLogaritmando[1], numBase)/math.log(listNumLogaritmando[0], numBase), 2)
+                    listAlternativas[numLetra] = str(round(-math.log(listNumLogaritmando[1], numBase)/math.log(listNumLogaritmando[0], numBase), 2)).replace(".",",")
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e negativa"
             else:
                 ehNegativoPositivo = rnd.randint(0,1)
 
                 if ehNegativoPositivo == 0:
-                    listAlternativas[numLetra] = round(math.log(rnd.randint(2,10), rnd.randint(2,9))/math.log(rnd.randint(2,10), rnd.randint(2,9)), 2)
+                    listAlternativas[numLetra] = str(round(math.log(rnd.randint(2,10), rnd.randint(2,9))/math.log(rnd.randint(2,10), rnd.randint(2,9)), 2)).replace(".",",")
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 else:
-                    listAlternativas[numLetra] = round(-math.log(rnd.randint(2,10), rnd.randint(2,9))/math.log(rnd.randint(2,10), rnd.randint(2,9)), 2)
+                    listAlternativas[numLetra] = str(round(-math.log(rnd.randint(2,10), rnd.randint(2,9))/math.log(rnd.randint(2,10), rnd.randint(2,9)), 2)).replace(".",",")
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e negativa"
 

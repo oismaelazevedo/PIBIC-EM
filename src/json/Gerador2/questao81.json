@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 9,
-            "numMultiplicadorLogaritmando": 6,
-            "numMultiplicadorBase": 7,
-            "resposta": "\u221a42"
+            "numBase": 10,
+            "numMultiplicadorLogaritmando": 4,
+            "numMultiplicadorBase": 8,
+            "resposta": "4\u22c5\u221a2"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3\u22c5\u221a10",
+            "resposta": "\u221a14",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a42",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "c)",
-            "resposta": "\u221a2",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "\u221a30",
+            "resposta": "2\u22c5\u221a2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": "-\u221a3",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "4\u22c5\u221a2",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a10",
+            "resposta": "6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(531441) = log4782969(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
-            "corretaspossiveis": "\u221a42",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(10000) = log<sub>100000000</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "4\u22c5\u221a2",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
         }
     ]
 }

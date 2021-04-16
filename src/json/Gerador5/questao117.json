@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 518,
+            "numBase": 648,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a518"
+            "resposta": "18\u22c5\u221a2"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a15",
+            "resposta": "2\u22c5\u221a146",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-14",
+            "resposta": "16\u22c5\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a518",
+            "resposta": "\u221a58",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "18\u22c5\u221a2",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "d)",
-            "resposta": "-\u221a299",
+            "letra": "e)",
+            "resposta": "-\u221a290",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "e)",
-            "resposta": "\u221a35",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 518 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a518",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 648 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "18\u22c5\u221a2",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "D"
         }
     ]
 }

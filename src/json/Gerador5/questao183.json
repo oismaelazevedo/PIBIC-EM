@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 155,
+            "numBase": 833,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a155"
+            "resposta": "7\u22c5\u221a17"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a114",
+            "resposta": "-7\u22c5\u221a17",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-7\u22c5\u221a2",
+            "resposta": "-2\u22c5\u221a166",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a115",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "\u221a155",
+            "resposta": "7\u22c5\u221a17",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "e)",
-            "resposta": "-\u221a155",
+            "letra": "d)",
+            "resposta": "-\u221a286",
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u221a645",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 155 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a155",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 833 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "7\u22c5\u221a17",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "D"
+            "respostascorretas": "C"
         }
     ]
 }

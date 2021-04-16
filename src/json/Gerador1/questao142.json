@@ -1,35 +1,35 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 566.04,
-            "numFloatAleatorio02": 92.61,
-            "ordemDez01": 91,
-            "ordemDez02": 92,
+            "numFloatAleatorio01": 548.27,
+            "numFloatAleatorio02": 73.96,
+            "ordemDez01": 83,
+            "ordemDez02": 84,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 658.65 X 10^183",
+            "resposta": "M + N = 622,23 \u00d7 10<sup>167</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 52420.96 X 10^183",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
             "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": "M . N = 40550,05 \u00d7 10<sup>167</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "d)",
-            "resposta": "M / N = 6.11 X 10^-1",
+            "resposta": "M / N = 7,41 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 566.04 X 10^91 e N = 92.61 X 10^92. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 548,27 \u00d7 10<sup>83</sup> e N = 73,96 \u00d7 10<sup>84</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

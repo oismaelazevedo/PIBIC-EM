@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 414,
+            "numBase": 698,
             "tipoDenominadorFracao": 2,
-            "resposta": "3\u22c5\u221a46"
+            "resposta": "\u221a698"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-3\u22c5\u221a46",
+            "resposta": "-\u221a698",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-2\u22c5\u221a53",
+            "resposta": "-\u221a70",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a402",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "\u221a698",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "-2\u22c5\u221a6",
+            "resposta": "-\u221a133",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "3\u22c5\u221a46",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "\u221a210",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 414 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3\u22c5\u221a46",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 698 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a698",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "respostascorretas": "C"
         }
     ]
 }

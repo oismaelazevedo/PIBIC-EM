@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 922,
+            "numBase": 266,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a922"
+            "resposta": "\u221a266"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a922",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "\u221a138",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "5\u22c5\u221a30",
+            "resposta": "2\u22c5\u221a38",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a205",
+            "resposta": "\u221a110",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a922",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "resposta": "\u221a266",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "-9\u22c5\u221a3",
+            "resposta": "-2\u22c5\u221a46",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 922 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a922",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 266 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a266",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "A"
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
         }
     ]
 }

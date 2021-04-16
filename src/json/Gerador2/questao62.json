@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 5,
-            "numMultiplicadorLogaritmando": 3,
-            "numMultiplicadorBase": 9,
-            "resposta": "3\u22c5\u221a3"
+            "numBase": 2,
+            "numMultiplicadorLogaritmando": 9,
+            "numMultiplicadorBase": 2,
+            "resposta": "3\u22c5\u221a2"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "3\u22c5\u221a2",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a14",
+            "resposta": "5\u22c5\u221a2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "3\u22c5\u221a5",
+            "resposta": "8",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-4",
+            "resposta": "1",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "3\u22c5\u221a3",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "\u221a70",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(125) = log1953125(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
-            "corretaspossiveis": "3\u22c5\u221a3",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(512) = log<sub>4</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "3\u22c5\u221a2",
             "corretas": 1,
             "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 0,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "A"
         }
     ]
 }

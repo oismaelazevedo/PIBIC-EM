@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 668.98,
-            "numFloatAleatorio02": 58.88,
-            "ordemDez01": 72,
-            "ordemDez02": 73,
+            "numFloatAleatorio01": 731.75,
+            "numFloatAleatorio02": 23.77,
+            "ordemDez01": 41,
+            "ordemDez02": 42,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 727.86 X 10^145",
+            "resposta": "M + N = 755,52 \u00d7 10<sup>83</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,13 +23,13 @@
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 39389.54 X 10^145",
+            "resposta": "M . N = 17393,7 \u00d7 10<sup>83</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 11.36 X 10^-1",
+            "resposta": "M / N = 30,78 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 668.98 X 10^72 e N = 58.88 X 10^73. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 731,75 \u00d7 10<sup>41</sup> e N = 23,77 \u00d7 10<sup>42</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

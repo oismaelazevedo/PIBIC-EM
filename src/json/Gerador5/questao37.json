@@ -1,47 +1,47 @@
 {
     "logaritmo": [
         {
-            "numBase": 404,
+            "numBase": 460,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a101"
+            "resposta": "2\u22c5\u221a115"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a194",
+            "resposta": "\u221a102",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "2\u22c5\u221a101",
+            "resposta": "2\u22c5\u221a115",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a174",
+            "resposta": "-\u221a399",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "10\u22c5\u221a3",
+            "resposta": "-2\u22c5\u221a6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "-2\u22c5\u221a71",
+            "resposta": "\u221a301",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 404 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a101",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 460 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a115",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,

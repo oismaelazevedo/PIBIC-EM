@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 603,
+            "numBase": 156,
             "tipoDenominadorFracao": 2,
-            "resposta": "3\u22c5\u221a67"
+            "resposta": "2\u22c5\u221a39"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-12\u22c5\u221a3",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "b)",
-            "resposta": "\u221a334",
+            "resposta": "\u221a65",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "b)",
+            "resposta": "-4\u22c5\u221a3",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "c)",
-            "resposta": "3\u22c5\u221a67",
+            "resposta": "2\u22c5\u221a39",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a358",
+            "resposta": "2\u22c5\u221a37",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "4\u22c5\u221a13",
+            "resposta": "-2\u22c5\u221a39",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 603 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3\u22c5\u221a67",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 156 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a39",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "C"
         }
     ]

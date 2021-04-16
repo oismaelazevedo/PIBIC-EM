@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 704,
+            "numBase": 695,
             "tipoDenominadorFracao": 2,
-            "resposta": "8\u22c5\u221a11"
+            "resposta": "\u221a695"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a57",
+            "resposta": "-\u221a695",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a454",
+            "resposta": "\u221a465",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "8\u22c5\u221a11",
+            "resposta": "\u221a695",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a437",
+            "resposta": "\u221a418",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-\u221a346",
+            "resposta": "-\u221a687",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 704 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "8\u22c5\u221a11",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 695 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a695",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "C"
         }
     ]

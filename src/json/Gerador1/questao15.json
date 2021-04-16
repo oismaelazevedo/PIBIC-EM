@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 285.54,
-            "numFloatAleatorio02": 25.74,
-            "ordemDez01": 75,
-            "ordemDez02": 76,
+            "numFloatAleatorio01": 549.76,
+            "numFloatAleatorio02": 28.98,
+            "ordemDez01": 87,
+            "ordemDez02": 88,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 311.28 X 10^151",
+            "resposta": "M + N = 578,74 \u00d7 10<sup>175</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,13 +23,13 @@
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 7349.8 X 10^151",
+            "resposta": "M . N = 15932,04 \u00d7 10<sup>175</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 11.09 X 10^-1",
+            "resposta": "M / N = 18,97 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 285.54 X 10^75 e N = 25.74 X 10^76. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 549,76 \u00d7 10<sup>87</sup> e N = 28,98 \u00d7 10<sup>88</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

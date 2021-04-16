@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 258,
+            "numBase": 860,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a258"
+            "resposta": "2\u22c5\u221a215"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a258",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "b)",
-            "resposta": "4\u22c5\u221a10",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "-\u221a142",
+            "resposta": "-\u221a206",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": "2\u22c5\u221a215",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "-2\u22c5\u221a215",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": "2\u22c5\u221a21",
+            "resposta": "\u221a42",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-2\u22c5\u221a19",
+            "resposta": "2\u22c5\u221a146",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 258 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a258",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 860 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a215",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "invertidanegativa": 1,
+            "respostascorretas": "B"
         }
     ]
 }

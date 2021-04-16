@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 10,
-            "numMultiplicadorLogaritmando": 2,
-            "numMultiplicadorBase": 3,
-            "resposta": "\u221a6"
+            "numBase": 4,
+            "numMultiplicadorLogaritmando": 7,
+            "numMultiplicadorBase": 8,
+            "resposta": "2\u22c5\u221a14"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a6",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "b)",
-            "resposta": "-6",
+            "resposta": "-2\u22c5\u221a6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": "3\u22c5\u221a2",
+            "letra": "b)",
+            "resposta": "2\u22c5\u221a10",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "d)",
-            "resposta": "-2\u22c5\u221a10",
+            "letra": "c)",
+            "resposta": "\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "2\u22c5\u221a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-4",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "2\u22c5\u221a14",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(100) = log1000(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
-            "corretaspossiveis": "\u221a6",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(16384) = log<sub>65536</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "2\u22c5\u221a14",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "E"
         }
     ]
 }

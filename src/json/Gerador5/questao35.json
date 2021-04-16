@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 908,
+            "numBase": 722,
             "tipoDenominadorFracao": 2,
-            "resposta": "2\u22c5\u221a227"
+            "resposta": "19\u22c5\u221a2"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-2\u22c5\u221a227",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "resposta": "19\u22c5\u221a2",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a33",
+            "resposta": "-4\u22c5\u221a26",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-6",
+            "resposta": "-5\u22c5\u221a10",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a202",
+            "resposta": "4\u22c5\u221a34",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a227",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "\u221a186",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 908 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "2\u22c5\u221a227",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 722 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "19\u22c5\u221a2",
             "corretas": 1,
-            "aleatoriapositiva": 1,
+            "aleatoriapositiva": 2,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
         }
     ]
 }

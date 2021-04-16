@@ -1,53 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 7,
-            "numMultiplicadorLogaritmando": 2,
-            "numMultiplicadorBase": 4,
-            "resposta": "2\u22c5\u221a2"
+            "numBase": 10,
+            "numMultiplicadorLogaritmando": 6,
+            "numMultiplicadorBase": 6,
+            "resposta": "6"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "6\u22c5\u221a2",
+            "resposta": "\u221a21",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "\u221a3",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "-\u221a70",
+            "resposta": "-3\u22c5\u221a2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "c)",
+            "resposta": "-\u221a2",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": "2\u22c5\u221a2",
+            "resposta": "6",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "-2\u22c5\u221a6",
+            "resposta": "-8",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(49) = log2401(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
-            "corretaspossiveis": "2\u22c5\u221a2",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(1000000) = log<sub>1000000</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "6",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "D"
         }
     ]

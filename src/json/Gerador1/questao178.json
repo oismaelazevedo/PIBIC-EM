@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 941.76,
-            "numFloatAleatorio02": 15.41,
-            "ordemDez01": 100,
-            "ordemDez02": 101,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 225.61,
+            "numFloatAleatorio02": 78.98,
+            "ordemDez01": 98,
+            "ordemDez02": 99,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 957.17 X 10^201",
+            "resposta": "M + N = 304,59 \u00d7 10<sup>197</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M \u2265 N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "c)",
-            "resposta": "M . N = 14512.52 X 10^201",
+            "resposta": "M . N = 17818,68 \u00d7 10<sup>197</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "d)",
-            "resposta": "M < N",
+            "letra": "c)",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
-            "letra": "e)",
-            "resposta": "M / N = 61.11 X 10^-1",
+            "letra": "d)",
+            "resposta": "M / N = 2,86 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "M < N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 941.76 X 10^100 e N = 15.41 X 10^101. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 225,61 \u00d7 10<sup>98</sup> e N = 78,98 \u00d7 10<sup>99</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "E"
         }
     ]
 }

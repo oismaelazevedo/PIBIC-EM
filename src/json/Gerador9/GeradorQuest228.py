@@ -14,7 +14,7 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open("./src/json/Gerador9/questao{}.json".format(k+1), 'w')
+    questoes = open("questao{}.json".format(k+1), 'w')
 
     numBase = rnd.randint(2,10000)
 
@@ -121,7 +121,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'A lei de decomposição de um elemento X no tempo t ≥ 0 é dada por M(t) = C.{}^(p.t), em que M(t) é quantidade de X no tempo t; C, p são constantes positivas. Se a quantidade primitiva M(0), quando dividida por {}, desaparece em 2 anos, qual a quantidade perdida em {} anos?'.format(numBase,numBase,qntHoraDecaimentoEsperado),
+                'enunciado': 'A lei de decomposição de um elemento X no tempo t ≥ 0 é dada por M(t) = C × {}<sup>(p.t)</sup>, em que M(t) é quantidade de X no tempo t; C, p são constantes positivas. Se a quantidade primitiva M(0), quando dividida por {}, desaparece em 2 anos, qual a quantidade perdida em {} anos?'.format(numBase,numBase,qntHoraDecaimentoEsperado),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

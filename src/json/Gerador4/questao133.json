@@ -1,58 +1,58 @@
 {
     "logaritmo1": [
         {
-            "base": 2,
-            "logaritmando": 128,
+            "base": 4,
+            "logaritmando": 16384,
             "resultado": 7.0
         }
     ],
     "logaritmo2": [
         {
-            "base": 2,
-            "logaritmando": 256,
-            "resultado": 8.0
+            "base": 4,
+            "logaritmando": 262144,
+            "resultado": 9.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": 0.89,
+            "resposta": "0,58",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": -1.23,
+            "resposta": "-0,63",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": 0.81,
+            "resposta": "-0,79",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": 0.88,
+            "resposta": "0,78",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": 0.54,
+            "resposta": "1,29",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 128 e 256 numa base qualquer:",
-            "corretaspossiveis": 0.88,
+            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 16384 e 262144 numa base qualquer:",
+            "corretaspossiveis": "0,78",
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
             "respostascorretas": "D"
         }

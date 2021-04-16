@@ -1,49 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 270.26,
-            "numFloatAleatorio02": 66.23,
-            "ordemDez01": 88,
-            "ordemDez02": 89,
-            "resposta": "M < N"
+            "numFloatAleatorio01": 852.78,
+            "numFloatAleatorio02": 61.76,
+            "ordemDez01": 51,
+            "ordemDez02": 52,
+            "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M \u2265 N",
+            "resposta": "M < N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 336.49 X 10^177",
+            "resposta": "M + N = 914,54 \u00d7 10<sup>103</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 17899.32 X 10^177",
+            "resposta": "M . N = 52667,69 \u00d7 10<sup>103</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M < N",
+            "resposta": "M \u2265 N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 4.08 X 10^-1",
+            "resposta": "M / N = 13,81 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 270.26 X 10^88 e N = 66.23 X 10^89. Pode-se afirmar que:",
-            "corretaspossiveis": "M < N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 852,78 \u00d7 10<sup>51</sup> e N = 61,76 \u00d7 10<sup>52</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,

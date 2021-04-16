@@ -1,18 +1,18 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 3,
+            "numBase": 5,
             "numMultiplicadorLogaritmando": 3,
-            "numMultiplicadorBase": 4,
-            "resposta": "2\u22c5\u221a3"
+            "numMultiplicadorBase": 2,
+            "resposta": "\u221a6"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-3\u22c5\u221a2",
+            "resposta": "3\u22c5\u221a6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
@@ -22,27 +22,27 @@
         },
         {
             "letra": "c)",
-            "resposta": "7",
+            "resposta": "3\u22c5\u221a3",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "6",
+            "resposta": "-6\u22c5\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a3",
+            "resposta": "\u221a6",
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(27) = log81(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
-            "corretaspossiveis": "2\u22c5\u221a3",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(125) = log<sub>25</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "\u221a6",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 1,

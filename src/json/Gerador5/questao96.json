@@ -1,50 +1,50 @@
 {
     "logaritmo": [
         {
-            "numBase": 639,
+            "numBase": 248,
             "tipoDenominadorFracao": 2,
-            "resposta": "3\u22c5\u221a71"
+            "resposta": "2\u22c5\u221a62"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a482",
+            "resposta": "-6\u22c5\u221a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u221a33",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "b)",
-            "resposta": "-3\u22c5\u221a71",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
-        },
-        {
             "letra": "c)",
-            "resposta": "3\u22c5\u221a71",
+            "resposta": "2\u22c5\u221a62",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "-2\u22c5\u221a155",
+            "resposta": "-2\u22c5\u221a57",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a205",
+            "resposta": "-2\u22c5\u221a62",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 639 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "3\u22c5\u221a71",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 248 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "2\u22c5\u221a62",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
             "respostascorretas": "C"

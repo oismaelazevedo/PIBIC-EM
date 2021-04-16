@@ -1,60 +1,60 @@
 {
     "logaritmo1": [
         {
-            "base": 6,
-            "logaritmando": 46656,
-            "resultado": 6.0
+            "base": 4,
+            "logaritmando": 262144,
+            "resultado": 9.0
         }
     ],
     "logaritmo2": [
         {
-            "base": 6,
-            "logaritmando": 7776,
-            "resultado": 5.0
+            "base": 4,
+            "logaritmando": 16384,
+            "resultado": 7.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": 2.93,
+            "resposta": "0,78",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "b)",
-            "resposta": 1.2,
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "c)",
-            "resposta": -0.51,
+            "resposta": "-1,37",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "c)",
+            "resposta": "1,29",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
             "letra": "d)",
-            "resposta": 1.13,
+            "resposta": "0,5",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": 0.83,
+            "resposta": "0,6",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 46656 e 7776 numa base qualquer:",
-            "corretaspossiveis": 1.2,
+            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 262144 e 16384 numa base qualquer:",
+            "corretaspossiveis": "1,29",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "C"
         }
     ]
 }

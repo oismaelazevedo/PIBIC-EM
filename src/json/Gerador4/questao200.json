@@ -1,60 +1,60 @@
 {
     "logaritmo1": [
         {
-            "base": 2,
-            "logaritmando": 64,
-            "resultado": 6.0
+            "base": 8,
+            "logaritmando": 512,
+            "resultado": 3.0
         }
     ],
     "logaritmo2": [
         {
-            "base": 2,
-            "logaritmando": 1024,
-            "resultado": 10.0
+            "base": 8,
+            "logaritmando": 4096,
+            "resultado": 4.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": 0.49,
+            "resposta": "-1,33",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "3,58",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "b)",
-            "resposta": -1.08,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "c)",
-            "resposta": 1.67,
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": 0.6,
+            "resposta": "0,75",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "e)",
-            "resposta": -0.43,
+            "letra": "d)",
+            "resposta": "5,61",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "2,73",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 64 e 1024 numa base qualquer:",
-            "corretaspossiveis": 0.6,
+            "enunciado": "Determine o valor aproximado da raz\u00e3o entre os logaritmos de 512 e 4096 numa base qualquer:",
+            "corretaspossiveis": "0,75",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
         }
     ]
 }

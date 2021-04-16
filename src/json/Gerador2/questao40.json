@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 2,
-            "numMultiplicadorLogaritmando": 10,
-            "numMultiplicadorBase": 9,
-            "resposta": "3\u22c5\u221a10"
+            "numBase": 4,
+            "numMultiplicadorLogaritmando": 6,
+            "numMultiplicadorBase": 10,
+            "resposta": "2\u22c5\u221a15"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1",
+            "resposta": "-2\u22c5\u221a10",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "3\u22c5\u221a10",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "-\u221a2",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a6",
+            "resposta": "3\u22c5\u221a6",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a6",
+            "resposta": "\u221a21",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": "2\u22c5\u221a15",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(1024) = log512(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
-            "corretaspossiveis": "3\u22c5\u221a10",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(4096) = log<sub>1048576</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "2\u22c5\u221a15",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
         }
     ]
 }

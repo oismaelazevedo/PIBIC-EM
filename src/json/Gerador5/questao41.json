@@ -1,52 +1,52 @@
 {
     "logaritmo": [
         {
-            "numBase": 123,
+            "numBase": 721,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a123"
+            "resposta": "\u221a721"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a6",
+            "resposta": "-\u221a721",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "10",
+            "resposta": "\u221a62",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a6",
+            "resposta": "2\u22c5\u221a42",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "\u221a123",
+            "resposta": "\u221a721",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "-2\u22c5\u221a10",
+            "resposta": "-\u221a518",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 123 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a123",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 721 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a721",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "D"
         }
     ]

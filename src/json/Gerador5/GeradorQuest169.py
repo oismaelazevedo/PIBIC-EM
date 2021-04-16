@@ -14,7 +14,7 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open("./src/json/Gerador5/questao{}.json".format(k+1), 'w')
+    questoes = open("questao{}.json".format(k+1), 'w')
 
     numBase = rnd.randint(2,1000)
 
@@ -155,7 +155,7 @@ while k < 200:
         ],
         'atributosquestao' : [
             {
-                'enunciado' : 'A soma dos logaritmos de dois números na base {} é 1/2. Determine o produto desses números.'.format(numBase),
+                'enunciado' : 'A soma dos logaritmos de dois números na base {} é 1&frasl;<sub>2</sub>. Determine o produto desses números.'.format(numBase),
                 'corretaspossiveis' : listAlternativas[isCorrect.index("Sim")],
                 'corretas' : isCorrect.count("Sim"),
                 'aleatoriapositiva' : howGenerated.count("gerada aleatoriamente e positiva"),

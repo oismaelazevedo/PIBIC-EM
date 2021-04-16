@@ -1,18 +1,18 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 3,
-            "numMultiplicadorLogaritmando": 2,
-            "numMultiplicadorBase": 5,
+            "numBase": 9,
+            "numMultiplicadorLogaritmando": 5,
+            "numMultiplicadorBase": 2,
             "resposta": "\u221a10"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-6",
+            "resposta": "1",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "b)",
@@ -22,31 +22,31 @@
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a70",
+            "resposta": "-2",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "2\u22c5\u221a6",
+            "resposta": "\u221a35",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "-9",
+            "resposta": "2\u22c5\u221a6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que logx(9) = log243(x). Assim sendo, o logar\u00edtmo de x em uma base qualquer \u00e9:",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(59049) = log<sub>81</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
             "corretaspossiveis": "\u221a10",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
             "respostascorretas": "B"
         }

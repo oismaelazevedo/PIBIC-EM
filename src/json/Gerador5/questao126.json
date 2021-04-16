@@ -1,47 +1,47 @@
 {
     "logaritmo": [
         {
-            "numBase": 357,
+            "numBase": 745,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a357"
+            "resposta": "\u221a745"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "2\u22c5\u221a69",
+            "resposta": "4\u22c5\u221a10",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "3\u22c5\u221a7",
+            "resposta": "-6\u22c5\u221a6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-\u221a265",
+            "resposta": "-6\u22c5\u221a14",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "-5\u22c5\u221a7",
+            "resposta": "2\u22c5\u221a38",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a357",
+            "resposta": "\u221a745",
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 357 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a357",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 745 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a745",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,

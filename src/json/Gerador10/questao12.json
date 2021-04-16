@@ -1,55 +1,55 @@
 {
     "logaritmo": [
         {
-            "taxaMes": 82,
-            "valMultiplicadorMonteInicial": 341,
-            "logTaxaMes": 0.26,
-            "logValMultiplicadorMonteInicial": 2.53,
-            "resposta": 9
+            "taxaMes": 98,
+            "valMultiplicadorMonteInicial": 993,
+            "logTaxaMes": 0.3,
+            "logValMultiplicadorMonteInicial": 3.0,
+            "resposta": 10
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": -102,
+            "resposta": -12,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": -99,
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": 29,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "c)",
-            "resposta": 86,
+            "resposta": -10,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": 9,
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": -28,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": -9,
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": 10,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C0.(1 + i)^t, em que C0 \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 82% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 341?\nAdmita que log1.8199999999999998 = 0.26 e log341 = 2.53",
-            "corretaspossiveis": 9,
+            "enunciado": "O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do per\u00edodo), ap\u00f3s t per\u00edodos, \u00e9 dado por C = C<sub>0</sub> \u00d7 (1 + i)<sup>t</sup>, em que C<sub>0</sub> \u00e9 o valor inicial.\nQual \u00e9 o tempo necess\u00e1rio para que um capital empregado \u00e0 taxa de 98% ao m\u00eas, com juros capitalizados mensalmente, seja multiplicado por 993?\nAdmita que log(1.98) = 0.3 e log(993) = 3.0",
+            "corretaspossiveis": 10,
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "D"
+            "respostascorretas": "E"
         }
     ]
 }

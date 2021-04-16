@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 55,
+            "numBase": 713,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a55"
+            "resposta": "\u221a713"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "4\u22c5\u221a2",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "\u221a55",
+            "resposta": "\u221a713",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "-\u221a22",
+            "letra": "b)",
+            "resposta": "-\u221a713",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "2\u22c5\u221a66",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-2\u22c5\u221a5",
+            "resposta": "-2\u22c5\u221a101",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "-4",
+            "resposta": "2\u22c5\u221a123",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 55 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a55",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 713 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "\u221a713",
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
         }
     ]
 }

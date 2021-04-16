@@ -1,49 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 291.8,
-            "numFloatAleatorio02": 16.19,
-            "ordemDez01": 78,
-            "ordemDez02": 79,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 492.49,
+            "numFloatAleatorio02": 70.1,
+            "ordemDez01": 64,
+            "ordemDez02": 65,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M \u2265 N",
+            "resposta": "M < N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 307.99 X 10^157",
+            "resposta": "M + N = 562,59 \u00d7 10<sup>129</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 4724.24 X 10^157",
+            "resposta": "M . N = 34523,55 \u00d7 10<sup>129</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M < N",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 18.02 X 10^-1",
+            "resposta": "M / N = 7,03 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 291.8 X 10^78 e N = 16.19 X 10^79. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 492,49 \u00d7 10<sup>64</sup> e N = 70,1 \u00d7 10<sup>65</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,

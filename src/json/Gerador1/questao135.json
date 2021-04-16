@@ -1,25 +1,25 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 943.25,
-            "numFloatAleatorio02": 99.77,
-            "ordemDez01": 98,
-            "ordemDez02": 99,
+            "numFloatAleatorio01": 625.27,
+            "numFloatAleatorio02": 62.96,
+            "ordemDez01": 22,
+            "ordemDez02": 23,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 1043.02 X 10^197",
+            "resposta": "M + N = 688,23 \u00d7 10<sup>45</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 94108.05 X 10^197",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "c)",
@@ -29,20 +29,20 @@
         },
         {
             "letra": "d)",
-            "resposta": "M \u2265 N",
+            "resposta": "M . N = 39367,0 \u00d7 10<sup>45</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 9.45 X 10^-1",
+            "resposta": "M / N = 9,93 \u00d7 10<sup>-1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 943.25 X 10^98 e N = 99.77 X 10^99. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 625,27 \u00d7 10<sup>22</sup> e N = 62,96 \u00d7 10<sup>23</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

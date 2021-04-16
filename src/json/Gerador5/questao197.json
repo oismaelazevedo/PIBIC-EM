@@ -1,53 +1,53 @@
 {
     "logaritmo": [
         {
-            "numBase": 502,
+            "numBase": 117,
             "tipoDenominadorFracao": 2,
-            "resposta": "\u221a502"
+            "resposta": "3\u22c5\u221a13"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a85",
+            "resposta": "-2\u22c5\u221a13",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a111",
+            "resposta": "5\u22c5\u221a2",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a502",
+            "resposta": "-3\u22c5\u221a13",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "3\u22c5\u221a13",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "d)",
-            "resposta": "-2\u22c5\u221a122",
+            "letra": "e)",
+            "resposta": "-\u221a115",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "e)",
-            "resposta": "3\u22c5\u221a41",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 502 \u00e9 1/2. Determine o produto desses n\u00fameros.",
-            "corretaspossiveis": "\u221a502",
+            "enunciado": "A soma dos logaritmos de dois n\u00fameros na base 117 \u00e9 1&frasl;<sub>2</sub>. Determine o produto desses n\u00fameros.",
+            "corretaspossiveis": "3\u22c5\u221a13",
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
         }
     ]
 }
