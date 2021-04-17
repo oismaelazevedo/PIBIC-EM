@@ -1,57 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 501,
-            "valX02": 120,
-            "num01": 440,
-            "num02": 907,
-            "numResposta": 4,
-            "express": "21\u22c5x + 4068",
-            "resposta": "[-1356/7]"
+            "numBase": 599,
+            "resposta": 3
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a14319\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35032\u23a6",
+            "resposta": 5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "\u23a1 8910\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a316829\u23a6",
+            "resposta": -15,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u23a14535\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35913\u23a6",
+            "resposta": 15,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "\u23a1-4736 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 493  \u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": 3,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "[-1356/7]",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": 10,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(501\ud835\udc65 + 440) - log(120\ud835\udc65 - 907) = log 4, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "[-1356/7]",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 599<sup>\ud835\udc65</sup> = 214921799",
+            "corretaspossiveis": 3,
             "corretas": 1,
-            "aleatoriapositiva": 4,
-            "aleatorianegativa": 0,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "D"
         }
     ]
 }

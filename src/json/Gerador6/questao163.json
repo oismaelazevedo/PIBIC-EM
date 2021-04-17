@@ -1,57 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 260,
-            "valX02": 56,
-            "num01": 774,
-            "num02": 67,
-            "numResposta": 13,
-            "express": "1645 - 468\u22c5x",
-            "resposta": "\u23a11645\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3468 \u23a6"
+            "numBase": 512,
+            "resposta": 5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a11645\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3468 \u23a6",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": 12,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "\u23a11639\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32949\u23a6",
+            "resposta": -8,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u23a1639\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 37\u23a6",
+            "resposta": 5,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": 6,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "d)",
-            "resposta": "\u23a14739\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36442\u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "e)",
-            "resposta": "\u23a11381\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38908\u23a6",
+            "resposta": -7,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(260\ud835\udc65 + 774) - log(56\ud835\udc65 - 67) = log 13, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a11645\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3468 \u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 512<sup>\ud835\udc65</sup> = 35184372088832",
+            "corretaspossiveis": 5,
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "C"
         }
     ]
 }

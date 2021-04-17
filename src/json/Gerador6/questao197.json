@@ -1,55 +1,50 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 878,
-            "valX02": 498,
-            "num01": 428,
-            "num02": 611,
-            "numResposta": 5,
-            "express": "3483 - 1612\u22c5x",
-            "resposta": "\u23a13483\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31612\u23a6"
+            "numBase": 97,
+            "resposta": 4
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a14379\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3919 \u23a6",
+            "resposta": -10,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u23a113402\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a310729\u23a6",
+            "resposta": -9,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": 5,
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": 12,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "\u23a1-1251 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 134  \u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "\u23a1 4676\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a310055\u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "e)",
-            "resposta": "\u23a13483\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31612\u23a6",
+            "resposta": 4,
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(878\ud835\udc65 + 428) - log(498\ud835\udc65 - 611) = log 5, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a13483\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31612\u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 97<sup>\ud835\udc65</sup> = 88529281",
+            "corretaspossiveis": 4,
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
-            "invertidapositiva": 0,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
             "respostascorretas": "E"
         }

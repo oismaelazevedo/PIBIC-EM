@@ -1,51 +1,46 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 266,
-            "valX02": 469,
-            "num01": 7,
-            "num02": 358,
-            "numResposta": 17,
-            "express": "6093 - 7707\u22c5x",
-            "resposta": "\u23a12031\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32569\u23a6"
+            "numBase": 128,
+            "resposta": 3
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a12031\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32569\u23a6",
+            "resposta": 3,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "\u23a1-2571 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 380  \u23a6",
+            "resposta": 5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "\u23a1271\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3107\u23a6",
+            "resposta": 12,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "\u23a18453\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a34069\u23a6",
+            "resposta": 13,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u23a14576\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32099\u23a6",
+            "resposta": -11,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(266\ud835\udc65 + 7) - log(469\ud835\udc65 - 358) = log 17, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a12031\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32569\u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 128<sup>\ud835\udc65</sup> = 2097152",
+            "corretaspossiveis": 3,
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 1,

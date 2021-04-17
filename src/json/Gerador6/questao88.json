@@ -1,56 +1,51 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 584,
-            "valX02": 845,
-            "num01": 485,
-            "num02": 153,
-            "numResposta": 10,
-            "express": "2015 - 7866\u22c5x",
-            "resposta": "\u23a12015\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37866\u23a6"
+            "numBase": 596,
+            "resposta": 3
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a19205\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a39552\u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "\u23a11093\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3268 \u23a6",
+            "resposta": -14,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": 11,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "c)",
-            "resposta": "\u23a13509\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3752 \u23a6",
+            "resposta": 8,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "\u23a1731\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3730\u23a6",
+            "resposta": -15,
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u23a12015\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37866\u23a6",
+            "resposta": 3,
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(584\ud835\udc65 + 485) - log(845\ud835\udc65 - 153) = log 10, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a12015\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37866\u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 596<sup>\ud835\udc65</sup> = 211708736",
+            "corretaspossiveis": 3,
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "E"
         }
     ]

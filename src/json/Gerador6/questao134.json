@@ -1,57 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 783,
-            "valX02": 384,
-            "num01": 996,
-            "num02": 628,
-            "numResposta": 18,
-            "express": "12300 - 6129\u22c5x",
-            "resposta": "\u23a14100\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32043\u23a6"
+            "numBase": 338,
+            "resposta": 4
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a114635\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 4187\u23a6",
+            "resposta": -7,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u23a19470\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a37047\u23a6",
+            "resposta": 14,
             "correta": "Nao",
-            "tipoerro": "invertida e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "\u23a1 9084\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a318479\u23a6",
+            "resposta": 16,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "\u23a15530\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3827 \u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": 4,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "\u23a14100\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32043\u23a6",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": -15,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(783\ud835\udc65 + 996) - log(384\ud835\udc65 - 628) = log 18, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a14100\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a32043\u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 338<sup>\ud835\udc65</sup> = 13051691536",
+            "corretaspossiveis": 4,
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 0,
-            "invertidapositiva": 0,
-            "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
         }
     ]
 }

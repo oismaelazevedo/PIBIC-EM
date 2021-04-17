@@ -14,7 +14,7 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open("questao{}-71a.json".format(k+1), 'w')
+    questoes = open("questao{}.json".format(k+1), 'w')
 
     numBase = rnd.randint(2,1000)
     resposta = rnd.randint(2,5)
@@ -109,7 +109,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Resolva a seguinte equação exponencial: {} = {}'.format(pretty(numBase ** x), numBase ** resposta),
+                'enunciado': 'Resolva a seguinte equação exponencial: {}<sup>𝑥</sup> = {}'.format(pretty(numBase), numBase ** resposta),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

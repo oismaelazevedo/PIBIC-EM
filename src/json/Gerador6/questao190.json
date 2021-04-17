@@ -1,55 +1,50 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 876,
-            "valX02": 922,
-            "num01": 654,
-            "num02": 754,
-            "numResposta": 9,
-            "express": "7440 - 7422\u22c5x",
-            "resposta": "\u23a11240\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31237\u23a6"
+            "numBase": 477,
+            "resposta": 4
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a11240\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31237\u23a6",
+            "resposta": 4,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "\u23a111138\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 3567\u23a6",
+            "resposta": 11,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": -8,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": "\u23a13781\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33942\u23a6",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
             "letra": "d)",
-            "resposta": "\u23a19353\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a39665\u23a6",
+            "resposta": 8,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u23a16934\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38847\u23a6",
+            "resposta": 9,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(876\ud835\udc65 + 654) - log(922\ud835\udc65 - 754) = log 9, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a11240\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31237\u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 477<sup>\ud835\udc65</sup> = 51769445841",
+            "corretaspossiveis": 4,
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "A"
         }

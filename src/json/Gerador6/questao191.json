@@ -1,57 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 188,
-            "valX02": 752,
-            "num01": 13,
-            "num02": 932,
-            "numResposta": 20,
-            "express": "18653 - 14852\u22c5x",
-            "resposta": "\u23a118653\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a314852\u23a6"
+            "numBase": 478,
+            "resposta": 5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a118653\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a314852\u23a6",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": -12,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u23a1899 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31335\u23a6",
+            "resposta": 6,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "\u23a1271\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3140\u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": 5,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "\u23a11859\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33274\u23a6",
+            "resposta": -11,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u23a18787\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35180\u23a6",
+            "resposta": 13,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(188\ud835\udc65 + 13) - log(752\ud835\udc65 - 932) = log 20, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a118653\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a314852\u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 478<sup>\ud835\udc65</sup> = 24953960486368",
+            "corretaspossiveis": 5,
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "C"
         }
     ]
 }

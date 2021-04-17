@@ -1,57 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 973,
-            "valX02": 32,
-            "num01": 411,
-            "num02": 464,
-            "numResposta": 8,
-            "express": "717\u22c5x + 4123",
-            "resposta": "\u23a1-4123 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 717  \u23a6"
+            "numBase": 360,
+            "resposta": 3
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a1-4123 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 717  \u23a6",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": -7,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u23a12293\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31360\u23a6",
+            "resposta": -8,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u23a1751 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31880\u23a6",
+            "resposta": -14,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "\u23a11097\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31833\u23a6",
+            "resposta": 11,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u23a12387\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3765 \u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": 3,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(973\ud835\udc65 + 411) - log(32\ud835\udc65 - 464) = log 8, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a1-4123 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 717  \u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 360<sup>\ud835\udc65</sup> = 46656000",
+            "corretaspossiveis": 3,
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "E"
         }
     ]
 }

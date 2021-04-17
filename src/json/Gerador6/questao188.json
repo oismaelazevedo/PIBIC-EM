@@ -1,57 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 286,
-            "valX02": 920,
-            "num01": 440,
-            "num02": 687,
-            "numResposta": 18,
-            "express": "12806 - 16274\u22c5x",
-            "resposta": "\u23a16403\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38137\u23a6"
+            "numBase": 160,
+            "resposta": 4
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a112401\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 9357\u23a6",
+            "resposta": 4,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": -15,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "\u23a11112\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35241\u23a6",
+            "letra": "c)",
+            "resposta": 15,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "\u23a16727\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38945\u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": "\u23a13853\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33576\u23a6",
+            "resposta": 7,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "\u23a16403\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38137\u23a6",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": -13,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(286\ud835\udc65 + 440) - log(920\ud835\udc65 - 687) = log 18, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a16403\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38137\u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 160<sup>\ud835\udc65</sup> = 655360000",
+            "corretaspossiveis": 4,
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "A"
         }
     ]
 }

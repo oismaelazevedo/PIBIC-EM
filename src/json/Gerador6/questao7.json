@@ -1,57 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 505,
-            "valX02": 585,
-            "num01": 917,
-            "num02": 926,
-            "numResposta": 12,
-            "express": "12029 - 6515\u22c5x",
-            "resposta": "\u23a112029\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 6515\u23a6"
+            "numBase": 193,
+            "resposta": 2
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a12766\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a38243\u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "\u23a110021\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 6100\u23a6",
+            "resposta": -13,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": 2,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
             "letra": "c)",
-            "resposta": "\u23a12503\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31212\u23a6",
+            "resposta": -12,
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "[22/7]",
+            "resposta": -6,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u23a112029\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 6515\u23a6",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": -14,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(505\ud835\udc65 + 917) - log(585\ud835\udc65 - 926) = log 12, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a112029\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 6515\u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 193<sup>\ud835\udc65</sup> = 37249",
+            "corretaspossiveis": 2,
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "E"
+            "respostascorretas": "B"
         }
     ]
 }

@@ -1,57 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 3,
-            "valX02": 253,
-            "num01": 549,
-            "num02": 934,
-            "numResposta": 18,
-            "express": "17361 - 4551\u22c5x",
-            "resposta": "\u23a15787\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31517\u23a6"
+            "numBase": 688,
+            "resposta": 4
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a11407\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31345\u23a6",
+            "resposta": 9,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "\u23a1 6338\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a312291\u23a6",
+            "resposta": -10,
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": -11,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "c)",
-            "resposta": "\u23a1887 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33356\u23a6",
+            "letra": "d)",
+            "resposta": 7,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "d)",
-            "resposta": "\u23a15787\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31517\u23a6",
+            "letra": "e)",
+            "resposta": 4,
             "correta": "Sim",
             "tipoerro": "nenhum"
-        },
-        {
-            "letra": "e)",
-            "resposta": "\u23a111069\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  54 \u23a6",
-            "correta": "Nao",
-            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(3\ud835\udc65 + 549) - log(253\ud835\udc65 - 934) = log 18, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a15787\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31517\u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 688<sup>\ud835\udc65</sup> = 224054542336",
+            "corretaspossiveis": 4,
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 1,
-            "respostascorretas": "D"
+            "respostascorretas": "E"
         }
     ]
 }

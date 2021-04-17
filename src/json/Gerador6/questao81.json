@@ -1,56 +1,51 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 94,
-            "valX02": 864,
-            "num01": 581,
-            "num02": 242,
-            "numResposta": 4,
-            "express": "1549 - 3362\u22c5x",
-            "resposta": "\u23a11549\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33362\u23a6"
+            "numBase": 333,
+            "resposta": 4
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a1 61\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3791\u23a6",
+            "resposta": -10,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "\u23a11971\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a35357\u23a6",
+            "resposta": -8,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u23a11549\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33362\u23a6",
+            "resposta": 4,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "\u23a16771\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a36680\u23a6",
+            "resposta": -14,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "\u23a14165\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31364\u23a6",
+            "resposta": -11,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(94\ud835\udc65 + 581) - log(864\ud835\udc65 - 242) = log 4, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a11549\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a33362\u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 333<sup>\ud835\udc65</sup> = 12296370321",
+            "corretaspossiveis": 4,
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "C"
         }
     ]

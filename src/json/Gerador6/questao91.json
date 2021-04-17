@@ -1,57 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "valX01": 350,
-            "valX02": 106,
-            "num01": 685,
-            "num02": 583,
-            "numResposta": 8,
-            "express": "5349 - 498\u22c5x",
-            "resposta": "\u23a11783\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3166 \u23a6"
+            "numBase": 402,
+            "resposta": 2
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u23a11033\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3 36 \u23a6",
+            "resposta": -12,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": -3,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": 15,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "b)",
-            "resposta": "\u23a11783\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3166 \u23a6",
+            "letra": "d)",
+            "resposta": 2,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "\u23a1-299 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 417 \u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "\u23a112661\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3 1494\u23a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": "\u23a1520\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3883\u23a6",
+            "resposta": -7,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(PUC-PR-modificada) Se log(350\ud835\udc65 + 685) - log(106\ud835\udc65 - 583) = log 8, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
-            "corretaspossiveis": "\u23a11783\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3166 \u23a6",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial: 402<sup>\ud835\udc65</sup> = 161604",
+            "corretaspossiveis": 2,
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
         }
     ]
 }
