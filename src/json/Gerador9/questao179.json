@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 4643,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 4643\u22c5\u221a4643"
+            "numBase": 5,
+            "numExpoenteNumBase": 2,
+            "numMultiplicadorIncognitaAlternativa": 1109,
+            "express": "    x       x + 1       x + 2      2\u22c5x + 1\n- 25  - 5\u22c525      + 2\u22c525      - 3\u22c55       ",
+            "resposta": 1.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 4643\u22c5\u221a4643",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "resposta": 1.0,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 1721\u22c5\u221a1721",
+            "resposta": 2.5,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "1 + 1313\u22c5\u221a1313",
+            "resposta": 3.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 4643\u22c5\u221a4643",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": 10.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 4202\u22c5\u221a4202",
+            "resposta": -6.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.4643^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 4643, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 4643\u22c5\u221a4643",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.25<sup>\ud835\udc65 + 2</sup> - 5.25<sup>\ud835\udc65 + 1</sup> - 3.5<sup>2\ud835\udc65 + 1</sup> - 25<sup>\ud835\udc65</sup> = 27725",
+            "corretaspossiveis": 1.0,
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "A"
         }
     ]
 }

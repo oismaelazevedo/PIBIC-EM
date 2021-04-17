@@ -1,48 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 8337,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 69505569\u22c5\u221a8337"
+            "numBase": 18,
+            "numExpoenteNumBase": 5,
+            "numMultiplicadorIncognitaAlternativa": 208277,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c518        - 324  - 5\u22c5324      + 2\u22c5324     ",
+            "resposta": 2.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 362404\u22c5\u221a602",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "1 + 69505569\u22c5\u221a8337",
+            "resposta": 1.67,
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
+            "letra": "b)",
+            "resposta": 7.5,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "c)",
-            "resposta": "1 - 42523441\u22c5\u221a6521",
+            "resposta": -3.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "1 + 37531107\u22c5\u221a393",
+            "resposta": 9.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 69505569\u22c5\u221a8337",
+            "resposta": 2.5,
             "correta": "Sim",
             "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.8337^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 8337, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 69505569\u22c5\u221a8337",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.324<sup>\ud835\udc65 + 2</sup> - 5.324<sup>\ud835\udc65 + 1</sup> - 3.18<sup>2\ud835\udc65 + 1</sup> - 324<sup>\ud835\udc65</sup> = 393553554336",
+            "corretaspossiveis": 2.5,
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 1,

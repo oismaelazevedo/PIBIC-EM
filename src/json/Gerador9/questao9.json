@@ -1,52 +1,53 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 7914,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 7914\u22c5\u221a7914"
+            "numBase": 14,
+            "numExpoenteNumBase": 6,
+            "numMultiplicadorIncognitaAlternativa": 75809,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c514        - 196  - 5\u22c5196      + 2\u22c5196     ",
+            "resposta": 3.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 5992\u22c5\u221a749",
+            "resposta": 10.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 7914\u22c5\u221a7914",
+            "resposta": 3.0,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "1 - 7765\u22c5\u221a7765",
+            "resposta": -9.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 1041\u22c5\u221a1041",
+            "resposta": 2.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 8250\u22c5\u221a66",
+            "resposta": -1.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 7914<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 7914, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 7914\u22c5\u221a7914",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.196<sup>\ud835\udc65 + 2</sup> - 5.196<sup>\ud835\udc65 + 1</sup> - 3.14<sup>2\ud835\udc65 + 1</sup> - 196<sup>\ud835\udc65</sup> = 570806594624",
+            "corretaspossiveis": 3.0,
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
-            "invertidapositiva": 0,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
             "respostascorretas": "B"
         }

@@ -1,53 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 7101,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 21303\u22c5\u221a789"
+            "numBase": 7,
+            "numExpoenteNumBase": 2,
+            "numMultiplicadorIncognitaAlternativa": 4535,
+            "express": "    x       x + 1       x + 2      2\u22c5x + 1\n- 49  - 5\u22c549      + 2\u22c549      - 3\u22c57       ",
+            "resposta": 1.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 21303\u22c5\u221a789",
+            "resposta": 1.0,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "1 + 5033\u22c5\u221a5033",
+            "resposta": 10.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "1 - 5752\u22c5\u221a719",
+            "resposta": -3.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 6528\u22c5\u221a102",
+            "resposta": -0.67,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 9536\u22c5\u221a149",
+            "resposta": -8.5,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.7101^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 7101, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 21303\u22c5\u221a789",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.49<sup>\ud835\udc65 + 2</sup> - 5.49<sup>\ud835\udc65 + 1</sup> - 3.7<sup>2\ud835\udc65 + 1</sup> - 49<sup>\ud835\udc65</sup> = 222215",
+            "corretaspossiveis": 1.0,
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "A"
         }
     ]

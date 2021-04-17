@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 6055,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 6055\u22c5\u221a6055"
+            "numBase": 12,
+            "numExpoenteNumBase": 6,
+            "numMultiplicadorIncognitaAlternativa": 40715,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c512        - 144  - 5\u22c5144      + 2\u22c5144     ",
+            "resposta": 3.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 5989\u22c5\u221a5989",
+            "resposta": -8.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 2483\u22c5\u221a2483",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "1 - 6055\u22c5\u221a6055",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "d)",
-            "resposta": "1 + 807\u22c5\u221a807",
+            "resposta": 3.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": 2.0,
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": 3.0,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
             "letra": "e)",
-            "resposta": "1 + 1466\u22c5\u221a1466",
+            "resposta": 4.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.6055^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 6055, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 6055\u22c5\u221a6055",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.144<sup>\ud835\udc65 + 2</sup> - 5.144<sup>\ud835\udc65 + 1</sup> - 3.12<sup>2\ud835\udc65 + 1</sup> - 144<sup>\ud835\udc65</sup> = 121574338560",
+            "corretaspossiveis": 3.0,
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 0,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "D"
         }
     ]
 }

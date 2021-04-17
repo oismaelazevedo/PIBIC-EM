@@ -1,48 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 1191,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 1191\u22c5\u221a1191"
+            "numBase": 18,
+            "numExpoenteNumBase": 9,
+            "numMultiplicadorIncognitaAlternativa": 208277,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c518        - 324  - 5\u22c5324      + 2\u22c5324     ",
+            "resposta": 4.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 1191\u22c5\u221a1191",
+            "resposta": 4.5,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 2160\u22c5\u221a10",
+            "resposta": -4.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "1 - 217\u22c5\u221a217",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "1 + 1464\u22c5\u221a183",
+            "resposta": 8.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "d)",
+            "resposta": -5.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "e)",
-            "resposta": "1 + 86\u22c5\u221a86",
+            "resposta": 7.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 1191<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 1191, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 1191\u22c5\u221a1191",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.324<sup>\ud835\udc65 + 2</sup> - 5.324<sup>\ud835\udc65 + 1</sup> - 3.18<sup>2\ud835\udc65 + 1</sup> - 324<sup>\ud835\udc65</sup> = 41313677919975936",
+            "corretaspossiveis": 4.5,
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,

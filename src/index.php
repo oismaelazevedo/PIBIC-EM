@@ -72,7 +72,7 @@ $_SESSION['resperrada'] = 0;
 
           <div class="col-md-5">
             Exercícios de fixação para melhor entendimento em Equação Exponencial no Ensino Médio.<br><br>
-            OBS.: Você encontrará o símbolo "^" em muitas questões. Lembre-se, ela significa "[...]elevado a[...]".
+            OBS.: Nas questões, você encontrará muitos valores altíssimos, portanto, não tenha medo em usar a calculadora! 🧮
           </div>
 
           <div class="col-md-7" style="border-left:1px solid #ccc;height:160px">

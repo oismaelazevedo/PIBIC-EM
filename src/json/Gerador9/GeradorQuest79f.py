@@ -10,11 +10,11 @@ def elementosListaEhDistinta(lista):
             elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
                 return False
 
-enunciado = [None]*50
+enunciado = [None]*200
 k = 0
-while k < 50:
+while k < 200:
 
-    questoes = open("questao{}-79f.json".format(k+1),'w')
+    questoes = open("./src/json/Gerador9/questao{}.json".format(k+1),'w')
 
     numBase = rnd.randint(2,20)
     numExpoenteNumBase = rnd.randint(1,10)
@@ -114,7 +114,7 @@ while k < 50:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Resolva a seguinte equação exponencial:\n{} = {}'.format(pretty(express), numMultiplicadorIncognitaAlternativa * (numBase ** numExpoenteNumBase)),
+                'enunciado': 'Resolva a seguinte equação exponencial:\n2.{}<sup>𝑥 + 2</sup> - 5.{}<sup>𝑥 + 1</sup> - 3.{}<sup>2𝑥 + 1</sup> - {}<sup>𝑥</sup> = {}'.format(numBase**2, numBase**2, numBase, numBase**2,numMultiplicadorIncognitaAlternativa * (numBase ** numExpoenteNumBase)),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),

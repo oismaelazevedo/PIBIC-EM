@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 8094,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 65512836\u22c5\u221a8094"
+            "numBase": 5,
+            "numExpoenteNumBase": 10,
+            "numMultiplicadorIncognitaAlternativa": 1109,
+            "express": "    x       x + 1       x + 2      2\u22c5x + 1\n- 25  - 5\u22c525      + 2\u22c525      - 3\u22c55       ",
+            "resposta": 5.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 763876\u22c5\u221a874",
+            "resposta": -1.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": 6.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "b)",
-            "resposta": "1 - 30747025\u22c5\u221a5545",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "c)",
-            "resposta": "1 - 34798201\u22c5\u221a5899",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": 5.0,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 22686848\u22c5\u221a842",
+            "resposta": 3.33,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 65512836\u22c5\u221a8094",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": 7.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.8094^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 8094, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 65512836\u22c5\u221a8094",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.25<sup>\ud835\udc65 + 2</sup> - 5.25<sup>\ud835\udc65 + 1</sup> - 3.5<sup>2\ud835\udc65 + 1</sup> - 25<sup>\ud835\udc65</sup> = 10830078125",
+            "corretaspossiveis": 5.0,
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "C"
         }
     ]
 }

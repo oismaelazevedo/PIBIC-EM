@@ -1,51 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 9328,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 348046336\u22c5\u221a583"
+            "numBase": 20,
+            "numExpoenteNumBase": 3,
+            "numMultiplicadorIncognitaAlternativa": 317939,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c520        - 400  - 5\u22c5400      + 2\u22c5400     ",
+            "resposta": 1.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 348046336\u22c5\u221a583",
+            "resposta": 1.5,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "1 + 66031876\u22c5\u221a8126",
+            "resposta": -1.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "1 + 262812500\u22c5\u221a290",
+            "resposta": 7.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "1 + 348046336\u22c5\u221a583",
+            "resposta": 1.0,
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 70257924\u22c5\u221a8382",
+            "resposta": -5.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 9328<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 9328, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 348046336\u22c5\u221a583",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.400<sup>\ud835\udc65 + 2</sup> - 5.400<sup>\ud835\udc65 + 1</sup> - 3.20<sup>2\ud835\udc65 + 1</sup> - 400<sup>\ud835\udc65</sup> = 2543512000",
+            "corretaspossiveis": 1.5,
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
             "respostascorretas": "A"

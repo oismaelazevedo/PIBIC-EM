@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 8461,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 71588521\u22c5\u221a8461"
+            "numBase": 16,
+            "numExpoenteNumBase": 10,
+            "numMultiplicadorIncognitaAlternativa": 129743,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c516        - 256  - 5\u22c5256      + 2\u22c5256     ",
+            "resposta": 5.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 173056\u22c5\u221a13",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": 5.0,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 181503125\u22c5\u221a241",
+            "resposta": -2.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "1 - 71588521\u22c5\u221a8461",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": 2.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "1 + 19428892\u22c5\u221a34",
+            "resposta": -3.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 29789764\u22c5\u221a5458",
+            "resposta": -2.5,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 8461<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 8461, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 71588521\u22c5\u221a8461",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.256<sup>\ud835\udc65 + 2</sup> - 5.256<sup>\ud835\udc65 + 1</sup> - 3.16<sup>2\ud835\udc65 + 1</sup> - 256<sup>\ud835\udc65</sup> = 142653937122541568",
+            "corretaspossiveis": 5.0,
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "A"
         }
     ]
 }

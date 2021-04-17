@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 3731,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 3731\u22c5\u221a3731"
+            "numBase": 3,
+            "numExpoenteNumBase": 2,
+            "numMultiplicadorIncognitaAlternativa": 107,
+            "express": "     2\u22c5x + 1    x      x + 1      x + 2\n- 3\u22c53        - 9  - 5\u22c59      + 2\u22c59     ",
+            "resposta": 1.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 6032\u22c5\u221a754",
+            "resposta": -1.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 3731\u22c5\u221a3731",
+            "resposta": -1.5,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": 1.0,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "-999",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": "1 - 3194\u22c5\u221a3194",
+            "resposta": 7.5,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 912\u22c5\u221a114",
+            "resposta": 8.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 3731<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3731, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 3731\u22c5\u221a3731",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.9<sup>\ud835\udc65 + 2</sup> - 5.9<sup>\ud835\udc65 + 1</sup> - 3.3<sup>2\ud835\udc65 + 1</sup> - 9<sup>\ud835\udc65</sup> = 963",
+            "corretaspossiveis": 1.0,
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "C"
         }
     ]
 }

@@ -1,48 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 4098,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 16793604\u22c5\u221a4098"
+            "numBase": 11,
+            "numExpoenteNumBase": 9,
+            "numMultiplicadorIncognitaAlternativa": 28643,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c511        - 121  - 5\u22c5121      + 2\u22c5121     ",
+            "resposta": 4.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 5008644\u22c5\u221a2238",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "1 - 844561\u22c5\u221a919",
+            "resposta": -9.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": 1.5,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "c)",
-            "resposta": "1 - 3433609\u22c5\u221a1853",
+            "resposta": -3.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 16793604\u22c5\u221a4098",
+            "resposta": 4.5,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 9821956\u22c5\u221a3134",
+            "resposta": 7.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 4098<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 4098, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 16793604\u22c5\u221a4098",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.121<sup>\ud835\udc65 + 2</sup> - 5.121<sup>\ud835\udc65 + 1</sup> - 3.11<sup>2\ud835\udc65 + 1</sup> - 121<sup>\ud835\udc65</sup> = 67538695713313",
+            "corretaspossiveis": 4.5,
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,

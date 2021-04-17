@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 4571,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 20894041\u22c5\u221a4571"
+            "numBase": 9,
+            "numExpoenteNumBase": 10,
+            "numMultiplicadorIncognitaAlternativa": 12689,
+            "express": "    x       x + 1       x + 2      2\u22c5x + 1\n- 81  - 5\u22c581      + 2\u22c581      - 3\u22c59       ",
+            "resposta": 5.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 29184800\u22c5\u221a955",
+            "resposta": 4.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 75078125\u22c5\u221a155",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "1 + 29647548\u22c5\u221a42",
+            "resposta": 2.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": -8.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": "1 - 20894041\u22c5\u221a4571",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": -5.5,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 20894041\u22c5\u221a4571",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "resposta": 5.0,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.4571^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 4571, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 20894041\u22c5\u221a4571",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.81<sup>\ud835\udc65 + 2</sup> - 5.81<sup>\ud835\udc65 + 1</sup> - 3.9<sup>2\ud835\udc65 + 1</sup> - 81<sup>\ud835\udc65</sup> = 44243807264289",
+            "corretaspossiveis": 5.0,
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "E"
         }
     ]
 }

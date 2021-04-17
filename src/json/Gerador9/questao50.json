@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 9680,
-            "indice": 2,
-            "expoente": 4,
-            "resultado": "-93702399"
+            "numBase": 19,
+            "numExpoenteNumBase": 5,
+            "numMultiplicadorIncognitaAlternativa": 258779,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c519        - 361  - 5\u22c5361      + 2\u22c5361     ",
+            "resposta": 2.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "93702401",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "5248682",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "-93702399",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "d)",
-            "resposta": "-62141688",
+            "resposta": -4.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "e)",
-            "resposta": "998002",
+            "letra": "b)",
+            "resposta": -7.5,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": -8.5,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": 2.5,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": -8.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 9680<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 9680, desaparece em 2 anos, qual a quantidade perdida em 4 anos?",
-            "corretaspossiveis": "-93702399",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.361<sup>\ud835\udc65 + 2</sup> - 5.361<sup>\ud835\udc65 + 1</sup> - 3.19<sup>2\ud835\udc65 + 1</sup> - 361<sup>\ud835\udc65</sup> = 640762423121",
+            "corretaspossiveis": 2.5,
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "D"
         }
     ]
 }

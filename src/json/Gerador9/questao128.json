@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 3583,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 3583\u22c5\u221a3583"
+            "numBase": 14,
+            "numExpoenteNumBase": 9,
+            "numMultiplicadorIncognitaAlternativa": 75809,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c514        - 196  - 5\u22c5196      + 2\u22c5196     ",
+            "resposta": 4.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 3583\u22c5\u221a3583",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": -5.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "1 + 11000\u22c5\u221a11",
+            "resposta": -7.5,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "1 + 3263\u22c5\u221a3263",
+            "resposta": 4.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 16250\u22c5\u221a130",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": 4.5,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 1501\u22c5\u221a1501",
+            "resposta": 3.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 3583<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3583, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 3583\u22c5\u221a3583",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.196<sup>\ud835\udc65 + 2</sup> - 5.196<sup>\ud835\udc65 + 1</sup> - 3.14<sup>2\ud835\udc65 + 1</sup> - 196<sup>\ud835\udc65</sup> = 1566293295648256",
+            "corretaspossiveis": 4.5,
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
-            "invertidapositiva": 0,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "respostascorretas": "D"
         }
     ]
 }

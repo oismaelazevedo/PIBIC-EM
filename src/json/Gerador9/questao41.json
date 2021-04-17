@@ -1,48 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 4364,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 38088992\u22c5\u221a1091"
+            "numBase": 7,
+            "numExpoenteNumBase": 9,
+            "numMultiplicadorIncognitaAlternativa": 4535,
+            "express": "    x       x + 1       x + 2      2\u22c5x + 1\n- 49  - 5\u22c549      + 2\u22c549      - 3\u22c57       ",
+            "resposta": 4.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 4915089\u22c5\u221a2217",
+            "resposta": 7.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 4502884\u22c5\u221a2122",
+            "resposta": -4.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "1 + 282752\u22c5\u221a94",
+            "resposta": 5.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 38088992\u22c5\u221a1091",
+            "resposta": 4.5,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 8099716\u22c5\u221a2846",
+            "resposta": -9.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 4364<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 4364, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 38088992\u22c5\u221a1091",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.49<sup>\ud835\udc65 + 2</sup> - 5.49<sup>\ud835\udc65 + 1</sup> - 3.7<sup>2\ud835\udc65 + 1</sup> - 49<sup>\ud835\udc65</sup> = 183003607745",
+            "corretaspossiveis": 4.5,
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,

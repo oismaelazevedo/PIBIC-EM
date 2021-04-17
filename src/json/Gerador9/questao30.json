@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 1579,
-            "indice": 2,
-            "expoente": 4,
-            "resultado": "-2493240"
+            "numBase": 18,
+            "numExpoenteNumBase": 1,
+            "numMultiplicadorIncognitaAlternativa": 208277,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c518        - 324  - 5\u22c5324      + 2\u22c5324     ",
+            "resposta": 0.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-2047760",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "b)",
-            "resposta": "1252162",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "-793880",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "-2493240",
+            "resposta": 0.5,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "e)",
-            "resposta": "-1951608",
+            "letra": "b)",
+            "resposta": -1.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": -0.33,
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": -3.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": 2.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 1579<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 1579, desaparece em 2 anos, qual a quantidade perdida em 4 anos?",
-            "corretaspossiveis": "-2493240",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.324<sup>\ud835\udc65 + 2</sup> - 5.324<sup>\ud835\udc65 + 1</sup> - 3.18<sup>2\ud835\udc65 + 1</sup> - 324<sup>\ud835\udc65</sup> = 3748986",
+            "corretaspossiveis": 0.5,
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
         }
     ]
 }

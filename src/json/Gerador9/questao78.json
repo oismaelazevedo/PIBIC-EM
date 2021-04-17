@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 9622,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 92582884\u22c5\u221a9622"
+            "numBase": 15,
+            "numExpoenteNumBase": 1,
+            "numMultiplicadorIncognitaAlternativa": 100079,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c515        - 225  - 5\u22c5225      + 2\u22c5225     ",
+            "resposta": 0.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 1532644\u22c5\u221a1238",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": 0.5,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 39427200\u22c5\u221a1110",
+            "resposta": -4.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "1 - 32501401\u22c5\u221a5701",
+            "resposta": -9.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "1 + 92582884\u22c5\u221a9622",
+            "resposta": 10.0,
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 92582884\u22c5\u221a9622",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": 2.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 9622<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 9622, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 92582884\u22c5\u221a9622",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.225<sup>\ud835\udc65 + 2</sup> - 5.225<sup>\ud835\udc65 + 1</sup> - 3.15<sup>2\ud835\udc65 + 1</sup> - 225<sup>\ud835\udc65</sup> = 1501185",
+            "corretaspossiveis": 0.5,
             "corretas": 1,
-            "aleatoriapositiva": 1,
+            "aleatoriapositiva": 2,
             "aleatorianegativa": 2,
-            "invertidapositiva": 1,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "A"
         }
     ]
 }

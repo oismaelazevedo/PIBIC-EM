@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 7097,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 50367409\u22c5\u221a7097"
+            "numBase": 12,
+            "numExpoenteNumBase": 3,
+            "numMultiplicadorIncognitaAlternativa": 40715,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c512        - 144  - 5\u22c5144      + 2\u22c5144     ",
+            "resposta": 1.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 50367409\u22c5\u221a7097",
+            "resposta": -1.0,
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 50367409\u22c5\u221a7097",
+            "resposta": 1.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": 1.5,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "1 - 471969\u22c5\u221a687",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "d)",
-            "resposta": "1 - 838860800\u22c5\u221a5",
+            "resposta": 2.5,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 14175225\u22c5\u221a3765",
+            "resposta": 10.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.7097^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 7097, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 50367409\u22c5\u221a7097",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.144<sup>\ud835\udc65 + 2</sup> - 5.144<sup>\ud835\udc65 + 1</sup> - 3.12<sup>2\ud835\udc65 + 1</sup> - 144<sup>\ud835\udc65</sup> = 70355520",
+            "corretaspossiveis": 1.5,
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "C"
         }
     ]
 }

@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 3656,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 26732672\u22c5\u221a914"
+            "numBase": 17,
+            "numExpoenteNumBase": 8,
+            "numMultiplicadorIncognitaAlternativa": 165545,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c517        - 289  - 5\u22c5289      + 2\u22c5289     ",
+            "resposta": 4.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 26732672\u22c5\u221a914",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "1 + 2628125\u22c5\u221a29",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "1 - 801025\u22c5\u221a895",
+            "resposta": -8.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "d)",
-            "resposta": "1 - 26732672\u22c5\u221a914",
+            "letra": "b)",
+            "resposta": -9.5,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": 4.0,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "d)",
+            "resposta": 2.67,
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
             "letra": "e)",
-            "resposta": "1 + 10215200\u22c5\u221a565",
+            "resposta": 2.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.3656^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3656, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 26732672\u22c5\u221a914",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.289<sup>\ud835\udc65 + 2</sup> - 5.289<sup>\ud835\udc65 + 1</sup> - 3.17<sup>2\ud835\udc65 + 1</sup> - 289<sup>\ud835\udc65</sup> = 1154801765570345",
+            "corretaspossiveis": 4.0,
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "C"
         }
     ]
 }

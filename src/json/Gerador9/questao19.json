@@ -1,53 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 7603,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 7603\u22c5\u221a7603"
+            "numBase": 2,
+            "numExpoenteNumBase": 6,
+            "numMultiplicadorIncognitaAlternativa": 5,
+            "express": "     2\u22c5x + 1    x      x + 1      x + 2\n- 3\u22c52        - 4  - 5\u22c54      + 2\u22c54     ",
+            "resposta": 3.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 7603\u22c5\u221a7603",
+            "resposta": 3.0,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "1 + 1986\u22c5\u221a1986",
+            "resposta": -3.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "1 + 2613\u22c5\u221a2613",
+            "resposta": 6.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "1 + 5754\u22c5\u221a5754",
+            "resposta": -2.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 2233\u22c5\u221a2233",
+            "resposta": 5.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 7603<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 7603, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 7603\u22c5\u221a7603",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.4<sup>\ud835\udc65 + 2</sup> - 5.4<sup>\ud835\udc65 + 1</sup> - 3.2<sup>2\ud835\udc65 + 1</sup> - 4<sup>\ud835\udc65</sup> = 320",
+            "corretaspossiveis": 3.0,
             "corretas": 1,
-            "aleatoriapositiva": 4,
-            "aleatorianegativa": 0,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "A"
         }
     ]

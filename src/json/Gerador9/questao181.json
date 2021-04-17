@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 3205,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 3205\u22c5\u221a3205"
+            "numBase": 20,
+            "numExpoenteNumBase": 5,
+            "numMultiplicadorIncognitaAlternativa": 317939,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c520        - 400  - 5\u22c5400      + 2\u22c5400     ",
+            "resposta": 2.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 2211\u22c5\u221a2211",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "1 - 797\u22c5\u221a797",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "1 + 2322\u22c5\u221a86",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "1 - 3205\u22c5\u221a3205",
+            "resposta": 2.5,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "b)",
+            "resposta": 10.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": -5.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": -9.5,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "e)",
-            "resposta": "1 + 2343\u22c5\u221a2343",
+            "resposta": 7.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.3205^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3205, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 3205\u22c5\u221a3205",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.400<sup>\ud835\udc65 + 2</sup> - 5.400<sup>\ud835\udc65 + 1</sup> - 3.20<sup>2\ud835\udc65 + 1</sup> - 400<sup>\ud835\udc65</sup> = 1017404800000",
+            "corretaspossiveis": 2.5,
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "A"
         }
     ]
 }

@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 5080,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 51612800\u22c5\u221a1270"
+            "numBase": 10,
+            "numExpoenteNumBase": 9,
+            "numMultiplicadorIncognitaAlternativa": 19469,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c510        - 100  - 5\u22c5100      + 2\u22c5100     ",
+            "resposta": 4.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 117612\u22c5\u221a22",
+            "resposta": 1.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": -2.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "1 - 51612800\u22c5\u221a1270",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
             "letra": "c)",
-            "resposta": "1 + 3308761\u22c5\u221a1819",
+            "resposta": 9.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "1 + 58582683\u22c5\u221a491",
+            "resposta": 4.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 958441\u22c5\u221a979",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": 4.5,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C.5080^(p.t), em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 5080, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 51612800\u22c5\u221a1270",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.100<sup>\ud835\udc65 + 2</sup> - 5.100<sup>\ud835\udc65 + 1</sup> - 3.10<sup>2\ud835\udc65 + 1</sup> - 100<sup>\ud835\udc65</sup> = 19469000000000",
+            "corretaspossiveis": 4.5,
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 1,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "E"
         }
     ]
 }

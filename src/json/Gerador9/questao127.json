@@ -1,53 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 8127,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 24381\u22c5\u221a903"
+            "numBase": 11,
+            "numExpoenteNumBase": 6,
+            "numMultiplicadorIncognitaAlternativa": 28643,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c511        - 121  - 5\u22c5121      + 2\u22c5121     ",
+            "resposta": 3.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-59318",
+            "resposta": 7.5,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 24381\u22c5\u221a903",
+            "resposta": 3.0,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "1 + 4785\u22c5\u221a4785",
+            "resposta": -9.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "1 + 4882\u22c5\u221a4882",
+            "resposta": -2.0,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "1 - 24\u22c5\u221a3",
+            "resposta": -10.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 8127<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 8127, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 24381\u22c5\u221a903",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.121<sup>\ud835\udc65 + 2</sup> - 5.121<sup>\ud835\udc65 + 1</sup> - 3.11<sup>2\ud835\udc65 + 1</sup> - 121<sup>\ud835\udc65</sup> = 50742821723",
+            "corretaspossiveis": 3.0,
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
+            "invertidanegativa": 1,
             "respostascorretas": "B"
         }
     ]

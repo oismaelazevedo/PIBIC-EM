@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 3730,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 3730\u22c5\u221a3730"
+            "numBase": 19,
+            "numExpoenteNumBase": 3,
+            "numMultiplicadorIncognitaAlternativa": 258779,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c519        - 361  - 5\u22c5361      + 2\u22c5361     ",
+            "resposta": 1.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 24064\u22c5\u221a47",
+            "resposta": 9.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": -1.0,
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": -5.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "1 + 3730\u22c5\u221a3730",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "1 - 3730\u22c5\u221a3730",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
             "letra": "d)",
-            "resposta": "1 - 2419\u22c5\u221a2419",
+            "resposta": -8.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 6648\u22c5\u221a831",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": 1.5,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 3730<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3730, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 3730\u22c5\u221a3730",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.361<sup>\ud835\udc65 + 2</sup> - 5.361<sup>\ud835\udc65 + 1</sup> - 3.19<sup>2\ud835\udc65 + 1</sup> - 361<sup>\ud835\udc65</sup> = 1774965161",
+            "corretaspossiveis": 1.5,
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
         }
     ]
 }

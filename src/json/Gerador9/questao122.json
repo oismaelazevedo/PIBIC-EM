@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 4196,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 35212832\u22c5\u221a1049"
+            "numBase": 19,
+            "numExpoenteNumBase": 2,
+            "numMultiplicadorIncognitaAlternativa": 258779,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c519        - 361  - 5\u22c5361      + 2\u22c5361     ",
+            "resposta": 1.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 8099716\u22c5\u221a2846",
+            "resposta": 0.67,
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": -6.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "1 - 35212832\u22c5\u221a1049",
+            "letra": "c)",
+            "resposta": 5.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": 1.0,
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
-            "letra": "c)",
-            "resposta": "1 - 6436369\u22c5\u221a2537",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "1 - 1129969\u22c5\u221a1063",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
             "letra": "e)",
-            "resposta": "1 + 1562912\u22c5\u221a221",
+            "resposta": -2.5,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 4196<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 4196, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 35212832\u22c5\u221a1049",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.361<sup>\ud835\udc65 + 2</sup> - 5.361<sup>\ud835\udc65 + 1</sup> - 3.19<sup>2\ud835\udc65 + 1</sup> - 361<sup>\ud835\udc65</sup> = 93419219",
+            "corretaspossiveis": 1.0,
             "corretas": 1,
             "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
-            "invertidapositiva": 0,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "D"
         }
     ]
 }

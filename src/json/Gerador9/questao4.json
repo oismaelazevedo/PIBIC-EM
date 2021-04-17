@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 5316,
-            "indice": 2,
-            "expoente": 3,
-            "resultado": "1 - 10632\u22c5\u221a1329"
+            "numBase": 7,
+            "numExpoenteNumBase": 10,
+            "numMultiplicadorIncognitaAlternativa": 4535,
+            "express": "    x       x + 1       x + 2      2\u22c5x + 1\n- 49  - 5\u22c549      + 2\u22c549      - 3\u22c57       ",
+            "resposta": 5.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 14931\u22c5\u221a553",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": 5.0,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "1 - 1637\u22c5\u221a1637",
+            "resposta": -4.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "1 - 10632\u22c5\u221a1329",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": 9.5,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 3634\u22c5\u221a3634",
+            "resposta": -9.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 4105\u22c5\u221a4105",
+            "resposta": 3.33,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 5316<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 5316, desaparece em 2 anos, qual a quantidade perdida em 3 anos?",
-            "corretaspossiveis": "1 - 10632\u22c5\u221a1329",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.49<sup>\ud835\udc65 + 2</sup> - 5.49<sup>\ud835\udc65 + 1</sup> - 3.7<sup>2\ud835\udc65 + 1</sup> - 49<sup>\ud835\udc65</sup> = 1281025254215",
+            "corretaspossiveis": 5.0,
             "corretas": 1,
-            "aleatoriapositiva": 2,
+            "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
-            "invertidapositiva": 0,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "A"
         }
     ]
 }

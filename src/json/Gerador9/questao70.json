@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 8202,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 67272804\u22c5\u221a8202"
+            "numBase": 12,
+            "numExpoenteNumBase": 10,
+            "numMultiplicadorIncognitaAlternativa": 40715,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c512        - 144  - 5\u22c5144      + 2\u22c5144     ",
+            "resposta": 5.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 + 5466244\u22c5\u221a2338",
+            "resposta": -3.33,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "1 + 67272804\u22c5\u221a8202",
+            "resposta": -1.5,
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "1 + 3452164\u22c5\u221a1858",
+            "resposta": 2.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "1 - 67272804\u22c5\u221a8202",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": 3.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "1 + 28783225\u22c5\u221a5365",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "resposta": 5.0,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 8202<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 8202, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 67272804\u22c5\u221a8202",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.144<sup>\ud835\udc65 + 2</sup> - 5.144<sup>\ud835\udc65 + 1</sup> - 3.12<sup>2\ud835\udc65 + 1</sup> - 144<sup>\ud835\udc65</sup> = 2520965484380160",
+            "corretaspossiveis": 5.0,
             "corretas": 1,
-            "aleatoriapositiva": 3,
-            "aleatorianegativa": 0,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
         }
     ]
 }

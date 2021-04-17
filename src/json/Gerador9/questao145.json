@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 3556,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 25290272\u22c5\u221a889"
+            "numBase": 4,
+            "numExpoenteNumBase": 9,
+            "numMultiplicadorIncognitaAlternativa": 419,
+            "express": "    x       x + 1       x + 2      2\u22c5x + 1\n- 16  - 5\u22c516      + 2\u22c516      - 3\u22c54       ",
+            "resposta": 4.5
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 42025\u22c5\u221a205",
+            "resposta": 4.5,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": -2.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "b)",
-            "resposta": "1 + 12996\u22c5\u221a114",
+            "letra": "c)",
+            "resposta": 7.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "c)",
-            "resposta": "1 - 6796449\u22c5\u221a2607",
+            "letra": "d)",
+            "resposta": -10.0,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "d)",
-            "resposta": "1 + 25290272\u22c5\u221a889",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": "1 - 25290272\u22c5\u221a889",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": -3.0,
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 3556<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 3556, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 25290272\u22c5\u221a889",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.16<sup>\ud835\udc65 + 2</sup> - 5.16<sup>\ud835\udc65 + 1</sup> - 3.4<sup>2\ud835\udc65 + 1</sup> - 16<sup>\ud835\udc65</sup> = 109838336",
+            "corretaspossiveis": 4.5,
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,
-            "invertidapositiva": 1,
-            "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
         }
     ]
 }

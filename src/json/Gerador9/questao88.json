@@ -1,54 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "radicando": 1037,
-            "indice": 2,
-            "expoente": 5,
-            "resultado": "1 - 1075369\u22c5\u221a1037"
+            "numBase": 14,
+            "numExpoenteNumBase": 2,
+            "numMultiplicadorIncognitaAlternativa": 75809,
+            "express": "      2\u22c5x + 1      x        x + 1        x + 2\n- 3\u22c514        - 196  - 5\u22c5196      + 2\u22c5196     ",
+            "resposta": 1.0
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "1 - 1075369\u22c5\u221a1037",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "b)",
-            "resposta": "1 - 112500\u22c5\u221a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "1 - 1152\u22c5\u221a6",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "d)",
-            "resposta": "1 + 1401856\u22c5\u221a37",
+            "resposta": 4.5,
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
-            "letra": "e)",
-            "resposta": "1 - 1042441\u22c5\u221a1021",
+            "letra": "b)",
+            "resposta": -0.67,
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": 2.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": 1.0,
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": 4.0,
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "A lei de decomposi\u00e7\u00e3o de um elemento X no tempo t \u2265 0 \u00e9 dada por M(t) = C \u00d7 1037<sup>(p.t)</sup>, em que M(t) \u00e9 quantidade de X no tempo t; C, p s\u00e3o constantes positivas. Se a quantidade primitiva M(0), quando dividida por 1037, desaparece em 2 anos, qual a quantidade perdida em 5 anos?",
-            "corretaspossiveis": "1 - 1075369\u22c5\u221a1037",
+            "enunciado": "Resolva a seguinte equa\u00e7\u00e3o exponencial:\n2.196<sup>\ud835\udc65 + 2</sup> - 5.196<sup>\ud835\udc65 + 1</sup> - 3.14<sup>2\ud835\udc65 + 1</sup> - 196<sup>\ud835\udc65</sup> = 14858564",
+            "corretaspossiveis": 1.0,
             "corretas": 1,
-            "aleatoriapositiva": 1,
-            "aleatorianegativa": 3,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
             "invertidapositiva": 0,
-            "invertidanegativa": 0,
-            "respostascorretas": "A"
+            "invertidanegativa": 1,
+            "respostascorretas": "D"
         }
     ]
 }
