@@ -1,10 +1,10 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 642.1,
-            "numFloatAleatorio02": 70.27,
-            "ordemDez01": 82,
-            "ordemDez02": 83,
+            "numFloatAleatorio01": 326.05,
+            "numFloatAleatorio02": 90.43,
+            "ordemDez01": 53,
+            "ordemDez02": 54,
             "resposta": "M < N"
         }
     ],
@@ -17,39 +17,39 @@
         },
         {
             "letra": "b)",
-            "resposta": "M + N = 712,37 \u00d7 10<sup>165</sup>",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
-            "resposta": "M . N = 45120,37 \u00d7 10<sup>165</sup>",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "d)",
             "resposta": "M < N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "c)",
+            "resposta": "M + N = 416,48 \u00d7 10<sup>107</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "M . N = 29484,7 \u00d7 10<sup>107</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
             "letra": "e)",
-            "resposta": "M / N = 9,14 \u00d7 10<sup>-1</sup>",
+            "resposta": "M / N = 3,61 \u00d7 10<sup>1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 642,1 \u00d7 10<sup>82</sup> e N = 70,27 \u00d7 10<sup>83</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 326,05 \u00d7 10<sup>53</sup> e N = 90,43 \u00d7 10<sup>54</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "B"
         }
     ]
 }

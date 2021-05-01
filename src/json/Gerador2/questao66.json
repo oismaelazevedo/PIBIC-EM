@@ -1,48 +1,48 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 3,
-            "numMultiplicadorLogaritmando": 8,
-            "numMultiplicadorBase": 6,
-            "resposta": "4\u22c5\u221a3"
+            "numBase": 6,
+            "numMultiplicadorLogaritmando": 3,
+            "numMultiplicadorBase": 4,
+            "resposta": "0.54"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-10",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "b)",
-            "resposta": "-1",
+            "resposta": "-0.15",
             "correta": "Nao",
             "tipoerro": "invertida e negativa"
         },
         {
+            "letra": "b)",
+            "resposta": "-0.54",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "c)",
-            "resposta": "4\u22c5\u221a3",
+            "resposta": "0.54",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "-3\u22c5\u221a7",
+            "resposta": "-0.72",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "8",
+            "resposta": "0.77",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(6561) = log<sub>729</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
-            "corretaspossiveis": "4\u22c5\u221a3",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(216) = log<sub>1296</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "0.54",
             "corretas": 1,
             "aleatoriapositiva": 1,
             "aleatorianegativa": 2,

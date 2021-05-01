@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 8,
-            "numMultiplicadorLogaritmando": 7,
-            "numMultiplicadorBase": 8,
-            "resposta": "2\u22c5\u221a14"
+            "numBase": 9,
+            "numMultiplicadorLogaritmando": 10,
+            "numMultiplicadorBase": 2,
+            "resposta": "0.65"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-3\u22c5\u221a3",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "resposta": "0.65",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "b)",
-            "resposta": "-\u221a70",
+            "resposta": "0.6",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "-2\u22c5\u221a3",
+            "resposta": "0.0",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "-\u221a10",
+            "resposta": "-0.54",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a14",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "1.0",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(2097152) = log<sub>16777216</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
-            "corretaspossiveis": "2\u22c5\u221a14",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(3486784401) = log<sub>81</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "0.65",
             "corretas": 1,
-            "aleatoriapositiva": 0,
-            "aleatorianegativa": 4,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "A"
         }
     ]
 }

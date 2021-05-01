@@ -1,54 +1,54 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 6,
-            "numMultiplicadorLogaritmando": 10,
-            "numMultiplicadorBase": 4,
-            "resposta": "2\u22c5\u221a10"
+            "numBase": 8,
+            "numMultiplicadorLogaritmando": 9,
+            "numMultiplicadorBase": 6,
+            "resposta": "0.87"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "\u221a15",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "2\u22c5\u221a10",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "c)",
-            "resposta": "1",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "d)",
-            "resposta": "-2\u22c5\u221a6",
+            "resposta": "-0.54",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
-            "letra": "e)",
-            "resposta": "\u221a30",
+            "letra": "b)",
+            "resposta": "0.93",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "0.87",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "0.95",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "-0.65",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(60466176) = log<sub>1296</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
-            "corretaspossiveis": "2\u22c5\u221a10",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(134217728) = log<sub>262144</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "0.87",
             "corretas": 1,
             "aleatoriapositiva": 2,
-            "aleatorianegativa": 1,
-            "invertidapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
             "invertidanegativa": 0,
-            "respostascorretas": "B"
+            "respostascorretas": "C"
         }
     ]
 }

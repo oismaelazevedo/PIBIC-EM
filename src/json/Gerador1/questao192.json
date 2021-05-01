@@ -1,37 +1,37 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 64.04,
-            "numFloatAleatorio02": 64.2,
-            "ordemDez01": 32,
-            "ordemDez02": 33,
+            "numFloatAleatorio01": 186.55,
+            "numFloatAleatorio02": 99.07,
+            "ordemDez01": 93,
+            "ordemDez02": 94,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 128,24 \u00d7 10<sup>65</sup>",
+            "resposta": "M + N = 285,62 \u00d7 10<sup>187</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 4111,37 \u00d7 10<sup>65</sup>",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M / N = 1,0 \u00d7 10<sup>-1</sup>",
+            "resposta": "M . N = 18481,51 \u00d7 10<sup>187</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M \u2265 N",
+            "resposta": "M / N = 1,88 \u00d7 10<sup>1</sup>",
             "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 64,04 \u00d7 10<sup>32</sup> e N = 64,2 \u00d7 10<sup>33</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 186,55 \u00d7 10<sup>93</sup> e N = 99,07 \u00d7 10<sup>94</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

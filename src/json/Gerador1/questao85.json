@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 987.43,
-            "numFloatAleatorio02": 21.56,
-            "ordemDez01": 22,
-            "ordemDez02": 23,
+            "numFloatAleatorio01": 413.29,
+            "numFloatAleatorio02": 30.64,
+            "ordemDez01": 50,
+            "ordemDez02": 51,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 1008,99 \u00d7 10<sup>45</sup>",
+            "resposta": "M + N = 443,93 \u00d7 10<sup>101</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,13 +23,13 @@
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 21288,99 \u00d7 10<sup>45</sup>",
+            "resposta": "M . N = 12663,21 \u00d7 10<sup>101</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 45,8 \u00d7 10<sup>-1</sup>",
+            "resposta": "M / N = 13,49 \u00d7 10<sup>1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -42,7 +42,7 @@
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 987,43 \u00d7 10<sup>22</sup> e N = 21,56 \u00d7 10<sup>23</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 413,29 \u00d7 10<sup>50</sup> e N = 30,64 \u00d7 10<sup>51</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

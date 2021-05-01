@@ -1,51 +1,51 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 4,
-            "numMultiplicadorLogaritmando": 3,
-            "numMultiplicadorBase": 4,
-            "resposta": "2\u22c5\u221a3"
+            "numBase": 5,
+            "numMultiplicadorLogaritmando": 4,
+            "numMultiplicadorBase": 9,
+            "resposta": "0.78"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "3",
+            "resposta": "0.83",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-2\u22c5\u221a6",
+            "resposta": "-0.54",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "-6",
+            "resposta": "-0.85",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "d)",
-            "resposta": "2\u22c5\u221a3",
+            "resposta": "0.78",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "3\u22c5\u221a7",
+            "resposta": "-0.63",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(64) = log<sub>256</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
-            "corretaspossiveis": "2\u22c5\u221a3",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(625) = log<sub>1953125</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "0.78",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
             "invertidapositiva": 0,
             "invertidanegativa": 0,
             "respostascorretas": "D"

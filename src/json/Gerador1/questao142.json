@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 548.27,
-            "numFloatAleatorio02": 73.96,
-            "ordemDez01": 83,
-            "ordemDez02": 84,
-            "resposta": "M < N"
+            "numFloatAleatorio01": 803.72,
+            "numFloatAleatorio02": 49.41,
+            "ordemDez01": 24,
+            "ordemDez02": 25,
+            "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 622,23 \u00d7 10<sup>167</sup>",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "b)",
-            "resposta": "M \u2265 N",
+            "resposta": "M < N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
+            "letra": "b)",
+            "resposta": "M \u2265 N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
             "letra": "c)",
-            "resposta": "M . N = 40550,05 \u00d7 10<sup>167</sup>",
+            "resposta": "M + N = 853,13 \u00d7 10<sup>49</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 7,41 \u00d7 10<sup>-1</sup>",
+            "resposta": "M . N = 39711,81 \u00d7 10<sup>49</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M < N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "resposta": "M / N = 16,27 \u00d7 10<sup>1</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 548,27 \u00d7 10<sup>83</sup> e N = 73,96 \u00d7 10<sup>84</sup>. Pode-se afirmar que:",
-            "corretaspossiveis": "M < N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 803,72 \u00d7 10<sup>24</sup> e N = 49,41 \u00d7 10<sup>25</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "B"
         }
     ]
 }

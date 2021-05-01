@@ -1,49 +1,49 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 438.38,
-            "numFloatAleatorio02": 42.74,
-            "ordemDez01": 16,
-            "ordemDez02": 17,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 103.34,
+            "numFloatAleatorio02": 67.66,
+            "ordemDez01": 36,
+            "ordemDez02": 37,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 481,12 \u00d7 10<sup>33</sup>",
+            "resposta": "M + N = 171,0 \u00d7 10<sup>73</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M \u2265 N",
+            "resposta": "M < N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "c)",
-            "resposta": "M . N = 18736,36 \u00d7 10<sup>33</sup>",
+            "resposta": "M . N = 6991,98 \u00d7 10<sup>73</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 10,26 \u00d7 10<sup>-1</sup>",
+            "resposta": "M / N = 1,53 \u00d7 10<sup>1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M < N",
+            "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 438,38 \u00d7 10<sup>16</sup> e N = 42,74 \u00d7 10<sup>17</sup>. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 103,34 \u00d7 10<sup>36</sup> e N = 67,66 \u00d7 10<sup>37</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,

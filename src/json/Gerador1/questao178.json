@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 225.61,
-            "numFloatAleatorio02": 78.98,
-            "ordemDez01": 98,
-            "ordemDez02": 99,
-            "resposta": "M < N"
+            "numFloatAleatorio01": 846.29,
+            "numFloatAleatorio02": 62.72,
+            "ordemDez01": 28,
+            "ordemDez02": 29,
+            "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 304,59 \u00d7 10<sup>197</sup>",
+            "resposta": "M + N = 909,01 \u00d7 10<sup>57</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 17818,68 \u00d7 10<sup>197</sup>",
+            "resposta": "M . N = 53079,31 \u00d7 10<sup>57</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
             "resposta": "M \u2265 N",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "M / N = 2,86 \u00d7 10<sup>-1</sup>",
+            "resposta": "M / N = 13,49 \u00d7 10<sup>1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
             "resposta": "M < N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 225,61 \u00d7 10<sup>98</sup> e N = 78,98 \u00d7 10<sup>99</sup>. Pode-se afirmar que:",
-            "corretaspossiveis": "M < N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 846,29 \u00d7 10<sup>28</sup> e N = 62,72 \u00d7 10<sup>29</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "E"
+            "respostascorretas": "C"
         }
     ]
 }

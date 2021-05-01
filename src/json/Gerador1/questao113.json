@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 389.02,
-            "numFloatAleatorio02": 28.01,
-            "ordemDez01": 10,
-            "ordemDez02": 11,
-            "resposta": "M \u2265 N"
+            "numFloatAleatorio01": 317.18,
+            "numFloatAleatorio02": 70.57,
+            "ordemDez01": 74,
+            "ordemDez02": 75,
+            "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 417,03 \u00d7 10<sup>21</sup>",
+            "resposta": "M + N = 387,75 \u00d7 10<sup>149</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 10896,45 \u00d7 10<sup>21</sup>",
+            "resposta": "M . N = 22383,39 \u00d7 10<sup>149</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M / N = 13,89 \u00d7 10<sup>-1</sup>",
+            "resposta": "M / N = 4,49 \u00d7 10<sup>1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
             "resposta": "M \u2265 N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "e)",
             "resposta": "M < N",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 389,02 \u00d7 10<sup>10</sup> e N = 28,01 \u00d7 10<sup>11</sup>. Pode-se afirmar que:",
-            "corretaspossiveis": "M \u2265 N",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 317,18 \u00d7 10<sup>74</sup> e N = 70,57 \u00d7 10<sup>75</sup>. Pode-se afirmar que:",
+            "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "D"
+            "respostascorretas": "E"
         }
     ]
 }

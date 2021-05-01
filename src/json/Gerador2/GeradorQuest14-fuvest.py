@@ -1,5 +1,6 @@
 import random as rnd
 from sympy import pretty, sqrt
+from math import log10
 import json
 
 
@@ -21,7 +22,10 @@ while k < 200:
     numMultiplicadorLogaritmando = rnd.randint(2,10)
     numMultiplicadorBase = rnd.randint(2,10)
 
-    resposta = sqrt(numMultiplicadorBase * numMultiplicadorLogaritmando)
+    while numMultiplicadorBase == numMultiplicadorLogaritmando:
+        numMultiplicadorLogaritmando = rnd.randint(2,10)
+
+    resposta = round(log10(sqrt(numMultiplicadorBase * numMultiplicadorLogaritmando)),2)
     resposta = pretty(resposta)
 
     listLetra = ["A","B","C","D","E"]
@@ -51,12 +55,12 @@ while k < 200:
 
                 if numRandomTemporario == 0:
 
-                    listAlternativas[numLetra] = sqrt(int(numMultiplicadorBase/numMultiplicadorLogaritmando) + 1)
+                    listAlternativas[numLetra] = round(log10(sqrt(int(numMultiplicadorBase/numMultiplicadorLogaritmando) + 1)),2)
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e positiva"
                 else:
-                    listAlternativas[numLetra] = -(sqrt(int(numMultiplicadorBase/numMultiplicadorLogaritmando) + 1))
+                    listAlternativas[numLetra] = -round(log10((sqrt(int(numMultiplicadorBase/numMultiplicadorLogaritmando) + 1))),2)
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "invertida e negativa"
@@ -65,13 +69,13 @@ while k < 200:
 
                 if numRandomTemporario == 0:
 
-                    listAlternativas[numLetra] = sqrt(rnd.randint(2,10) * rnd.randint(2,10))
+                    listAlternativas[numLetra] = round(log10(sqrt(rnd.randint(2,10) * rnd.randint(2,10))),2)
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 else:
 
-                    listAlternativas[numLetra] = -(sqrt(rnd.randint(2,10) * rnd.randint(2,10)))
+                    listAlternativas[numLetra] = -round(log10((sqrt(rnd.randint(2,10) * rnd.randint(2,10)))),2)
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e negativa"

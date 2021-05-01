@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 361.67,
-            "numFloatAleatorio02": 57.42,
-            "ordemDez01": 70,
-            "ordemDez02": 71,
+            "numFloatAleatorio01": 309.84,
+            "numFloatAleatorio02": 80.85,
+            "ordemDez01": 30,
+            "ordemDez02": 31,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 419,09 \u00d7 10<sup>141</sup>",
+            "resposta": "M + N = 390,69 \u00d7 10<sup>61</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M \u2265 N",
-            "correta": "Nao",
-            "tipoerro": "invertida e positiva"
-        },
-        {
-            "letra": "c)",
             "resposta": "M < N",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
+            "letra": "c)",
+            "resposta": "M \u2265 N",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
             "letra": "d)",
-            "resposta": "M . N = 20767,09 \u00d7 10<sup>141</sup>",
+            "resposta": "M . N = 25050,56 \u00d7 10<sup>61</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 6,3 \u00d7 10<sup>-1</sup>",
+            "resposta": "M / N = 3,83 \u00d7 10<sup>1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 361,67 \u00d7 10<sup>70</sup> e N = 57,42 \u00d7 10<sup>71</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 309,84 \u00d7 10<sup>30</sup> e N = 80,85 \u00d7 10<sup>31</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "B"
         }
     ]
 }

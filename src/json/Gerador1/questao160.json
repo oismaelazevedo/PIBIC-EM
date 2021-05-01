@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 465.45,
-            "numFloatAleatorio02": 5.6,
-            "ordemDez01": 91,
-            "ordemDez02": 92,
+            "numFloatAleatorio01": 870.98,
+            "numFloatAleatorio02": 5.73,
+            "ordemDez01": 21,
+            "ordemDez02": 22,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 471,05 \u00d7 10<sup>183</sup>",
+            "resposta": "M + N = 876,71 \u00d7 10<sup>43</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -29,20 +29,20 @@
         },
         {
             "letra": "d)",
-            "resposta": "M . N = 2606,52 \u00d7 10<sup>183</sup>",
+            "resposta": "M . N = 4990,72 \u00d7 10<sup>43</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 83,12 \u00d7 10<sup>-1</sup>",
+            "resposta": "M / N = 152,0 \u00d7 10<sup>1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 465,45 \u00d7 10<sup>91</sup> e N = 5,6 \u00d7 10<sup>92</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 870,98 \u00d7 10<sup>21</sup> e N = 5,73 \u00d7 10<sup>22</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,

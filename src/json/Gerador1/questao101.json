@@ -1,17 +1,17 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 275.66,
-            "numFloatAleatorio02": 41.17,
-            "ordemDez01": 34,
-            "ordemDez02": 35,
+            "numFloatAleatorio01": 40.28,
+            "numFloatAleatorio02": 33.26,
+            "ordemDez01": 20,
+            "ordemDez02": 21,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 316,83 \u00d7 10<sup>69</sup>",
+            "resposta": "M + N = 73,54 \u00d7 10<sup>41</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
@@ -23,26 +23,26 @@
         },
         {
             "letra": "c)",
+            "resposta": "M . N = 1339,71 \u00d7 10<sup>41</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
             "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
-            "letra": "d)",
-            "resposta": "M . N = 11348,92 \u00d7 10<sup>69</sup>",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
             "letra": "e)",
-            "resposta": "M / N = 6,7 \u00d7 10<sup>-1</sup>",
+            "resposta": "M / N = 1,21 \u00d7 10<sup>1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 275,66 \u00d7 10<sup>34</sup> e N = 41,17 \u00d7 10<sup>35</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 40,28 \u00d7 10<sup>20</sup> e N = 33,26 \u00d7 10<sup>21</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

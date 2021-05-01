@@ -1,55 +1,55 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 987.94,
-            "numFloatAleatorio02": 74.34,
-            "ordemDez01": 99,
-            "ordemDez02": 100,
+            "numFloatAleatorio01": 703.3,
+            "numFloatAleatorio02": 7.22,
+            "ordemDez01": 55,
+            "ordemDez02": 56,
             "resposta": "M \u2265 N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 1062,28 \u00d7 10<sup>199</sup>",
+            "resposta": "M + N = 710,52 \u00d7 10<sup>111</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 73443,46 \u00d7 10<sup>199</sup>",
+            "resposta": "M . N = 5077,83 \u00d7 10<sup>111</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "c)",
-            "resposta": "M \u2265 N",
-            "correta": "Sim",
-            "tipoerro": "nenhum"
-        },
-        {
-            "letra": "d)",
             "resposta": "M < N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
         },
         {
-            "letra": "e)",
-            "resposta": "M / N = 13,29 \u00d7 10<sup>-1</sup>",
+            "letra": "d)",
+            "resposta": "M / N = 97,41 \u00d7 10<sup>1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "M \u2265 N",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 987,94 \u00d7 10<sup>99</sup> e N = 74,34 \u00d7 10<sup>100</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 703,3 \u00d7 10<sup>55</sup> e N = 7,22 \u00d7 10<sup>56</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M \u2265 N",
             "corretas": 1,
             "aleatoriapositiva": 3,
             "aleatorianegativa": 0,
             "invertidapositiva": 1,
             "invertidanegativa": 0,
-            "respostascorretas": "C"
+            "respostascorretas": "E"
         }
     ]
 }

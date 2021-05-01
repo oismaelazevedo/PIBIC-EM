@@ -1,52 +1,52 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 2,
-            "numMultiplicadorLogaritmando": 7,
+            "numBase": 6,
+            "numMultiplicadorLogaritmando": 8,
             "numMultiplicadorBase": 10,
-            "resposta": "\u221a70"
+            "resposta": "0.95"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-\u221a15",
+            "resposta": "0.15",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
+            "tipoerro": "invertida e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "-4\u22c5\u221a3",
+            "resposta": "-0.74",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "c)",
-            "resposta": "\u221a70",
+            "resposta": "0.95",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "d)",
-            "resposta": "2\u22c5\u221a10",
+            "resposta": "-0.84",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "e)",
-            "resposta": "2\u22c5\u221a3",
+            "resposta": "-0.9",
             "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
+            "tipoerro": "gerada aleatoriamente e negativa"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(128) = log<sub>1024</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
-            "corretaspossiveis": "\u221a70",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(1679616) = log<sub>60466176</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "0.95",
             "corretas": 1,
-            "aleatoriapositiva": 2,
-            "aleatorianegativa": 2,
-            "invertidapositiva": 0,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 1,
             "invertidanegativa": 0,
             "respostascorretas": "C"
         }

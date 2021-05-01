@@ -1,31 +1,31 @@
 {
     "equacaoExponencial": [
         {
-            "numFloatAleatorio01": 543.21,
-            "numFloatAleatorio02": 61.85,
-            "ordemDez01": 19,
-            "ordemDez02": 20,
+            "numFloatAleatorio01": 355.41,
+            "numFloatAleatorio02": 89.5,
+            "ordemDez01": 91,
+            "ordemDez02": 92,
             "resposta": "M < N"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "M + N = 605,06 \u00d7 10<sup>39</sup>",
+            "resposta": "M + N = 444,91 \u00d7 10<sup>183</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "b)",
-            "resposta": "M . N = 33597,54 \u00d7 10<sup>39</sup>",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e positiva"
-        },
-        {
-            "letra": "c)",
             "resposta": "M \u2265 N",
             "correta": "Nao",
             "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "M . N = 31809,2 \u00d7 10<sup>183</sup>",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
             "letra": "d)",
@@ -35,14 +35,14 @@
         },
         {
             "letra": "e)",
-            "resposta": "M / N = 8,78 \u00d7 10<sup>-1</sup>",
+            "resposta": "M / N = 3,97 \u00d7 10<sup>1</sup>",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 543,21 \u00d7 10<sup>19</sup> e N = 61,85 \u00d7 10<sup>20</sup>. Pode-se afirmar que:",
+            "enunciado": "(UF-RN-modificada) Dados os n\u00fameros M = 355,41 \u00d7 10<sup>91</sup> e N = 89,5 \u00d7 10<sup>92</sup>. Pode-se afirmar que:",
             "corretaspossiveis": "M < N",
             "corretas": 1,
             "aleatoriapositiva": 3,

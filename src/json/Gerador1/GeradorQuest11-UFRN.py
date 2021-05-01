@@ -68,7 +68,7 @@ while k < 200:
                 howGenerated[numLetra] = "gerada aleatoriamente e positiva"
                 numRandomTemporario += 1
             else:
-                listAlternativas[numLetra] = "M / N = {} × 10<sup>{}</sup>".format(str(round(numFloatAleatorio01 / numFloatAleatorio02, 2)).replace('.', ','), ordemDez01 - ordemDez02)
+                listAlternativas[numLetra] = "M / N = {} × 10<sup>{}</sup>".format(str(round(numFloatAleatorio01 / numFloatAleatorio02, 2)).replace('.', ','), ordemDez02 - ordemDez01)
                 isCorrect[numLetra] = "Nao"
                 howGenerated[numLetra] = "gerada aleatoriamente e positiva"
 

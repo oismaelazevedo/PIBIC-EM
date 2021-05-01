@@ -1,48 +1,48 @@
 {
     "equacaoExponencial": [
         {
-            "numBase": 3,
+            "numBase": 5,
             "numMultiplicadorLogaritmando": 2,
-            "numMultiplicadorBase": 5,
-            "resposta": "\u221a10"
+            "numMultiplicadorBase": 3,
+            "resposta": "0.39"
         }
     ],
     "respostas": [
         {
             "letra": "a)",
-            "resposta": "-2\u22c5\u221a7",
+            "resposta": "-0.92",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e negativa"
         },
         {
             "letra": "b)",
-            "resposta": "-4",
-            "correta": "Nao",
-            "tipoerro": "gerada aleatoriamente e negativa"
-        },
-        {
-            "letra": "c)",
-            "resposta": "4\u22c5\u221a2",
+            "resposta": "0.9",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         },
         {
+            "letra": "c)",
+            "resposta": "-0.63",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
             "letra": "d)",
-            "resposta": "\u221a10",
+            "resposta": "0.39",
             "correta": "Sim",
             "tipoerro": "nenhum"
         },
         {
             "letra": "e)",
-            "resposta": "\u221a14",
+            "resposta": "0.8",
             "correta": "Nao",
             "tipoerro": "gerada aleatoriamente e positiva"
         }
     ],
     "atributosquestao": [
         {
-            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(9) = log<sub>243</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
-            "corretaspossiveis": "\u221a10",
+            "enunciado": "(Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub>(25) = log<sub>125</sub>(x). Assim sendo, o logar\u00edtmo de x na base 10 \u00e9:",
+            "corretaspossiveis": "0.39",
             "corretas": 1,
             "aleatoriapositiva": 2,
             "aleatorianegativa": 2,
