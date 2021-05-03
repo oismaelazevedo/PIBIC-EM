@@ -88,7 +88,7 @@ ob_start();
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Tente na próxima questão!</p>
+                    <p>Tente na próxima questão!😥😥😥</p>
                 </div>
                 <div class="modal-footer">
                     <a onclick="$('#erro1').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>
@@ -109,7 +109,7 @@ ob_start();
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Parabéns. Você acertou!</p>
+                    <p>Parabéns. Você acertou!👏👏👏</p>
                 </div>
                 <div class="modal-footer">
                     <a onclick="$('#acerto').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>

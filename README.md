@@ -100,7 +100,7 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 - [x] Desenvolver uma aplicação web capaz de permitir a resolução das questões, além de ser capaz de gerenciá-las.
 - [ ] Liberar o sistema web para o público geral com o objetivo deste enviar registros que popularão o banco de dados. O objetivo aqui é permitir o aprendizado de máquina pela avaliação dos dados reunidos.
 - [ ] Ter a capacidade de identificar as facilidades e dificuldades daqueles que usarão o sistema por meio do aprendizado de máquina ativo.
-- [ ] Aplicar este aprendizado de máquina em uma inteligência artificial que poderá recomendar questões mais fáceis ou difíceis dependendo do desempenho do usuário.
+- [ ] Aplicar este aprendizado de máquina em uma inteligência artificial que recomendará questões mais fáceis ou difíceis dependendo do desempenho do usuário.
 
 ### Objetivos estimados
 - [ ] Permitir que estudantes exercitem seu conhecimento na área de logaritmo, fora ajudar professores que possuem uma baixa gama de questões na matéria citada.
