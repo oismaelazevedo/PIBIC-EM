@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 6,
+            "valX02": 4,
+            "num01": 85,
+            "num02": 57,
+            "numResposta": 16,
+            "express": "997 - 58\u22c5x",
+            "resposta": "\u23a1997\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 58\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "[1/3]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1318\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3101\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a1435\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3311\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1997\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 58\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a11421\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3 96 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(6\ud835\udc65 + 85) - log(4\ud835\udc65 - 57) = log 16, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1997\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 58\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

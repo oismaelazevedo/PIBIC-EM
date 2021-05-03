@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 24,
+            "valX02": 12,
+            "num01": 91,
+            "num02": 36,
+            "numResposta": 6,
+            "express": "307 - 48\u22c5x",
+            "resposta": "\u23a1307\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 48\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a11599\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3 14 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1307\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 48\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "[-278/5]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "[33/8]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "[6/7]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(24\ud835\udc65 + 91) - log(12\ud835\udc65 - 36) = log 6, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1307\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 48\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

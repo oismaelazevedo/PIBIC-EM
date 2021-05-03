@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 54,
+            "valX02": 84,
+            "num01": 12,
+            "num02": 4,
+            "numResposta": 10,
+            "express": "52 - 786\u22c5x",
+            "resposta": "\u23a1 26\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3393\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1 52\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3135\u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1 26\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3393\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a11740\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3629 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1455\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3387\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1433 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a31249\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(54\ud835\udc65 + 12) - log(84\ud835\udc65 - 4) = log 10, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1 26\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3393\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

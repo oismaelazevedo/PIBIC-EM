@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 34,
+            "valX02": 86,
+            "num01": 99,
+            "num02": 96,
+            "numResposta": 11,
+            "express": "1155 - 912\u22c5x",
+            "resposta": "\u23a1385\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3304\u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1923\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3757\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "\u23a1385\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3304\u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a11271\u23a4\n\u23a2\u2500\u2500\u2500\u2500\u23a5\n\u23a3374 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a113\u23a4\n\u23a2\u2500\u2500\u23a5\n\u23a344\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1124\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3 85\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(34\ud835\udc65 + 99) - log(86\ud835\udc65 - 96) = log 11, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1385\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3304\u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

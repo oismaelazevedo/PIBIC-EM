@@ -14,14 +14,14 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open("./src/json/Gerador6/questao{}.json".format(k+1), 'w')
+    questoes = open("./src/json/Gerador12/questao{}.json".format(k+1), 'w')
 
     x = symbols('x')
 
-    valX01 = rnd.randint(2,1000)
-    valX02 = rnd.randint(2,1000)
-    num01 = rnd.randint(2,1000)
-    num02 = rnd.randint(2,1000)
+    valX01 = rnd.randint(2,100)
+    valX02 = rnd.randint(2,100)
+    num01 = rnd.randint(2,100)
+    num02 = rnd.randint(2,100)
     numResposta = rnd.randint(2,20)
 
     express = valX01*x + num01 + numResposta*(-valX02*x + num02)
@@ -69,13 +69,13 @@ while k < 200:
 
                 if numRandomTemporario == 0:
 
-                    listAlternativas[numLetra] = solve(rnd.randint(2,1000)*x + rnd.randint(2,1000) + rnd.randint(2,20)*(-rnd.randint(2,1000)*x + rnd.randint(2,1000)))
+                    listAlternativas[numLetra] = solve(rnd.randint(2,100)*x + rnd.randint(2,100) + rnd.randint(2,20)*(-rnd.randint(2,100)*x + rnd.randint(2,100)))
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e negativa"
                 else:
 
-                    listAlternativas[numLetra] = solve(-(rnd.randint(2,1000)*x + rnd.randint(2,1000) + rnd.randint(2,20)*(-rnd.randint(2,1000)*x + rnd.randint(2,1000))))
+                    listAlternativas[numLetra] = solve(-(rnd.randint(2,100)*x + rnd.randint(2,100) + rnd.randint(2,20)*(-rnd.randint(2,100)*x + rnd.randint(2,100))))
                     listAlternativas[numLetra] = pretty(listAlternativas[numLetra])
                     isCorrect[numLetra] = "Nao"
                     howGenerated[numLetra] = "gerada aleatoriamente e positiva"

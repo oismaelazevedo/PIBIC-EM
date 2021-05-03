@@ -1,0 +1,57 @@
+{
+    "equacaoExponencial": [
+        {
+            "valX01": 78,
+            "valX02": 2,
+            "num01": 82,
+            "num02": 52,
+            "numResposta": 6,
+            "express": "66\u22c5x + 394",
+            "resposta": "\u23a1-197 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  33 \u23a6"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "\u23a1-197 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  33 \u23a6",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "[7/6]",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "\u23a192\u23a4\n\u23a2\u2500\u2500\u23a5\n\u23a379\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "\u23a1-643 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  14 \u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "\u23a1663\u23a4\n\u23a2\u2500\u2500\u2500\u23a5\n\u23a3499\u23a6",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "(PUC-PR-modificada) Se log(78\ud835\udc65 + 82) - log(2\ud835\udc65 - 52) = log 6, ent\u00e3o \ud835\udc65 \u00e9 igual a:",
+            "corretaspossiveis": "\u23a1-197 \u23a4\n\u23a2\u2500\u2500\u2500\u2500\u2500\u23a5\n\u23a3  33 \u23a6",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
+        }
+    ]
+}
