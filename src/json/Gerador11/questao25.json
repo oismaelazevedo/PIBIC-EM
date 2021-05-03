@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 91,
+            "b": 8190,
+            "c": 112931,
+            "x1": -17,
+            "x2": -73,
+            "resposta": "S = [x \u2208 IR/ x = -17 ou x = -73]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 19 ou x = 18]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 34 ou x = 17]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -17 ou x = -73]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 87 ou x = 63]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -7 ou x = 71]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>619</sub>(151x\u00b2 + 8284x + 113016) = log<sub/>619</sub>(60x\u00b2 + 94x + 85)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -17 ou x = -73]",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

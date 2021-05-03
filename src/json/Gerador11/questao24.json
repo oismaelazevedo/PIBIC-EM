@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 38,
+            "b": -3914,
+            "c": 99636,
+            "x1": 46,
+            "x2": 57,
+            "resposta": "S = [x \u2208 IR/ x = 46 ou x = 57]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -69 ou x = 67]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 10 ou x = 30]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -20 ou x = -84]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 46 ou x = 57]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 31 ou x = -8]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>880</sub>(40x\u00b2 + -3857x + 99695) = log<sub/>880</sub>(2x\u00b2 + 57x + 59)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 46 ou x = 57]",
+            "corretas": 1,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

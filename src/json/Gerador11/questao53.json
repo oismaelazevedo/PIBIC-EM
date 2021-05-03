@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 2,
+            "b": 32,
+            "c": -4480,
+            "x1": -56,
+            "x2": 40,
+            "resposta": "S = [x \u2208 IR/ x = -56 ou x = 40]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -79 ou x = -67]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 45 ou x = 72]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -17 ou x = 29]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -56 ou x = 40]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -7 ou x = 24]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>711</sub>(74x\u00b2 + 132x + -4418) = log<sub/>711</sub>(72x\u00b2 + 100x + 62)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -56 ou x = 40]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

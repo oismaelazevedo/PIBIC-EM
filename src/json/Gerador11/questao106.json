@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 4,
+            "b": -288,
+            "c": -1216,
+            "x1": -4,
+            "x2": 76,
+            "resposta": "S = [x \u2208 IR/ x = -4 ou x = 76]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -4 ou x = 76]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 48 ou x = 31]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 54 ou x = 65]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -40 ou x = -90]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 43 ou x = -34]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>348</sub>(59x\u00b2 + -222x + -1130) = log<sub/>348</sub>(55x\u00b2 + 66x + 86)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -4 ou x = 76]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

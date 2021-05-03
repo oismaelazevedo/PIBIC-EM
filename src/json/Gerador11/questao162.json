@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 93,
+            "b": -6324,
+            "c": -41292,
+            "x1": -6,
+            "x2": 74,
+            "resposta": "S = [x \u2208 IR/ x = -6 ou x = 74]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -86 ou x = -78]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 23 ou x = 51]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 8 ou x = 20]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -6 ou x = 74]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 78 ou x = -87]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>214</sub>(163x\u00b2 + -6261x + -41254) = log<sub/>214</sub>(70x\u00b2 + 63x + 38)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -6 ou x = 74]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

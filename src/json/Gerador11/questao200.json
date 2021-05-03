@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 98,
+            "b": 1078,
+            "c": -34300,
+            "x1": -25,
+            "x2": 14,
+            "resposta": "S = [x \u2208 IR/ x = -25 ou x = 14]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 7 ou x = 36]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -39 ou x = 0]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -16 ou x = 37]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 34 ou x = -62]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -25 ou x = 14]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>659</sub>(149x\u00b2 + 1094x + -34234) = log<sub/>659</sub>(51x\u00b2 + 16x + 66)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -25 ou x = 14]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

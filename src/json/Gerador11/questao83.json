@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 82,
+            "b": -10004,
+            "c": 180400,
+            "x1": 22,
+            "x2": 100,
+            "resposta": "S = [x \u2208 IR/ x = 22 ou x = 100]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 22 ou x = 100]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -17 ou x = 53]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -25 ou x = 51]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -36 ou x = -114]",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -38 ou x = -6]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>324</sub>(142x\u00b2 + -9965x + 180415) = log<sub/>324</sub>(60x\u00b2 + 39x + 15)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 22 ou x = 100]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "A"
+        }
+    ]
+}

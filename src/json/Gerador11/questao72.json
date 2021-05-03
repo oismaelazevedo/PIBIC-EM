@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 68,
+            "b": -5372,
+            "c": 50864,
+            "x1": 11,
+            "x2": 68,
+            "resposta": "S = [x \u2208 IR/ x = 11 ou x = 68]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -39 ou x = 43]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 11 ou x = 68]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -3 ou x = 54]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 31 ou x = -46]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -12 ou x = 61]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>942</sub>(132x\u00b2 + -5353x + 50892) = log<sub/>942</sub>(64x\u00b2 + 19x + 28)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 11 ou x = 68]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

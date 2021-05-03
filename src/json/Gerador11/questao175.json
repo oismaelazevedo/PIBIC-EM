@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 78,
+            "b": -4134,
+            "c": 54756,
+            "x1": 27,
+            "x2": 26,
+            "resposta": "S = [x \u2208 IR/ x = 27 ou x = 26]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -56 ou x = -87]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -51 ou x = -67]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 27 ou x = 26]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 75 ou x = -28]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -36 ou x = 39]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>650</sub>(137x\u00b2 + -4100x + 54799) = log<sub/>650</sub>(59x\u00b2 + 34x + 43)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 27 ou x = 26]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

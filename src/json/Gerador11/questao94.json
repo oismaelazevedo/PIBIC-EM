@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 30,
+            "b": 1500,
+            "c": -68730,
+            "x1": -79,
+            "x2": 29,
+            "resposta": "S = [x \u2208 IR/ x = -79 ou x = 29]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 18 ou x = 74]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -79 ou x = 29]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 1 ou x = -86]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -92 ou x = 91]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -65 ou x = 95]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>376</sub>(93x\u00b2 + 1528x + -68695) = log<sub/>376</sub>(63x\u00b2 + 28x + 35)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -79 ou x = 29]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

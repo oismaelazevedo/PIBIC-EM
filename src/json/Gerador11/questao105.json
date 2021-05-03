@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 66,
+            "b": 3102,
+            "c": -20988,
+            "x1": -53,
+            "x2": 6,
+            "resposta": "S = [x \u2208 IR/ x = -53 ou x = 6]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -68 ou x = 55]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 58 ou x = -67]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -53 ou x = 6]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 65 ou x = 80]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -34 ou x = 79]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>925</sub>(142x\u00b2 + 3173x + -20908) = log<sub/>925</sub>(76x\u00b2 + 71x + 80)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -53 ou x = 6]",
+            "corretas": 1,
+            "aleatoriapositiva": 4,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

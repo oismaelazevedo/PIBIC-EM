@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 50,
+            "b": -9250,
+            "c": 426800,
+            "x1": 97,
+            "x2": 88,
+            "resposta": "S = [x \u2208 IR/ x = 97 ou x = 88]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -37 ou x = 47]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -97 ou x = -21]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 43 ou x = -82]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 74 ou x = 13]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 97 ou x = 88]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>399</sub>(69x\u00b2 + -9188x + 426859) = log<sub/>399</sub>(19x\u00b2 + 62x + 59)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 97 ou x = 88]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

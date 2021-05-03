@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 79,
+            "b": 5135,
+            "c": 53404,
+            "x1": -52,
+            "x2": -13,
+            "resposta": "S = [x \u2208 IR/ x = -52 ou x = -13]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -52 ou x = -13]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 70 ou x = -20]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 18 ou x = 1]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -93 ou x = 98]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -14 ou x = -81]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>771</sub>(109x\u00b2 + 5217x + 53431) = log<sub/>771</sub>(30x\u00b2 + 82x + 27)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -52 ou x = -13]",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 58,
+            "b": 232,
+            "c": -260130,
+            "x1": 65,
+            "x2": -69,
+            "resposta": "S = [x \u2208 IR/ x = 65 ou x = -69]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -43 ou x = -5]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -52 ou x = 25]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -79 ou x = 55]",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -49 ou x = -23]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 65 ou x = -69]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>744</sub>(130x\u00b2 + 332x + -260062) = log<sub/>744</sub>(72x\u00b2 + 100x + 68)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 65 ou x = -69]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "E"
+        }
+    ]
+}

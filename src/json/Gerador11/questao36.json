@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 21,
+            "b": 1491,
+            "c": -38220,
+            "x1": 20,
+            "x2": -91,
+            "resposta": "S = [x \u2208 IR/ x = 20 ou x = -91]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -74 ou x = 80]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 20 ou x = -91]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -95 ou x = 85]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 32 ou x = -75]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 18 ou x = -40]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>414</sub>(54x\u00b2 + 1530x + -38184) = log<sub/>414</sub>(33x\u00b2 + 39x + 36)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 20 ou x = -91]",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 28,
+            "b": 2912,
+            "c": 69412,
+            "x1": -67,
+            "x2": -37,
+            "resposta": "S = [x \u2208 IR/ x = -67 ou x = -37]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 53 ou x = 23]",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 85 ou x = 32]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -67 ou x = -37]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 88 ou x = 13]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 13 ou x = 98]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>340</sub>(84x\u00b2 + 2982x + 69434) = log<sub/>340</sub>(56x\u00b2 + 70x + 22)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -67 ou x = -37]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

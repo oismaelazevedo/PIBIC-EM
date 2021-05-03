@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 75,
+            "b": -13500,
+            "c": 606825,
+            "x1": 93,
+            "x2": 87,
+            "resposta": "S = [x \u2208 IR/ x = 93 ou x = 87]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -20 ou x = -96]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 58 ou x = 77]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 93 ou x = 87]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -13 ou x = -31]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 79 ou x = 73]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>947</sub>(130x\u00b2 + -13412x + 606904) = log<sub/>947</sub>(55x\u00b2 + 88x + 79)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 93 ou x = 87]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

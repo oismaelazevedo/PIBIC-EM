@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 88,
+            "b": 7832,
+            "c": 36960,
+            "x1": -5,
+            "x2": -84,
+            "resposta": "S = [x \u2208 IR/ x = -5 ou x = -84]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -44 ou x = -41]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 55 ou x = 53]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 24 ou x = 63]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -3 ou x = -92]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -5 ou x = -84]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>131</sub>(167x\u00b2 + 7900x + 37041) = log<sub/>131</sub>(79x\u00b2 + 68x + 81)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -5 ou x = -84]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 65,
+            "b": -6825,
+            "c": 122590,
+            "x1": 82,
+            "x2": 23,
+            "resposta": "S = [x \u2208 IR/ x = 82 ou x = 23]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -79 ou x = -21]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -4 ou x = -27]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 82 ou x = 23]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 63 ou x = 78]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -78 ou x = -21]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>504</sub>(161x\u00b2 + -6775x + 122663) = log<sub/>504</sub>(96x\u00b2 + 50x + 73)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 82 ou x = 23]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

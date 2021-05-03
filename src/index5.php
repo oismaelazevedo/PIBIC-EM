@@ -203,7 +203,7 @@ ob_start();
 
 
     // Verifica quantas questões já foram executadas
-    if (isset($_SESSION["contador"]) && $_SESSION["contador"] > 10) {
+    if (isset($_SESSION["contador"]) && $_SESSION["contador"] > 11) {
 
         unset($_SESSION["contador"]);
         header("Location: fim.php");

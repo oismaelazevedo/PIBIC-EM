@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 93,
+            "b": 2511,
+            "c": 0,
+            "x1": 0,
+            "x2": -27,
+            "resposta": "S = [x \u2208 IR/ x = 0 ou x = -27]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 43 ou x = 15]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 0 ou x = -27]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 61 ou x = 91]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -48 ou x = 78]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -1 ou x = 88]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>249</sub>(128x\u00b2 + 2539x + 49) = log<sub/>249</sub>(35x\u00b2 + 28x + 49)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 0 ou x = -27]",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

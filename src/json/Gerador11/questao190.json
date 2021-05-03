@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 43,
+            "b": -4300,
+            "c": 106812,
+            "x1": 54,
+            "x2": 46,
+            "resposta": "S = [x \u2208 IR/ x = 54 ou x = 46]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 77 ou x = 58]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -53 ou x = 66]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 54 ou x = 46]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 0 ou x = -31]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 52 ou x = 16]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>84</sub>(82x\u00b2 + -4286x + 106828) = log<sub/>84</sub>(39x\u00b2 + 14x + 16)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 54 ou x = 46]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 27,
+            "b": 81,
+            "c": -55836,
+            "x1": 44,
+            "x2": -47,
+            "resposta": "S = [x \u2208 IR/ x = 44 ou x = -47]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 30 ou x = -61]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -45 ou x = 80]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 44 ou x = -47]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 86 ou x = -21]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -89 ou x = 78]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>262</sub>(63x\u00b2 + 93x + -55819) = log<sub/>262</sub>(36x\u00b2 + 12x + 17)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 44 ou x = -47]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

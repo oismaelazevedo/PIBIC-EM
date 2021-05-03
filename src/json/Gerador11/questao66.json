@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 24,
+            "b": -3432,
+            "c": 122688,
+            "x1": 71,
+            "x2": 72,
+            "resposta": "S = [x \u2208 IR/ x = 71 ou x = 72]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 71 ou x = 72]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 38 ou x = 0]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 57 ou x = 58]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 91 ou x = -93]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -63 ou x = 90]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>786</sub>(101x\u00b2 + -3387x + 122709) = log<sub/>786</sub>(77x\u00b2 + 45x + 21)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 71 ou x = 72]",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

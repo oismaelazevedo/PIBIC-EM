@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 96,
+            "b": 2592,
+            "c": -357504,
+            "x1": -76,
+            "x2": 49,
+            "resposta": "S = [x \u2208 IR/ x = -76 ou x = 49]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -28 ou x = -45]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 37 ou x = -25]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 94 ou x = 93]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -76 ou x = 49]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -58 ou x = -12]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>929</sub>(156x\u00b2 + 2675x + -357439) = log<sub/>929</sub>(60x\u00b2 + 83x + 65)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -76 ou x = 49]",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

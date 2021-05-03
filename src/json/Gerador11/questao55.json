@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 97,
+            "b": -12707,
+            "c": 313698,
+            "x1": 33,
+            "x2": 98,
+            "resposta": "S = [x \u2208 IR/ x = 33 ou x = 98]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 65 ou x = 10]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 83 ou x = -92]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 33 ou x = 98]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -43 ou x = 6]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 21 ou x = -34]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>235</sub>(182x\u00b2 + -12672x + 313703) = log<sub/>235</sub>(85x\u00b2 + 35x + 5)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 33 ou x = 98]",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

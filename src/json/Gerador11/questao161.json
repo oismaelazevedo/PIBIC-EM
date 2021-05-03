@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 87,
+            "b": -4263,
+            "c": -28710,
+            "x1": 55,
+            "x2": -6,
+            "resposta": "S = [x \u2208 IR/ x = 55 ou x = -6]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -50 ou x = -57]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -82 ou x = -50]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 16 ou x = 91]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -48 ou x = 43]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 55 ou x = -6]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>932</sub>(178x\u00b2 + -4226x + -28681) = log<sub/>932</sub>(91x\u00b2 + 37x + 29)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 55 ou x = -6]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

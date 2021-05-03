@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 45,
+            "b": -7785,
+            "c": 325890,
+            "x1": 102,
+            "x2": 71,
+            "resposta": "S = [x \u2208 IR/ x = 102 ou x = 71]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 102 ou x = 71]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 88 ou x = 57]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 45 ou x = 32]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -98 ou x = 65]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -5 ou x = 54]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>397</sub>(122x\u00b2 + -7724x + 325940) = log<sub/>397</sub>(77x\u00b2 + 61x + 50)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 102 ou x = 71]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

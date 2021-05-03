@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 52,
+            "b": 3380,
+            "c": 51168,
+            "x1": -24,
+            "x2": -41,
+            "resposta": "S = [x \u2208 IR/ x = -24 ou x = -41]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -54 ou x = -65]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -24 ou x = -41]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -44 ou x = 4]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 55 ou x = 70]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -89 ou x = 97]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>144</sub>(64x\u00b2 + 3460x + 51209) = log<sub/>144</sub>(12x\u00b2 + 80x + 41)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -24 ou x = -41]",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 4,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 96,
+            "b": -4800,
+            "c": -134400,
+            "x1": 70,
+            "x2": -20,
+            "resposta": "S = [x \u2208 IR/ x = 70 ou x = -20]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 56 ou x = -34]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -5 ou x = -78]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -36 ou x = -27]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 70 ou x = -20]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 13 ou x = 37]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>501</sub>(186x\u00b2 + -4710x + -134383) = log<sub/>501</sub>(90x\u00b2 + 90x + 17)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 70 ou x = -20]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

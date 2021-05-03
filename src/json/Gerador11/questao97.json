@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 26,
+            "b": 728,
+            "c": -122304,
+            "x1": -84,
+            "x2": 56,
+            "resposta": "S = [x \u2208 IR/ x = -84 ou x = 56]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -84 ou x = 56]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 93 ou x = 73]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -62 ou x = -99]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 44 ou x = 57]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 69 ou x = 97]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>626</sub>(91x\u00b2 + 784x + -122281) = log<sub/>626</sub>(65x\u00b2 + 56x + 23)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -84 ou x = 56]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

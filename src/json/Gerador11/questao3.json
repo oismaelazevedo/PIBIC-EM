@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 23,
+            "b": 299,
+            "c": -28014,
+            "x1": -42,
+            "x2": 29,
+            "resposta": "S = [x \u2208 IR/ x = -42 ou x = 29]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 71 ou x = 25]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 45 ou x = 84]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -34 ou x = -79]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -43 ou x = 43]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -42 ou x = 29]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>156</sub>(106x\u00b2 + 392x + -27945) = log<sub/>156</sub>(83x\u00b2 + 93x + 69)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -42 ou x = 29]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

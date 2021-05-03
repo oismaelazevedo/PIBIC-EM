@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 4,
+            "b": 20,
+            "c": -29216,
+            "x1": -88,
+            "x2": 83,
+            "resposta": "S = [x \u2208 IR/ x = -88 ou x = 83]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -16 ou x = 33]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 82 ou x = -15]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 45 ou x = 75]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -88 ou x = 83]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 6 ou x = -4]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>843</sub>(69x\u00b2 + 91x + -29177) = log<sub/>843</sub>(65x\u00b2 + 71x + 39)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -88 ou x = 83]",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

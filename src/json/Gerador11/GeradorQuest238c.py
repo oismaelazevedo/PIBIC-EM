@@ -11,11 +11,11 @@ def elementosListaEhDistinta(lista):
             elif lista[indiceLista] == lista[indiceListaComparacao] and indiceLista != indiceListaComparacao:
                 return False
 
-enunciado = [None]*100
+enunciado = [None]*200
 k = 0
-while k < 100:
+while k < 200:
 
-    questoes = open("questao{}-238c.json".format(k+1), 'w')
+    questoes = open("./src/json/Gerador11/questao{}.json".format(k+1), 'w')
 
     numBaseLogaritmo = rnd.randint(2,1000)
 
@@ -133,7 +133,7 @@ while k < 100:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Resolva a equação:\nc) log{} ({}) = log{} ({})'.format(numBaseLogaritmo,pretty((a1+a2)*(x**2) + (b1+b2)*x + (c1+c2)), numBaseLogaritmo, pretty(a2*(x**2) + b2*x + c2)),
+                'enunciado': 'Resolva a equação:\nc) log<sub>{}</sub>({}x² + {}x + {}) = log<sub/>{}</sub>({}x² + {}x + {})'.format(numBaseLogaritmo,(a1+a2),(b1+b2),(c1+c2), numBaseLogaritmo, a2, b2, c2),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
@@ -150,7 +150,7 @@ while k < 100:
     if dados['atributosquestao'][0]['enunciado'] in enunciado:
         continue
     else:
-        print('Resolva a equação:\nc) log{} ({}) = log{} ({})'.format(numBaseLogaritmo,pretty((a1+a2)*(x**2) + (b1+b2)*x + (c1+c2)), numBaseLogaritmo, pretty(a2*(x**2) + b2*x + c2)))
+        print('Resolva a equação:\nc) log<sub>{}</sub>({}x² + {}x + {}) = log<sub/>{}</sub>({}x² + {}x + {})'.format(numBaseLogaritmo,(a1+a2),(b1+b2),(c1+c2), numBaseLogaritmo, a2, b2, c2))
         
     # Armazena os enunciados
         enunciado[k] = dados['atributosquestao'][0]['enunciado']

@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 42,
+            "b": 1932,
+            "c": -134064,
+            "x1": -84,
+            "x2": 38,
+            "resposta": "S = [x \u2208 IR/ x = -84 ou x = 38]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 96 ou x = 89]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 72 ou x = 23]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -98 ou x = 24]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 38 ou x = 99]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -84 ou x = 38]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>781</sub>(117x\u00b2 + 1965x + -133986) = log<sub/>781</sub>(75x\u00b2 + 33x + 78)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -84 ou x = 38]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 50,
+            "b": 8050,
+            "c": 324000,
+            "x1": -81,
+            "x2": -80,
+            "resposta": "S = [x \u2208 IR/ x = -81 ou x = -80]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 20 ou x = -88]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -49 ou x = -15]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -62 ou x = 33]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -31 ou x = -26]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -81 ou x = -80]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>111</sub>(85x\u00b2 + 8063x + 324012) = log<sub/>111</sub>(35x\u00b2 + 13x + 12)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -81 ou x = -80]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "E"
+        }
+    ]
+}

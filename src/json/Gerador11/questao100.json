@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 17,
+            "b": 1547,
+            "c": 13770,
+            "x1": -10,
+            "x2": -81,
+            "resposta": "S = [x \u2208 IR/ x = -10 ou x = -81]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -4 ou x = 35]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -1 ou x = 6]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -24 ou x = -95]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -10 ou x = -81]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 52 ou x = 75]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>758</sub>(99x\u00b2 + 1595x + 13860) = log<sub/>758</sub>(82x\u00b2 + 48x + 90)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -10 ou x = -81]",
+            "corretas": 1,
+            "aleatoriapositiva": 3,
+            "aleatorianegativa": 0,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}

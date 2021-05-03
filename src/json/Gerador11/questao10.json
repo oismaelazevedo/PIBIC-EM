@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 24,
+            "b": 864,
+            "c": -7224,
+            "x1": -43,
+            "x2": 7,
+            "resposta": "S = [x \u2208 IR/ x = -43 ou x = 7]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -12 ou x = -29]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -43 ou x = 7]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -57 ou x = -7]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 45 ou x = 18]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 64 ou x = -90]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>319</sub>(118x\u00b2 + 901x + -7137) = log<sub/>319</sub>(94x\u00b2 + 37x + 87)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -43 ou x = 7]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

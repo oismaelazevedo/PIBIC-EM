@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 63,
+            "b": -252,
+            "c": -1323,
+            "x1": -3,
+            "x2": 7,
+            "resposta": "S = [x \u2208 IR/ x = -3 ou x = 7]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -10 ou x = 70]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -17 ou x = -7]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -3 ou x = 7]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 64 ou x = 61]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 93 ou x = -59]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>399</sub>(132x\u00b2 + -168x + -1255) = log<sub/>399</sub>(69x\u00b2 + 84x + 68)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -3 ou x = 7]",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

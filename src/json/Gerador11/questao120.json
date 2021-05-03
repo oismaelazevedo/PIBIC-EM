@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 30,
+            "b": 4470,
+            "c": 164820,
+            "x1": -67,
+            "x2": -82,
+            "resposta": "S = [x \u2208 IR/ x = -67 ou x = -82]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -5 ou x = -27]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 44 ou x = -99]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = -67 ou x = -82]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 53 ou x = 68]",
+            "correta": "Nao",
+            "tipoerro": "invertida e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 57 ou x = 60]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>760</sub>(115x\u00b2 + 4560x + 164860) = log<sub/>760</sub>(85x\u00b2 + 90x + 40)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -67 ou x = -82]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 0,
+            "invertidanegativa": 1,
+            "respostascorretas": "C"
+        }
+    ]
+}

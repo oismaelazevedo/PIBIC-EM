@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 28,
+            "b": 2044,
+            "c": 37128,
+            "x1": -39,
+            "x2": -34,
+            "resposta": "S = [x \u2208 IR/ x = -39 ou x = -34]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -29 ou x = -21]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -39 ou x = -34]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 7 ou x = -21]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 39 ou x = -51]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 66 ou x = -57]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>752</sub>(66x\u00b2 + 2113x + 37225) = log<sub/>752</sub>(38x\u00b2 + 69x + 97)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -39 ou x = -34]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 2,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "B"
+        }
+    ]
+}

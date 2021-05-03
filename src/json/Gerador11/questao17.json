@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 63,
+            "b": -3150,
+            "c": -235053,
+            "x1": 91,
+            "x2": -41,
+            "resposta": "S = [x \u2208 IR/ x = 91 ou x = -41]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -51 ou x = -50]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = 98 ou x = 15]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 91 ou x = -41]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = 4 ou x = 58]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 77 ou x = -55]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>907</sub>(152x\u00b2 + -3134x + -235010) = log<sub/>907</sub>(89x\u00b2 + 16x + 43)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = 91 ou x = -41]",
+            "corretas": 1,
+            "aleatoriapositiva": 0,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "C"
+        }
+    ]
+}

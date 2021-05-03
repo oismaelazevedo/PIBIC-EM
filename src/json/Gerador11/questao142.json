@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 84,
+            "b": 2688,
+            "c": -241920,
+            "x1": -72,
+            "x2": 40,
+            "resposta": "S = [x \u2208 IR/ x = -72 ou x = 40]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = -72 ou x = 40]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -61 ou x = 24]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 18 ou x = -22]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -68 ou x = 70]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = 32 ou x = 21]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>892</sub>(98x\u00b2 + 2779x + -241904) = log<sub/>892</sub>(14x\u00b2 + 91x + 16)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -72 ou x = 40]",
+            "corretas": 1,
+            "aleatoriapositiva": 1,
+            "aleatorianegativa": 3,
+            "invertidapositiva": 0,
+            "invertidanegativa": 0,
+            "respostascorretas": "A"
+        }
+    ]
+}

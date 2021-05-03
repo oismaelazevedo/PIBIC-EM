@@ -1,0 +1,56 @@
+{
+    "logaritmo": [
+        {
+            "a": 78,
+            "b": 5460,
+            "c": 73008,
+            "x1": -52,
+            "x2": -18,
+            "resposta": "S = [x \u2208 IR/ x = -52 ou x = -18]"
+        }
+    ],
+    "respostas": [
+        {
+            "letra": "a)",
+            "resposta": "S = [x \u2208 IR/ x = 10 ou x = 15]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "b)",
+            "resposta": "S = [x \u2208 IR/ x = -57 ou x = 32]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e positiva"
+        },
+        {
+            "letra": "c)",
+            "resposta": "S = [x \u2208 IR/ x = 47 ou x = 5]",
+            "correta": "Nao",
+            "tipoerro": "gerada aleatoriamente e negativa"
+        },
+        {
+            "letra": "d)",
+            "resposta": "S = [x \u2208 IR/ x = -52 ou x = -18]",
+            "correta": "Sim",
+            "tipoerro": "nenhum"
+        },
+        {
+            "letra": "e)",
+            "resposta": "S = [x \u2208 IR/ x = -66 ou x = -32]",
+            "correta": "Nao",
+            "tipoerro": "invertida e positiva"
+        }
+    ],
+    "atributosquestao": [
+        {
+            "enunciado": "Resolva a equa\u00e7\u00e3o:\nc) log<sub>547</sub>(166x\u00b2 + 5496x + 73064) = log<sub/>547</sub>(88x\u00b2 + 36x + 56)",
+            "corretaspossiveis": "S = [x \u2208 IR/ x = -52 ou x = -18]",
+            "corretas": 1,
+            "aleatoriapositiva": 2,
+            "aleatorianegativa": 1,
+            "invertidapositiva": 1,
+            "invertidanegativa": 0,
+            "respostascorretas": "D"
+        }
+    ]
+}
