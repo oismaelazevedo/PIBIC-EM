@@ -24,8 +24,8 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 
 ## 🧑‍🤝‍🧑 Integrantes
 ### Professores orientadores
-- Profa. M.Sc. Alayne Duarte Amorim, Colégio Pedro II - [Currículo Lattes](http://lattes.cnpq.br/6728091845181284)
 - Prof. Ph.D. Daniel Sadoc Menasche, Universidade Federal do Rio de Janeiro - [Currículo Lattes](http://lattes.cnpq.br/9931198850020140)
+- Profa. M.Sc. Alayne Duarte Amorim, Colégio Pedro II - [Currículo Lattes](http://lattes.cnpq.br/6728091845181284)
 - Prof. M.Sc. Marcus Paulo de Q. Amorim, Colégio Pedro II - [Currículo Lattes](http://lattes.cnpq.br/5890334014963199)
 ### Orientandos
 - Estevão Vitor Gregorio Naval - [Currículo Lattes](http://lattes.cnpq.br/3949652173819005)
