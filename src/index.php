@@ -42,11 +42,11 @@ $_SESSION['resperrada'] = 0;
         </div>
         <div class="modal-body">
           <ul>
-            <li>O objetivo desses exercícios é ajudar na compreenssão do conteúdo de Equação Exponencial.</li>
+            <li>O objetivo desses exercícios é ajudar na compreensão do conteúdo de Equação Exponencial.</li>
             <li>O exercício é composto por 10 questões, podendo ter apenas 1 resposta correta em cada questão.</li>
             <li>Caso ao verificar a questão e a mesma estiver incorreta, será exibida a mensagem informando que a questão está incorreta e será permitida mais uma oportunidade para que responda corretamente a questão.</li>
             <li>Ao final será exibido um relatório sobre o seu desempenho.</li>
-            <li>Para dúvidas ou sujestões, entre em contato com o email: oismaelazevedo@gmail.com!</li>
+            <li>Para dúvidas ou sugestões, entre em contato com o correio eletrônico: oismaelazevedo@gmail.com!</li>
           </ul>
         </div>
         <div class="modal-footer">
