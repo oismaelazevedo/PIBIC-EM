@@ -78,19 +78,20 @@ ob_start();
     </div>
     </div>
     <!--inicia a mensagem do primeiro erro-->
-    <div class="modal fade" id="erro1">
+    <div class="modal fade rounded-pill border border-dark" id="erro1">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header border border-bottom-dark">
                     <h5 class="modal-title">Resposta Incorreta!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body border-top-dark border border-bottom-dark">
                     <p>Tente na próxima questão!😥😥😥</p>
+                    <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/TW8Ma1a8ZsZ8I" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer border border-top-dark">
                     <a onclick="$('#erro1').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>
                 </div>
             </div>
@@ -99,19 +100,20 @@ ob_start();
     </div>
     <!--finaliza a mensagem do primeiro erro-->
     <!--inicia a mensagem do acerto-->
-    <div class="modal fade" id="acerto">
+    <div class="modal fade rounded-pill border border-dark" id="acerto">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header border border-bottom-dark">
                     <h5 class="modal-title">Correto!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body border-top-dark border border-bottom-dark">
                     <p>Parabéns. Você acertou!👏👏👏</p>
+                    <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/srg19CG0cKMuI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer border border-top-dark">
                     <a onclick="$('#acerto').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>
 
                 </div>
