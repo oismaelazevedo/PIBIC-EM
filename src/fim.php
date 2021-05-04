@@ -40,7 +40,7 @@ require_once("funcao/conexao.php");
             </div>
             <div class="panel-body">
                 <div class="row">
-                    <div class="col-md-7" style="border-left:1px solid #ccc;height:300px">
+                    <div class="col-md-7" style="border-left:1px solid #ccc;display:flex; flex-direction: row; justify-content: center; align-items: center">
                         <fieldset>
                             <div class="spacing"><br /></div>
 
@@ -50,7 +50,7 @@ require_once("funcao/conexao.php");
                             $rodada = $_SESSION['rodada'];
 
                             $PDO = CriarConexao();
-                            $sql = "SELECT * FROM `usuarios`, `resposta` WHERE `resposta`.`id_user` = `usuarios`.`id` and `resposta`.`rodada` = :rodada";
+                            $sql = "SELECT nome, resposta, selecionada, correta FROM `usuarios`, `resposta` WHERE `resposta`.`id_user` = `usuarios`.`id` and `resposta`.`rodada` = :rodada";
 
                             $consulta = $PDO->prepare($sql);
                             $consulta->bindParam(":rodada", $rodada);
@@ -98,6 +98,10 @@ require_once("funcao/conexao.php");
 
                                 ?>
                             </table>
+                            <br>
+                            <p>
+                                <strong>Total de acertos:</strong> <?php ?>
+                            </p>
                             <a href="funcao/logout.php" class="btn btn-info btn-sm pull-right">Finalizar</a>
                         </fieldset>
                     </div>
