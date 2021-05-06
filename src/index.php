@@ -44,8 +44,8 @@ $_SESSION['resperrada'] = 0;
           <ul>
             <li>O objetivo desses exercícios é ajudar na compreensão do conteúdo de Equação Exponencial e Logarítmica.</li>
             <li>O exercício é composto por 12 questões, podendo ter apenas 1 resposta correta em cada questão.</li>
-            <li>Caso ao verificar a questão e a mesma estiver incorreta, será exibida a mensagem informando que a questão está incorreta e será permitida mais uma oportunidade para que responda corretamente a questão.</li>
-            <li>Ao final será exibido um relatório sobre o seu desempenho.</li>
+            <li>Caso ao verificar a questão e a mesma estiver incorreta, será exibida a mensagem informando que a questão está incorreta.</li>
+            <li>Ao final das perguntas, será exibido um relatório sobre o seu desempenho.</li>
             <li>Para dúvidas ou sugestões, entre em contato com o correio eletrônico: oismaelazevedo@gmail.com!</li>
           </ul>
         </div>
