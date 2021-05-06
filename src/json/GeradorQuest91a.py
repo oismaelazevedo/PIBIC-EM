@@ -14,9 +14,7 @@ enunciado = [None]*200
 k = 0
 while k < 200:
 
-    questoes = open('questao{}-91a.json'.format(k+1), 'w')
-
-    a, b, c, x, Y = symbols("a b c x Y")
+    questoes = open('./src/test/questao{}.json'.format(k+1), 'w')
 
     a = rnd.randint(-100,100)
     x1 = 7 - rnd.randint(-1000,1000)
@@ -128,7 +126,7 @@ while k < 200:
         ],
         'atributosquestao': [
             {
-                'enunciado': 'Determine as raízes da equação em IR+: {} = 1'.format(pretty(Y ** (a*(x**2) + b*x + c))),
+                'enunciado': 'Determine as raízes da equação em IR+: y<sup>{}x² + {}x + {}</sup> = 1'.format(a,b,c),
                 'corretaspossiveis': listAlternativas[isCorrect.index("Sim")],
                 'corretas': isCorrect.count("Sim"),
                 'aleatoriapositiva': howGenerated.count("gerada aleatoriamente e positiva"),
