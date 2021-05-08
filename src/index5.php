@@ -220,7 +220,7 @@ ob_start();
 
     if ($note == "Primeira") {
         //Monta a questão
-        $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 200) . ".json";
+        $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 190) . ".json";
         $info = file_get_contents($arquivo);
         $_SESSION['info'] = $arquivo;
     } else if ($note == "Sim") {
@@ -235,7 +235,7 @@ ob_start();
         </script>
     <?php
         //Monta a questão
-        $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 200) . ".json";
+        $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 190) . ".json";
         $info = file_get_contents($arquivo);
         $_SESSION['info'] = $arquivo;
     } else if ($note == "Não") {
@@ -248,7 +248,7 @@ ob_start();
             });
         </script>
     <?php
-        $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 200) . ".json";
+        $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 190) . ".json";
         $info = file_get_contents($arquivo);
         $_SESSION['info'] = $arquivo;
     } else if ($note == "Vazio") {
