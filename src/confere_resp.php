@@ -156,7 +156,7 @@ ob_start();
         header("Location: index5.php");
     }
 
-    if (count($_SESSION["escolhido"]) == 12) {
+    if (count($_SESSION["escolhido"]) == 10) {
         unset($_SESSION["contador"]);
         header("Location: fim.php");
     }

@@ -88,8 +88,7 @@ ob_start();
                     </button>
                 </div>
                 <div class="modal-body border-top-dark border border-bottom-dark">
-                    <p>Tente na próxima questão!😥😥😥</p>
-                    <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/TW8Ma1a8ZsZ8I" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+                    <p>Tente na próxima questão!</p>
                 </div>
                 <div class="modal-footer border border-top-dark">
                     <a onclick="$('#erro1').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>
@@ -110,8 +109,7 @@ ob_start();
                     </button>
                 </div>
                 <div class="modal-body border-top-dark border border-bottom-dark">
-                    <p>Parabéns. Você acertou!👏👏👏</p>
-                    <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/srg19CG0cKMuI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+                    <p>Parabéns. Você acertou!</p>
                 </div>
                 <div class="modal-footer border border-top-dark">
                     <a onclick="$('#acerto').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>
@@ -205,7 +203,7 @@ ob_start();
 
 
     // Verifica quantas questões já foram executadas
-    if (isset($_SESSION["contador"]) && $_SESSION["contador"] > 12) {
+    if (isset($_SESSION["contador"]) && $_SESSION["contador"] > 10) {
 
         unset($_SESSION["contador"]);
         header("Location: fim.php");
@@ -248,6 +246,7 @@ ob_start();
             });
         </script>
     <?php
+        
         $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 190) . ".json";
         $info = file_get_contents($arquivo);
         $_SESSION['info'] = $arquivo;

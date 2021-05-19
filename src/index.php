@@ -43,8 +43,8 @@ $_SESSION['resperrada'] = 0;
         <div class="modal-body">
           <ul>
             <li>O objetivo desses exercícios é ajudar na compreensão do conteúdo de Equação Exponencial e Logarítmica.</li>
-            <li>O exercício é composto por 12 questões, podendo ter apenas 1 resposta correta em cada questão.</li>
-            <li>Caso ao verificar a questão e a mesma estiver incorreta, será exibida a mensagem informando que a questão está incorreta.</li>
+            <li>O exercício é composto por 10 questões, podendo ter apenas 1 resposta correta em cada questão.</li>
+            <li>No caso de se verificar a questão e a mesma estiver incorreta, será exibida a mensagem informando que a questão está incorreta e uma nova oportunidade será dada.</li>
             <li>Ao final das perguntas, será exibido um relatório sobre o seu desempenho.</li>
             <li>Para dúvidas ou sugestões, entre em contato com o correio eletrônico: oismaelazevedo@gmail.com!</li>
           </ul>
@@ -71,7 +71,7 @@ $_SESSION['resperrada'] = 0;
         <div class="row">
 
           <div class="col-md-5">
-            Exercícios de fixação para melhor entendimento em Equação Exponencial no Ensino Médio.<br><br>
+            Exercícios de fixação para melhor entendimento em Equação Exponencial e Logarítmica no Ensino Médio.<br><br>
             OBS.: Nas questões, você encontrará muitos valores altíssimos, portanto, não tenha medo em usar a calculadora! <b>#ficaadica</b>
           </div>
 

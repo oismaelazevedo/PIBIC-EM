@@ -99,9 +99,6 @@ require_once("funcao/conexao.php");
                                 ?>
                             </table>
                             <br>
-                            <p>
-                                <strong>Total de acertos:</strong> <?php ?>
-                            </p>
                             <a href="funcao/logout.php" class="btn btn-info btn-sm pull-right">Finalizar</a>
                         </fieldset>
                     </div>
