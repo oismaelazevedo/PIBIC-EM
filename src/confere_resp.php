@@ -74,8 +74,7 @@ ob_start();
 
     calculaTempo($hora_inicial, $hora_final);
 
-    $acertou = 0;
-    $errou = 0;
+    // $errou = 0;
 
     //Pega as informações do arquivo
     $info = file_get_contents($arquivo);
@@ -92,9 +91,18 @@ ob_start();
             $_SESSION["correto"] = "Sim";
             
         } else if ($letra_resp_user != $letra_correta) {
+            if ($_SESSION["resperrada"] < 1) {
+                $_SESSION['resperrada'] = 1;
+                // $errou = $errou + 1;
+                $_SESSION["correto"] = "Não";
+                $_SESSION['info'] = $arquivo;
+                header("Location: index5.php");
 
-            $_SESSION["contador"] = $_SESSION["contador"] + 1;
-            $_SESSION["correto"] = "Não";
+            }else{
+                $_SESSION["contador"] = $_SESSION["contador"] + 1;
+                $_SESSION["correto"] = "Não";
+                unset($_SESSION['resperrada']);
+            }
         }
         switch ($letra_resp_user) {
             case "A":

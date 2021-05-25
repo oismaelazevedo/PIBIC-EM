@@ -245,7 +245,7 @@ ob_start();
                 keyboard: false
             });
         </script>
-    <?php
+    <?php        
         
         $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 190) . ".json";
         $info = file_get_contents($arquivo);
