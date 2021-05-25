@@ -35,7 +35,7 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 ## 🛠️ Atributos do projeto
 
 ### Status geral
-#### 🚧  Desenvolver uma aplicação web capaz de permitir a resolução das questões, além de ser capaz de gerenciá-las.  🚧
+#### 🚧  Liberar o sistema web para o público geral com o objetivo deste enviar registros que popularão o banco de dados. O objetivo aqui é permitir o aprendizado de máquina pela avaliação dos dados reunidos.  🚧
 
 ### Tecnologias utilizadas
 - [Python](https://www.python.org/)
@@ -47,7 +47,8 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Bootstrap](https://getbootstrap.com/)
 - [MySQL](https://www.mysql.com/)
-### Questões base utilizadas
+
+### Questões base criadas
 
 | Número da questão | Enunciado original | Enunciado adaptado | Fonte |
 | :----------: | :----------: | :----------: | :----------: |
@@ -84,13 +85,29 @@ Este projeto faz parte do programa de iniciação científica para o ensino méd
 | 238 - c | log<sub>2</sub> (5x<sup>2</sup> - 14x + 1) = log<sub>2</sub> (4x<sup>2</sup> - 4x - 20) | Resolva a equação:\nc) log<sub><número_aleatório></sub> (<express_aleatoria>) = log<sub><número_aleatório></sub> (<express_aleatoria>) | Livro Fundamentos de Matemática Elementar - Vol. 02 |
 | 401 | O valor de C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do período), após t períodos, é dado por C = C<sub>0</sub> . (1 + i)<sup>t</sup>, en que C<sub>0</sub> é o valor inicial. Qual é o tempo necessário para que um capital empregado à taxa de 2% ao mês, com juros capitalizados mensamelmente, dobre de valor? | O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do período), após t períodos, é dado por C = C<sub>0</sub> . (1 + i)<sup>t</sup>, em que C<sub>0</sub> é o valor inicial. Qual é o tempo necessário para que um capital empregado à taxa de <número_aleatório>% ao mês, com juros capitalizados mensalmente, seja multiplicado por <número_aleatório>? Admita que log<número_aleatório> = <log_do_número_aleatório> e log<número_aleatório> = <log_do_número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
 
+### Questões base utilizadas
+
+| Número da questão | Enunciado original | Enunciado adaptado | Fonte |
+| :----------: | :----------: | :----------: | :----------: |
+| 11 | (UF-RN) Dados os números M = 9,84 x 10<sup>15</sup> e N = 1,23 x 10<sup>16</sup>, pode-se afirmar que: | (UF-RN-modificada) Dados os números M = <número_aleatório> X 10<sup><número_aleatório></sup> e N = <número_aleatório> X 10<sup><número_aleatório></sup>. Pode-se afirmar que: | Vestibular UFRN |
+| 14 | (Fuvest) O número x > 1 tal que log<sub>x</sub> 2 = log<sub>4</sub> x é | (Fuvest-modificada) Temos que x > 1 tal que log<sub>x</sub> (<número_aleatório>) = log<sub><número_aleatório></sub> (x). Assim sendo, o logarítmo de x na base 10 é: | Vestibular Fuvest |
+| 163 | O pH de uma solução é definido por pH = log<sub>10</sub>(1/H+), em que H+ é a concentração de hidrogênio em íons-grama por litro de solução. Determine o pH de uma solução tal que H+ = 1,0 x 10<sup>-8</sup>. | O pH de uma solução é definido por pH = log(1/H+), em que H+ é a concentração de hidrogênio em íons-gama por litro de solução. Determine o quadrado sobre três do pH de uma solução tal que H+ = 1,0 x e<sup><número_aleatório></sup>. Admita que e = 10 | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 166 | Determine a razão entre os logaritmos de 16 e 4 numa base qualquer. | Determine o valor aproximado da razão entre os logaritmos de <número_aleatório> e <número_aleatório> numa base qualquer: | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 169 | A soma dos logaritmos de dois números na base 9 é 1/2. Determine o produto desses números. | A soma dos logaritmos de dois números na base <número_aleatório> é 1/<2_ou_3>. Determine o produto desses números. | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 71 - a | 2<sup>x</sup> = 128 | Resolva a seguinte equação exponencial: <número_aleatório><sup><número_aleatório></sup> = <número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 226 | O crescimento de uma certa cultura de bactérias obedece à função X(t) = C.e<sup>kt</sup>, em que X(t) é o número de bactérias no tempo t >= 0; C, k são constantes positivas. Verificando que o número inicial de bactérias X(0) duplica em 4 horas, quantas se pode esperar no fim de 6 horas? | O crescimento de uma certa cultura de bactérias obedece à função X(t) = C.<número_aleatório><sup>kt</sup>, em que X(t) é o número de bactérias no tempo t >= 0; C, k são constantes positivas. Verificando que o número inicial de bactérias X(0) é multiplicado por <número_aleatório> em <2_ou_3> horas, quantas se pode esperar no fim de <número_aleatório> horas? | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 227 | Uma substância radioativa está em processo de desintegração, de modo que no instante t a quantidade não desintegrada é A(t) = A(0) . e<sup>-3t</sup>, em que A(0) indica a quantidade da substância no instante t = 0. Calcule o tempo necessário para que a metade da quantidade inicial se desintegre. | Uma substância radioativa está em processo de desintegração, de modo que no instante t a quantidade não desintegrada é A(t) = A(0).<número_aleatório><sup>-<número_aleatório>t</sup>, em que A(0) indica a quantidade de substância no instante t = 0. Calcule o tempo necessário para que a quantidade inicial dividida por <número_aleatório> se desintegre. | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 79 - f | Resolva as seguintes equações exponenciais: f) 2 x 4<sup>x + 2<sup> - 5 x 4<sup>x + 1</sup> - 3 x 2<sup>2x + 1</sup> - 4<sup>x</sup> = 20 | Resolva a seguinte equação exponencial: <express_aleatoria> = <número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+| 401 | O valor de C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do período), após t períodos, é dado por C = C<sub>0</sub> . (1 + i)<sup>t</sup>, en que C<sub>0</sub> é o valor inicial. Qual é o tempo necessário para que um capital empregado à taxa de 2% ao mês, com juros capitalizados mensamelmente, dobre de valor? | O valor C de um capital (empregado a uma taxa i de juros capitalizados periodicamente ao fim do período), após t períodos, é dado por C = C<sub>0</sub> . (1 + i)<sup>t</sup>, em que C<sub>0</sub> é o valor inicial. Qual é o tempo necessário para que um capital empregado à taxa de <número_aleatório>% ao mês, com juros capitalizados mensalmente, seja multiplicado por <número_aleatório>? Admita que log<número_aleatório> = <log_do_número_aleatório> e log<número_aleatório> = <log_do_número_aleatório> | Livro Fundamentos de Matemática Elementar - Vol. 02 |
+
+
 ### Tipos de erro utilizados
 
 | Tipo de erro | Descrição |
 | :----------: | :----------: |
 | Invertida | Erro em que a fórmula para se chegar ao resultado é trocada |
 | Aleatória | Um número é gerado por pseudoaleatoriedade, mas dentro dos moldes da fórmula do resultado |
-| Sinal trocado | O sinal do resultado final é trocado. Sempre vem acompanhado com os erros anteriores | 
+| Sinal trocado | O sinal do resultado final é trocado. Sempre vem acompanhado com os erros anteriores |
 
 ## 🎯 Objetivos
 ### Objetivos principais
