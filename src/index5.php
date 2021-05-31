@@ -254,7 +254,7 @@ ob_start();
         $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 190) . ".json";
         $info = file_get_contents($arquivo);
         $_SESSION['info'] = $arquivo;
-    } else if ($note == "Não2") {
+    } else if ($note == "Não") {
     ?>
         <!--chamando modal erro2-->
         <script>
