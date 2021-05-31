@@ -76,9 +76,8 @@ ob_start();
             </div>
         </div>
     </div>
-    </div>
-    <!--inicia a mensagem do primeiro erro-->
-    <div class="modal fade rounded-pill border border-dark" id="erro1">
+    <!--inicia a mensagem do segundo erro-->
+    <div class="modal fade rounded-pill border border-dark" id="erro2">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header border border-bottom-dark">
@@ -91,11 +90,30 @@ ob_start();
                     <p>Tente na próxima questão!</p>
                 </div>
                 <div class="modal-footer border border-top-dark">
-                    <a onclick="$('#erro1').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>
+                    <a onclick="$('#erro2').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>
                 </div>
             </div>
         </div>
     </div>
+    <!--finaliza a mensagem do segundo erro-->
+    <!--inicia a mensagem do primeiro erro-->
+    <div class="modal fade rounded-pill border border-dark" id="erro1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header border border-bottom-dark">
+                    <h5 class="modal-title">Tente de novo!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body border-top-dark border border-bottom-dark">
+                    <p>Você tem mais uma chance!</p>
+                </div>
+                <div class="modal-footer border border-top-dark">
+                    <a onclick="$('#erro1').modal('hide')"><button type="button" class="btn btn-primary">Fechar</button></a>
+                </div>
+            </div>
+        </div>
     </div>
     <!--finaliza a mensagem do primeiro erro-->
     <!--inicia a mensagem do acerto-->
@@ -236,17 +254,17 @@ ob_start();
         $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 190) . ".json";
         $info = file_get_contents($arquivo);
         $_SESSION['info'] = $arquivo;
-    } else if ($note == "Não") {
+    } else if ($note == "Não2") {
     ?>
-        <!--chamando modal erro1-->
+        <!--chamando modal erro2-->
         <script>
-            $('#erro1').modal({
+            $('#erro2').modal({
                 backdrop: 'static',
                 keyboard: false
             });
         </script>
-    <?php        
-        
+    <?php
+
         $arquivo = "json/Gerador" . $contador . "/questao" . rand(1, 190) . ".json";
         $info = file_get_contents($arquivo);
         $_SESSION['info'] = $arquivo;
@@ -259,8 +277,16 @@ ob_start();
             });
         </script>
     <?php
+    } else if ($note == "Não1") {
+    ?>
+        <script>
+            $('#erro1').modal({
+                backdrop: 'static',
+                keyboard: false
+            });
+        </script>
+    <?php
     }
-
     unset($_SESSION["correto"]);
 
     $arquivo = $_SESSION['info'];
