@@ -15,6 +15,9 @@ require_once("funcao/conexao.php");
     <meta name="author" content="Estevão Vitor G. Naval">
     <meta name="author" content="Kawan P. de Santana">
 
+
+    <title>Matemática</title>
+    
     <!-- Estilo CSS -->
     <!--<link href="css/estilo.css" rel="stylesheet">  -->
 

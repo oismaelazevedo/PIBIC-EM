@@ -16,6 +16,9 @@ $_SESSION['resperrada'] = 0;
   <meta name="author" content="Estevão Vitor G. Naval">
   <meta name="author" content="Kawan P. de Santana">
 
+
+  <title>Matemática</title>
+
   <script src="js/jquery.js"></script>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
@@ -72,7 +75,7 @@ $_SESSION['resperrada'] = 0;
 
           <div class="col-md-5">
             Exercícios de fixação para melhor entendimento em Equação Exponencial e Logarítmica no Ensino Médio.<br><br>
-            OBS.: Nas questões, você encontrará muitos valores altíssimos, portanto, não tenha medo em usar a calculadora! <b>#ficaadica</b>
+            OBS.: Nas questões, você encontrará muitos valores altíssimos, portanto, não tenha medo em usar a calculadora!
           </div>
 
           <div class="col-md-7" style="border-left:1px solid #ccc;height:160px">

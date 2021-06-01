@@ -14,7 +14,7 @@ ob_start();
     <meta name="author" content="Estevão Vitor G. Naval">
     <meta name="author" content="Kawan P. de Santana">
 
-    <title>Introdução a Informática</title>
+    <title>Matemática</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -151,7 +151,7 @@ ob_start();
                 header("Location: index5.php");
             } else {
                 $_SESSION["contador"] = $_SESSION["contador"] + 1;
-                $_SESSION["correto"] = "Não2";
+                $_SESSION["correto"] = "Não";
                 unset($_SESSION['resperrada']);
                 switch ($letra_resp_user) {
                     case "A":
